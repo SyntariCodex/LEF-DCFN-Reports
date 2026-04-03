@@ -9,11 +9,11 @@
 
 **Objective:** This study presents a computational meta-analysis of 2900 sources in Neuroscience, identifying structural patterns, knowledge gaps, and optimal research trajectories through automated cognitive traversal of the citation and semantic network.
 
-**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (2912 nodes, 7823 edges). Five cognitive traversal operations were executed, supplemented by co-occurrence pattern mining and synchronicity detection.
+**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (2912 nodes, 7819 edges). Five cognitive traversal operations were executed, supplemented by co-occurrence pattern mining and synchronicity detection.
 
 **Results:** The analysis identified: 9 research communities (3 emerging); 3 independent convergence events; 5 computationally-generated research hypotheses.
 
-**Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with HIGH confidence, resolving 5 knowledge gaps. For each identified gap, this report contributes original gap-bridging synthesis — the connective reasoning between established findings that does not yet exist in the published literature. The most critical gap centers on Synaptic Plasticity Forms and Functions., for which this report proposes specific bridging studies.
+**Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with MEDIUM confidence, resolving 3 knowledge gaps. For each identified gap, this report contributes original gap-bridging synthesis — the connective reasoning between established findings that does not yet exist in the published literature. The most critical gap centers on Synaptic Plasticity Forms and Functions., for which this report proposes specific bridging studies.
 
 **Keywords:** cognitive traversal, concept graph, knowledge gap detection, research intelligence, computational meta-analysis, gap-bridging synthesis
 
@@ -54,7 +54,7 @@ Confidence was assessed via three corpus-relative signals:
 
 Composite confidence = 0.40 × Stability + 0.35 × Concentration + 0.25 × Distinctiveness.
 
-The corpus-adaptive thresholds were computed as: LOW < 0.4701977274701014 (30th percentile), HIGH ≥ 0.5061218658709435 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
+The corpus-adaptive thresholds were computed as: LOW < 0.46908279814214277 (30th percentile), HIGH ≥ 0.5069119693986569 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
 
 ### 2.3 Epistemic Grounding
 
@@ -98,7 +98,7 @@ For each identified knowledge gap (severity ≥ 5), the engine retrieves the gap
 
 ### 3.1 Concept Graph Structure
 
-The constructed graph contains 2912 nodes (2900 DOCUMENT, 12 CONCEPT) and 7823 directed edges. Graph density is 0.000923 with 196 weakly connected component(s).
+The constructed graph contains 2912 nodes (2900 DOCUMENT, 12 CONCEPT) and 7819 directed edges. Graph density is 0.000922 with 196 weakly connected component(s).
 
 Epistemic grounding distribution: 1036 well-grounded, 1824 partially grounded, 40 weakly grounded, 0 ungrounded (mean grounding score: 0.710).
 
@@ -107,7 +107,7 @@ Epistemic grounding distribution: 1036 well-grounded, 1824 partially grounded, 4
 
 ### 3.3 Knowledge Gap Analysis
 
-Entropy detection identified 2900 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 1123 high (severity 5-6), 1777 low (severity < 5).
+Entropy detection identified 2900 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 1157 high (severity 5-6), 1743 low (severity < 5).
 
 Issue type distribution:
 
@@ -119,52 +119,52 @@ Issue type distribution:
 
 - **Synaptic Plasticity Forms and Functions.** [1] (severity: 6, issues: STALE, DECAYED)
 
-- **20 years of the default mode network: A review and synthesis.** [2] (severity: 6, issues: STALE, DECAYED)
+- **Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** [2] (severity: 6, issues: STALE, DECAYED)
 
-- **Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** [3] (severity: 6, issues: STALE, DECAYED)
+- **From Cognitive Load Theory to Collaborative Cognitive Load Theory** [3] (severity: 6, issues: STALE, DECAYED)
 
 ### 3.4 Research Cluster Analysis
 
 Branch cataloging identified 9 distinct clusters (3 emerging, 6 established). 15 structural mirror relationship(s) were detected between cluster pairs.
 
-- **Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks** (2633 sources, established)
+- **Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks** (2661 sources, established)
+- **Rehabilitation robots for the treatment of sensorimotor deficits: a neurophysiological perspective** (8 sources, established)
 - **A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity** (2 sources, emerging)
-- **Restoration of sensorimotor functions after spinal cord injury** (27 sources, established)
 
 ### 3.5 Optimal Research Trajectory
 
-The golden token pathfinding algorithm produced a 10-step trajectory with HIGH confidence (composite score: 4.068). The path resolves 5 identified knowledge gap(s).
+The golden token pathfinding algorithm produced a 10-step trajectory with MEDIUM confidence (composite score: 3.811). The path resolves 3 identified knowledge gap(s).
 
 | Step | Source | Year | Score | Gap | Key Finding |
 |------|--------|------|-------|-----|-------------|
-| 1 | 20 years of the default mode network: A review and synthesis. [2] | 2023 | 0.526 | Yes | — |
-| 2 | Medicine [4] | None | 0.284 | No | — |
-| 3 | Synaptic Plasticity Forms and Functions. [1] | 2020 | 0.497 | Yes | — |
-| 4 | Computer Science [5] | None | 0.364 | No | — |
-| 5 | Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition [6] | 2018 | 0.478 | Yes | — |
-| 6 | Default mode network can support the level of detail in experience during active task states [7] | 2018 | 0.478 | Yes | — |
-| 7 | Default Mode Dynamics for Global Functional Integration [8] | 2015 | 0.283 | No | — |
-| 8 | Neuroscience [9] | None | 0.340 | No | — |
-| 9 | Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review [10] | 2022 | 0.349 | No | — |
-| 10 | Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [3] | 2017 | 0.469 | Yes | — |
+| 1 | Cognitive-Load Theory: Methods to Manage Working Memory Load in the Learning of Complex Tasks [4] | 2020 | 0.498 | Yes | — |
+| 2 | Cognitive Architecture and Instructional Design: 20 Years Later [5] | 2019 | 0.321 | No | — |
+| 3 | Computer Science [6] | None | 0.364 | No | — |
+| 4 | Synaptic Plasticity Forms and Functions. [1] | 2020 | 0.497 | Yes | — |
+| 5 | The Impact of Studying Brain Plasticity [7] | 2019 | 0.321 | No | — |
+| 6 | Neuroscience [8] | None | 0.340 | No | — |
+| 7 | Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review [9] | 2022 | 0.349 | No | — |
+| 8 | Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [2] | 2017 | 0.469 | Yes | — |
+| 9 | EEG-based Brain-Computer Interfaces (BCIs): A Survey of Recent Studies&#13;\n on Signal Sensing Technologies and Computational Intelligence Approaches and&#13;\n their Applications [10] | 2021 | 0.340 | No | — |
+| 10 | Brain‐computer interfaces for post‐stroke motor rehabilitation: a meta‐analysis [11] | 2018 | 0.312 | No | — |
 
 ### 3.6 Convergence Events
 
-SVW analysis identified 23394 synchronicity candidate pairs (146 high-tier) clustered into 3 convergence event(s).
+SVW analysis identified 23435 synchronicity candidate pairs (141 high-tier) clustered into 3 convergence event(s).
 
-- **SVW_003**: 6 independent groups, score 0.138, time window 12 years
-- **SVW_001**: 1951 independent groups, score 0.132, time window 39 years
-- **SVW_002**: 2 independent groups, score 0.087, time window 4 years
+- **SVW_003**: 2 independent groups, score 0.205, time window 1 years
+- **SVW_002**: 8 independent groups, score 0.134, time window 12 years
+- **SVW_001**: 1952 independent groups, score 0.132, time window 48 years
 
 ### 3.7 Generated Hypotheses
 
 The engine generated 5 traceable research hypothesis(es):
 
 - **H01** [MEDIUM]: Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [1]
-- **H02** [MEDIUM]: Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [2]
-- **H03** [MEDIUM]: Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [3]
-- **H04** [MEDIUM]: Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [11]
-- **H05** [MEDIUM]: Re-examining 'Rehabilitation robots for the treatment of sensorimotor deficits: a...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [12]
+- **H02** [MEDIUM]: Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [2]
+- **H03** [MEDIUM]: Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [3]
+- **H04** [MEDIUM]: Re-examining 'Rehabilitation robots for the treatment of sensorimotor deficits: a...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [12]
+- **H05** [MEDIUM]: Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area [13]
 
 ## 4. Discussion
 
@@ -172,19 +172,19 @@ The computational meta-analysis of 2900 sources in Neuroscience reveals structur
 
 ### 4.1 Gap-Bridging Synthesis
 
-The identification of 0 critical and 1123 high-priority knowledge gaps represents this analysis's primary finding. Each gap is presented as a bridge Article following single-case research design (SCRD) structure: baseline (what was established), gap identification (what broke or stopped), proposed intervention, expected outcome with validated confidence, and validation pathway. This structure ensures every proposal is grounded, testable, and falsifiable — not speculative.
+The identification of 0 critical and 1157 high-priority knowledge gaps represents this analysis's primary finding. Each gap is presented as a bridge Article following single-case research design (SCRD) structure: baseline (what was established), gap identification (what broke or stopped), proposed intervention, expected outcome with validated confidence, and validation pathway. This structure ensures every proposal is grounded, testable, and falsifiable — not speculative.
 
 **Synaptic Plasticity Forms and Functions.** (STALE, DECAYED):
 
 *Gap.* This line of inquiry has not been updated or revisited.
 *Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
 
-**20 years of the default mode network: A review and synthesis.** (STALE, DECAYED):
+**Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** (STALE, DECAYED):
 
 *Gap.* This line of inquiry has not been updated or revisited.
 *Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
 
-**Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** (STALE, DECAYED):
+**From Cognitive Load Theory to Collaborative Cognitive Load Theory** (STALE, DECAYED):
 
 *Gap.* This line of inquiry has not been updated or revisited.
 *Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
@@ -213,27 +213,29 @@ Future work will focus on: (1) autonomous intervention execution — an AI engin
 
 [1] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: gap analysis, hypothesis, optimal trajectory.
 
-[2] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: gap analysis, hypothesis, optimal trajectory.
+[2] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: gap analysis, hypothesis, optimal trajectory.
 
-[3] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: gap analysis, hypothesis, optimal trajectory.
+[3] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: gap analysis, hypothesis.
 
-[4] Medicine. (N/A). ID: `concept:medicine`. Referenced in: optimal trajectory.
+[4] Cognitive-Load Theory: Methods to Manage Working Memory Load in the Learning of Complex Tasks. (2020). ID: `3ecd9a8d7f8a...`. Referenced in: optimal trajectory.
 
-[5] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: optimal trajectory.
+[5] Cognitive Architecture and Instructional Design: 20 Years Later. (2019). ID: `openalex:W29...`. Referenced in: optimal trajectory.
 
-[6] Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition. (2018). ID: `33e59be01c5c...`. Referenced in: optimal trajectory.
+[6] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: optimal trajectory.
 
-[7] Default mode network can support the level of detail in experience during active task states. (2018). ID: `01deaa82450a...`. Referenced in: optimal trajectory.
+[7] The Impact of Studying Brain Plasticity. (2019). ID: `openalex:W29...`. Referenced in: optimal trajectory.
 
-[8] Default Mode Dynamics for Global Functional Integration. (2015). ID: `openalex:W21...`. Referenced in: optimal trajectory.
+[8] Neuroscience. (N/A). ID: `concept:neuroscience`. Referenced in: optimal trajectory.
 
-[9] Neuroscience. (N/A). ID: `concept:neuroscience`. Referenced in: optimal trajectory.
+[9] Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review. (2022). ID: `openalex:W42...`. Referenced in: optimal trajectory.
 
-[10] Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review. (2022). ID: `openalex:W42...`. Referenced in: optimal trajectory.
+[10] EEG-based Brain-Computer Interfaces (BCIs): A Survey of Recent Studies&#13;\n on Signal Sensing Technologies and Computational Intelligence Approaches and&#13;\n their Applications. (2021). ID: `openalex:W31...`. Referenced in: optimal trajectory.
 
-[11] From Cognitive Load Theory to Collaborative Cognitive Loa.... (N/A). ID: `a7dacb4598eb...`. Referenced in: hypothesis.
+[11] Brain‐computer interfaces for post‐stroke motor rehabilitation: a meta‐analysis. (2018). ID: `openalex:W27...`. Referenced in: optimal trajectory.
 
 [12] Rehabilitation robots for the treatment of sensorimotor d.... (N/A). ID: `7f42ce61353f...`. Referenced in: hypothesis.
+
+[13] Dopamine reward prediction error coding. (N/A). ID: `408e947bde84...`. Referenced in: hypothesis.
 
 
 ## Appendix
@@ -242,11 +244,11 @@ Future work will focus on: (1) autonomous intervention execution — an AI engin
 
 - Embedding dimensionality: 256
 - Perturbation σ: 0.1
-- Confidence threshold LOW: < 0.4701977274701014
-- Confidence threshold HIGH: ≥ 0.5061218658709435
-- Concentration percentiles: p25=0.5083367123934939, p50=0.5546077076541821, p75=0.6090538655855657
-- Distinctiveness percentiles: p25=0.6684714424870708, p50=0.7035385805477785, p75=0.742966712207616
-- Stability percentiles: p25=0.26509765925781215, p50=0.28069128201679716, p75=0.2971581955571747
+- Confidence threshold LOW: < 0.46908279814214277
+- Confidence threshold HIGH: ≥ 0.5069119693986569
+- Concentration percentiles: p25=0.5072255088915024, p50=0.5538732732447658, p75=0.6073824961521307
+- Distinctiveness percentiles: p25=0.6682538001485248, p50=0.7036067921523836, p75=0.74289427255365
+- Stability percentiles: p25=0.2642195501404992, p50=0.28060336804127406, p75=0.297058980374359
 
 ### B. Full Hypothesis Details
 
@@ -259,14 +261,6 @@ Future work will focus on: (1) autonomous intervention execution — an AI engin
 - On golden path: Yes
 
 **H02** [MEDIUM]
-- Hypothesis: Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- Grounded in: entropy gap node: 20 years of the default mode network: A review and synthe... + included in golden token recommended path
-- Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
-- Gap node: `74e9cad6e3d8b4187216aaaaa171d808e48d34f0` (severity: 6)
-- On golden path: Yes
-
-**H03** [MEDIUM]
 - Hypothesis: Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Review and Classification of Emotion Recognition Based on... + included in golden token recommended path
 - Novel because: not yet connected to 'Psychology' despite logical dependency in prerequisite chain
@@ -274,7 +268,7 @@ Future work will focus on: (1) autonomous intervention execution — an AI engin
 - Gap node: `b067b33daddbd064592e12f2a4c1cfc300a2992e` (severity: 6)
 - On golden path: Yes
 
-**H04** [MEDIUM]
+**H03** [MEDIUM]
 - Hypothesis: Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: From Cognitive Load Theory to Collaborative Cognitive Loa...
 - Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
@@ -282,19 +276,27 @@ Future work will focus on: (1) autonomous intervention execution — an AI engin
 - Gap node: `a7dacb4598eb77ea3d84dc2c2c2603de49d6acd9` (severity: 6)
 - On golden path: No
 
-**H05** [MEDIUM]
+**H04** [MEDIUM]
 - Hypothesis: Re-examining 'Rehabilitation robots for the treatment of sensorimotor deficits: a...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Rehabilitation robots for the treatment of sensorimotor d...
-- Novel because: not yet connected to 'Psychology' despite logical dependency in prerequisite chain
+- Novel because: absent from 'Rehabilitation robots for the treatment of sens...' — no existing paper bridges this gap to adjacent clusters
 - Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 - Gap node: `7f42ce61353f84a3bff2698a9ca0c23a04fec278` (severity: 6)
+- On golden path: No
+
+**H05** [MEDIUM]
+- Hypothesis: Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- Grounded in: entropy gap node: Dopamine reward prediction error coding
+- Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Gap node: `408e947bde841889d0ccf3062bf0769aa635839b` (severity: 6)
 - On golden path: No
 
 ### C. Engine Configuration
 
 - Engine version: 0.3.0-prototype
 - Total sources: 2900
-- Timestamp: 2026-04-03T19:32:41.248496
+- Timestamp: 2026-04-03T20:59:58.382558
 
 Patents implemented:
 - QECO: Three-Signal Adaptive Confidence (Module 1)
