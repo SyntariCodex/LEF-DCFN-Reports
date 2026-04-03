@@ -9,11 +9,11 @@
 
 **Objective:** This study applies automated cognitive traversal analysis to 2900 sources in Neuroscience to identify structural patterns, knowledge gaps, convergence events, and optimal research trajectories that are not visible through traditional literature review methods.
 
-**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (2912 nodes, 7823 edges). Five cognitive traversal operations (backward traversal, forward cascade, entropy detection, branch cataloging, golden token pathfinding) were executed on the graph, supplemented by Apriori co-occurrence pattern mining and synchronicity detection (SVW).
+**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (2912 nodes, 7828 edges). Five cognitive traversal operations (backward traversal, forward cascade, entropy detection, branch cataloging, golden token pathfinding) were executed on the graph, supplemented by Apriori co-occurrence pattern mining and synchronicity detection (SVW).
 
 **Results:** The analysis identified 2900 knowledge gaps (0 critical). 10 research clusters (3 emerging). 5 independent convergence events. 5 computationally-generated research hypotheses.
 
-**Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with HIGH confidence, resolving 7 identified knowledge gaps. The generated hypotheses are fully traceable to specific nodes in the concept graph, enabling reproducible verification.
+**Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with MEDIUM confidence, resolving 2 identified knowledge gaps. The generated hypotheses are fully traceable to specific nodes in the concept graph, enabling reproducible verification.
 
 **Keywords:** cognitive traversal, concept graph, knowledge gap detection, research intelligence, computational meta-analysis, synchronicity detection
 
@@ -56,7 +56,7 @@ Confidence was assessed via three corpus-relative signals:
 
 Composite confidence = 0.40 × Stability + 0.35 × Concentration + 0.25 × Distinctiveness.
 
-The corpus-adaptive thresholds were computed as: LOW < 0.4695367038667125 (30th percentile), HIGH ≥ 0.5065962349116685 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
+The corpus-adaptive thresholds were computed as: LOW < 0.46887955326960634 (30th percentile), HIGH ≥ 0.5071600292042171 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
 
 ### 2.3 Epistemic Grounding
 
@@ -96,18 +96,18 @@ Five operations were executed on the concept graph (CTE Patent §§2.1-2.5):
 
 ### 3.1 Concept Graph Structure
 
-The constructed graph contains 2912 nodes (2900 DOCUMENT, 12 CONCEPT) and 7823 directed edges. Graph density is 0.000923 with 196 weakly connected component(s).
+The constructed graph contains 2912 nodes (2900 DOCUMENT, 12 CONCEPT) and 7828 directed edges. Graph density is 0.000923 with 196 weakly connected component(s).
 
 Epistemic grounding distribution: 1036 well-grounded, 1824 partially grounded, 40 weakly grounded, 0 ungrounded (mean grounding score: 0.710).
 
 ### 3.2 Knowledge Gap Analysis
 
-Entropy detection identified 2900 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 1151 high (severity 5-6), 1749 low (severity < 5).
+Entropy detection identified 2900 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 1147 high (severity 5-6), 1753 low (severity < 5).
 
 Issue type distribution:
 
 - DECAYED: 2900
-- STALE: 2833
+- STALE: 2832
 - ORPHAN: 193
 
 ### 3.3 Research Cluster Analysis
@@ -116,28 +116,28 @@ Branch cataloging identified 10 distinct clusters (3 emerging, 7 established). 2
 
 ### 3.4 Optimal Research Trajectory
 
-The golden token pathfinding algorithm produced a 10-step trajectory with HIGH confidence (composite score: 4.207). The path resolves 7 identified knowledge gap(s).
+The golden token pathfinding algorithm produced a 10-step trajectory with MEDIUM confidence (composite score: 3.630). The path resolves 2 identified knowledge gap(s).
 
 | Step | Source | Year | Score | Gap Resolution |
 |------|--------|------|-------|----------------|
-| 1 | Microglia regulation of synaptic plasticity and... | 2021 | 0.506 | Yes |
-| 2 | Medicine | None | 0.284 | No |
-| 3 | Synaptic Plasticity Forms and Functions. | 2020 | 0.497 | Yes |
-| 4 | Computer Science | None | 0.364 | No |
-| 5 | Distant from input: Evidence of regions within ... | 2018 | 0.478 | Yes |
-| 6 | Default mode network can support the level of d... | 2018 | 0.478 | Yes |
-| 7 | Shaped by the Past: The Default Mode Network Su... | 2015 | 0.445 | Yes |
-| 8 | Biology | None | 0.305 | No |
-| 9 | Memory Consolidation Is Linked to Spindle-Media... | 2017 | 0.469 | Yes |
-| 10 | Remembering to Forget: A Dual Role for Sleep Os... | 2019 | 0.381 | Yes |
+| 1 | Cognitive-Load Theory: Methods to Manage Working Memory Load in the Learning of Complex Tasks | 2020 | 0.498 | Yes |
+| 2 | Cognitive Architecture and Instructional Design: 20 Years Later | 2019 | 0.321 | No |
+| 3 | Computer Science | None | 0.364 | No |
+| 4 | Synaptic Plasticity Forms and Functions. | 2020 | 0.497 | Yes |
+| 5 | The Impact of Studying Brain Plasticity | 2019 | 0.321 | No |
+| 6 | Neuroscience | None | 0.340 | No |
+| 7 | Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review | 2022 | 0.349 | No |
+| 8 | Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review | 2020 | 0.331 | No |
+| 9 | EEG-Based Brain-Computer Interfaces Using Motor-Imagery: Techniques and Challenges | 2019 | 0.321 | No |
+| 10 | Advanced TSGL-EEGNet for Motor Imagery EEG-Based Brain-Computer Interfaces | 2021 | 0.288 | No |
 
 ### 3.5 Convergence Events
 
-SVW analysis identified 23394 synchronicity candidate pairs (139 high-tier) clustered into 5 convergence event(s).
+SVW analysis identified 23653 synchronicity candidate pairs (143 high-tier) clustered into 5 convergence event(s).
 
-- **SVW_004**: 2 independent groups, score 0.428, time window 0 years
-- **SVW_005**: 2 independent groups, score 0.289, time window 1 years
-- **SVW_001**: 1949 independent groups, score 0.131, time window 48 years
+- **SVW_001**: 1942 independent groups, score 0.132, time window 39 years
+- **SVW_004**: 2 independent groups, score 0.110, time window 3 years
+- **SVW_005**: 2 independent groups, score 0.105, time window 3 years
 
 ### 3.6 Generated Hypotheses
 
@@ -145,9 +145,9 @@ The engine generated 5 traceable research hypothesis(es):
 
 - **H01** [MEDIUM]: Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **H02** [MEDIUM]: Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H03** [MEDIUM]: Re-examining 'Microglia regulation of synaptic plasticity and learning and memory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H04** [MEDIUM]: Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H05** [MEDIUM]: Re-examining 'Training the Emotional Brain: Improving Affective Control through E...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H03** [MEDIUM]: Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H04** [MEDIUM]: Re-examining 'Diverse synaptic plasticity mechanisms orchestrated to form and ret...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H05** [MEDIUM]: Re-examining 'Neuroplasticity of Language Networks in Aphasia: Advances, Updates,...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
 ## 4. Discussion
 
@@ -173,24 +173,25 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 
 *Sources referenced in this analysis are identified by their Semantic Scholar paper IDs. Full bibliographic records are available via the Semantic Scholar API.*
 
-[1] Microglia regulation of synaptic plasticity and learning and memory. (2021). Semantic Scholar ID: `7fb4e04a32b408cb7dd65bb228533034f1c811c2`. Referenced in: golden token path.
-[2] Medicine. (None). Semantic Scholar ID: `concept:medicine`. Referenced in: golden token path.
-[3] Synaptic Plasticity Forms and Functions.. (2020). Semantic Scholar ID: `97ab16d0e4a98f8275932f0a684e4fdcd70fb2d3`. Referenced in: golden token path.
-[4] Computer Science. (None). Semantic Scholar ID: `concept:computer_science`. Referenced in: golden token path.
-[5] Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition. (2018). Semantic Scholar ID: `33e59be01c5c611d4ccb92a7d37f0723bbfbab88`. Referenced in: golden token path.
-[6] Default mode network can support the level of detail in experience during active task states. (2018). Semantic Scholar ID: `01deaa82450a54169b40c8b0d5de96e758fcdb26`. Referenced in: golden token path.
-[7] Shaped by the Past: The Default Mode Network Supports Cognition that Is Independent of Immediate Perceptual Input. (2015). Semantic Scholar ID: `c07685c3906b0a57d958fb134eec4ae4c9bbc9ce`. Referenced in: golden token path.
-[8] Biology. (None). Semantic Scholar ID: `concept:biology`. Referenced in: golden token path.
-[9] Memory Consolidation Is Linked to Spindle-Mediated Information Processing during Sleep. (2017). Semantic Scholar ID: `e56c117c62a2c19fb83d8df54a15d2967f0207ad`. Referenced in: golden token path.
-[10] Remembering to Forget: A Dual Role for Sleep Oscillations in Memory Consolidation and Forgetting. (2019). Semantic Scholar ID: `fa3a9bd8778ad6f9925db36b9232f9f4792a104f`. Referenced in: golden token path.
+[1] Cognitive-Load Theory: Methods to Manage Working Memory Load in the Learning of Complex Tasks. (2020). Semantic Scholar ID: `3ecd9a8d7f8aaec7395f1f2ba557c79d123d3957`. Referenced in: golden token path.
+[2] Cognitive Architecture and Instructional Design: 20 Years Later. (2019). Semantic Scholar ID: `openalex:W2913144876`. Referenced in: golden token path.
+[3] Computer Science. (None). Semantic Scholar ID: `concept:computer_science`. Referenced in: golden token path.
+[4] Synaptic Plasticity Forms and Functions.. (2020). Semantic Scholar ID: `97ab16d0e4a98f8275932f0a684e4fdcd70fb2d3`. Referenced in: golden token path.
+[5] The Impact of Studying Brain Plasticity. (2019). Semantic Scholar ID: `openalex:W2916213022`. Referenced in: golden token path.
+[6] Neuroscience. (None). Semantic Scholar ID: `concept:neuroscience`. Referenced in: golden token path.
+[7] Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review. (2022). Semantic Scholar ID: `openalex:W4229024336`. Referenced in: golden token path.
+[8] Current Status, Challenges, and Possible Solutions of EEG-Based Brain-Computer Interface: A Comprehensive Review. (2020). Semantic Scholar ID: `openalex:W3033186461`. Referenced in: golden token path.
+[9] EEG-Based Brain-Computer Interfaces Using Motor-Imagery: Techniques and Challenges. (2019). Semantic Scholar ID: `openalex:W2924079966`. Referenced in: golden token path.
+[10] Advanced TSGL-EEGNet for Motor Imagery EEG-Based Brain-Computer Interfaces. (2021). Semantic Scholar ID: `openalex:W3126287844`. Referenced in: golden token path.
 [11] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). Semantic Scholar ID: `a7dacb4598eb77ea3d84dc2c2c2603de49d6acd9`. Referenced in: entropy detection.
 [12] Dopamine reward prediction error coding. (2016). Semantic Scholar ID: `408e947bde841889d0ccf3062bf0769aa635839b`. Referenced in: entropy detection.
-[13] Training the Emotional Brain: Improving Affective Control through Emotional Working Memory Training. (2013). Semantic Scholar ID: `00350f5688d8a0a0dc6b85945f6190a4b04e33a8`. Referenced in: entropy detection.
-[14] A Review of Transcranial Magnetic Stimulation and Multimodal Neuroimaging to Characterize Post-Stroke Neuroplasticity. (2015). Semantic Scholar ID: `9d1301696ab26321e634e1308677a731a1388f58`. Referenced in: entropy detection.
-[15] Neural functions of calcineurin in synaptic plasticity and memory.. (2012). Semantic Scholar ID: `fb7ae6392b3db8cd328c540692e143b55bae4aa3`. Referenced in: entropy detection.
-[16] Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis. (2019). Semantic Scholar ID: `64c48af489fa020c122e576504e1e58d36e97d82`. Referenced in: entropy detection.
-[17] The Implications of Microglial Regulation in Neuroplasticity-Dependent Stroke Recovery. (2023). Semantic Scholar ID: `c5903f030b54abd697403651f3c620e3f4b3958c`. Referenced in: entropy detection.
-[18] Dopamine neurons share common response function for reward prediction error. (2016). Semantic Scholar ID: `8258eb1bed1b710206e7e2e0cda6cf6ec731aa61`. Referenced in: entropy detection.
+[13] Diverse synaptic plasticity mechanisms orchestrated to form and retrieve memories in spiking neural networks. (2015). Semantic Scholar ID: `460638aa2ea0503bec1c426e6eeac89b019ccf4f`. Referenced in: entropy detection.
+[14] Neuroplasticity of Language Networks in Aphasia: Advances, Updates, and Future Challenges. (2019). Semantic Scholar ID: `af59026ebb488eca4ff6d7869b8fba48d7859291`. Referenced in: entropy detection.
+[15] Training the Emotional Brain: Improving Affective Control through Emotional Working Memory Training. (2013). Semantic Scholar ID: `00350f5688d8a0a0dc6b85945f6190a4b04e33a8`. Referenced in: entropy detection.
+[16] A Review of Transcranial Magnetic Stimulation and Multimodal Neuroimaging to Characterize Post-Stroke Neuroplasticity. (2015). Semantic Scholar ID: `9d1301696ab26321e634e1308677a731a1388f58`. Referenced in: entropy detection.
+[17] Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis. (2019). Semantic Scholar ID: `64c48af489fa020c122e576504e1e58d36e97d82`. Referenced in: entropy detection.
+[18] The Implications of Microglial Regulation in Neuroplasticity-Dependent Stroke Recovery. (2023). Semantic Scholar ID: `c5903f030b54abd697403651f3c620e3f4b3958c`. Referenced in: entropy detection.
+[19] Dopamine neurons share common response function for reward prediction error. (2016). Semantic Scholar ID: `8258eb1bed1b710206e7e2e0cda6cf6ec731aa61`. Referenced in: entropy detection.
 
 ## Appendix
 
@@ -198,11 +199,11 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 
 - Embedding dimensionality: 256
 - Perturbation σ: 0.1
-- Confidence threshold LOW: < 0.4695367038667125
-- Confidence threshold HIGH: ≥ 0.5065962349116685
-- Concentration percentiles: p25=0.5081058461907092, p50=0.5536475878065807, p75=0.6072506842953969
-- Distinctiveness percentiles: p25=0.6684256371110009, p50=0.7031923571191617, p75=0.7431423846850488
-- Stability percentiles: p25=0.264162894613296, p50=0.2799378727999106, p75=0.29555430037720054
+- Confidence threshold LOW: < 0.46887955326960634
+- Confidence threshold HIGH: ≥ 0.5071600292042171
+- Concentration percentiles: p25=0.5067759898562424, p50=0.5546043762029468, p75=0.6071554708358716
+- Distinctiveness percentiles: p25=0.6682754376192263, p50=0.7035742301802075, p75=0.7435864472453436
+- Stability percentiles: p25=0.26385159722170654, p50=0.2804652261461229, p75=0.2969077474416947
 
 ### B. Full Hypothesis Details
 
@@ -210,7 +211,7 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Hypothesis: Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Synaptic Plasticity Forms and Functions. + included in golden token recommended path
 - Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 - Gap node: `97ab16d0e4a98f8275932f0a684e4fdcd70fb2d3` (severity: 6)
 - On golden path: Yes
 
@@ -218,39 +219,39 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Hypothesis: Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: From Cognitive Load Theory to Collaborative Cognitive Loa...
 - Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 - Gap node: `a7dacb4598eb77ea3d84dc2c2c2603de49d6acd9` (severity: 6)
 - On golden path: No
 
 **H03** [MEDIUM]
-- Hypothesis: Re-examining 'Microglia regulation of synaptic plasticity and learning and memory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- Grounded in: entropy gap node: Microglia regulation of synaptic plasticity and learning ... + included in golden token recommended path
-- Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
-- Gap node: `7fb4e04a32b408cb7dd65bb228533034f1c811c2` (severity: 6)
-- On golden path: Yes
-
-**H04** [MEDIUM]
 - Hypothesis: Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Dopamine reward prediction error coding
 - Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 - Gap node: `408e947bde841889d0ccf3062bf0769aa635839b` (severity: 6)
 - On golden path: No
 
+**H04** [MEDIUM]
+- Hypothesis: Re-examining 'Diverse synaptic plasticity mechanisms orchestrated to form and ret...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- Grounded in: entropy gap node: Diverse synaptic plasticity mechanisms orchestrated to fo...
+- Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Gap node: `460638aa2ea0503bec1c426e6eeac89b019ccf4f` (severity: 6)
+- On golden path: No
+
 **H05** [MEDIUM]
-- Hypothesis: Re-examining 'Training the Emotional Brain: Improving Affective Control through E...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- Grounded in: entropy gap node: Training the Emotional Brain: Improving Affective Control...
+- Hypothesis: Re-examining 'Neuroplasticity of Language Networks in Aphasia: Advances, Updates,...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- Grounded in: entropy gap node: Neuroplasticity of Language Networks in Aphasia: Advances...
 - Novel because: not yet connected to 'Psychology' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
-- Gap node: `00350f5688d8a0a0dc6b85945f6190a4b04e33a8` (severity: 6)
+- Suggested method: neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- Gap node: `af59026ebb488eca4ff6d7869b8fba48d7859291` (severity: 6)
 - On golden path: No
 
 ### C. Engine Configuration
 
 - Engine version: 0.3.0-prototype
 - Total sources: 2900
-- Timestamp: 2026-04-03T00:53:57.604052
+- Timestamp: 2026-04-03T02:41:45.904223
 
 Patents implemented:
 - QECO: Three-Signal Adaptive Confidence (Module 1)
