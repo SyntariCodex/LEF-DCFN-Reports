@@ -1,21 +1,21 @@
 # Research Intelligence Report: Education & EdTech
 
 **Generated:** April 03, 2026
-**Sources Analyzed:** 3015
+**Sources Analyzed:** 2958
 **Engine:** DCFN (Decentralized Collective Foresight Network) v0.3.0
 **By:** Living Eden Frameworks LLC
 
 ---
 
-This report synthesizes 3015 sources in Education & EdTech into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this report bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
+This report synthesizes 2958 sources in Education & EdTech into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this report bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
 
 ## The Research Landscape
 
-This analysis covers 3015 sources in Education & EdTech, mapped into 3015 research papers and 16 topic areas with 6207 connections.
+This analysis covers 2958 sources in Education & EdTech, mapped into 2958 research papers and 16 topic areas with 6036 connections.
 
-The research is fragmented across 347 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 348 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
-The corpus is well-grounded: 38% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.70/1.00).
+The corpus is well-grounded: 38% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.71/1.00).
 
 ## Intellectual Foundations
 
@@ -31,94 +31,174 @@ The sources in this collection don't yet show strong forward-cascading influence
 
 ## What's Missing — And What Should Come Next
 
-Research fields advance not just by producing new findings but by closing structural gaps — outdated conclusions that haven't been revisited, contradictions that remain unresolved, and promising threads that were abandoned. Each gap below represents a specific opportunity. The bridge content that follows is this report's core contribution: the connective reasoning that doesn't exist yet in the published literature.
+Each gap below follows a structured format: what was established before the gap (baseline), what broke or stopped (gap identification), what should happen next (proposed intervention), what the outcome should look like (expected outcome with validated confidence), and how to verify it. This is the report's core contribution — the connective reasoning that doesn't yet exist in the published literature.
 
-The analysis identified **3014 structural gaps** in the research landscape:
+**2957 structural gaps** identified in the research landscape:
 
-- **866 moderate gaps** — important but less urgent issues needing resolution
-- **2148 minor gaps** — older or isolated issues
+- **853 moderate** — important but less urgent
+- **2104 minor** — older or isolated issues
 
-**Breakdown:** 3014 decayed (once-important, now lost relevance); 2941 stale (not updated or built upon); 343 orphaned (isolated from the broader field).
-
----
-
-### Gap 1: Artificial intelligence to deep learning: machine intelligence approach for drug discovery [1]
-*Important (severity 6/9) — stale, decayed*
-
-**The bridge — what should come next:**
-
-This line of inquiry has gone stale with no recent follow-up.
-
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**Prevalence by type:** 2957 decayed; 2888 stale; 344 orphaned.
 
 ---
 
-### Gap 2: Molecular Docking: Shifting Paradigms in Drug Discovery [2]
+### Bridge Article 1: Artificial intelligence to deep learning: machine intelligence approach for drug discovery [1]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 3: Deep Knowledge Tracing [3]
+### Bridge Article 2: Molecular Docking: Shifting Paradigms in Drug Discovery [2]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 4: Educational data mining and learning analytics: An updated survey [4]
+### Bridge Article 3: Deep Knowledge Tracing [3]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 5: The current landscape of learning analytics in higher education [5]
+### Bridge Article 4: Educational data mining and learning analytics: An updated survey [4]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
+
+---
+
+### Bridge Article 5: The current landscape of learning analytics in higher education [5]
+*Important (severity 6/9) — stale, decayed*
+
+**A. Baseline — What Was Established**
+
+Insufficient abstract data to establish baseline content.
+
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
 
 ## Research Communities
 
-The corpus organizes into **23 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
+The corpus organizes into **24 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
 
 - **6 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
-- **17 established** — mature areas with deep citation networks
+- **18 established** — mature areas with deep citation networks
+
+### Artificial intelligence to deep learning: machine intelligence approach for drug discovery
+*106 sources, Established (avg. year: 2019.9)*
+
+This cluster centers on Artificial intelligence to deep learning: machine intelligence approach for drug discovery with 106 interconnected sources.
 
 ### The PRISMA 2020 statement: an updated guideline for reporting systematic reviews
-*2095 sources, Established (avg. year: 2018.6)*
+*1980 sources, Established (avg. year: 2018.5)*
 
-This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 2095 interconnected sources.
+This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 1980 interconnected sources.
 
 ### Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning
 *2 sources, Established (avg. year: 2018.0)*
 
 This cluster centers on Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning with 2 interconnected sources.
-
-### Core principles of assessment in competency-based medical education
-*52 sources, Established (avg. year: 2018.1)*
-
-This cluster centers on Core principles of assessment in competency-based medical education with 52 interconnected sources.
 
 ### Adaptive e-learning systems through learning styles: A review of the literature
 *2 sources, Established (avg. year: 2020.0)*
@@ -134,9 +214,9 @@ This cluster centers on Next challenges for adaptive learning systems with 2 int
 
 Some communities have strikingly similar structures even though they study different topics. Methods and insights from one could transfer to the other:
 
-- "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning" (97% structural similarity)
-- "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Core principles of assessment in competency-based medical education" (50% structural similarity)
-- "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Adaptive e-learning systems through learning styles: A review of the literature" (83% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" (62% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning" (51% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "Adaptive e-learning systems through learning styles: A review of the literature" (44% structural similarity)
 
 
 ## Recommended Research Trajectory
@@ -177,22 +257,22 @@ Beyond individual papers, certain combinations of research attributes appear tog
 
 **Most common research combinations:**
 
-- [Emerging] AND research in Computer Science — found in **33%** of sources
+- [Emerging] AND research in Computer Science — found in **32%** of sources
 - [Emerging] AND (Very Recent work) — found in **26%** of sources
-- using Machine Learning AND research in Computer Science — found in **18%** of sources
-- (Very Recent work) AND research in Computer Science — found in **18%** of sources
-- [Emerging] AND using Machine Learning — found in **16%** of sources
-- [Emerging] AND (Recent work) — found in **16%** of sources
-- (Recent work) AND research in Computer Science — found in **15%** of sources
+- (Very Recent work) AND research in Computer Science — found in **17%** of sources
+- using Machine Learning AND research in Computer Science — found in **17%** of sources
+- [Emerging] AND using Machine Learning — found in **15%** of sources
+- [Emerging] AND (Recent work) — found in **15%** of sources
 - (Established work) AND research in Computer Science — found in **15%** of sources
+- (Recent work) AND research in Computer Science — found in **15%** of sources
 
 **Predictive associations** (if you see A, expect B):
 
 - When research involves machine learning methods + established work, it **92% of the time** also involves computer science research (moderate association)
-- When research involves very recent work + education research, it **94% of the time** also involves emerging papers (weak association)
+- When research involves very recent work + education research, it **94% of the time** also involves emerging papers (moderate association)
 - When research involves education research, it **90% of the time** also involves emerging papers (weak association)
 - When research involves emerging papers + mathematics research, it **81% of the time** also involves computer science research (weak association)
-- When research involves mathematics research, it **81% of the time** also involves computer science research (weak association)
+- When research involves mathematics research, it **80% of the time** also involves computer science research (weak association)
 
 ## The Next Discoveries
 
@@ -257,61 +337,60 @@ The following research directions emerge from the intersection of knowledge gaps
 
 When researchers with **no citation relationship** independently arrive at similar conclusions, it signals that the field is converging on structurally important territory — ideas that are "in the air" regardless of who discovers them first.
 
-**18262 candidate pairs** (172 high-confidence) grouped into **13 convergence events**.
+**17899 candidate pairs** (160 high-confidence) grouped into **17 convergence events**.
 
-**SVW_003 — Moderate convergence** (score: 0.246)
+**SVW_014 — Moderate convergence** (score: 0.343)
 
 *2 independent research groups converged on similar findings within 1 year*
 
 Converging sources:
-- Constraints on dark energy from H II starburst galaxy apparent magnitude vers... [12]
-- Concept Mining and Inner Relationship Discovery from Text [13]
+- The Role of Mastery Learning in Intelligent Tutoring Systems: Principal Strat... [12]
+- Mastery Learning in Practice: A (Mostly) Descriptive Analysis of Log Data fro... [13]
 
-**SVW_009 — Moderate convergence** (score: 0.227)
+**SVW_010 — Moderate convergence** (score: 0.212)
 
-*4 independent research groups converged on similar findings within 4 years*
+*2 independent research groups converged on similar findings within 1 year*
 
 Converging sources:
-- Support posets of some monomial ideals [14]
-- Character sheaves in characteristic $p$ have nilpotent singular support [15]
-- Support theories for non-Noetherian tensor triangulated categories [16]
-- Formal extension of noncommutative tensor-triangular support varieties [17]
+- The profile of abstract rule learning in infancy: Meta-analytic and experimen... [14]
+- Unilateral step training can drive faster learning of novel gait patterns. [15]
 
-**SVW_001 — Moderate convergence** (score: 0.160)
+**SVW_012 — Moderate convergence** (score: 0.203)
 
-*1927 independent research groups converged on similar findings within 61 years*
+*2 independent research groups converged on similar findings within 2 years*
+
+Converging sources:
+- Reaching positive diabetes outcomes for patients with low literacy. [16]
+- Literacy and diabetes self-management. [17]
+
+**SVW_001 — Moderate convergence** (score: 0.159)
+
+*1897 independent research groups converged on similar findings within 53 years*
 
 Converging sources:
 - Can an EASYcare based dementia training programme improve diagnostic assessme... [18]
 - GPT-based Open-Ended Knowledge Tracing [19]
 - Mutil-View Contrastive Learning for Knowledge Tracing Based on Multi-Faceted ... [20]
 - Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions... [21]
-- *(+1923 more)*
+- *(+1893 more)*
 
-**SVW_012 — Moderate convergence** (score: 0.118)
+**SVW_004 — Moderate convergence** (score: 0.151)
 
-*3 independent research groups converged on similar findings within 5 years*
-
-Converging sources:
-- Towards Scalable Newborn Screening: Automated General Movement Assessment in ... [22]
-- ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers... [23]
-- alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu... [24]
-
-**SVW_011 — Moderate convergence** (score: 0.099)
-
-*3 independent research groups converged on similar findings within 10 years*
+*6 independent research groups converged on similar findings within 18 years*
 
 Converging sources:
-- Discovery of a Weyl Fermion semimetal state in NbAs [25]
-- Discovery of Weyl fermion semimetals and topological Fermi arc states [26]
-- Discovery of XYZ particles at the BESIII Experiment [27]
+- Corrigendum to "On injective modules and support varieties for the small quan... [22]
+- Support posets of some monomial ideals [23]
+- Character sheaves in characteristic $p$ have nilpotent singular support [24]
+- Support theories for non-Noetherian tensor triangulated categories [25]
+- *(+2 more)*
 
 
 ---
 
 ## Synthesis
 
-Based on 3015 sources in Education & EdTech:
+Based on 2958 sources in Education & EdTech:
 
 - **6 emerging research community(ies)** represent the field's active growth edges.
 - Start with: **Educational data mining: prediction of students' academic performance using machine learning algorithms** [6]
@@ -333,7 +412,7 @@ This report was generated by the **DCFN Engine** (Decentralized Collective Fores
 
 DCFN ingests sources from multiple academic databases (Semantic Scholar, arXiv, PubMed, OpenAlex, GitHub), encodes them into a shared semantic space using patented three-signal adaptive confidence scoring, and constructs a typed concept graph. Five cognitive traversal operations — backward tracing, forward cascade, entropy detection, community cataloging, and optimal pathfinding — are then executed to discover structural patterns invisible to conventional literature review.
 
-This analysis covered 3015 sources in Education & EdTech. Every finding traces to specific papers in the corpus. Knowledge gaps are identified through entropy detection (staleness, contradictions, isolation, blockages). The gap-bridging synthesis is the report's original contribution — connecting established findings to propose the specific studies that would advance the field.
+This analysis covered 2958 sources in Education & EdTech. Every finding traces to specific papers in the corpus. Knowledge gaps are identified through entropy detection (staleness, contradictions, isolation, blockages). The gap-bridging synthesis is the report's original contribution — connecting established findings to propose the specific studies that would advance the field.
 
 *DCFN is built on patented cognitive traversal technology (CTE Patent 64/002,205) and qualitative analysis methods (QECO Patent 63/993,979) by Living Eden Frameworks LLC.*
 
@@ -363,17 +442,17 @@ This analysis covered 3015 sources in Education & EdTech. Every finding traces t
 
 [11] itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization. (2026). ID: `github:itigg...`. Referenced in: recommended path.
 
-[12] Constraints on dark energy from H II starburst galaxy apparent magnitude vers.... (N/A). ID: `arxiv:1110.5...`. Referenced in: convergence event.
+[12] The Role of Mastery Learning in Intelligent Tutoring Systems: Principal Strat.... (N/A). ID: `arxiv:1707.0...`. Referenced in: convergence event.
 
-[13] Concept Mining and Inner Relationship Discovery from Text. (N/A). ID: `f01faf79fa33...`. Referenced in: convergence event.
+[13] Mastery Learning in Practice: A (Mostly) Descriptive Analysis of Log Data fro.... (N/A). ID: `arxiv:1802.0...`. Referenced in: convergence event.
 
-[14] Support posets of some monomial ideals. (N/A). ID: `arxiv:2009.0...`. Referenced in: convergence event.
+[14] The profile of abstract rule learning in infancy: Meta-analytic and experimen.... (N/A). ID: `pmid:3001459...`. Referenced in: convergence event.
 
-[15] Character sheaves in characteristic $p$ have nilpotent singular support. (N/A). ID: `arxiv:2211.1...`. Referenced in: convergence event.
+[15] Unilateral step training can drive faster learning of novel gait patterns.. (N/A). ID: `pmid:3312278...`. Referenced in: convergence event.
 
-[16] Support theories for non-Noetherian tensor triangulated categories. (N/A). ID: `arxiv:2312.0...`. Referenced in: convergence event.
+[16] Reaching positive diabetes outcomes for patients with low literacy.. (N/A). ID: `pmid:1563250...`. Referenced in: convergence event.
 
-[17] Formal extension of noncommutative tensor-triangular support varieties. (N/A). ID: `arxiv:2410.0...`. Referenced in: convergence event.
+[17] Literacy and diabetes self-management.. (N/A). ID: `pmid:1756343...`. Referenced in: convergence event.
 
 [18] Can an EASYcare based dementia training programme improve diagnostic assessme.... (N/A). ID: `000b9e1a1281...`. Referenced in: convergence event.
 
@@ -383,14 +462,10 @@ This analysis covered 3015 sources in Education & EdTech. Every finding traces t
 
 [21] Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions.... (N/A). ID: `00ab01589b80...`. Referenced in: convergence event.
 
-[22] Towards Scalable Newborn Screening: Automated General Movement Assessment in .... (N/A). ID: `arxiv:2411.0...`. Referenced in: convergence event.
+[22] Corrigendum to "On injective modules and support varieties for the small quan.... (N/A). ID: `arxiv:1606.0...`. Referenced in: convergence event.
 
-[23] ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers.... (N/A). ID: `github:Sheng...`. Referenced in: convergence event.
+[23] Support posets of some monomial ideals. (N/A). ID: `arxiv:2009.0...`. Referenced in: convergence event.
 
-[24] alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu.... (N/A). ID: `github:aliba...`. Referenced in: convergence event.
+[24] Character sheaves in characteristic $p$ have nilpotent singular support. (N/A). ID: `arxiv:2211.1...`. Referenced in: convergence event.
 
-[25] Discovery of a Weyl Fermion semimetal state in NbAs. (N/A). ID: `arxiv:1504.0...`. Referenced in: convergence event.
-
-[26] Discovery of Weyl fermion semimetals and topological Fermi arc states. (N/A). ID: `arxiv:1702.0...`. Referenced in: convergence event.
-
-[27] Discovery of XYZ particles at the BESIII Experiment. (N/A). ID: `arxiv:2510.2...`. Referenced in: convergence event.
+[25] Support theories for non-Noetherian tensor triangulated categories. (N/A). ID: `arxiv:2312.0...`. Referenced in: convergence event.
