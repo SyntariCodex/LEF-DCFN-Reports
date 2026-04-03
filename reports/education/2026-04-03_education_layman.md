@@ -11,7 +11,7 @@ This report synthesizes 3014 sources in Education & EdTech into a cross-sectiona
 
 ## The Research Landscape
 
-This analysis covers 3014 sources in Education & EdTech, mapped into 3014 research papers and 16 topic areas with 6213 connections.
+This analysis covers 3014 sources in Education & EdTech, mapped into 3014 research papers and 16 topic areas with 6191 connections.
 
 The research is fragmented across 346 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
@@ -35,14 +35,14 @@ Each gap below follows a structured format: what was established before the gap 
 
 **3013 structural gaps** identified in the research landscape:
 
-- **869 moderate** — important but less urgent
-- **2144 minor** — older or isolated issues
+- **880 moderate** — important but less urgent
+- **2133 minor** — older or isolated issues
 
 **Prevalence by type:** 3013 decayed; 2940 stale; 342 orphaned.
 
 ---
 
-### Bridge Article 1: Molecular Docking: Shifting Paradigms in Drug Discovery [1]
+### Bridge Article 1: Artificial intelligence to deep learning: machine intelligence approach for drug discovery [1]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -69,7 +69,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 2: Deep Knowledge Tracing [2]
+### Bridge Article 2: Molecular Docking: Shifting Paradigms in Drug Discovery [2]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -96,7 +96,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 3: Educational data mining and learning analytics: An updated survey [3]
+### Bridge Article 3: Deep Knowledge Tracing [3]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -123,7 +123,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 4: The current landscape of learning analytics in higher education [4]
+### Bridge Article 4: Educational data mining and learning analytics: An updated survey [4]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -150,7 +150,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 5: Educational data mining: prediction of students' academic performance using machine learning algorithms [5]
+### Bridge Article 5: The current landscape of learning analytics in higher education [5]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -180,15 +180,15 @@ Confidence: *not computed*.
 
 ## Research Communities
 
-The corpus organizes into **22 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
+The corpus organizes into **24 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
 
 - **6 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
-- **16 established** — mature areas with deep citation networks
+- **18 established** — mature areas with deep citation networks
 
 ### The PRISMA 2020 statement: an updated guideline for reporting systematic reviews
-*2099 sources, Established (avg. year: 2018.6)*
+*2081 sources, Established (avg. year: 2018.7)*
 
-This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 2099 interconnected sources.
+This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 2081 interconnected sources.
 
 ### Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning
 *2 sources, Established (avg. year: 2018.0)*
@@ -196,19 +196,19 @@ This cluster centers on The PRISMA 2020 statement: an updated guideline for repo
 This cluster centers on Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning with 2 interconnected sources.
 
 ### Core principles of assessment in competency-based medical education
-*50 sources, Established (avg. year: 2017.5)*
+*49 sources, Established (avg. year: 2017.8)*
 
-This cluster centers on Core principles of assessment in competency-based medical education with 50 interconnected sources.
+This cluster centers on Core principles of assessment in competency-based medical education with 49 interconnected sources.
+
+### Adaptive Multigradient Recursive Reinforcement Learning Event-Triggered Tracking Control for Multiagent Systems
+*11 sources, Established (avg. year: 2020.3)*
+
+This cluster centers on Adaptive Multigradient Recursive Reinforcement Learning Event-Triggered Tracking Control for Multiagent Systems with 11 interconnected sources.
 
 ### Adaptive e-learning systems through learning styles: A review of the literature
 *2 sources, Established (avg. year: 2020.0)*
 
 This cluster centers on Adaptive e-learning systems through learning styles: A review of the literature with 2 interconnected sources.
-
-### Next challenges for adaptive learning systems
-*2 sources, Established (avg. year: 2015.0)*
-
-This cluster centers on Next challenges for adaptive learning systems with 2 interconnected sources.
 
 **Structural parallels:**
 
@@ -216,7 +216,7 @@ Some communities have strikingly similar structures even though they study diffe
 
 - "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning" (97% structural similarity)
 - "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Core principles of assessment in competency-based medical education" (50% structural similarity)
-- "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Adaptive e-learning systems through learning styles: A review of the literature" (83% structural similarity)
+- "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" and "Adaptive Multigradient Recursive Reinforcement Learning Event-Triggered Tracking Control for Multiagent Systems" (79% structural similarity)
 
 
 ## Recommended Research Trajectory
@@ -227,31 +227,28 @@ This trajectory has **high confidence** — the structural evidence strongly sup
 
 Following this path addresses **6 known knowledge gap(s)** identified above.
 
-**Step 1: Educational data mining: prediction of students' academic performance using machine learning algorithms** [5] (2022) — High priority ← *fills a knowledge gap*
+**Step 1: Educational data mining: prediction of students' academic performance using machine learning algorithms** [6] (2022) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 2:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 2: Educational data mining: Predictive analysis of academic performance of public school students in the capital of Brazil** [6] (2019) — High priority ← *fills a knowledge gap*
+**Step 2: The current landscape of learning analytics in higher education** [5] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 3:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 3: Psychology** [7] (None) — Moderate priority
+**Step 3: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [7] (2020) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 4:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 4: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [8] (2020) — High priority ← *fills a knowledge gap*
+**Step 4: Educational data mining and learning analytics: An updated survey** [4] (2020) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 5:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 5: Educational data mining and learning analytics: An updated survey** [3] (2020) — High priority ← *fills a knowledge gap*
+**Step 5: A Systematic Review of Deep Learning Approaches to Educational Data Mining** [8] (2019) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 6:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 6: A Systematic Review of Deep Learning Approaches to Educational Data Mining** [9] (2019) — High priority ← *fills a knowledge gap*
+**Step 6: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [9] (2019) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 7:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 7: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [10] (2019) — High priority ← *fills a knowledge gap*
+**Step 7: Computer Science** [10] (None) — Moderate priority
 - *Why this leads to step 8:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 8: Computer Science** [11] (None) — Moderate priority
-- *Why this leads to step 9:* This work provides the foundation that makes the next source's contribution possible.
-
-**Step 9: itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization** [12] (2026) — High priority
+**Step 8: itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization** [11] (2026) — High priority
 
 
 ## Hidden Patterns
@@ -262,11 +259,11 @@ Beyond individual papers, certain combinations of research attributes appear tog
 
 - [Emerging] AND research in Computer Science — found in **33%** of sources
 - [Emerging] AND (Very Recent work) — found in **26%** of sources
+- using Machine Learning AND research in Computer Science — found in **18%** of sources
 - (Very Recent work) AND research in Computer Science — found in **18%** of sources
-- using Machine Learning AND research in Computer Science — found in **17%** of sources
 - [Emerging] AND using Machine Learning — found in **16%** of sources
 - [Emerging] AND (Recent work) — found in **16%** of sources
-- (Recent work) AND research in Computer Science — found in **15%** of sources
+- (Recent work) AND research in Computer Science — found in **16%** of sources
 - (Established work) AND research in Computer Science — found in **15%** of sources
 
 **Predictive associations** (if you see A, expect B):
@@ -283,9 +280,9 @@ The following research directions emerge from the intersection of knowledge gaps
 
 ### H01 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'Artificial intelligence to deep learning: machine intelligence appr...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Molecular Docking: Shifting Paradigms in Drug Discovery [1]
+**Grounded in:** entropy gap node: Artificial intelligence to deep learning: machine intelli... [1]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
@@ -293,19 +290,29 @@ The following research directions emerge from the intersection of knowledge gaps
 
 ### H02 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Deep Knowledge Tracing [2]
+**Grounded in:** entropy gap node: Molecular Docking: Shifting Paradigms in Drug Discovery [2]
 
-**Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
+**Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
 **How to test it:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
 
 ### H03 — **MEDIUM confidence**
 
+**Hypothesis:** Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+
+**Grounded in:** entropy gap node: Deep Knowledge Tracing [3]
+
+**Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
+
+**How to test it:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
+
+### H04 — **MEDIUM confidence**
+
 **Hypothesis:** Re-examining 'Educational data mining and learning analytics: An updated survey' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Educational data mining and learning analytics: An update... + included in golden token recommended path [3]
+**Grounded in:** entropy gap node: Educational data mining and learning analytics: An update... + included in golden token recommended path [4]
 
 **Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 
@@ -313,21 +320,11 @@ The following research directions emerge from the intersection of knowledge gaps
 
 *This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
 
-### H04 — **MEDIUM confidence**
+### H05 — **MEDIUM confidence**
 
 **Hypothesis:** Re-examining 'The current landscape of learning analytics in higher education' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: The current landscape of learning analytics in higher edu... [4]
-
-**Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-
-**How to test it:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
-
-### H05 — **MEDIUM confidence**
-
-**Hypothesis:** Re-examining 'Educational data mining: prediction of students' academic performan...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-
-**Grounded in:** entropy gap node: Educational data mining: prediction of students' academic... + included in golden token recommended path [5]
+**Grounded in:** entropy gap node: The current landscape of learning analytics in higher edu... + included in golden token recommended path [5]
 
 **Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 
@@ -340,49 +337,52 @@ The following research directions emerge from the intersection of knowledge gaps
 
 When researchers with **no citation relationship** independently arrive at similar conclusions, it signals that the field is converging on structurally important territory — ideas that are "in the air" regardless of who discovers them first.
 
-**18249 candidate pairs** (157 high-confidence) grouped into **17 convergence events**.
+**18183 candidate pairs** (163 high-confidence) grouped into **13 convergence events**.
 
-**SVW_014 — Moderate convergence** (score: 0.591)
+**SVW_010 — Moderate convergence** (score: 0.439)
 
 *2 independent research groups converged on similar findings within 0 years*
 
 Converging sources:
-- A Framework for Transforming Departmental Culture to Support Educational Inno... [13]
-- Towards a Model of Systemic Change in University STEM Education [14]
+- Activation Analysis of a Byte-Based Deep Neural Network for Malware Classific... [12]
+- Hidden Stratification Causes Clinically Meaningful Failures in Machine Learni... [13]
 
-**SVW_005 — Moderate convergence** (score: 0.221)
-
-*3 independent research groups converged on similar findings within 2 years*
-
-Converging sources:
-- AP-Coach: formative feedback generation for learning introductory programming... [15]
-- Using Machine Learning to Predict Engineering Technology Students' Success wi... [16]
-- COOLIO: A Language Support Extension for the Classroom Object Oriented Language [17]
-
-**SVW_008 — Moderate convergence** (score: 0.218)
-
-*3 independent research groups converged on similar findings within 3 years*
-
-Converging sources:
-- Explanation-based learning in infancy. [18]
-- The profile of abstract rule learning in infancy: Meta-analytic and experimen... [19]
-- Unilateral step training can drive faster learning of novel gait patterns. [20]
-
-**SVW_017 — Moderate convergence** (score: 0.200)
+**SVW_011 — Moderate convergence** (score: 0.241)
 
 *2 independent research groups converged on similar findings within 1 year*
 
 Converging sources:
-- mahatasourav/Class_Suru: Class_Suru is an educational platform offering both ... [21]
-- mdnuruzzamanKALLOL/Beecrowd_Judge: URI or Beecrowd Online Judge is widely use... [22]
+- How Learner Control and Explainable Learning Analytics on Skill Mastery Shape... [14]
+- Optimizing Mastery Learning by Fast-Forwarding Over-Practice Steps [15]
 
-**SVW_013 — Moderate convergence** (score: 0.195)
+**SVW_001 — Moderate convergence** (score: 0.160)
+
+*1927 independent research groups converged on similar findings within 61 years*
+
+Converging sources:
+- GPT-based Open-Ended Knowledge Tracing [16]
+- Mutil-View Contrastive Learning for Knowledge Tracing Based on Multi-Faceted ... [17]
+- Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions... [18]
+- Deep Knowledge Tracing Integrating Multiple Learning Behaviors [19]
+- *(+1923 more)*
+
+**SVW_002 — Moderate convergence** (score: 0.144)
+
+*4 independent research groups converged on similar findings within 17 years*
+
+Converging sources:
+- Support posets of some monomial ideals [20]
+- Character sheaves in characteristic $p$ have nilpotent singular support [21]
+- Support theories for non-Noetherian tensor triangulated categories [22]
+- The Nature of Theory in Information Systems1 [23]
+
+**SVW_013 — Moderate convergence** (score: 0.141)
 
 *2 independent research groups converged on similar findings within 2 years*
 
 Converging sources:
-- On Adaptive Fairness in Software Systems [23]
-- Runtime Verification of Self-Adaptive Systems with Changing Requirements [24]
+- ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers... [24]
+- alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu... [25]
 
 
 ---
@@ -392,7 +392,7 @@ Converging sources:
 Based on 3014 sources in Education & EdTech:
 
 - **6 emerging research community(ies)** represent the field's active growth edges.
-- Start with: **Educational data mining: prediction of students' academic performance using machine learning algorithms** [5]
+- Start with: **Educational data mining: prediction of students' academic performance using machine learning algorithms** [6]
 
 ---
 
@@ -419,50 +419,52 @@ This analysis covered 3014 sources in Education & EdTech. Every finding traces t
 
 ## References
 
-[1] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). ID: `8f7948d72b19...`. Referenced in: knowledge gap, next discovery.
+[1] Artificial intelligence to deep learning: machine intelligence approach for drug discovery. (2021). ID: `29409efa04ac...`. Referenced in: knowledge gap, next discovery.
 
-[2] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: knowledge gap, next discovery.
+[2] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). ID: `8f7948d72b19...`. Referenced in: knowledge gap, next discovery.
 
-[3] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, next discovery, recommended path.
+[3] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: knowledge gap, next discovery.
 
-[4] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, next discovery.
+[4] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[5] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: knowledge gap, next discovery, recommended path, top recommendation.
+[5] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[6] Educational data mining: Predictive analysis of academic performance of public school students in the capital of Brazil. (2019). ID: `ad156c560fdb...`. Referenced in: recommended path.
+[6] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: recommended path, top recommendation.
 
-[7] Psychology. (N/A). ID: `concept:psychology`. Referenced in: recommended path.
+[7] Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review. (2020). ID: `77b7c334b130...`. Referenced in: recommended path.
 
-[8] Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review. (2020). ID: `77b7c334b130...`. Referenced in: recommended path.
+[8] A Systematic Review of Deep Learning Approaches to Educational Data Mining. (2019). ID: `402b335f1071...`. Referenced in: recommended path.
 
-[9] A Systematic Review of Deep Learning Approaches to Educational Data Mining. (2019). ID: `402b335f1071...`. Referenced in: recommended path.
+[9] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). ID: `6f715e8bbdc6...`. Referenced in: recommended path.
 
-[10] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). ID: `6f715e8bbdc6...`. Referenced in: recommended path.
+[10] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
 
-[11] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
+[11] itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization. (2026). ID: `github:itigg...`. Referenced in: recommended path.
 
-[12] itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization. (2026). ID: `github:itigg...`. Referenced in: recommended path.
+[12] Activation Analysis of a Byte-Based Deep Neural Network for Malware Classific.... (N/A). ID: `arxiv:1903.0...`. Referenced in: convergence event.
 
-[13] A Framework for Transforming Departmental Culture to Support Educational Inno.... (N/A). ID: `arxiv:1412.3...`. Referenced in: convergence event.
+[13] Hidden Stratification Causes Clinically Meaningful Failures in Machine Learni.... (N/A). ID: `arxiv:1909.1...`. Referenced in: convergence event.
 
-[14] Towards a Model of Systemic Change in University STEM Education. (N/A). ID: `arxiv:1412.3...`. Referenced in: convergence event.
+[14] How Learner Control and Explainable Learning Analytics on Skill Mastery Shape.... (N/A). ID: `arxiv:2412.1...`. Referenced in: convergence event.
 
-[15] AP-Coach: formative feedback generation for learning introductory programming.... (N/A). ID: `48851bdfe05a...`. Referenced in: convergence event.
+[15] Optimizing Mastery Learning by Fast-Forwarding Over-Practice Steps. (N/A). ID: `arxiv:2506.1...`. Referenced in: convergence event.
 
-[16] Using Machine Learning to Predict Engineering Technology Students' Success wi.... (N/A). ID: `arxiv:2108.0...`. Referenced in: convergence event.
+[16] GPT-based Open-Ended Knowledge Tracing. (N/A). ID: `004d6ce718b0...`. Referenced in: convergence event.
 
-[17] COOLIO: A Language Support Extension for the Classroom Object Oriented Language. (N/A). ID: `arxiv:2302.0...`. Referenced in: convergence event.
+[17] Mutil-View Contrastive Learning for Knowledge Tracing Based on Multi-Faceted .... (N/A). ID: `00738e4dd8d8...`. Referenced in: convergence event.
 
-[18] Explanation-based learning in infancy.. (N/A). ID: `pmid:2869899...`. Referenced in: convergence event.
+[18] Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions.... (N/A). ID: `00ab01589b80...`. Referenced in: convergence event.
 
-[19] The profile of abstract rule learning in infancy: Meta-analytic and experimen.... (N/A). ID: `pmid:3001459...`. Referenced in: convergence event.
+[19] Deep Knowledge Tracing Integrating Multiple Learning Behaviors. (N/A). ID: `00d8bd3aa873...`. Referenced in: convergence event.
 
-[20] Unilateral step training can drive faster learning of novel gait patterns.. (N/A). ID: `pmid:3312278...`. Referenced in: convergence event.
+[20] Support posets of some monomial ideals. (N/A). ID: `arxiv:2009.0...`. Referenced in: convergence event.
 
-[21] mahatasourav/Class_Suru: Class_Suru is an educational platform offering both .... (N/A). ID: `github:mahat...`. Referenced in: convergence event.
+[21] Character sheaves in characteristic $p$ have nilpotent singular support. (N/A). ID: `arxiv:2211.1...`. Referenced in: convergence event.
 
-[22] mdnuruzzamanKALLOL/Beecrowd_Judge: URI or Beecrowd Online Judge is widely use.... (N/A). ID: `github:mdnur...`. Referenced in: convergence event.
+[22] Support theories for non-Noetherian tensor triangulated categories. (N/A). ID: `arxiv:2312.0...`. Referenced in: convergence event.
 
-[23] On Adaptive Fairness in Software Systems. (N/A). ID: `arxiv:2104.0...`. Referenced in: convergence event.
+[23] The Nature of Theory in Information Systems1. (N/A). ID: `openalex:W21...`. Referenced in: convergence event.
 
-[24] Runtime Verification of Self-Adaptive Systems with Changing Requirements. (N/A). ID: `arxiv:2303.1...`. Referenced in: convergence event.
+[24] ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers.... (N/A). ID: `github:Sheng...`. Referenced in: convergence event.
+
+[25] alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu.... (N/A). ID: `github:aliba...`. Referenced in: convergence event.
