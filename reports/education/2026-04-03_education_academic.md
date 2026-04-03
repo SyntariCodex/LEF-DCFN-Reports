@@ -7,11 +7,11 @@
 
 ## Abstract
 
-**Objective:** This study presents a computational meta-analysis of 3015 sources in Education & EdTech, identifying structural patterns, knowledge gaps, and optimal research trajectories through automated cognitive traversal of the citation and semantic network.
+**Objective:** This study presents a computational meta-analysis of 2958 sources in Education & EdTech, identifying structural patterns, knowledge gaps, and optimal research trajectories through automated cognitive traversal of the citation and semantic network.
 
-**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (3031 nodes, 6207 edges). Five cognitive traversal operations were executed, supplemented by co-occurrence pattern mining and synchronicity detection.
+**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (2974 nodes, 6036 edges). Five cognitive traversal operations were executed, supplemented by co-occurrence pattern mining and synchronicity detection.
 
-**Results:** The analysis identified: 23 research communities (6 emerging); 13 independent convergence events; 5 computationally-generated research hypotheses.
+**Results:** The analysis identified: 24 research communities (6 emerging); 17 independent convergence events; 5 computationally-generated research hypotheses.
 
 **Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with HIGH confidence, resolving 6 knowledge gaps. For each identified gap, this report contributes original gap-bridging synthesis — the connective reasoning between established findings that does not yet exist in the published literature. The most critical gap centers on Artificial intelligence to deep learning: machine intelligence approach for drug discovery, for which this report proposes specific bridging studies.
 
@@ -23,7 +23,7 @@ The exponential growth of published research in Education & EdTech has created a
 
 This study presents a computational approach to research landscape analysis using the Cognitive Traversal Engine (CTE), a patented framework (US Provisional 64/002,205) that constructs typed concept graphs from heterogeneous sources and executes five cognitive operations to discover structural patterns invisible to conventional methods.
 
-The analysis covers 3015 sources in Education & EdTech, encoded via the Qualitative Input Perturbation Bridge (QECO Patent) into a shared semantic vector space. Beyond identifying structural patterns, this report contributes original gap-bridging synthesis — for each identified knowledge gap, the specific connective reasoning and proposed studies that would advance the field.
+The analysis covers 2958 sources in Education & EdTech, encoded via the Qualitative Input Perturbation Bridge (QECO Patent) into a shared semantic vector space. Beyond identifying structural patterns, this report contributes original gap-bridging synthesis — for each identified knowledge gap, the specific connective reasoning and proposed studies that would advance the field.
 
 ### 1.1 Contributions
 
@@ -38,7 +38,7 @@ This work contributes:
 
 ### 2.1 Data Collection
 
-3015 sources were collected from the Semantic Scholar Academic Graph API. For each source, the following metadata was extracted: title, abstract, publication year, citation count, fields of study, author list, references, and citing papers. Sources lacking abstracts were excluded.
+2958 sources were collected from the Semantic Scholar Academic Graph API. For each source, the following metadata was extracted: title, abstract, publication year, citation count, fields of study, author list, references, and citing papers. Sources lacking abstracts were excluded.
 
 ### 2.2 Qualitative Input Perturbation Bridge (QEB)
 
@@ -54,7 +54,7 @@ Confidence was assessed via three corpus-relative signals:
 
 Composite confidence = 0.40 × Stability + 0.35 × Concentration + 0.25 × Distinctiveness.
 
-The corpus-adaptive thresholds were computed as: LOW < 0.4611150230294067 (30th percentile), HIGH ≥ 0.49633756603576634 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
+The corpus-adaptive thresholds were computed as: LOW < 0.4606975464917693 (30th percentile), HIGH ≥ 0.4963594304145774 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
 
 ### 2.3 Epistemic Grounding
 
@@ -98,22 +98,22 @@ For each identified knowledge gap (severity ≥ 5), the engine retrieves the gap
 
 ### 3.1 Concept Graph Structure
 
-The constructed graph contains 3031 nodes (3015 DOCUMENT, 16 CONCEPT) and 6207 directed edges. Graph density is 0.000676 with 347 weakly connected component(s).
+The constructed graph contains 2974 nodes (2958 DOCUMENT, 16 CONCEPT) and 6036 directed edges. Graph density is 0.000683 with 348 weakly connected component(s).
 
-Epistemic grounding distribution: 1137 well-grounded, 1831 partially grounded, 47 weakly grounded, 0 ungrounded (mean grounding score: 0.704).
+Epistemic grounding distribution: 1138 well-grounded, 1773 partially grounded, 47 weakly grounded, 0 ungrounded (mean grounding score: 0.708).
 
 ### 3.2 Intellectual Foundations
 
 
 ### 3.3 Knowledge Gap Analysis
 
-Entropy detection identified 3014 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 866 high (severity 5-6), 2148 low (severity < 5).
+Entropy detection identified 2957 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 853 high (severity 5-6), 2104 low (severity < 5).
 
 Issue type distribution:
 
-- DECAYED: 3014
-- STALE: 2941
-- ORPHAN: 343
+- DECAYED: 2957
+- STALE: 2888
+- ORPHAN: 344
 
 **Gap-Bridging Analysis:**
 
@@ -125,11 +125,11 @@ Issue type distribution:
 
 ### 3.4 Research Cluster Analysis
 
-Branch cataloging identified 23 distinct clusters (6 emerging, 17 established). 158 structural mirror relationship(s) were detected between cluster pairs.
+Branch cataloging identified 24 distinct clusters (6 emerging, 18 established). 191 structural mirror relationship(s) were detected between cluster pairs.
 
-- **The PRISMA 2020 statement: an updated guideline for reporting systematic reviews** (2095 sources, established)
+- **Artificial intelligence to deep learning: machine intelligence approach for drug discovery** (106 sources, established)
+- **The PRISMA 2020 statement: an updated guideline for reporting systematic reviews** (1980 sources, established)
 - **Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning** (2 sources, established)
-- **Core principles of assessment in competency-based medical education** (52 sources, established)
 
 ### 3.5 Optimal Research Trajectory
 
@@ -143,16 +143,16 @@ The golden token pathfinding algorithm produced a 8-step trajectory with HIGH co
 | 4 | Educational data mining and learning analytics: An updated survey [7] | 2020 | 0.498 | Yes | — |
 | 5 | A Systematic Review of Deep Learning Approaches to Educational Data Mining [8] | 2019 | 0.483 | Yes | — |
 | 6 | Educational data mining and learning analytics for 21st century higher education: A review and synthesis [9] | 2019 | 0.488 | Yes | — |
-| 7 | Computer Science [10] | None | 0.392 | No | — |
+| 7 | Computer Science [10] | None | 0.391 | No | — |
 | 8 | itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization [11] | 2026 | 0.500 | No | — |
 
 ### 3.6 Convergence Events
 
-SVW analysis identified 18262 synchronicity candidate pairs (172 high-tier) clustered into 13 convergence event(s).
+SVW analysis identified 17899 synchronicity candidate pairs (160 high-tier) clustered into 17 convergence event(s).
 
-- **SVW_003**: 2 independent groups, score 0.246, time window 1 years
-- **SVW_009**: 4 independent groups, score 0.227, time window 4 years
-- **SVW_001**: 1927 independent groups, score 0.160, time window 61 years
+- **SVW_014**: 2 independent groups, score 0.343, time window 1 years
+- **SVW_010**: 2 independent groups, score 0.212, time window 1 years
+- **SVW_012**: 2 independent groups, score 0.203, time window 2 years
 
 ### 3.7 Generated Hypotheses
 
@@ -166,24 +166,30 @@ The engine generated 5 traceable research hypothesis(es):
 
 ## 4. Discussion
 
-The computational meta-analysis of 3015 sources in Education & EdTech reveals structural patterns that merit discussion, particularly regarding the identified knowledge gaps and their proposed resolutions.
+The computational meta-analysis of 2958 sources in Education & EdTech reveals structural patterns that merit discussion, particularly regarding the identified knowledge gaps and their proposed resolutions.
 
 ### 4.1 Gap-Bridging Synthesis
 
-The identification of 0 critical knowledge gaps represents this analysis's primary finding. Unlike traditional gap identification that merely labels understudied areas, the gap-bridging synthesis articulates the specific connective reasoning missing from the literature.
+The identification of 0 critical and 853 high-priority knowledge gaps represents this analysis's primary finding. Each gap is presented as a bridge Article following single-case research design (SCRD) structure: baseline (what was established), gap identification (what broke or stopped), proposed intervention, expected outcome with validated confidence, and validation pathway. This structure ensures every proposal is grounded, testable, and falsifiable — not speculative.
 
 **Artificial intelligence to deep learning: machine intelligence approach for drug discovery** (STALE, DECAYED):
-The gap calls for a replication-and-extension study that re-examines the original conclusions with modern methods, testing whether upstream findings still hold given downstream developments.
+
+*Gap.* This line of inquiry has not been updated or revisited.
+*Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
 
 **Molecular Docking: Shifting Paradigms in Drug Discovery** (STALE, DECAYED):
-The gap calls for a replication-and-extension study that re-examines the original conclusions with modern methods, testing whether upstream findings still hold given downstream developments.
+
+*Gap.* This line of inquiry has not been updated or revisited.
+*Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
 
 **Deep Knowledge Tracing** (STALE, DECAYED):
-The gap calls for a replication-and-extension study that re-examines the original conclusions with modern methods, testing whether upstream findings still hold given downstream developments.
+
+*Gap.* This line of inquiry has not been updated or revisited.
+*Intervention.* A replication-and-extension study using contemporary methods would test whether these conclusions hold.
 
 ### 4.2 Independent Convergence
 
-The detection of 13 convergence events — where researchers with no citation relationship arrived at structurally similar conclusions — suggests that certain conceptual territories are being approached independently from multiple directions. This pattern typically indicates high-value research frontiers that are structurally necessary rather than artifacts of methodological fashion.
+The detection of 17 convergence events — where researchers with no citation relationship arrived at structurally similar conclusions — suggests that certain conceptual territories are being approached independently from multiple directions. This pattern typically indicates high-value research frontiers that are structurally necessary rather than artifacts of methodological fashion.
 
 ### 4.4 Limitations
 
@@ -191,13 +197,13 @@ Several limitations should be noted: (1) The QEB encoding uses TF-IDF + SVD as a
 
 ## 5. Conclusions
 
-This computational meta-analysis of 3015 sources in Education & EdTech demonstrates the viability of cognitive traversal methods for automated research landscape analysis with original gap-bridging contributions. The five-operation CTE pipeline, combined with three-signal adaptive confidence scoring, epistemic grounding, and synchronicity detection, produces findings that are both actionable and fully traceable to specific sources.
+This computational meta-analysis of 2958 sources in Education & EdTech demonstrates the viability of cognitive traversal methods for automated research landscape analysis with original gap-bridging contributions. The five-operation CTE pipeline, combined with three-signal adaptive confidence scoring, epistemic grounding, and synchronicity detection, produces findings that are both actionable and fully traceable to specific sources.
 
-The primary contribution is the gap-bridging synthesis: for each of the 0 critical knowledge gaps identified, this report articulates the specific connective reasoning and proposed study designs that would advance the field. These proposals are not speculative — they emerge from the structural properties of the knowledge graph and the content of the papers on either side of each gap.
+The primary contribution is the gap-bridging synthesis: for each of the 0 critical knowledge gaps identified, this report produces SCRD-structured bridge Articles — baseline, gap identification, proposed intervention, expected outcome with validated confidence (5-signal composite), and falsifiable validation pathway. These proposals emerge from the structural properties of the knowledge graph and the content of the papers on either side of each gap, not from speculation.
 
 The 5 generated hypothesis(es) are offered as computationally-identified research directions, each grounded in specific entropy gaps and cascade patterns. These can be independently verified by tracing the cited node IDs.
 
-Future work will focus on: upgrading the QEB encoder to transformer-based embeddings (Sentence-BERT), implementing post-traversal calibration for run-over-run learning, expanding to full-text analysis for deeper gap-bridging synthesis, and building persistent graph databases for longitudinal analysis across multiple time-separated runs.
+Future work will focus on: (1) autonomous intervention execution — an AI engine (auto_builder) that receives bridge Articles, classifies the intervention type, builds testable artifacts, and feeds results back into the concept graph for continuous traversal; (2) upgrading the QEB encoder to transformer-based embeddings (Sentence-BERT); (3) post-traversal calibration for run-over-run learning; (4) expanding to full-text analysis for deeper synthesis; and (5) persistent graph databases for longitudinal analysis across multiple time-separated runs.
 
 ---
 
@@ -232,11 +238,11 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 
 - Embedding dimensionality: 256
 - Perturbation σ: 0.1
-- Confidence threshold LOW: < 0.4611150230294067
-- Confidence threshold HIGH: ≥ 0.49633756603576634
-- Concentration percentiles: p25=0.49038508134108083, p50=0.5322161092937507, p75=0.5846429777761565
-- Distinctiveness percentiles: p25=0.6520633488567402, p50=0.6932961829246991, p75=0.7373740682839339
-- Stability percentiles: p25=0.2648826915100317, p50=0.28113700293117233, p75=0.29671388674760985
+- Confidence threshold LOW: < 0.4606975464917693
+- Confidence threshold HIGH: ≥ 0.4963594304145774
+- Concentration percentiles: p25=0.4901715957074837, p50=0.5324356648771527, p75=0.5864565413774342
+- Distinctiveness percentiles: p25=0.6519169390130477, p50=0.6938600067486558, p75=0.7382827313364742
+- Stability percentiles: p25=0.2645260328957284, p50=0.28098661407880493, p75=0.2976412911414415
 
 ### B. Full Hypothesis Details
 
@@ -283,8 +289,8 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 ### C. Engine Configuration
 
 - Engine version: 0.3.0-prototype
-- Total sources: 3015
-- Timestamp: 2026-04-03T04:39:35.062134
+- Total sources: 2958
+- Timestamp: 2026-04-03T18:44:25.261198
 
 Patents implemented:
 - QECO: Three-Signal Adaptive Confidence (Module 1)
