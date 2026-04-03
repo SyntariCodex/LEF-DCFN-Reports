@@ -1,21 +1,21 @@
 # Research Intelligence Report: Neuroscience
 
 **Generated:** April 03, 2026
-**Sources Analyzed:** 2933
+**Sources Analyzed:** 2900
 **Engine:** DCFN (Decentralized Collective Foresight Network) v0.3.0
 **By:** Living Eden Frameworks LLC
 
 ---
 
-This report synthesizes 2933 sources in Neuroscience into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this report bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
+This report synthesizes 2900 sources in Neuroscience into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this report bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
 
 ## The Research Landscape
 
-This analysis covers 2933 sources in Neuroscience, mapped into 2933 research papers and 12 topic areas with 7923 connections.
+This analysis covers 2900 sources in Neuroscience, mapped into 2900 research papers and 12 topic areas with 7823 connections.
 
 The research is fragmented across 196 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
-The corpus is well-grounded: 37% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.71/1.00).
+The corpus is well-grounded: 36% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.71/1.00).
 
 ## Intellectual Foundations
 
@@ -31,150 +31,230 @@ The sources in this collection don't yet show strong forward-cascading influence
 
 ## What's Missing — And What Should Come Next
 
-Research fields advance not just by producing new findings but by closing structural gaps — outdated conclusions that haven't been revisited, contradictions that remain unresolved, and promising threads that were abandoned. Each gap below represents a specific opportunity. The bridge content that follows is this report's core contribution: the connective reasoning that doesn't exist yet in the published literature.
+Each gap below follows a structured format: what was established before the gap (baseline), what broke or stopped (gap identification), what should happen next (proposed intervention), what the outcome should look like (expected outcome with validated confidence), and how to verify it. This is the report's core contribution — the connective reasoning that doesn't yet exist in the published literature.
 
-The analysis identified **2933 structural gaps** in the research landscape:
+**2900 structural gaps** identified in the research landscape:
 
-- **1171 moderate gaps** — important but less urgent issues needing resolution
-- **1762 minor gaps** — older or isolated issues
+- **1123 moderate** — important but less urgent
+- **1777 minor** — older or isolated issues
 
-**Breakdown:** 2933 decayed (once-important, now lost relevance); 2865 stale (not updated or built upon); 193 orphaned (isolated from the broader field).
-
----
-
-### Gap 1: Spinal cord injury: molecular mechanisms and therapeutic interventions [1]
-*Important (severity 6/9) — stale, decayed*
-
-**The bridge — what should come next:**
-
-This line of inquiry has gone stale with no recent follow-up.
-
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**Prevalence by type:** 2900 decayed; 2832 stale; 193 orphaned.
 
 ---
 
-### Gap 2: Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4 [2]
+### Bridge Article 1: Synaptic Plasticity Forms and Functions. [1]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 3: Synaptic Plasticity Forms and Functions. [3]
+### Bridge Article 2: 20 years of the default mode network: A review and synthesis. [2]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 4: 20 years of the default mode network: A review and synthesis. [4]
+### Bridge Article 3: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [3]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
-### Gap 5: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [5]
+### Bridge Article 4: From Cognitive Load Theory to Collaborative Cognitive Load Theory [4]
 *Important (severity 6/9) — stale, decayed*
 
-**The bridge — what should come next:**
+**A. Baseline — What Was Established**
 
-This line of inquiry has gone stale with no recent follow-up.
+Insufficient abstract data to establish baseline content.
 
-**Proposed study:** A comprehensive update that revisits the core research question with modern methods and determines whether the original findings remain valid.
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
+
+---
+
+### Bridge Article 5: Rehabilitation robots for the treatment of sensorimotor deficits: a neurophysiological perspective [5]
+*Important (severity 6/9) — stale, decayed*
+
+**A. Baseline — What Was Established**
+
+Insufficient abstract data to establish baseline content.
+
+**B. Gap — What Broke or Stopped**
+
+This line of inquiry has not been updated or revisited. The original findings remain untested against modern methods, larger datasets, and subsequent developments in the field.
+
+**C. Proposed Intervention**
+
+Replicate the original findings using current methods. Apply current analytical techniques and larger datasets to determine whether the original conclusions hold, what nuances emerge, and what the field missed by not following up.
+
+**D. Expected Outcome**
+
+The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
+
+Confidence: *not computed*.
+
+**E. Validation**
+
+**Confirms:** Replicated results consistent with original findings (effect direction and approximate magnitude preserved). **Falsifies:** Results contradict original in direction or show null effect with adequate power. **Feed back:** Either outcome updates the structural confidence of all downstream nodes in the citation network.
 
 ---
 
 
 ## Research Communities
 
-The corpus organizes into **10 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
+The corpus organizes into **9 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
 
 - **3 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
-- **7 established** — mature areas with deep citation networks
-
-### The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness
-*58 sources, Established (avg. year: 2020.9)*
-
-This cluster centers on The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness with 58 interconnected sources.
+- **6 established** — mature areas with deep citation networks
 
 ### Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
-*2571 sources, Established (avg. year: 2017.9)*
+*2633 sources, Established (avg. year: 2017.9)*
 
-This cluster centers on Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks with 2571 interconnected sources.
+This cluster centers on Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks with 2633 interconnected sources.
 
-### Synaptic Plasticity and Memory: An Evaluation of the Hypothesis
-*55 sources, Established (avg. year: 2015.8)*
+### A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity
+*2 sources, Emerging (avg. year: 2023.0)*
 
-This cluster centers on Synaptic Plasticity and Memory: An Evaluation of the Hypothesis with 55 interconnected sources.
+This cluster centers on A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity with 2 interconnected sources.
 
-### 20 years of the default mode network: A review and synthesis.
-*25 sources, Established (avg. year: 2019.8)*
+### Restoration of sensorimotor functions after spinal cord injury
+*27 sources, Established (avg. year: 2015.6)*
 
-This cluster centers on 20 years of the default mode network: A review and synthesis. with 25 interconnected sources.
+This cluster centers on Restoration of sensorimotor functions after spinal cord injury with 27 interconnected sources.
 
-### Self–other relations in social development and autism: multiple roles for mirror neurons and other brain bases
-*20 sources, Established (avg. year: 2013.8)*
+### Memory loss in Alzheimer's disease
+*22 sources, Established (avg. year: 2021.5)*
 
-This cluster centers on Self–other relations in social development and autism: multiple roles for mirror neurons and other brain bases with 20 interconnected sources.
+This cluster centers on Memory loss in Alzheimer's disease with 22 interconnected sources.
+
+### The Ronnie Gardiner Method: An Innovative Music-Based Intervention for Neurological Rehabilitation - Theoretical Background and Contemporary Research with Focus on Parkinson’s Disease
+*5 sources, Established (avg. year: 2020.8)*
+
+This cluster centers on The Ronnie Gardiner Method: An Innovative Music-Based Intervention for Neurological Rehabilitation - Theoretical Background and Contemporary Research with Focus on Parkinson’s Disease with 5 interconnected sources.
 
 **Structural parallels:**
 
 Some communities have strikingly similar structures even though they study different topics. Methods and insights from one could transfer to the other:
 
-- "The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness" and "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" (70% structural similarity)
-- "The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness" and "Synaptic Plasticity and Memory: An Evaluation of the Hypothesis" (98% structural similarity)
-- "The Science of Mind Wandering: Empirically Navigating the Stream of Consciousness" and "20 years of the default mode network: A review and synthesis." (99% structural similarity)
+- "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" and "Restoration of sensorimotor functions after spinal cord injury" (75% structural similarity)
+- "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" and "Memory loss in Alzheimer's disease" (73% structural similarity)
+- "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" and "The Ronnie Gardiner Method: An Innovative Music-Based Intervention for Neurological Rehabilitation - Theoretical Background and Contemporary Research with Focus on Parkinson’s Disease" (97% structural similarity)
 
 
 ## Recommended Research Trajectory
 
 Combining the field's foundations, frontiers, gaps, and community structure yields an optimal sequence for a researcher entering or advancing in this space. Each step builds on the previous one.
 
-This trajectory has **moderate confidence** — worth pursuing but verify against domain expertise.
+This trajectory has **high confidence** — the structural evidence strongly supports this sequence.
 
-Following this path addresses **4 known knowledge gap(s)** identified above.
+Following this path addresses **5 known knowledge gap(s)** identified above.
 
-**Step 1: Spinal cord injury: molecular mechanisms and therapeutic interventions** [1] (2023) — High priority ← *fills a knowledge gap*
+**Step 1: 20 years of the default mode network: A review and synthesis.** [2] (2023) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 2:* This work provides the foundation that makes the next source's contribution possible.
 
 **Step 2: Medicine** [6] (None) — Moderate priority
 - *Why this leads to step 3:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 3: 20 years of the default mode network: A review and synthesis.** [4] (2023) — High priority ← *fills a knowledge gap*
+**Step 3: Synaptic Plasticity Forms and Functions.** [1] (2020) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 4:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 4: The default mode network: A transmodal cortical system for enhancing cognition and sharing mental worlds in language-specific, culturally diverse ways.** [7] (2026) — Moderate priority
+**Step 4: Computer Science** [7] (None) — Moderate priority
 - *Why this leads to step 5:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 5: Neuroscience** [8] (None) — Moderate priority
+**Step 5: Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition** [8] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 6:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 6: Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review** [9] (2022) — Moderate priority
+**Step 6: Default mode network can support the level of detail in experience during active task states** [9] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 7:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 7: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** [5] (2017) — High priority ← *fills a knowledge gap*
+**Step 7: Default Mode Dynamics for Global Functional Integration** [10] (2015) — Moderate priority
 - *Why this leads to step 8:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 8: EEG-based Brain-Computer Interfaces (BCIs): A Survey of Recent Studies&#13;\n on Signal Sensing Technologies and Computational Intelligence Approaches and&#13;\n their Applications** [10] (2021) — Moderate priority
+**Step 8: Neuroscience** [11] (None) — Moderate priority
 - *Why this leads to step 9:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 9: Computer Science** [11] (None) — Moderate priority
+**Step 9: Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review** [12] (2022) — Moderate priority
 - *Why this leads to step 10:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 10: Synaptic Plasticity Forms and Functions.** [3] (2020) — High priority ← *fills a knowledge gap*
+**Step 10: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review** [3] (2017) — High priority ← *fills a knowledge gap*
 
 
 ## Hidden Patterns
@@ -194,11 +274,11 @@ Beyond individual papers, certain combinations of research attributes appear tog
 
 **Predictive associations** (if you see A, expect B):
 
-- When research involves psychology research, it **80% of the time** also involves medicine research (strong association)
+- When research involves psychology research, it **79% of the time** also involves medicine research (strong association)
 - When research involves highly cited papers + neuroscience research, it **73% of the time** also involves foundational work (strong association)
-- When research involves highly cited papers + foundational work, it **93% of the time** also involves neuroscience research (strong association)
-- When research involves psychology research, it **67% of the time** also involves established work (strong association)
+- When research involves highly cited papers + foundational work, it **94% of the time** also involves neuroscience research (strong association)
 - When research involves neuroimaging methods + foundational work, it **81% of the time** also involves neuroscience research (strong association)
+- When research involves highly cited papers + biology research, it **81% of the time** also involves neuroscience research (strong association)
 
 ## The Next Discoveries
 
@@ -206,115 +286,106 @@ The following research directions emerge from the intersection of knowledge gaps
 
 ### H01 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Spinal cord injury: molecular mechanisms and therapeutic interventions' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Spinal cord injury: molecular mechanisms and therapeutic ... + included in golden token recommended path [1]
+**Grounded in:** entropy gap node: Synaptic Plasticity Forms and Functions. + included in golden token recommended path [1]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
-**How to test it:** machine learning (co-occurs with similar gaps at 82% confidence in apriori patterns)
+**How to test it:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
 *This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
 
 ### H02 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Competitive Mechanisms Subserve Attention in Macaque Area... [2]
-
-**Why this is new:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
-
-**How to test it:** machine learning (co-occurs with similar gaps at 82% confidence in apriori patterns)
-
-### H03 — **MEDIUM confidence**
-
-**Hypothesis:** Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-
-**Grounded in:** entropy gap node: Synaptic Plasticity Forms and Functions. + included in golden token recommended path [3]
+**Grounded in:** entropy gap node: 20 years of the default mode network: A review and synthe... + included in golden token recommended path [2]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
-**How to test it:** machine learning (co-occurs with similar gaps at 82% confidence in apriori patterns)
+**How to test it:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+
+*This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
+
+### H03 — **MEDIUM confidence**
+
+**Hypothesis:** Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+
+**Grounded in:** entropy gap node: Review and Classification of Emotion Recognition Based on... + included in golden token recommended path [3]
+
+**Why this is new:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
+
+**How to test it:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
 *This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
 
 ### H04 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: 20 years of the default mode network: A review and synthe... + included in golden token recommended path [4]
+**Grounded in:** entropy gap node: From Cognitive Load Theory to Collaborative Cognitive Loa... [4]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
-**How to test it:** machine learning (co-occurs with similar gaps at 82% confidence in apriori patterns)
-
-*This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
+**How to test it:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
 ### H05 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'Rehabilitation robots for the treatment of sensorimotor deficits: a...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Review and Classification of Emotion Recognition Based on... + included in golden token recommended path [5]
+**Grounded in:** entropy gap node: Rehabilitation robots for the treatment of sensorimotor d... [5]
 
 **Why this is new:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
 
-**How to test it:** machine learning (co-occurs with similar gaps at 82% confidence in apriori patterns)
-
-*This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
+**How to test it:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
 
 ## Convergence Events
 
 When researchers with **no citation relationship** independently arrive at similar conclusions, it signals that the field is converging on structurally important territory — ideas that are "in the air" regardless of who discovers them first.
 
-**24071 candidate pairs** (149 high-confidence) grouped into **4 convergence events**.
+**23394 candidate pairs** (146 high-confidence) grouped into **3 convergence events**.
 
-**SVW_003 — Moderate convergence** (score: 0.141)
+**SVW_003 — Moderate convergence** (score: 0.138)
 
-*2 independent research groups converged on similar findings within 2 years*
-
-Converging sources:
-- Virtual Memory Streaming Technique for Virtual Machines (VMs) for Rapid Scali... [12]
-- Heterogeneous-Reliability Memory: Exploiting Application-Level Memory Error T... [13]
-
-**SVW_001 — Moderate convergence** (score: 0.133)
-
-*1988 independent research groups converged on similar findings within 39 years*
+*6 independent research groups converged on similar findings within 12 years*
 
 Converging sources:
-- Training the Emotional Brain: Improving Affective Control through Emotional W... [14]
-- Replay bursts coincide with activation of the default mode and parietal alpha... [15]
-- Embodied Resonance [16]
-- APOE genotype moderates the relationship between LRP1 polymorphism and cognit... [17]
-- *(+1984 more)*
+- Pricing Options on Defaultable Stocks [13]
+- Systemic Risk Management in Financial Networks with Credit Default Swaps [14]
+- Prediction defaults for networked-guarantee loans [15]
+- Dynamic Contagion in a Banking System with Births and Defaults [16]
+- *(+2 more)*
 
-**SVW_004 — Moderate convergence** (score: 0.082)
+**SVW_001 — Moderate convergence** (score: 0.132)
 
-*4 independent research groups converged on similar findings within 13 years*
-
-Converging sources:
-- Pricing Options on Defaultable Stocks [18]
-- Higher Order Binaries with Time Dependent Coefficients and Two Factors - Mode... [19]
-- Systemic Risk Management in Financial Networks with Credit Default Swaps [20]
-- Using Network Interbank Contagion in Bank Default Prediction [21]
-
-**SVW_002 — Moderate convergence** (score: 0.052)
-
-*2 independent research groups converged on similar findings within 7 years*
+*1951 independent research groups converged on similar findings within 39 years*
 
 Converging sources:
-- Midterm Status Report of the ILC Technology Network Activities [22]
-- Neuroscience underlying rehabilitation: what is neuroplasticity? [23]
+- Training the Emotional Brain: Improving Affective Control through Emotional W... [17]
+- Replay bursts coincide with activation of the default mode and parietal alpha... [18]
+- Embodied Resonance [19]
+- APOE genotype moderates the relationship between LRP1 polymorphism and cognit... [20]
+- *(+1947 more)*
+
+**SVW_002 — Moderate convergence** (score: 0.087)
+
+*2 independent research groups converged on similar findings within 4 years*
+
+Converging sources:
+- Paging with dynamic memory capacity [21]
+- A Workload-Specific Memory Capacity Configuration Approach for In-Memory Data... [22]
 
 
 ---
 
 ## Synthesis
 
-Based on 2933 sources in Neuroscience:
+Based on 2900 sources in Neuroscience:
 
 - **3 emerging research community(ies)** represent the field's active growth edges.
-- Start with: **Spinal cord injury: molecular mechanisms and therapeutic interventions** [1]
+- Start with: **20 years of the default mode network: A review and synthesis.** [2]
 
 ---
 
@@ -333,7 +404,7 @@ This report was generated by the **DCFN Engine** (Decentralized Collective Fores
 
 DCFN ingests sources from multiple academic databases (Semantic Scholar, arXiv, PubMed, OpenAlex, GitHub), encodes them into a shared semantic space using patented three-signal adaptive confidence scoring, and constructs a typed concept graph. Five cognitive traversal operations — backward tracing, forward cascade, entropy detection, community cataloging, and optimal pathfinding — are then executed to discover structural patterns invisible to conventional literature review.
 
-This analysis covered 2933 sources in Neuroscience. Every finding traces to specific papers in the corpus. Knowledge gaps are identified through entropy detection (staleness, contradictions, isolation, blockages). The gap-bridging synthesis is the report's original contribution — connecting established findings to propose the specific studies that would advance the field.
+This analysis covered 2900 sources in Neuroscience. Every finding traces to specific papers in the corpus. Knowledge gaps are identified through entropy detection (staleness, contradictions, isolation, blockages). The gap-bridging synthesis is the report's original contribution — connecting established findings to propose the specific studies that would advance the field.
 
 *DCFN is built on patented cognitive traversal technology (CTE Patent 64/002,205) and qualitative analysis methods (QECO Patent 63/993,979) by Living Eden Frameworks LLC.*
 
@@ -341,48 +412,46 @@ This analysis covered 2933 sources in Neuroscience. Every finding traces to spec
 
 ## References
 
-[1] Spinal cord injury: molecular mechanisms and therapeutic interventions. (2023). ID: `4fd30d20a99d...`. Referenced in: knowledge gap, next discovery, recommended path, top recommendation.
+[1] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[2] Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4. (1999). ID: `04282d7cc824...`. Referenced in: knowledge gap, next discovery.
+[2] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, next discovery, recommended path, top recommendation.
 
-[3] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, next discovery, recommended path.
+[3] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[4] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, next discovery, recommended path.
+[4] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: knowledge gap, next discovery.
 
-[5] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap, next discovery, recommended path.
+[5] Rehabilitation robots for the treatment of sensorimotor deficits: a neurophysiological perspective. (2018). ID: `7f42ce61353f...`. Referenced in: knowledge gap, next discovery.
 
 [6] Medicine. (N/A). ID: `concept:medicine`. Referenced in: recommended path.
 
-[7] The default mode network: A transmodal cortical system for enhancing cognition and sharing mental worlds in language-specific, culturally diverse ways.. (2026). ID: `pmid:4174737...`. Referenced in: recommended path.
+[7] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
 
-[8] Neuroscience. (N/A). ID: `concept:neuroscience`. Referenced in: recommended path.
+[8] Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition. (2018). ID: `33e59be01c5c...`. Referenced in: recommended path.
 
-[9] Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review. (2022). ID: `openalex:W42...`. Referenced in: recommended path.
+[9] Default mode network can support the level of detail in experience during active task states. (2018). ID: `01deaa82450a...`. Referenced in: recommended path.
 
-[10] EEG-based Brain-Computer Interfaces (BCIs): A Survey of Recent Studies&#13;\n on Signal Sensing Technologies and Computational Intelligence Approaches and&#13;\n their Applications. (2021). ID: `openalex:W31...`. Referenced in: recommended path.
+[10] Default Mode Dynamics for Global Functional Integration. (2015). ID: `openalex:W21...`. Referenced in: recommended path.
 
-[11] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
+[11] Neuroscience. (N/A). ID: `concept:neuroscience`. Referenced in: recommended path.
 
-[12] Virtual Memory Streaming Technique for Virtual Machines (VMs) for Rapid Scali.... (N/A). ID: `arxiv:1406.5...`. Referenced in: convergence event.
+[12] Human emotion recognition from EEG-based brain–computer interface using machine learning: a comprehensive review. (2022). ID: `openalex:W42...`. Referenced in: recommended path.
 
-[13] Heterogeneous-Reliability Memory: Exploiting Application-Level Memory Error T.... (N/A). ID: `arxiv:1602.0...`. Referenced in: convergence event.
+[13] Pricing Options on Defaultable Stocks. (N/A). ID: `arxiv:0707.0...`. Referenced in: convergence event.
 
-[14] Training the Emotional Brain: Improving Affective Control through Emotional W.... (N/A). ID: `00350f5688d8...`. Referenced in: convergence event.
+[14] Systemic Risk Management in Financial Networks with Credit Default Swaps. (N/A). ID: `arxiv:1601.0...`. Referenced in: convergence event.
 
-[15] Replay bursts coincide with activation of the default mode and parietal alpha.... (N/A). ID: `008a6b40846c...`. Referenced in: convergence event.
+[15] Prediction defaults for networked-guarantee loans. (N/A). ID: `arxiv:1702.0...`. Referenced in: convergence event.
 
-[16] Embodied Resonance. (N/A). ID: `012b4bebfb4f...`. Referenced in: convergence event.
+[16] Dynamic Contagion in a Banking System with Births and Defaults. (N/A). ID: `arxiv:1807.0...`. Referenced in: convergence event.
 
-[17] APOE genotype moderates the relationship between LRP1 polymorphism and cognit.... (N/A). ID: `01a36de65459...`. Referenced in: convergence event.
+[17] Training the Emotional Brain: Improving Affective Control through Emotional W.... (N/A). ID: `00350f5688d8...`. Referenced in: convergence event.
 
-[18] Pricing Options on Defaultable Stocks. (N/A). ID: `arxiv:0707.0...`. Referenced in: convergence event.
+[18] Replay bursts coincide with activation of the default mode and parietal alpha.... (N/A). ID: `008a6b40846c...`. Referenced in: convergence event.
 
-[19] Higher Order Binaries with Time Dependent Coefficients and Two Factors - Mode.... (N/A). ID: `arxiv:1305.6...`. Referenced in: convergence event.
+[19] Embodied Resonance. (N/A). ID: `012b4bebfb4f...`. Referenced in: convergence event.
 
-[20] Systemic Risk Management in Financial Networks with Credit Default Swaps. (N/A). ID: `arxiv:1601.0...`. Referenced in: convergence event.
+[20] APOE genotype moderates the relationship between LRP1 polymorphism and cognit.... (N/A). ID: `01a36de65459...`. Referenced in: convergence event.
 
-[21] Using Network Interbank Contagion in Bank Default Prediction. (N/A). ID: `arxiv:2005.1...`. Referenced in: convergence event.
+[21] Paging with dynamic memory capacity. (N/A). ID: `arxiv:1304.6...`. Referenced in: convergence event.
 
-[22] Midterm Status Report of the ILC Technology Network Activities. (N/A). ID: `arxiv:2603.0...`. Referenced in: convergence event.
-
-[23] Neuroscience underlying rehabilitation: what is neuroplasticity?. (N/A). ID: `openalex:W29...`. Referenced in: convergence event.
+[22] A Workload-Specific Memory Capacity Configuration Approach for In-Memory Data.... (N/A). ID: `arxiv:1712.0...`. Referenced in: convergence event.
