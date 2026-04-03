@@ -9,9 +9,9 @@
 
 **Objective:** This study applies automated cognitive traversal analysis to 3015 sources in Education & EdTech to identify structural patterns, knowledge gaps, convergence events, and optimal research trajectories that are not visible through traditional literature review methods.
 
-**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (3031 nodes, 6208 edges). Five cognitive traversal operations (backward traversal, forward cascade, entropy detection, branch cataloging, golden token pathfinding) were executed on the graph, supplemented by Apriori co-occurrence pattern mining and synchronicity detection (SVW).
+**Methods:** Sources were encoded via a Qualitative Input Perturbation Bridge (QEB) using three-signal adaptive confidence scoring, then organized into a typed concept graph (3031 nodes, 6199 edges). Five cognitive traversal operations (backward traversal, forward cascade, entropy detection, branch cataloging, golden token pathfinding) were executed on the graph, supplemented by Apriori co-occurrence pattern mining and synchronicity detection (SVW).
 
-**Results:** The analysis identified 3014 knowledge gaps (0 critical). 25 research clusters (6 emerging). 10 independent convergence events. 5 computationally-generated research hypotheses.
+**Results:** The analysis identified 3014 knowledge gaps (0 critical). 24 research clusters (6 emerging). 6 independent convergence events. 5 computationally-generated research hypotheses.
 
 **Conclusions:** The golden token pathfinding algorithm identified an optimal research trajectory with HIGH confidence, resolving 6 identified knowledge gaps. The generated hypotheses are fully traceable to specific nodes in the concept graph, enabling reproducible verification.
 
@@ -56,7 +56,7 @@ Confidence was assessed via three corpus-relative signals:
 
 Composite confidence = 0.40 × Stability + 0.35 × Concentration + 0.25 × Distinctiveness.
 
-The corpus-adaptive thresholds were computed as: LOW < 0.4601413165022296 (30th percentile), HIGH ≥ 0.49678123587236145 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
+The corpus-adaptive thresholds were computed as: LOW < 0.46016379722813605 (30th percentile), HIGH ≥ 0.4965357685673019 (80th percentile). These thresholds emerged from the data distribution, not from predetermined cutoffs.
 
 ### 2.3 Epistemic Grounding
 
@@ -96,57 +96,57 @@ Five operations were executed on the concept graph (CTE Patent §§2.1-2.5):
 
 ### 3.1 Concept Graph Structure
 
-The constructed graph contains 3031 nodes (3015 DOCUMENT, 16 CONCEPT) and 6208 directed edges. Graph density is 0.000676 with 346 weakly connected component(s).
+The constructed graph contains 3031 nodes (3015 DOCUMENT, 16 CONCEPT) and 6199 directed edges. Graph density is 0.000675 with 347 weakly connected component(s).
 
-Epistemic grounding distribution: 1137 well-grounded, 1831 partially grounded, 47 weakly grounded, 0 ungrounded (mean grounding score: 0.704).
+Epistemic grounding distribution: 1138 well-grounded, 1830 partially grounded, 47 weakly grounded, 0 ungrounded (mean grounding score: 0.705).
 
 ### 3.2 Knowledge Gap Analysis
 
-Entropy detection identified 3014 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 868 high (severity 5-6), 2146 low (severity < 5).
+Entropy detection identified 3014 nodes exhibiting systemic issues: 0 critical (severity ≥ 7), 854 high (severity 5-6), 2160 low (severity < 5).
 
 Issue type distribution:
 
 - DECAYED: 3014
 - STALE: 2941
-- ORPHAN: 342
+- ORPHAN: 343
 
 ### 3.3 Research Cluster Analysis
 
-Branch cataloging identified 25 distinct clusters (6 emerging, 19 established). 198 structural mirror relationship(s) were detected between cluster pairs.
+Branch cataloging identified 24 distinct clusters (6 emerging, 18 established). 184 structural mirror relationship(s) were detected between cluster pairs.
 
 ### 3.4 Optimal Research Trajectory
 
-The golden token pathfinding algorithm produced a 9-step trajectory with HIGH confidence (composite score: 4.116). The path resolves 6 identified knowledge gap(s).
+The golden token pathfinding algorithm produced a 9-step trajectory with HIGH confidence (composite score: 4.117). The path resolves 6 identified knowledge gap(s).
 
 | Step | Source | Year | Score | Gap Resolution |
 |------|--------|------|-------|----------------|
-| 1 | Educational data mining: prediction of students... | 2022 | 0.516 | Yes |
-| 2 | Educational data mining: Predictive analysis of... | 2019 | 0.487 | Yes |
+| 1 | Educational data mining: prediction of students' academic performance using machine learning algorithms | 2022 | 0.516 | Yes |
+| 2 | Educational data mining: Predictive analysis of academic performance of public school students in the capital of Brazil | 2019 | 0.487 | Yes |
 | 3 | Psychology | None | 0.254 | No |
-| 4 | Predicting Student Performance Using Data Minin... | 2020 | 0.498 | Yes |
-| 5 | Educational data mining and learning analytics:... | 2020 | 0.498 | Yes |
-| 6 | A Systematic Review of Deep Learning Approaches... | 2019 | 0.483 | Yes |
-| 7 | Educational data mining and learning analytics ... | 2019 | 0.488 | Yes |
+| 4 | Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review | 2020 | 0.498 | Yes |
+| 5 | Educational data mining and learning analytics: An updated survey | 2020 | 0.498 | Yes |
+| 6 | A Systematic Review of Deep Learning Approaches to Educational Data Mining | 2019 | 0.483 | Yes |
+| 7 | Educational data mining and learning analytics for 21st century higher education: A review and synthesis | 2019 | 0.488 | Yes |
 | 8 | Computer Science | None | 0.392 | No |
-| 9 | itigges22/ATLAS: Adaptive Test-time Learning an... | 2026 | 0.500 | No |
+| 9 | itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization | 2026 | 0.500 | No |
 
 ### 3.5 Convergence Events
 
-SVW analysis identified 18155 synchronicity candidate pairs (163 high-tier) clustered into 10 convergence event(s).
+SVW analysis identified 18368 synchronicity candidate pairs (172 high-tier) clustered into 6 convergence event(s).
 
-- **SVW_010**: 2 independent groups, score 0.224, time window 1 years
-- **SVW_009**: 5 independent groups, score 0.178, time window 8 years
-- **SVW_001**: 1935 independent groups, score 0.159, time window 61 years
+- **SVW_005**: 2 independent groups, score 0.336, time window 1 years
+- **SVW_006**: 5 independent groups, score 0.183, time window 9 years
+- **SVW_001**: 1950 independent groups, score 0.160, time window 61 years
 
 ### 3.6 Generated Hypotheses
 
 The engine generated 5 traceable research hypothesis(es):
 
-- **H01** [MEDIUM]: Re-examining 'Artificial intelligence to deep learning: machine intelligence appr...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H02** [MEDIUM]: Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H03** [MEDIUM]: Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H04** [MEDIUM]: Re-examining 'Educational data mining and learning analytics: An updated survey' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **H05** [MEDIUM]: Re-examining 'The current landscape of learning analytics in higher education' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H01** [MEDIUM]: Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H02** [MEDIUM]: Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H03** [MEDIUM]: Re-examining 'Educational data mining and learning analytics: An updated survey' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H04** [MEDIUM]: Re-examining 'The current landscape of learning analytics in higher education' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **H05** [MEDIUM]: Re-examining 'Educational data mining: prediction of students' academic performan...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
 ## 4. Discussion
 
@@ -154,7 +154,7 @@ The computational meta-analysis of 3015 sources in Education & EdTech reveals se
 
 ### 4.2 Independent Convergence
 
-The detection of 10 convergence events — where researchers with no citation relationship arrived at structurally similar conclusions — suggests that certain conceptual territories are being approached independently from multiple directions. This pattern typically indicates high-value research frontiers that are structurally necessary rather than artifacts of methodological fashion.
+The detection of 6 convergence events — where researchers with no citation relationship arrived at structurally similar conclusions — suggests that certain conceptual territories are being approached independently from multiple directions. This pattern typically indicates high-value research frontiers that are structurally necessary rather than artifacts of methodological fashion.
 
 ### 4.4 Limitations
 
@@ -181,12 +181,12 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 [7] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). Semantic Scholar ID: `6f715e8bbdc69840eb6fe40357b092739da02f12`. Referenced in: golden token path.
 [8] Computer Science. (None). Semantic Scholar ID: `concept:computer_science`. Referenced in: golden token path.
 [9] itigges22/ATLAS: Adaptive Test-time Learning and Autonomous Specialization. (2026). Semantic Scholar ID: `github:itigges22/ATLAS`. Referenced in: golden token path.
-[10] Artificial intelligence to deep learning: machine intelligence approach for drug discovery. (2021). Semantic Scholar ID: `29409efa04ac99ccf01d2a011d21d5d14e870000`. Referenced in: entropy detection.
-[11] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). Semantic Scholar ID: `8f7948d72b19b3be7191396c5e637cdb14a2371c`. Referenced in: entropy detection.
-[12] Deep Knowledge Tracing. (2015). Semantic Scholar ID: `fa98d609eb14ce25dd73cd8713a5e284948b4ff4`. Referenced in: entropy detection.
-[13] The current landscape of learning analytics in higher education. (2018). Semantic Scholar ID: `17abdcb1da177cefb81d7d76dc801129f1d828f0`. Referenced in: entropy detection.
-[14] A Systematic Review on Educational Data Mining. (2017). Semantic Scholar ID: `86e2440835ff932e8dae13fdb7c103bce8011291`. Referenced in: entropy detection.
-[15] Learning Analytics. (2019). Semantic Scholar ID: `42f2f68c2e1e41dc25953f7be12cb096d02fd84c`. Referenced in: entropy detection.
+[10] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). Semantic Scholar ID: `8f7948d72b19b3be7191396c5e637cdb14a2371c`. Referenced in: entropy detection.
+[11] Deep Knowledge Tracing. (2015). Semantic Scholar ID: `fa98d609eb14ce25dd73cd8713a5e284948b4ff4`. Referenced in: entropy detection.
+[12] The current landscape of learning analytics in higher education. (2018). Semantic Scholar ID: `17abdcb1da177cefb81d7d76dc801129f1d828f0`. Referenced in: entropy detection.
+[13] A Systematic Review on Educational Data Mining. (2017). Semantic Scholar ID: `86e2440835ff932e8dae13fdb7c103bce8011291`. Referenced in: entropy detection.
+[14] Learning Analytics. (2019). Semantic Scholar ID: `42f2f68c2e1e41dc25953f7be12cb096d02fd84c`. Referenced in: entropy detection.
+[15] Artificial intelligence in cancer target identification and drug discovery. (2022). Semantic Scholar ID: `8e08f45826991850f3077dc09206ae4a4f94d194`. Referenced in: entropy detection.
 [16] Utilising learning analytics to support study success in higher education: a systematic review. (2020). Semantic Scholar ID: `8294a28f8a3990dcbefe60fe66056997dbc9d057`. Referenced in: entropy detection.
 
 ## Appendix
@@ -195,23 +195,15 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 
 - Embedding dimensionality: 256
 - Perturbation σ: 0.1
-- Confidence threshold LOW: < 0.4601413165022296
-- Confidence threshold HIGH: ≥ 0.49678123587236145
-- Concentration percentiles: p25=0.49131758713551077, p50=0.5327548693465047, p75=0.5844182940712481
-- Distinctiveness percentiles: p25=0.6520976505082909, p50=0.6927917978211453, p75=0.7376529114587677
-- Stability percentiles: p25=0.26363528984656126, p50=0.28047798069718416, p75=0.29723721353916543
+- Confidence threshold LOW: < 0.46016379722813605
+- Confidence threshold HIGH: ≥ 0.4965357685673019
+- Concentration percentiles: p25=0.4909254677796357, p50=0.5334660624002088, p75=0.584952418799305
+- Distinctiveness percentiles: p25=0.6514128354795263, p50=0.6931051188395668, p75=0.7375754829570951
+- Stability percentiles: p25=0.26398601692857826, p50=0.27988678094112035, p75=0.2959978732381128
 
 ### B. Full Hypothesis Details
 
 **H01** [MEDIUM]
-- Hypothesis: Re-examining 'Artificial intelligence to deep learning: machine intelligence appr...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- Grounded in: entropy gap node: Artificial intelligence to deep learning: machine intelli...
-- Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- Suggested method: machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
-- Gap node: `29409efa04ac99ccf01d2a011d21d5d14e870000` (severity: 6)
-- On golden path: No
-
-**H02** [MEDIUM]
 - Hypothesis: Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Molecular Docking: Shifting Paradigms in Drug Discovery
 - Novel because: not yet connected to 'Medicine' despite logical dependency in prerequisite chain
@@ -219,7 +211,7 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Gap node: `8f7948d72b19b3be7191396c5e637cdb14a2371c` (severity: 6)
 - On golden path: No
 
-**H03** [MEDIUM]
+**H02** [MEDIUM]
 - Hypothesis: Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Deep Knowledge Tracing
 - Novel because: not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
@@ -227,7 +219,7 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Gap node: `fa98d609eb14ce25dd73cd8713a5e284948b4ff4` (severity: 6)
 - On golden path: No
 
-**H04** [MEDIUM]
+**H03** [MEDIUM]
 - Hypothesis: Re-examining 'Educational data mining and learning analytics: An updated survey' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: Educational data mining and learning analytics: An update... + included in golden token recommended path
 - Novel because: not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
@@ -235,7 +227,7 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Gap node: `7bd598f6a7c6eb4265fe5a9ca64504d1d639684a` (severity: 6)
 - On golden path: Yes
 
-**H05** [MEDIUM]
+**H04** [MEDIUM]
 - Hypothesis: Re-examining 'The current landscape of learning analytics in higher education' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - Grounded in: entropy gap node: The current landscape of learning analytics in higher edu...
 - Novel because: not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
@@ -243,11 +235,19 @@ Future work will focus on: upgrading the QEB encoder to transformer-based embedd
 - Gap node: `17abdcb1da177cefb81d7d76dc801129f1d828f0` (severity: 6)
 - On golden path: No
 
+**H05** [MEDIUM]
+- Hypothesis: Re-examining 'Educational data mining: prediction of students' academic performan...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- Grounded in: entropy gap node: Educational data mining: prediction of students' academic... + included in golden token recommended path
+- Novel because: not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
+- Suggested method: machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
+- Gap node: `0ad4189bdddfa32ecf7b1c9122eba57c8d8bbc7f` (severity: 6)
+- On golden path: Yes
+
 ### C. Engine Configuration
 
 - Engine version: 0.3.0-prototype
 - Total sources: 3015
-- Timestamp: 2026-04-03T00:36:35.399997
+- Timestamp: 2026-04-03T02:24:10.010391
 
 Patents implemented:
 - QECO: Three-Signal Adaptive Confidence (Module 1)
