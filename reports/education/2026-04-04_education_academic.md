@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 04, 2026
-**Sources:** 3121
+**Sources:** 3122
 
 ---
 
@@ -15,10 +15,10 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Education & EdTech |
-| Sources Analyzed | 3121 |
-| Graph Nodes | 3138 |
-| Graph Edges | 123249 |
-| Knowledge Gaps (total) | 3111 |
+| Sources Analyzed | 3122 |
+| Graph Nodes | 3139 |
+| Graph Edges | 122649 |
+| Knowledge Gaps (total) | 3112 |
 | Knowledge Gaps (critical) | 0 |
 | Research Clusters | 12 |
 | Convergence Events | 6 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 3121
+**Total sources:** 3122
 
 **Source APIs:**
 
@@ -51,7 +51,7 @@
 | Status | Count |
 |--------|-------|
 | Well-grounded (≥0.7) | 1138 |
-| Partially grounded (0.4–0.7) | 1913 |
+| Partially grounded (0.4–0.7) | 1914 |
 | Weakly grounded (0.2–0.4) | 70 |
 | Ungrounded (<0.2) | 0 |
 | **Mean grounding score** | **0.696** |
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.4 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.35 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.25 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.3682 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.3271 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.3048 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.4 × Stability + 0.35 × Concentration + 0.25 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.3682 × Stability + 0.3271 × Concentration + 0.3048 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.35939115082221434 (30th percentile) |
-| HIGH threshold | ≥ 0.41836031265570117 (80th percentile) |
-| Concentration p25/p50/p75 | 0.42340710759162903 / 0.43788495659828186 / 0.45224010944366455 |
-| Distinctiveness p25/p50/p75 | 0.46832096576690674 / 0.5964109897613525 / 0.700294017791748 |
-| Stability p25/p50/p75 | 0.1923486377700247 / 0.20612913324770546 / 0.22007240071411704 |
+| LOW threshold | < 0.37032386775148324 (30th percentile) |
+| HIGH threshold | ≥ 0.4415540716820308 (80th percentile) |
+| Concentration p25/p50/p75 | 0.4234142601490021 / 0.43795257806777954 / 0.4522300809621811 |
+| Distinctiveness p25/p50/p75 | 0.4685560464859009 / 0.596909761428833 / 0.7003696262836456 |
+| Stability p25/p50/p75 | 0.1925902273137056 / 0.2062467423173473 / 0.22066111371951255 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 3138 |
+| Total Nodes | 3139 |
 |   — CONCEPT | 17 |
-|   — DOCUMENT | 3121 |
-| Total Edges | 123249 |
-|   — MIRRORS | 113568 |
-|   — EXTENDS | 4810 |
+|   — DOCUMENT | 3122 |
+| Total Edges | 122649 |
+|   — MIRRORS | 112993 |
+|   — EXTENDS | 4779 |
 |   — CONTAINS | 4211 |
-|   — ENABLES | 603 |
-|   — DEPENDS_ON | 57 |
-| Density | 0.012520 |
-| Connected Components | 238 |
+|   — ENABLES | 605 |
+|   — DEPENDS_ON | 61 |
+| Density | 0.012451 |
+| Connected Components | 237 |
 
 ### 4.3 Edge Construction Rules
 
@@ -123,9 +123,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Source | Chain Depth | Total Drift | Forgotten Ancestors |
 |--------|------------|-------------|--------------------|
+| Learning analytics: state of the art | 5 | 0.67 | 5 |
 | Computer Science | 1 | 0.00 | 0 |
 | Investigating student exposure to competency-based | 1 | 0.00 | 1 |
-| Learning analytics: state of the art | 1 | 0.00 | 1 |
 | Supervised diagnostic classification of cognitive  | 1 | 0.00 | 1 |
 | Competency-based Education 101☆ | 1 | 0.00 | 1 |
 
@@ -143,16 +143,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 3111
-**Critical (≥7):** 0 | **High (5-6):** 2480 | **Low (<5):** 631
+**Total entropy nodes:** 3112
+**Critical (≥7):** 0 | **High (5-6):** 2481 | **Low (<5):** 631
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 3111 |
-| STALE | 3018 |
-| ORPHAN | 234 |
+| DECAYED | 3112 |
+| STALE | 3019 |
+| ORPHAN | 233 |
 
 **Complete Entropy Node List:**
 
@@ -186,61 +186,61 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| The PRISMA 2020 statement: an updated guideline fo | 2775 | Established | 2018.7 |
+| The PRISMA 2020 statement: an updated guideline fo | 2777 | Established | 2018.7 |
 | Beyond Language Barriers: Allowing Multiple Langua | 2 | Emerging | 2023.5 |
 | Implementing Diagnostic Assessment in Designing Di | 2 | Emerging | 2023.5 |
 | Utilizing Cognitive Diagnostic Assessments to Iden | 2 | Emerging | 2024.0 |
 | Generative AI Based on Deep Knowledge Tracing for  | 2 | Emerging | 2023.0 |
-| COVLIAS 1.0: Lung Segmentation in COVID-19 Compute | 3 | Established | 2021.3 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Artificial Intell | 3 | Established | 2021.3 |
 | Achievement goal perception: An interpersonal appr | 2 | Emerging | 2024.0 |
-| Relationships Between First-Year Student Resilienc | 2 | Emerging | 2024.0 |
-| Outage Performance of Multi-tier UAV Communication | 20 | Established | 2018.3 |
+| Mindful self-care and resilience in first-year und | 2 | Emerging | 2024.0 |
+| A 20 Gbps Data Transmitting ASIC with PAM4 for Par | 20 | Established | 2018.3 |
 | Formal extension of noncommutative tensor-triangul | 2 | Emerging | 2023.5 |
-| Discovery of the Mercury Isotopes | 4 | Established | 2012.5 |
+| Discovery of the Einsteinium Isotopes | 4 | Established | 2012.5 |
 | VoiceOfML/CMLMUF-Education-And-History (dataset) | 88 | Emerging | 2024.2 |
 
 **Structural Mirrors:**
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| The PRISMA 2020 statement: an updat | Outage Performance of Multi-tier UA | 0.66 |
-| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.95 |
+| The PRISMA 2020 statement: an updat | A 20 Gbps Data Transmitting ASIC wi | 0.61 |
+| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.94 |
 | Implementing Diagnostic Assessment  | Utilizing Cognitive Diagnostic Asse | 1.00 |
 | Implementing Diagnostic Assessment  | Generative AI Based on Deep Knowled | 1.00 |
-| Implementing Diagnostic Assessment  | COVLIAS 1.0: Lung Segmentation in C | 1.00 |
+| Implementing Diagnostic Assessment  | COVLIAS 1.0Lesion vs. MedSeg: An Ar | 1.00 |
 | Implementing Diagnostic Assessment  | Achievement goal perception: An int | 1.00 |
-| Implementing Diagnostic Assessment  | Relationships Between First-Year St | 1.00 |
+| Implementing Diagnostic Assessment  | Mindful self-care and resilience in | 1.00 |
 | Implementing Diagnostic Assessment  | Formal extension of noncommutative  | 0.45 |
-| Implementing Diagnostic Assessment  | Discovery of the Mercury Isotopes | 0.45 |
+| Implementing Diagnostic Assessment  | Discovery of the Einsteinium Isotop | 0.45 |
 | Utilizing Cognitive Diagnostic Asse | Generative AI Based on Deep Knowled | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | COVLIAS 1.0: Lung Segmentation in C | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | COVLIAS 1.0Lesion vs. MedSeg: An Ar | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Achievement goal perception: An int | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | Relationships Between First-Year St | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Mindful self-care and resilience in | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Formal extension of noncommutative  | 0.45 |
-| Utilizing Cognitive Diagnostic Asse | Discovery of the Mercury Isotopes | 0.45 |
-| Generative AI Based on Deep Knowled | COVLIAS 1.0: Lung Segmentation in C | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Discovery of the Einsteinium Isotop | 0.45 |
+| Generative AI Based on Deep Knowled | COVLIAS 1.0Lesion vs. MedSeg: An Ar | 1.00 |
 | Generative AI Based on Deep Knowled | Achievement goal perception: An int | 1.00 |
-| Generative AI Based on Deep Knowled | Relationships Between First-Year St | 1.00 |
+| Generative AI Based on Deep Knowled | Mindful self-care and resilience in | 1.00 |
 | Generative AI Based on Deep Knowled | Formal extension of noncommutative  | 0.45 |
-| Generative AI Based on Deep Knowled | Discovery of the Mercury Isotopes | 0.45 |
-| COVLIAS 1.0: Lung Segmentation in C | Achievement goal perception: An int | 1.00 |
-| COVLIAS 1.0: Lung Segmentation in C | Relationships Between First-Year St | 1.00 |
-| COVLIAS 1.0: Lung Segmentation in C | Formal extension of noncommutative  | 0.45 |
-| COVLIAS 1.0: Lung Segmentation in C | Discovery of the Mercury Isotopes | 0.45 |
-| Achievement goal perception: An int | Relationships Between First-Year St | 1.00 |
+| Generative AI Based on Deep Knowled | Discovery of the Einsteinium Isotop | 0.45 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | Achievement goal perception: An int | 1.00 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | Mindful self-care and resilience in | 1.00 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | Formal extension of noncommutative  | 0.45 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | Discovery of the Einsteinium Isotop | 0.45 |
+| Achievement goal perception: An int | Mindful self-care and resilience in | 1.00 |
 | Achievement goal perception: An int | Formal extension of noncommutative  | 0.45 |
-| Achievement goal perception: An int | Discovery of the Mercury Isotopes | 0.45 |
-| Relationships Between First-Year St | Formal extension of noncommutative  | 0.45 |
-| Relationships Between First-Year St | Discovery of the Mercury Isotopes | 0.45 |
-| Outage Performance of Multi-tier UA | Formal extension of noncommutative  | 0.78 |
-| Outage Performance of Multi-tier UA | Discovery of the Mercury Isotopes | 0.78 |
-| Outage Performance of Multi-tier UA | VoiceOfML/CMLMUF-Education-And-Hist | 0.74 |
-| Formal extension of noncommutative  | Discovery of the Mercury Isotopes | 1.00 |
+| Achievement goal perception: An int | Discovery of the Einsteinium Isotop | 0.45 |
+| Mindful self-care and resilience in | Formal extension of noncommutative  | 0.45 |
+| Mindful self-care and resilience in | Discovery of the Einsteinium Isotop | 0.45 |
+| A 20 Gbps Data Transmitting ASIC wi | Formal extension of noncommutative  | 0.82 |
+| A 20 Gbps Data Transmitting ASIC wi | Discovery of the Einsteinium Isotop | 0.82 |
+| A 20 Gbps Data Transmitting ASIC wi | VoiceOfML/CMLMUF-Education-And-Hist | 0.71 |
+| Formal extension of noncommutative  | Discovery of the Einsteinium Isotop | 1.00 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 4.603
+**Composite score:** 4.602
 **Confidence:** HIGH
 **Entropy nodes resolved:** 6
 
@@ -257,7 +257,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Step | Source | Year | Score | Gap Node |
 |------|--------|------|-------|----------|
-| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.560 | YES |
+| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.559 | YES |
 | 2 | A Comparison of Undersampling, Oversampling, and S | 2023 | 0.529 | YES |
 | 3 | Computer Science | None | 0.393 | — |
 | 4 | Impact of word embedding models on text analytics  | 2023 | 0.526 | YES |
@@ -287,9 +287,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | [Emerging] AND (Very Recent work) | 0.262 |
 | (Very Recent work) AND research in Computer Science | 0.194 |
 | using Machine Learning AND research in Computer Science | 0.169 |
-| [Emerging] AND using Machine Learning | 0.153 |
+| [Emerging] AND using Machine Learning | 0.154 |
 | [Emerging] AND (Recent work) | 0.152 |
-| (Recent work) AND research in Computer Science | 0.151 |
+| (Recent work) AND research in Computer Science | 0.150 |
 | (Established work) AND research in Computer Science | 0.147 |
 | with Positive findings AND [Emerging] | 0.143 |
 | [Emerging] AND research in Education | 0.142 |
@@ -302,17 +302,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | topic:education | impact:emerging | 0.142 | 0.86 | 1.40 |
 | topic:mathematics | topic:computer science | 0.093 | 0.80 | 1.39 |
 | temporal:very_recent + topic:e | impact:emerging | 0.056 | 0.82 | 1.34 |
-| method:machine_learning + temp | topic:computer science | 0.054 | 0.75 | 1.31 |
 | impact:highly_cited | topic:computer science | 0.108 | 0.75 | 1.30 |
-| method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.29 |
-| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.77 | 1.25 |
-| impact:emerging + method:machi | topic:computer science | 0.110 | 0.72 | 1.25 |
+| method:machine_learning + temp | topic:computer science | 0.053 | 0.75 | 1.30 |
+| method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.28 |
+| impact:emerging + method:machi | topic:computer science | 0.111 | 0.72 | 1.25 |
+| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.76 | 1.25 |
 | method:machine_learning + temp | impact:emerging | 0.070 | 0.74 | 1.21 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 43044
-**High-tier pairs:** 320
+**Candidate pairs:** 43290
+**High-tier pairs:** 316
 **Convergence events:** 6
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
@@ -324,7 +324,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | svw_002 | 0.246 | 2 | 1y | 2 |
 | svw_005 | 0.180 | 4 | 4y | 4 |
 | svw_004 | 0.176 | 5 | 12y | 5 |
-| svw_001 | 0.147 | 2100 | 61y | 2100 |
+| svw_001 | 0.147 | 2098 | 61y | 2098 |
 | svw_003 | 0.143 | 2 | 2y | 2 |
 | svw_006 | 0.097 | 3 | 6y | 3 |
 
@@ -396,8 +396,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 3121 |
-| Timestamp | 2026-04-04T20:31:01.964111 |
+| Total sources | 3122 |
+| Timestamp | 2026-04-04T21:36:13.898646 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
