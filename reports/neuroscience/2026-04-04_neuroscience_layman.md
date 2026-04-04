@@ -13,9 +13,9 @@ This article synthesizes 3171 sources in Neuroscience into a cross-sectional rev
 
 ## The Research Landscape
 
-This analysis covers 3171 sources in Neuroscience, mapped into 3171 research papers and 13 topic areas with 12564 connections.
+This analysis covers 3171 sources in Neuroscience, mapped into 3171 research papers and 13 topic areas with 12582 connections.
 
-The research is fragmented across 196 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 195 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
 The corpus is well-grounded: 33% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.69/1.00).
 
@@ -37,10 +37,10 @@ Each gap below follows a structured format: what was established before the gap 
 
 **3105 structural gaps** identified in the research landscape:
 
-- **1379 moderate** — important but less urgent
-- **1726 minor** — older or isolated issues
+- **1365 moderate** — important but less urgent
+- **1740 minor** — older or isolated issues
 
-**Prevalence by type:** 3105 decayed; 3009 stale; 193 orphaned.
+**Prevalence by type:** 3105 decayed; 3009 stale; 192 orphaned.
 
 ---
 
@@ -71,7 +71,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 2: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [2]
+### Bridge Article 2: 20 years of the default mode network: A review and synthesis. [2]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -98,7 +98,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 3: From Cognitive Load Theory to Collaborative Cognitive Load Theory [3]
+### Bridge Article 3: Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [3]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -125,7 +125,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 4: Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity [4]
+### Bridge Article 4: From Cognitive Load Theory to Collaborative Cognitive Load Theory [4]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -152,7 +152,7 @@ Confidence: *not computed*.
 
 ---
 
-### Bridge Article 5: Dopamine reward prediction error coding [5]
+### Bridge Article 5: Microglia regulation of synaptic plasticity and learning and memory [5]
 *Important (severity 6/9) — stale, decayed*
 
 **A. Baseline — What Was Established**
@@ -184,41 +184,41 @@ Confidence: *not computed*.
 
 The corpus organizes into **11 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
 
-- **5 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
-- **6 established** — mature areas with deep citation networks
+- **6 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
+- **5 established** — mature areas with deep citation networks
 
-### LibreYOLO/brain-tumor-m2pbp (dataset)
-*621 sources, Established (avg. year: 2016.4)*
+### Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control
+*543 sources, Established (avg. year: 2015.5)*
 
-This cluster centers on LibreYOLO/brain-tumor-m2pbp (dataset) with 621 interconnected sources.
+This cluster centers on Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control with 543 interconnected sources.
 
 ### Predictive Reward Signal of Dopamine Neurons
-*479 sources, Established (avg. year: 2018.5)*
+*419 sources, Established (avg. year: 2018.3)*
 
-This cluster centers on Predictive Reward Signal of Dopamine Neurons with 479 interconnected sources.
+This cluster centers on Predictive Reward Signal of Dopamine Neurons with 419 interconnected sources.
 
 ### Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks
-*1682 sources, Established (avg. year: 2018.8)*
+*1758 sources, Established (avg. year: 2018.8)*
 
-This cluster centers on Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks with 1682 interconnected sources.
+This cluster centers on Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks with 1758 interconnected sources.
+
+### Cognitive Architecture and Instructional Design: 20 Years Later
+*51 sources, Established (avg. year: 2019.8)*
+
+This cluster centers on Cognitive Architecture and Instructional Design: 20 Years Later with 51 interconnected sources.
 
 ### A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity
 *2 sources, Emerging (avg. year: 2023.0)*
 
 This cluster centers on A Cognitive Load Theory Approach to Defining and Measuring Task Complexity Through Element Interactivity with 2 interconnected sources.
 
-### Self–other relations in social development and autism: multiple roles for mirror neurons and other brain bases
-*21 sources, Established (avg. year: 2017.1)*
-
-This cluster centers on Self–other relations in social development and autism: multiple roles for mirror neurons and other brain bases with 21 interconnected sources.
-
 **Structural parallels:**
 
 Some communities have strikingly similar structures even though they study different topics. Methods and insights from one could transfer to the other:
 
-- "LibreYOLO/brain-tumor-m2pbp (dataset)" and "Predictive Reward Signal of Dopamine Neurons" (93% structural similarity)
-- "LibreYOLO/brain-tumor-m2pbp (dataset)" and "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" (93% structural similarity)
-- "LibreYOLO/brain-tumor-m2pbp (dataset)" and "Self–other relations in social development and autism: multiple roles for mirror neurons and other brain bases" (83% structural similarity)
+- "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control" and "Predictive Reward Signal of Dopamine Neurons" (82% structural similarity)
+- "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control" and "Faster R-CNN: Towards Real-Time Object Detection with Region Proposal Networks" (100% structural similarity)
+- "Dissociable Intrinsic Connectivity Networks for Salience Processing and Executive Control" and "Cognitive Architecture and Instructional Design: 20 Years Later" (69% structural similarity)
 
 
 ## Recommended Research Trajectory
@@ -227,34 +227,36 @@ Combining the field's foundations, frontiers, gaps, and community structure yiel
 
 This trajectory has **high confidence** — the structural evidence strongly supports this sequence.
 
-**Step 1: bendik-eeg-henriksen/norwegian-legal-bert (fill-mask)** [6] (2026) — High priority
+Following this path addresses **3 known knowledge gap(s)** identified above.
+
+**Step 1: 20 years of the default mode network: A review and synthesis.** [2] (2023) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 2:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 2: ACE-Brain/ACE-Brain-0-8B (image-text-to-text)** [7] (2026) — High priority
+**Step 2: Default Mode Dynamics for Global Functional Integration** [6] (2015) — Moderate priority
 - *Why this leads to step 3:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 3: BrainForge/Devstral-2-123B-Instruct-2512** [8] (2026) — High priority
+**Step 3: Default mode network can support the level of detail in experience during active task states** [7] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 4:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 4: braindecode/labram-pretrained** [9] (2026) — High priority
+**Step 4: Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition** [8] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 5:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 5: braindecode/eegpt-pretrained** [10] (2026) — High priority
+**Step 5: Computer Science** [9] (None) — Moderate priority
 - *Why this leads to step 6:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 6: joon0890/BrainMVP-16k (dataset)** [11] (2026) — High priority
+**Step 6: BrainForge/Devstral-2-123B-Instruct-2512** [10] (2026) — High priority
 - *Why this leads to step 7:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 7: dexmac/progressive-cognitive-results (dataset)** [12] (2026) — High priority
+**Step 7: bendik-eeg-henriksen/norwegian-legal-bert (fill-mask)** [11] (2026) — High priority
 - *Why this leads to step 8:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 8: amhapankar/my-trading-brain (dataset)** [13] (2026) — High priority
+**Step 8: ACE-Brain/ACE-Brain-0-8B (image-text-to-text)** [12] (2026) — High priority
 - *Why this leads to step 9:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 9: Forainest789/NATVIEW_EEGFMRI_processed (dataset)** [14] (2026) — High priority
+**Step 9: PrunaAI/cognitivecomputations-Dolphin-2.9.1-Phi-3-Kensho-4.5B-GGUF-smashed** [13] (2026) — High priority
 - *Why this leads to step 10:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 10: shankar18143/SAM_brain (dataset)** [15] (2026) — High priority
+**Step 10: mradermacher/HuatuoGPT-Vision-7B-Brainseg-SFT-224-structured-all-GGUF** [14] (2026) — High priority
 
 
 ## Hidden Patterns
@@ -264,7 +266,7 @@ Beyond individual papers, certain combinations of research attributes appear tog
 **Most common research combinations:**
 
 - [Emerging] AND research in Computer Science — found in **29%** of sources
-- [Emerging] AND (Very Recent work) — found in **22%** of sources
+- [Emerging] AND (Very Recent work) — found in **23%** of sources
 - (Very Recent work) AND research in Computer Science — found in **18%** of sources
 - [Emerging] AND research in Neuroscience — found in **17%** of sources
 - using Neuroimaging AND research in Neuroscience — found in **17%** of sources
@@ -296,39 +298,41 @@ The following research directions emerge from the intersection of knowledge gaps
 
 ### H02 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Review and Classification of Emotion Recognition Based on... [2]
-
-**Why this is new:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
-
-**How to test it:** machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
-
-### H03 — **MEDIUM confidence**
-
-**Hypothesis:** Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-
-**Grounded in:** entropy gap node: From Cognitive Load Theory to Collaborative Cognitive Loa... [3]
+**Grounded in:** entropy gap node: 20 years of the default mode network: A review and synthe... + included in golden token recommended path [2]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
 **How to test it:** machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
-### H04 — **MEDIUM confidence**
+*This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
 
-**Hypothesis:** Re-examining 'Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+### H03 — **MEDIUM confidence**
 
-**Grounded in:** entropy gap node: Casting a Wide Net: Role of Perineuronal Nets in Neural P... [4]
+**Hypothesis:** Re-examining 'Review and Classification of Emotion Recognition Based on EEG Brain...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+
+**Grounded in:** entropy gap node: Review and Classification of Emotion Recognition Based on... [3]
 
 **Why this is new:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
 
 **How to test it:** machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
 
+### H04 — **MEDIUM confidence**
+
+**Hypothesis:** Re-examining 'From Cognitive Load Theory to Collaborative Cognitive Load Theory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+
+**Grounded in:** entropy gap node: From Cognitive Load Theory to Collaborative Cognitive Loa... [4]
+
+**Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
+
+**How to test it:** machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
+
 ### H05 — **MEDIUM confidence**
 
-**Hypothesis:** Re-examining 'Dopamine reward prediction error coding' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+**Hypothesis:** Re-examining 'Microglia regulation of synaptic plasticity and learning and memory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: Dopamine reward prediction error coding [5]
+**Grounded in:** entropy gap node: Microglia regulation of synaptic plasticity and learning ... [5]
 
 **Why this is new:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 
@@ -339,37 +343,26 @@ The following research directions emerge from the intersection of knowledge gaps
 
 When researchers with **no citation relationship** independently arrive at similar conclusions, it signals that the field is converging on structurally important territory — ideas that are "in the air" regardless of who discovers them first.
 
-**31801 candidate pairs** (669 high-confidence) grouped into **3 convergence events**.
-
-**SVW_003 — Moderate convergence** (score: 0.261)
-
-*7 independent research groups converged on similar findings within 17 years*
-
-Converging sources:
-- Pricing Options on Defaultable Stocks [16]
-- A model-insensitive determination of First-hitting-time densities with Applic... [17]
-- Systemic Risk Management in Financial Networks with Credit Default Swaps [18]
-- Managing Default Contagion in Inhomogeneous Financial Networks [19]
-- *(+3 more)*
+**31394 candidate pairs** (659 high-confidence) grouped into **2 convergence events**.
 
 **SVW_001 — Moderate convergence** (score: 0.165)
 
-*2156 independent research groups converged on similar findings within 39 years*
+*2158 independent research groups converged on similar findings within 48 years*
 
 Converging sources:
-- Training the Emotional Brain: Improving Affective Control through Emotional W... [20]
-- Replay bursts coincide with activation of the default mode and parietal alpha... [21]
-- Embodied Resonance [22]
-- Associations between aerobic exercise and dopamine-related reward-processing:... [23]
-- *(+2152 more)*
+- Training the Emotional Brain: Improving Affective Control through Emotional W... [15]
+- Embodied Resonance [16]
+- APOE genotype moderates the relationship between LRP1 polymorphism and cognit... [17]
+- The Impact of Cognitive Load Theory on Online Learning Outcomes for Adolescen... [18]
+- *(+2154 more)*
 
-**SVW_002 — Moderate convergence** (score: 0.027)
+**SVW_002 — Moderate convergence** (score: 0.150)
 
-*2 independent research groups converged on similar findings within 15 years*
+*2 independent research groups converged on similar findings within 2 years*
 
 Converging sources:
-- On Information Plane Analyses of Neural Network Classifiers -- A Review [24]
-- Decision making, the P3, and the locus coeruleus--norepinephrine system. [25]
+- Dynamic Contagion in a Banking System with Births and Defaults [19]
+- Using Network Interbank Contagion in Bank Default Prediction [20]
 
 
 ---
@@ -378,8 +371,8 @@ Converging sources:
 
 Based on 3171 sources in Neuroscience:
 
-- **5 emerging research community(ies)** represent the field's active growth edges.
-- Start with: **bendik-eeg-henriksen/norwegian-legal-bert (fill-mask)** [6]
+- **6 emerging research community(ies)** represent the field's active growth edges.
+- Start with: **20 years of the default mode network: A review and synthesis.** [2]
 
 ---
 
@@ -406,50 +399,40 @@ This analysis covered 3171 sources in Neuroscience. Every claim traces to specif
 
 [1] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, next discovery.
 
-[2] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap, next discovery.
+[2] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, next discovery, recommended path, top recommendation.
 
-[3] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: knowledge gap, next discovery.
+[3] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap, next discovery.
 
-[4] Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity. (2016). ID: `b49714edbef4...`. Referenced in: knowledge gap, next discovery.
+[4] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: knowledge gap, next discovery.
 
-[5] Dopamine reward prediction error coding. (2016). ID: `408e947bde84...`. Referenced in: knowledge gap, next discovery.
+[5] Microglia regulation of synaptic plasticity and learning and memory. (2021). ID: `7fb4e04a32b4...`. Referenced in: knowledge gap, next discovery.
 
-[6] bendik-eeg-henriksen/norwegian-legal-bert (fill-mask). (2026). ID: `hf_8d996a3d7...`. Referenced in: recommended path, top recommendation.
+[6] Default Mode Dynamics for Global Functional Integration. (2015). ID: `openalex:W21...`. Referenced in: recommended path.
 
-[7] ACE-Brain/ACE-Brain-0-8B (image-text-to-text). (2026). ID: `hf_5aa8c11b2...`. Referenced in: recommended path.
+[7] Default mode network can support the level of detail in experience during active task states. (2018). ID: `01deaa82450a...`. Referenced in: recommended path.
 
-[8] BrainForge/Devstral-2-123B-Instruct-2512. (2026). ID: `hf_38951b75d...`. Referenced in: recommended path.
+[8] Distant from input: Evidence of regions within the default mode network supporting perceptually-decoupled and conceptually-guided cognition. (2018). ID: `33e59be01c5c...`. Referenced in: recommended path.
 
-[9] braindecode/labram-pretrained. (2026). ID: `hf_816e33dbe...`. Referenced in: recommended path.
+[9] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
 
-[10] braindecode/eegpt-pretrained. (2026). ID: `hf_1c88f5d7a...`. Referenced in: recommended path.
+[10] BrainForge/Devstral-2-123B-Instruct-2512. (2026). ID: `hf_38951b75d...`. Referenced in: recommended path.
 
-[11] joon0890/BrainMVP-16k (dataset). (2026). ID: `hf_3a355410c...`. Referenced in: recommended path.
+[11] bendik-eeg-henriksen/norwegian-legal-bert (fill-mask). (2026). ID: `hf_8d996a3d7...`. Referenced in: recommended path.
 
-[12] dexmac/progressive-cognitive-results (dataset). (2026). ID: `hf_5f08e662b...`. Referenced in: recommended path.
+[12] ACE-Brain/ACE-Brain-0-8B (image-text-to-text). (2026). ID: `hf_5aa8c11b2...`. Referenced in: recommended path.
 
-[13] amhapankar/my-trading-brain (dataset). (2026). ID: `hf_e93bf8458...`. Referenced in: recommended path.
+[13] PrunaAI/cognitivecomputations-Dolphin-2.9.1-Phi-3-Kensho-4.5B-GGUF-smashed. (2026). ID: `hf_6b176712a...`. Referenced in: recommended path.
 
-[14] Forainest789/NATVIEW_EEGFMRI_processed (dataset). (2026). ID: `hf_4989d7c68...`. Referenced in: recommended path.
+[14] mradermacher/HuatuoGPT-Vision-7B-Brainseg-SFT-224-structured-all-GGUF. (2026). ID: `hf_87587d716...`. Referenced in: recommended path.
 
-[15] shankar18143/SAM_brain (dataset). (2026). ID: `hf_672b129b1...`. Referenced in: recommended path.
+[15] Training the Emotional Brain: Improving Affective Control through Emotional W.... (N/A). ID: `00350f5688d8...`. Referenced in: convergence event.
 
-[16] Pricing Options on Defaultable Stocks. (N/A). ID: `arxiv:0707.0...`. Referenced in: convergence event.
+[16] Embodied Resonance. (N/A). ID: `012b4bebfb4f...`. Referenced in: convergence event.
 
-[17] A model-insensitive determination of First-hitting-time densities with Applic.... (N/A). ID: `arxiv:1002.2...`. Referenced in: convergence event.
+[17] APOE genotype moderates the relationship between LRP1 polymorphism and cognit.... (N/A). ID: `01a36de65459...`. Referenced in: convergence event.
 
-[18] Systemic Risk Management in Financial Networks with Credit Default Swaps. (N/A). ID: `arxiv:1601.0...`. Referenced in: convergence event.
+[18] The Impact of Cognitive Load Theory on Online Learning Outcomes for Adolescen.... (N/A). ID: `01d1712f6626...`. Referenced in: convergence event.
 
-[19] Managing Default Contagion in Inhomogeneous Financial Networks. (N/A). ID: `arxiv:1610.0...`. Referenced in: convergence event.
+[19] Dynamic Contagion in a Banking System with Births and Defaults. (N/A). ID: `arxiv:1807.0...`. Referenced in: convergence event.
 
-[20] Training the Emotional Brain: Improving Affective Control through Emotional W.... (N/A). ID: `00350f5688d8...`. Referenced in: convergence event.
-
-[21] Replay bursts coincide with activation of the default mode and parietal alpha.... (N/A). ID: `008a6b40846c...`. Referenced in: convergence event.
-
-[22] Embodied Resonance. (N/A). ID: `012b4bebfb4f...`. Referenced in: convergence event.
-
-[23] Associations between aerobic exercise and dopamine-related reward-processing:.... (N/A). ID: `0151b403dd24...`. Referenced in: convergence event.
-
-[24] On Information Plane Analyses of Neural Network Classifiers -- A Review. (N/A). ID: `arxiv:2003.0...`. Referenced in: convergence event.
-
-[25] Decision making, the P3, and the locus coeruleus--norepinephrine system.. (N/A). ID: `openalex:W21...`. Referenced in: convergence event.
+[20] Using Network Interbank Contagion in Bank Default Prediction. (N/A). ID: `arxiv:2005.1...`. Referenced in: convergence event.
