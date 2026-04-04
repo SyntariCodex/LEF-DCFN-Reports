@@ -26,7 +26,7 @@ Research in Neuroscience has expanded rapidly. This review finds three structura
 
 ### Scope and Landscape
 
-This analysis covers 3205 sources in Neuroscience, mapped into 3205 research papers and 13 topic areas with 315747 connections.
+This analysis covers 3205 sources in Neuroscience, mapped into 3205 research papers and 13 topic areas with 315749 connections.
 
 The research is fragmented across 70 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
@@ -98,8 +98,8 @@ The gaps below are areas where the structural analysis found something missing �
 
 **3136 structural gaps** identified in the research landscape:
 
-- **2776 moderate** — important but less urgent
-- **360 minor** — older or isolated issues
+- **2771 moderate** — important but less urgent
+- **365 minor** — older or isolated issues
 
 **Prevalence by type:** 3136 decayed; 3042 stale; 68 orphaned.
 
@@ -155,14 +155,14 @@ Convergence occurs when researchers with no citation relationship independently 
 
 - **Text-Generation** — 3 sources converge here
 
-**Moderate topical convergence** across 2190 independent research groups over 48 years (score: 0.153). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
+**Moderate topical convergence** across 2190 independent research groups over 48 years (score: 0.155). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
 
 **Converging topics:**
 
-- **Neural Networks** — 72 sources converge here
+- **Neural Networks** — 70 sources converge here
+- **Memory Consolidation** — 66 sources converge here
 - **Brain-Computer Interface** — 66 sources converge here
-- **Cognitive Load** — 65 sources converge here
-- **Memory Consolidation** — 60 sources converge here
+- **Cognitive Load** — 62 sources converge here
 
 **Moderate structural convergence** across 5 independent research groups over 20 years (score: 0.043). These groups span multiple fields but share parallel methodological challenges — solutions from one field may transfer to another.
 
