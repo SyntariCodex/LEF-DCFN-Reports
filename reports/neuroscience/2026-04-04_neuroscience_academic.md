@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 04, 2026
-**Sources:** 3171
+**Sources:** 3172
 
 ---
 
@@ -15,13 +15,13 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Neuroscience |
-| Sources Analyzed | 3171 |
-| Graph Nodes | 3184 |
-| Graph Edges | 12582 |
-| Knowledge Gaps (total) | 3105 |
+| Sources Analyzed | 3172 |
+| Graph Nodes | 3185 |
+| Graph Edges | 12575 |
+| Knowledge Gaps (total) | 3106 |
 | Knowledge Gaps (critical) | 0 |
-| Research Clusters | 11 |
-| Convergence Events | 2 |
+| Research Clusters | 12 |
+| Convergence Events | 4 |
 | Generated Hypotheses | 5 |
 | Cross-Domain Bridges | 0 |
 | Golden Path Length | 10 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 3171
+**Total sources:** 3172
 
 **Source APIs:**
 
@@ -51,7 +51,7 @@
 | Status | Count |
 |--------|-------|
 | Well-grounded (≥0.7) | 1036 |
-| Partially grounded (0.4–0.7) | 2051 |
+| Partially grounded (0.4–0.7) | 2052 |
 | Weakly grounded (0.2–0.4) | 84 |
 | Ungrounded (<0.2) | 0 |
 | **Mean grounding score** | **0.691** |
@@ -78,11 +78,11 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 |-----------|-------|
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.46923697981477586 (30th percentile) |
-| HIGH threshold | ≥ 0.5153342398617358 (80th percentile) |
-| Concentration p25/p50/p75 | 0.50955632714733 / 0.5586032601441989 / 0.6236272819471687 |
-| Distinctiveness p25/p50/p75 | 0.6693189356237579 / 0.7068295842927124 / 0.755991874102635 |
-| Stability p25/p50/p75 | 0.2648940432828669 / 0.2814301165327723 / 0.29714299147728107 |
+| LOW threshold | < 0.4699974091235616 (30th percentile) |
+| HIGH threshold | ≥ 0.5161617946596513 (80th percentile) |
+| Concentration p25/p50/p75 | 0.5104303910791614 / 0.5592476660422423 / 0.6248085473895879 |
+| Distinctiveness p25/p50/p75 | 0.6698918874065758 / 0.7065813229279474 / 0.7569246525007766 |
+| Stability p25/p50/p75 | 0.2638969880891921 / 0.2800767525530179 / 0.2971246438953393 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 3184 |
+| Total Nodes | 3185 |
 |   — CONCEPT | 13 |
-|   — DOCUMENT | 3171 |
-| Total Edges | 12582 |
-|   — MIRRORS | 5421 |
-|   — CONTAINS | 4766 |
-|   — EXTENDS | 1543 |
+|   — DOCUMENT | 3172 |
+| Total Edges | 12575 |
+|   — MIRRORS | 5410 |
+|   — CONTAINS | 4765 |
+|   — EXTENDS | 1548 |
 |   — ENABLES | 812 |
 |   — DEPENDS_ON | 40 |
-| Density | 0.001241 |
-| Connected Components | 195 |
+| Density | 0.001240 |
+| Connected Components | 196 |
 
 ### 4.3 Edge Construction Rules
 
@@ -143,16 +143,16 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 3105
-**Critical (≥7):** 0 | **High (5-6):** 1365 | **Low (<5):** 1740
+**Total entropy nodes:** 3106
+**Critical (≥7):** 0 | **High (5-6):** 1370 | **Low (<5):** 1736
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 3105 |
+| DECAYED | 3106 |
 | STALE | 3009 |
-| ORPHAN | 192 |
+| ORPHAN | 193 |
 
 **Complete Entropy Node List:**
 
@@ -162,82 +162,89 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 | 2 | 20 years of the default mode network: A revie | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 3 | Review and Classification of Emotion Recognit | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 4 | From Cognitive Load Theory to Collaborative C | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 5 | Microglia regulation of synaptic plasticity a | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 5 | Rehabilitation robots for the treatment of se | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 6 | Dopamine reward prediction error coding | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 7 | Diverse synaptic plasticity mechanisms orches | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 8 | Neuroplasticity of Language Networks in Aphas | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 9 | Training the Emotional Brain: Improving Affec | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 10 | A Review of Transcranial Magnetic Stimulation | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 11 | Dopamine neurons share common response functi | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 12 | Neural ensemble dynamics underlying a long-te | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 13 | Cognitive-Load Theory: Methods to Manage Work | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 14 | Development of Spatial and Verbal Working Mem | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 15 | Memory Consolidation Is Linked to Spindle-Med | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 16 | Neural ageing and synaptic plasticity: priori | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 17 | Remembering to Forget: A Dual Role for Sleep  | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 18 | Phasic Dopamine Release in the Rat Nucleus Ac | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 19 | Default mode network can support the level of | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 20 | Distant from input: Evidence of regions withi | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 7 | Neuroplasticity of Language Networks in Aphas | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 8 | Training the Emotional Brain: Improving Affec | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 9 | A Review of Transcranial Magnetic Stimulation | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 10 | Neural functions of calcineurin in synaptic p | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 11 | Neural Correlates of Verbal Working Memory: A | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 12 | The Implications of Microglial Regulation in  | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 13 | Dopamine neurons share common response functi | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 14 | Neural ensemble dynamics underlying a long-te | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 15 | Cognitive-Load Theory: Methods to Manage Work | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 16 | Development of Spatial and Verbal Working Mem | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 17 | MicroRNAs in learning, memory, and neurologic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 18 | Memory Consolidation Is Linked to Spindle-Med | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 19 | Neural ageing and synaptic plasticity: priori | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 20 | Remembering to Forget: A Dual Role for Sleep  | 6/9 | STALE, DECAYED | — | 0 | 0 |
 
 ### 5.4 Branch Cataloging
 
-**Clusters:** 11 total (6 emerging, 5 established)
-**Structural mirrors:** 29
+**Clusters:** 12 total (6 emerging, 6 established)
+**Structural mirrors:** 35
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| Dissociable Intrinsic Connectivity Networks for Sa | 543 | Established | 2015.5 |
-| Predictive Reward Signal of Dopamine Neurons | 419 | Established | 2018.3 |
-| Faster R-CNN: Towards Real-Time Object Detection w | 1758 | Established | 2018.8 |
-| Cognitive Architecture and Instructional Design: 2 | 51 | Established | 2019.8 |
+| Dissociable Intrinsic Connectivity Networks for Sa | 537 | Established | 2015.2 |
+| Predictive Reward Signal of Dopamine Neurons | 488 | Established | 2018.4 |
+| Faster R-CNN: Towards Real-Time Object Detection w | 1696 | Established | 2018.9 |
 | A Cognitive Load Theory Approach to Defining and M | 2 | Emerging | 2023.0 |
+| Self–other relations in social development and aut | 21 | Established | 2017.1 |
 | Cognitive Load Theory: Emerging Trends and Innovat | 2 | Emerging | 2024.5 |
+| The Role of Smad2 in Adult Neuroplasticity as Seen | 14 | Established | 2014.2 |
 | Data-driven biomarkers outperform theory-based bio | 2 | Emerging | 2023.5 |
 | unitreerobotics/G1_WBT_Brainco_Collect_Plates_Into | 17 | Established | 2018.8 |
-| BrainDelay/BatVenom-V7 (text-generation) | 55 | Emerging | 2024.9 |
-| LibreYOLO/brain-tumor-m2pbp (dataset) | 52 | Emerging | 2025.2 |
+| BrainDelay/BatVenom-V7 (text-generation) | 61 | Emerging | 2024.7 |
+| LibreYOLO/brain-tumor-m2pbp (dataset) | 61 | Emerging | 2025.2 |
 | brain-bzh/reve-positions (feature-extraction) | 91 | Emerging | 2024.9 |
 
 **Structural Mirrors:**
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| Dissociable Intrinsic Connectivity  | Predictive Reward Signal of Dopamin | 0.82 |
-| Dissociable Intrinsic Connectivity  | Faster R-CNN: Towards Real-Time Obj | 1.00 |
-| Dissociable Intrinsic Connectivity  | Cognitive Architecture and Instruct | 0.69 |
-| Dissociable Intrinsic Connectivity  | unitreerobotics/G1_WBT_Brainco_Coll | 0.85 |
-| Dissociable Intrinsic Connectivity  | BrainDelay/BatVenom-V7 (text-genera | 0.50 |
-| Dissociable Intrinsic Connectivity  | LibreYOLO/brain-tumor-m2pbp (datase | 0.54 |
-| Dissociable Intrinsic Connectivity  | brain-bzh/reve-positions (feature-e | 0.44 |
-| Predictive Reward Signal of Dopamin | Faster R-CNN: Towards Real-Time Obj | 0.79 |
-| Predictive Reward Signal of Dopamin | Cognitive Architecture and Instruct | 0.98 |
-| Predictive Reward Signal of Dopamin | unitreerobotics/G1_WBT_Brainco_Coll | 0.99 |
-| Predictive Reward Signal of Dopamin | BrainDelay/BatVenom-V7 (text-genera | 0.87 |
-| Predictive Reward Signal of Dopamin | LibreYOLO/brain-tumor-m2pbp (datase | 0.92 |
-| Predictive Reward Signal of Dopamin | brain-bzh/reve-positions (feature-e | 0.77 |
-| Faster R-CNN: Towards Real-Time Obj | Cognitive Architecture and Instruct | 0.66 |
-| Faster R-CNN: Towards Real-Time Obj | unitreerobotics/G1_WBT_Brainco_Coll | 0.83 |
-| Faster R-CNN: Towards Real-Time Obj | BrainDelay/BatVenom-V7 (text-genera | 0.49 |
-| Faster R-CNN: Towards Real-Time Obj | LibreYOLO/brain-tumor-m2pbp (datase | 0.51 |
-| Faster R-CNN: Towards Real-Time Obj | brain-bzh/reve-positions (feature-e | 0.44 |
-| Cognitive Architecture and Instruct | unitreerobotics/G1_WBT_Brainco_Coll | 0.95 |
-| Cognitive Architecture and Instruct | BrainDelay/BatVenom-V7 (text-genera | 0.92 |
-| Cognitive Architecture and Instruct | LibreYOLO/brain-tumor-m2pbp (datase | 0.98 |
-| Cognitive Architecture and Instruct | brain-bzh/reve-positions (feature-e | 0.83 |
-| Data-driven biomarkers outperform t | brain-bzh/reve-positions (feature-e | 0.51 |
-| unitreerobotics/G1_WBT_Brainco_Coll | BrainDelay/BatVenom-V7 (text-genera | 0.86 |
-| unitreerobotics/G1_WBT_Brainco_Coll | LibreYOLO/brain-tumor-m2pbp (datase | 0.90 |
+| Dissociable Intrinsic Connectivity  | Predictive Reward Signal of Dopamin | 0.76 |
+| Dissociable Intrinsic Connectivity  | Faster R-CNN: Towards Real-Time Obj | 0.99 |
+| Dissociable Intrinsic Connectivity  | Self–other relations in social deve | 0.65 |
+| Dissociable Intrinsic Connectivity  | The Role of Smad2 in Adult Neuropla | 0.98 |
+| Dissociable Intrinsic Connectivity  | unitreerobotics/G1_WBT_Brainco_Coll | 0.81 |
+| Dissociable Intrinsic Connectivity  | BrainDelay/BatVenom-V7 (text-genera | 0.47 |
+| Dissociable Intrinsic Connectivity  | LibreYOLO/brain-tumor-m2pbp (datase | 0.51 |
+| Predictive Reward Signal of Dopamin | Faster R-CNN: Towards Real-Time Obj | 0.72 |
+| Predictive Reward Signal of Dopamin | Self–other relations in social deve | 0.98 |
+| Predictive Reward Signal of Dopamin | The Role of Smad2 in Adult Neuropla | 0.82 |
+| Predictive Reward Signal of Dopamin | unitreerobotics/G1_WBT_Brainco_Coll | 0.98 |
+| Predictive Reward Signal of Dopamin | BrainDelay/BatVenom-V7 (text-genera | 0.89 |
+| Predictive Reward Signal of Dopamin | LibreYOLO/brain-tumor-m2pbp (datase | 0.94 |
+| Predictive Reward Signal of Dopamin | brain-bzh/reve-positions (feature-e | 0.78 |
+| Faster R-CNN: Towards Real-Time Obj | Self–other relations in social deve | 0.60 |
+| Faster R-CNN: Towards Real-Time Obj | The Role of Smad2 in Adult Neuropla | 0.97 |
+| Faster R-CNN: Towards Real-Time Obj | unitreerobotics/G1_WBT_Brainco_Coll | 0.78 |
+| Faster R-CNN: Towards Real-Time Obj | BrainDelay/BatVenom-V7 (text-genera | 0.45 |
+| Faster R-CNN: Towards Real-Time Obj | LibreYOLO/brain-tumor-m2pbp (datase | 0.47 |
+| Self–other relations in social deve | The Role of Smad2 in Adult Neuropla | 0.75 |
+| Self–other relations in social deve | unitreerobotics/G1_WBT_Brainco_Coll | 0.97 |
+| Self–other relations in social deve | BrainDelay/BatVenom-V7 (text-genera | 0.94 |
+| Self–other relations in social deve | LibreYOLO/brain-tumor-m2pbp (datase | 0.98 |
+| Self–other relations in social deve | brain-bzh/reve-positions (feature-e | 0.83 |
+| The Role of Smad2 in Adult Neuropla | unitreerobotics/G1_WBT_Brainco_Coll | 0.89 |
+| The Role of Smad2 in Adult Neuropla | BrainDelay/BatVenom-V7 (text-genera | 0.58 |
+| The Role of Smad2 in Adult Neuropla | LibreYOLO/brain-tumor-m2pbp (datase | 0.62 |
+| The Role of Smad2 in Adult Neuropla | brain-bzh/reve-positions (feature-e | 0.49 |
+| Data-driven biomarkers outperform t | brain-bzh/reve-positions (feature-e | 0.52 |
+| unitreerobotics/G1_WBT_Brainco_Coll | BrainDelay/BatVenom-V7 (text-genera | 0.88 |
+| unitreerobotics/G1_WBT_Brainco_Coll | LibreYOLO/brain-tumor-m2pbp (datase | 0.91 |
 | unitreerobotics/G1_WBT_Brainco_Coll | brain-bzh/reve-positions (feature-e | 0.79 |
-| BrainDelay/BatVenom-V7 (text-genera | LibreYOLO/brain-tumor-m2pbp (datase | 0.97 |
-| BrainDelay/BatVenom-V7 (text-genera | brain-bzh/reve-positions (feature-e | 0.98 |
+| BrainDelay/BatVenom-V7 (text-genera | LibreYOLO/brain-tumor-m2pbp (datase | 0.98 |
+| BrainDelay/BatVenom-V7 (text-genera | brain-bzh/reve-positions (feature-e | 0.97 |
 | LibreYOLO/brain-tumor-m2pbp (datase | brain-bzh/reve-positions (feature-e | 0.90 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 4.655
+**Composite score:** 4.703
 **Confidence:** HIGH
-**Entropy nodes resolved:** 3
+**Entropy nodes resolved:** 1
 
 **Scoring weights:**
 
@@ -254,14 +261,14 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 |------|--------|------|-------|----------|
 | 1 | 20 years of the default mode network: A review and | 2023 | 0.526 | YES |
 | 2 | Default Mode Dynamics for Global Functional Integr | 2015 | 0.282 | — |
-| 3 | Default mode network can support the level of deta | 2018 | 0.478 | YES |
-| 4 | Distant from input: Evidence of regions within the | 2018 | 0.478 | YES |
-| 5 | Computer Science | None | 0.368 | — |
-| 6 | BrainForge/Devstral-2-123B-Instruct-2512 | 2026 | 0.504 | — |
-| 7 | bendik-eeg-henriksen/norwegian-legal-bert (fill-ma | 2026 | 0.507 | — |
-| 8 | ACE-Brain/ACE-Brain-0-8B (image-text-to-text) | 2026 | 0.506 | — |
-| 9 | PrunaAI/cognitivecomputations-Dolphin-2.9.1-Phi-3- | 2026 | 0.502 | — |
-| 10 | mradermacher/HuatuoGPT-Vision-7B-Brainseg-SFT-224- | 2026 | 0.502 | — |
+| 3 | Computer Science | None | 0.368 | — |
+| 4 | BrainForge/Devstral-2-123B-Instruct-2512 | 2026 | 0.505 | — |
+| 5 | bendik-eeg-henriksen/norwegian-legal-bert (fill-ma | 2026 | 0.507 | — |
+| 6 | ACE-Brain/ACE-Brain-0-8B (image-text-to-text) | 2026 | 0.506 | — |
+| 7 | PrunaAI/cognitivecomputations-Dolphin-2.9.1-Phi-3- | 2026 | 0.502 | — |
+| 8 | mradermacher/HuatuoGPT-Vision-7B-Brainseg-SFT-224- | 2026 | 0.502 | — |
+| 9 | vibhansh/Veda-8B-v1-Cognitive (text-generation) | 2026 | 0.502 | — |
+| 10 | BrainDelay/DoubleC-V1 (text-generation) | 2026 | 0.502 | — |
 
 ## 6. Supplementary Analyses
 
@@ -280,13 +287,13 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 |---------|---------|
 | [Emerging] AND research in Computer Science | 0.292 |
 | [Emerging] AND (Very Recent work) | 0.225 |
-| (Very Recent work) AND research in Computer Science | 0.182 |
+| (Very Recent work) AND research in Computer Science | 0.181 |
 | [Emerging] AND research in Neuroscience | 0.171 |
 | using Neuroimaging AND research in Neuroscience | 0.169 |
 | [Emerging] AND using Neuroimaging | 0.166 |
 | using Neuroimaging AND research in Computer Science | 0.150 |
 | (Foundational work) AND research in Neuroscience | 0.148 |
-| [Emerging] AND studying Clinical | 0.140 |
+| [Emerging] AND studying Clinical | 0.141 |
 | [Emerging] AND (Established work) | 0.132 |
 
 **Top Association Rules (by lift):**
@@ -306,9 +313,9 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 31394
-**High-tier pairs:** 659
-**Convergence events:** 2
+**Candidate pairs:** 31973
+**High-tier pairs:** 671
+**Convergence events:** 4
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
 
@@ -316,8 +323,10 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Event | Score | Groups | Time Window | Papers |
 |-------|-------|--------|------------|--------|
-| svw_001 | 0.165 | 2158 | 48y | 2158 |
-| svw_002 | 0.150 | 2 | 2y | 2 |
+| svw_001 | 0.165 | 2150 | 48y | 2150 |
+| svw_003 | 0.090 | 2 | 4y | 2 |
+| svw_004 | 0.051 | 2 | 7y | 2 |
+| svw_002 | 0.025 | 2 | 16y | 2 |
 
 ### 6.3 Generated Hypotheses
 
@@ -356,11 +365,11 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 - **On golden path:** No
 
 **H05** [MEDIUM]
-- **Hypothesis:** Re-examining 'Microglia regulation of synaptic plasticity and learning and memory' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Microglia regulation of synaptic plasticity and learning ...
-- **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
+- **Hypothesis:** Re-examining 'Rehabilitation robots for the treatment of sensorimotor deficits: a...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **Grounded in:** entropy gap node: Rehabilitation robots for the treatment of sensorimotor d...
+- **Novel because:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
 - **Suggested method:** machine learning (co-occurs with similar gaps at 81% confidence in apriori patterns)
-- **Gap node:** `7fb4e04a32b408cb7dd65bb228533034f1c811c2` (severity: 6)
+- **Gap node:** `7f42ce61353f84a3bff2698a9ca0c23a04fec278` (severity: 6)
 - **On golden path:** No
 
 
@@ -387,8 +396,8 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 3171 |
-| Timestamp | 2026-04-04T02:09:32.472847 |
+| Total sources | 3172 |
+| Timestamp | 2026-04-04T03:11:39.396478 |
 | Embedding dim | 256 |
 | TF-IDF features | 5,000 |
 | Perturbation σ | 0.1 |
