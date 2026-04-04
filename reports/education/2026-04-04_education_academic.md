@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 04, 2026
-**Sources:** 3119
+**Sources:** 3118
 
 ---
 
@@ -15,13 +15,13 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Education & EdTech |
-| Sources Analyzed | 3119 |
-| Graph Nodes | 3136 |
-| Graph Edges | 7342 |
-| Knowledge Gaps (total) | 3109 |
+| Sources Analyzed | 3118 |
+| Graph Nodes | 3135 |
+| Graph Edges | 7330 |
+| Knowledge Gaps (total) | 3108 |
 | Knowledge Gaps (critical) | 0 |
-| Research Clusters | 27 |
-| Convergence Events | 13 |
+| Research Clusters | 24 |
+| Convergence Events | 12 |
 | Generated Hypotheses | 5 |
 | Cross-Domain Bridges | 0 |
 | Golden Path Length | 10 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 3119
+**Total sources:** 3118
 
 **Source APIs:**
 
@@ -50,11 +50,11 @@
 
 | Status | Count |
 |--------|-------|
-| Well-grounded (≥0.7) | 1138 |
+| Well-grounded (≥0.7) | 1137 |
 | Partially grounded (0.4–0.7) | 1916 |
 | Weakly grounded (0.2–0.4) | 65 |
 | Ungrounded (<0.2) | 0 |
-| **Mean grounding score** | **0.697** |
+| **Mean grounding score** | **0.696** |
 
 ## 3. Source Encoding (QEB)
 
@@ -78,11 +78,11 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 |-----------|-------|
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.4601592546122725 (30th percentile) |
-| HIGH threshold | ≥ 0.4992780638743476 (80th percentile) |
-| Concentration p25/p50/p75 | 0.4910486139653215 / 0.5351543539027033 / 0.5922945180434553 |
-| Distinctiveness p25/p50/p75 | 0.6519776652695525 / 0.6937343003320651 / 0.7412925435508686 |
-| Stability p25/p50/p75 | 0.2637405235807041 / 0.2812825280402143 / 0.2974679182800183 |
+| LOW threshold | < 0.4604668083887977 (30th percentile) |
+| HIGH threshold | ≥ 0.4993727420572564 (80th percentile) |
+| Concentration p25/p50/p75 | 0.491899828305727 / 0.5344054897614174 / 0.5908521009621022 |
+| Distinctiveness p25/p50/p75 | 0.6521007369439367 / 0.694409818363625 / 0.7409783761877583 |
+| Stability p25/p50/p75 | 0.26431726377057063 / 0.280953388899814 / 0.2977721357122917 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 3136 |
+| Total Nodes | 3135 |
 |   — CONCEPT | 17 |
-|   — DOCUMENT | 3119 |
-| Total Edges | 7342 |
-|   — CONTAINS | 4208 |
-|   — MIRRORS | 1825 |
-|   — ENABLES | 825 |
-|   — EXTENDS | 412 |
+|   — DOCUMENT | 3118 |
+| Total Edges | 7330 |
+|   — CONTAINS | 4206 |
+|   — MIRRORS | 1827 |
+|   — ENABLES | 812 |
+|   — EXTENDS | 413 |
 |   — DEPENDS_ON | 72 |
-| Density | 0.000747 |
-| Connected Components | 344 |
+| Density | 0.000746 |
+| Connected Components | 347 |
 
 ### 4.3 Edge Construction Rules
 
@@ -143,16 +143,16 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 3109
-**Critical (≥7):** 0 | **High (5-6):** 939 | **Low (<5):** 2170
+**Total entropy nodes:** 3108
+**Critical (≥7):** 0 | **High (5-6):** 950 | **Low (<5):** 2158
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 3109 |
-| STALE | 3019 |
-| ORPHAN | 340 |
+| DECAYED | 3108 |
+| STALE | 3018 |
+| ORPHAN | 343 |
 
 **Complete Entropy Node List:**
 
@@ -166,38 +166,38 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 | 6 | Educational data mining: prediction of studen | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 7 | A Systematic Review on Educational Data Minin | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 8 | Learning Analytics | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 9 | Artificial intelligence in cancer target iden | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 10 | Utilising learning analytics to support study | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 11 | Artificial intelligence in drug discovery: re | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 12 | Predicting Student Performance Using Data Min | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 13 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 14 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 15 | A Comparison of Undersampling, Oversampling,  | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 16 | Revolutionizing Medicinal Chemistry: The Appl | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 17 | Deep Docking: A Deep Learning Platform for Au | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 18 | Addressing two problems in deep knowledge tra | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 19 | Multimodal Data Fusion in Learning Analytics: | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 20 | Learning Analytics for Learning Design: A Sys | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 9 | Utilising learning analytics to support study | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 10 | Artificial intelligence in drug discovery: re | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 11 | Predicting Student Performance Using Data Min | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 12 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 13 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 14 | Revolutionizing Medicinal Chemistry: The Appl | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 15 | Addressing two problems in deep knowledge tra | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 16 | Multimodal Data Fusion in Learning Analytics: | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 17 | Learning Analytics for Learning Design: A Sys | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 18 | A Systematic Review of Empirical Studies on L | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 19 | A Systematic Review of Deep Learning Approach | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 20 | A Core Components Framework for Evaluating Im | 6/9 | STALE, DECAYED | — | 0 | 0 |
 
 ### 5.4 Branch Cataloging
 
-**Clusters:** 27 total (7 emerging, 20 established)
-**Structural mirrors:** 240
+**Clusters:** 24 total (7 emerging, 17 established)
+**Structural mirrors:** 169
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| Artificial intelligence to deep learning: machine  | 109 | Established | 2019.6 |
-| The PRISMA 2020 statement: an updated guideline fo | 2121 | Established | 2018.6 |
+| The PRISMA 2020 statement: an updated guideline fo | 2198 | Established | 2018.6 |
 | Accelerated discovery of stable lead-free hybrid o | 2 | Established | 2018.0 |
-| VoiceOfML/CMLMUF-Education-And-History (dataset) | 301 | Established | 2018.9 |
+| Core principles of assessment in competency-based  | 49 | Established | 2018.4 |
+| Human Circulating and Tissue-Resident CD56bright N | 12 | Established | 2019.9 |
 | Adaptive e-learning systems through learning style | 2 | Established | 2020.0 |
 | Next challenges for adaptive learning systems | 2 | Established | 2015.0 |
-| The promise of competency-based education in the h | 127 | Established | 2018.0 |
-| Revisiting education reform in Kenya: A case of Co | 5 | Established | 2019.5 |
+| Toward a definition of competency-based education  | 120 | Established | 2017.6 |
+| VoiceOfML/CMLMUF-Education-And-History (dataset) | 290 | Established | 2018.9 |
+| Revisiting education reform in Kenya: A case of Co | 4 | Established | 2019.0 |
 | An Intelligent Prediction System for Educational D | 2 | Established | 2020.5 |
 | Development of a machine learning-based tool to ev | 3 | Emerging | 2022.7 |
 | Recovering Concept Prerequisite Relations from Uni | 2 | Established | 2019.0 |
-| Deep Neural Network-Based Prediction and Early War | 2 | Established | 2021.0 |
 | ContextKT: A Context-Based Method for Knowledge Tr | 2 | Emerging | 2023.0 |
 | Designing School Health Services to Provide Multi- | 2 | Emerging | 2023.5 |
 | Issues in Statewide Scale up of a Multi-Tiered Sys | 2 | Emerging | 2023.0 |
@@ -206,253 +206,182 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| Artificial intelligence to deep lea | The PRISMA 2020 statement: an updat | 0.61 |
-| Artificial intelligence to deep lea | Accelerated discovery of stable lea | 0.49 |
-| Artificial intelligence to deep lea | VoiceOfML/CMLMUF-Education-And-Hist | 0.87 |
-| Artificial intelligence to deep lea | Adaptive e-learning systems through | 0.42 |
-| Artificial intelligence to deep lea | Next challenges for adaptive learni | 0.42 |
-| Artificial intelligence to deep lea | The promise of competency-based edu | 1.00 |
-| Artificial intelligence to deep lea | Revisiting education reform in Keny | 0.69 |
-| Artificial intelligence to deep lea | An Intelligent Prediction System fo | 0.42 |
-| Artificial intelligence to deep lea | Recovering Concept Prerequisite Rel | 0.42 |
-| Artificial intelligence to deep lea | Deep Neural Network-Based Predictio | 0.42 |
-| Artificial intelligence to deep lea | Designing School Health Services to | 0.42 |
-| Artificial intelligence to deep lea | Handbook of treatment for eating di | 0.86 |
-| Artificial intelligence to deep lea | Evaluating English language learner | 0.83 |
-| Artificial intelligence to deep lea | Unearthing People from the SaND: Re | 0.49 |
-| Artificial intelligence to deep lea | Human Circulating and Tissue-Reside | 0.89 |
-| Artificial intelligence to deep lea | The Relationship between Vocabulary | 0.91 |
-| Artificial intelligence to deep lea | The Handbook of School Psychology | 0.42 |
-| Artificial intelligence to deep lea | Complexity in Mathematics Education | 0.83 |
-| Artificial intelligence to deep lea | Discovery of the Einsteinium Isotop | 0.44 |
-| Artificial intelligence to deep lea | processing/p5.js: p5.js is a client | 0.71 |
-| Artificial intelligence to deep lea | Skyemou5/Pysoma: A crossplatform Ho | 0.49 |
 | The PRISMA 2020 statement: an updat | Accelerated discovery of stable lea | 0.97 |
-| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.89 |
+| The PRISMA 2020 statement: an updat | Core principles of assessment in co | 0.49 |
+| The PRISMA 2020 statement: an updat | Human Circulating and Tissue-Reside | 0.82 |
 | The PRISMA 2020 statement: an updat | Adaptive e-learning systems through | 0.83 |
 | The PRISMA 2020 statement: an updat | Next challenges for adaptive learni | 0.83 |
-| The PRISMA 2020 statement: an updat | The promise of competency-based edu | 0.54 |
-| The PRISMA 2020 statement: an updat | Revisiting education reform in Keny | 0.97 |
+| The PRISMA 2020 statement: an updat | Toward a definition of competency-b | 0.53 |
+| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.91 |
+| The PRISMA 2020 statement: an updat | Revisiting education reform in Keny | 0.96 |
 | The PRISMA 2020 statement: an updat | An Intelligent Prediction System fo | 0.83 |
 | The PRISMA 2020 statement: an updat | Recovering Concept Prerequisite Rel | 0.83 |
-| The PRISMA 2020 statement: an updat | Deep Neural Network-Based Predictio | 0.83 |
-| The PRISMA 2020 statement: an updat | Designing School Health Services to | 0.83 |
-| The PRISMA 2020 statement: an updat | Handbook of treatment for eating di | 0.89 |
-| The PRISMA 2020 statement: an updat | Evaluating English language learner | 0.92 |
+| The PRISMA 2020 statement: an updat | Designing School Health Services to | 0.76 |
+| The PRISMA 2020 statement: an updat | Evaluating English language learner | 0.93 |
 | The PRISMA 2020 statement: an updat | Unearthing People from the SaND: Re | 0.97 |
-| The PRISMA 2020 statement: an updat | Human Circulating and Tissue-Reside | 0.88 |
-| The PRISMA 2020 statement: an updat | The Relationship between Vocabulary | 0.85 |
-| The PRISMA 2020 statement: an updat | The Handbook of School Psychology | 0.83 |
-| The PRISMA 2020 statement: an updat | Complexity in Mathematics Education | 0.92 |
+| The PRISMA 2020 statement: an updat | Handbook of treatment for eating di | 0.89 |
+| The PRISMA 2020 statement: an updat | Knowledge discovery in cardiology:  | 0.93 |
 | The PRISMA 2020 statement: an updat | Discovery of the Einsteinium Isotop | 0.87 |
 | The PRISMA 2020 statement: an updat | Skyemou5/Pysoma: A crossplatform Ho | 0.97 |
-| Accelerated discovery of stable lea | VoiceOfML/CMLMUF-Education-And-Hist | 0.85 |
+| Accelerated discovery of stable lea | Human Circulating and Tissue-Reside | 0.74 |
 | Accelerated discovery of stable lea | Adaptive e-learning systems through | 0.71 |
 | Accelerated discovery of stable lea | Next challenges for adaptive learni | 0.71 |
-| Accelerated discovery of stable lea | The promise of competency-based edu | 0.41 |
-| Accelerated discovery of stable lea | Revisiting education reform in Keny | 0.97 |
+| Accelerated discovery of stable lea | VoiceOfML/CMLMUF-Education-And-Hist | 0.87 |
+| Accelerated discovery of stable lea | Revisiting education reform in Keny | 0.95 |
 | Accelerated discovery of stable lea | An Intelligent Prediction System fo | 0.71 |
 | Accelerated discovery of stable lea | Recovering Concept Prerequisite Rel | 0.71 |
-| Accelerated discovery of stable lea | Deep Neural Network-Based Predictio | 0.71 |
-| Accelerated discovery of stable lea | Designing School Health Services to | 0.71 |
-| Accelerated discovery of stable lea | Handbook of treatment for eating di | 0.85 |
+| Accelerated discovery of stable lea | Designing School Health Services to | 0.58 |
 | Accelerated discovery of stable lea | Evaluating English language learner | 0.89 |
 | Accelerated discovery of stable lea | Unearthing People from the SaND: Re | 1.00 |
-| Accelerated discovery of stable lea | Human Circulating and Tissue-Reside | 0.83 |
-| Accelerated discovery of stable lea | The Relationship between Vocabulary | 0.80 |
-| Accelerated discovery of stable lea | The Handbook of School Psychology | 0.71 |
-| Accelerated discovery of stable lea | Complexity in Mathematics Education | 0.89 |
+| Accelerated discovery of stable lea | Handbook of treatment for eating di | 0.85 |
+| Accelerated discovery of stable lea | Knowledge discovery in cardiology:  | 0.89 |
 | Accelerated discovery of stable lea | Discovery of the Einsteinium Isotop | 0.89 |
 | Accelerated discovery of stable lea | Skyemou5/Pysoma: A crossplatform Ho | 1.00 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Adaptive e-learning systems through | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Next challenges for adaptive learni | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | The promise of competency-based edu | 0.82 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Revisiting education reform in Keny | 0.95 |
-| VoiceOfML/CMLMUF-Education-And-Hist | An Intelligent Prediction System fo | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Recovering Concept Prerequisite Rel | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Deep Neural Network-Based Predictio | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Designing School Health Services to | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Handbook of treatment for eating di | 0.99 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Evaluating English language learner | 1.00 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Unearthing People from the SaND: Re | 0.85 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Human Circulating and Tissue-Reside | 1.00 |
-| VoiceOfML/CMLMUF-Education-And-Hist | The Relationship between Vocabulary | 1.00 |
-| VoiceOfML/CMLMUF-Education-And-Hist | The Handbook of School Psychology | 0.61 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Complexity in Mathematics Education | 1.00 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Discovery of the Einsteinium Isotop | 0.77 |
-| VoiceOfML/CMLMUF-Education-And-Hist | processing/p5.js: p5.js is a client | 0.54 |
-| VoiceOfML/CMLMUF-Education-And-Hist | Skyemou5/Pysoma: A crossplatform Ho | 0.85 |
+| Core principles of assessment in co | Human Circulating and Tissue-Reside | 0.88 |
+| Core principles of assessment in co | Toward a definition of competency-b | 1.00 |
+| Core principles of assessment in co | VoiceOfML/CMLMUF-Education-And-Hist | 0.76 |
+| Core principles of assessment in co | Revisiting education reform in Keny | 0.62 |
+| Core principles of assessment in co | Designing School Health Services to | 0.79 |
+| Core principles of assessment in co | Evaluating English language learner | 0.72 |
+| Core principles of assessment in co | Handbook of treatment for eating di | 0.76 |
+| Core principles of assessment in co | Knowledge discovery in cardiology:  | 0.72 |
+| Core principles of assessment in co | processing/p5.js: p5.js is a client | 0.74 |
+| Human Circulating and Tissue-Reside | Adaptive e-learning systems through | 0.53 |
+| Human Circulating and Tissue-Reside | Next challenges for adaptive learni | 0.53 |
+| Human Circulating and Tissue-Reside | Toward a definition of competency-b | 0.90 |
+| Human Circulating and Tissue-Reside | VoiceOfML/CMLMUF-Education-And-Hist | 0.98 |
+| Human Circulating and Tissue-Reside | Revisiting education reform in Keny | 0.92 |
+| Human Circulating and Tissue-Reside | An Intelligent Prediction System fo | 0.53 |
+| Human Circulating and Tissue-Reside | Recovering Concept Prerequisite Rel | 0.53 |
+| Human Circulating and Tissue-Reside | Designing School Health Services to | 0.82 |
+| Human Circulating and Tissue-Reside | Evaluating English language learner | 0.96 |
+| Human Circulating and Tissue-Reside | Unearthing People from the SaND: Re | 0.74 |
+| Human Circulating and Tissue-Reside | Handbook of treatment for eating di | 0.97 |
+| Human Circulating and Tissue-Reside | Knowledge discovery in cardiology:  | 0.96 |
+| Human Circulating and Tissue-Reside | Discovery of the Einsteinium Isotop | 0.66 |
+| Human Circulating and Tissue-Reside | processing/p5.js: p5.js is a client | 0.61 |
+| Human Circulating and Tissue-Reside | Skyemou5/Pysoma: A crossplatform Ho | 0.74 |
 | Adaptive e-learning systems through | Next challenges for adaptive learni | 1.00 |
-| Adaptive e-learning systems through | Revisiting education reform in Keny | 0.69 |
+| Adaptive e-learning systems through | VoiceOfML/CMLMUF-Education-And-Hist | 0.61 |
+| Adaptive e-learning systems through | Revisiting education reform in Keny | 0.67 |
 | Adaptive e-learning systems through | An Intelligent Prediction System fo | 1.00 |
 | Adaptive e-learning systems through | Development of a machine learning-b | 0.71 |
 | Adaptive e-learning systems through | Recovering Concept Prerequisite Rel | 1.00 |
-| Adaptive e-learning systems through | Deep Neural Network-Based Predictio | 1.00 |
 | Adaptive e-learning systems through | ContextKT: A Context-Based Method f | 0.71 |
-| Adaptive e-learning systems through | Designing School Health Services to | 1.00 |
+| Adaptive e-learning systems through | Designing School Health Services to | 0.82 |
 | Adaptive e-learning systems through | Issues in Statewide Scale up of a M | 0.71 |
-| Adaptive e-learning systems through | Handbook of treatment for eating di | 0.60 |
 | Adaptive e-learning systems through | Evaluating English language learner | 0.63 |
 | Adaptive e-learning systems through | Unearthing People from the SaND: Re | 0.71 |
-| Adaptive e-learning systems through | Human Circulating and Tissue-Reside | 0.59 |
-| Adaptive e-learning systems through | The Relationship between Vocabulary | 0.57 |
-| Adaptive e-learning systems through | The Handbook of School Psychology | 1.00 |
-| Adaptive e-learning systems through | Complexity in Mathematics Education | 0.63 |
+| Adaptive e-learning systems through | Handbook of treatment for eating di | 0.60 |
+| Adaptive e-learning systems through | Knowledge discovery in cardiology:  | 0.63 |
 | Adaptive e-learning systems through | Discovery of the Einsteinium Isotop | 0.63 |
 | Adaptive e-learning systems through | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| Next challenges for adaptive learni | Revisiting education reform in Keny | 0.69 |
+| Next challenges for adaptive learni | VoiceOfML/CMLMUF-Education-And-Hist | 0.61 |
+| Next challenges for adaptive learni | Revisiting education reform in Keny | 0.67 |
 | Next challenges for adaptive learni | An Intelligent Prediction System fo | 1.00 |
 | Next challenges for adaptive learni | Development of a machine learning-b | 0.71 |
 | Next challenges for adaptive learni | Recovering Concept Prerequisite Rel | 1.00 |
-| Next challenges for adaptive learni | Deep Neural Network-Based Predictio | 1.00 |
 | Next challenges for adaptive learni | ContextKT: A Context-Based Method f | 0.71 |
-| Next challenges for adaptive learni | Designing School Health Services to | 1.00 |
+| Next challenges for adaptive learni | Designing School Health Services to | 0.82 |
 | Next challenges for adaptive learni | Issues in Statewide Scale up of a M | 0.71 |
-| Next challenges for adaptive learni | Handbook of treatment for eating di | 0.60 |
 | Next challenges for adaptive learni | Evaluating English language learner | 0.63 |
 | Next challenges for adaptive learni | Unearthing People from the SaND: Re | 0.71 |
-| Next challenges for adaptive learni | Human Circulating and Tissue-Reside | 0.59 |
-| Next challenges for adaptive learni | The Relationship between Vocabulary | 0.57 |
-| Next challenges for adaptive learni | The Handbook of School Psychology | 1.00 |
-| Next challenges for adaptive learni | Complexity in Mathematics Education | 0.63 |
+| Next challenges for adaptive learni | Handbook of treatment for eating di | 0.60 |
+| Next challenges for adaptive learni | Knowledge discovery in cardiology:  | 0.63 |
 | Next challenges for adaptive learni | Discovery of the Einsteinium Isotop | 0.63 |
 | Next challenges for adaptive learni | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| The promise of competency-based edu | Revisiting education reform in Keny | 0.62 |
-| The promise of competency-based edu | Handbook of treatment for eating di | 0.80 |
-| The promise of competency-based edu | Evaluating English language learner | 0.77 |
-| The promise of competency-based edu | Unearthing People from the SaND: Re | 0.41 |
-| The promise of competency-based edu | Human Circulating and Tissue-Reside | 0.84 |
-| The promise of competency-based edu | The Relationship between Vocabulary | 0.87 |
-| The promise of competency-based edu | Complexity in Mathematics Education | 0.77 |
-| The promise of competency-based edu | processing/p5.js: p5.js is a client | 0.73 |
-| The promise of competency-based edu | Skyemou5/Pysoma: A crossplatform Ho | 0.41 |
-| Revisiting education reform in Keny | An Intelligent Prediction System fo | 0.69 |
-| Revisiting education reform in Keny | Recovering Concept Prerequisite Rel | 0.69 |
-| Revisiting education reform in Keny | Deep Neural Network-Based Predictio | 0.69 |
-| Revisiting education reform in Keny | Designing School Health Services to | 0.69 |
-| Revisiting education reform in Keny | Handbook of treatment for eating di | 0.94 |
-| Revisiting education reform in Keny | Evaluating English language learner | 0.98 |
-| Revisiting education reform in Keny | Unearthing People from the SaND: Re | 0.97 |
-| Revisiting education reform in Keny | Human Circulating and Tissue-Reside | 0.94 |
-| Revisiting education reform in Keny | The Relationship between Vocabulary | 0.92 |
-| Revisiting education reform in Keny | The Handbook of School Psychology | 0.69 |
-| Revisiting education reform in Keny | Complexity in Mathematics Education | 0.98 |
-| Revisiting education reform in Keny | Discovery of the Einsteinium Isotop | 0.87 |
-| Revisiting education reform in Keny | Skyemou5/Pysoma: A crossplatform Ho | 0.97 |
+| Toward a definition of competency-b | VoiceOfML/CMLMUF-Education-And-Hist | 0.79 |
+| Toward a definition of competency-b | Revisiting education reform in Keny | 0.65 |
+| Toward a definition of competency-b | Designing School Health Services to | 0.82 |
+| Toward a definition of competency-b | Evaluating English language learner | 0.75 |
+| Toward a definition of competency-b | Handbook of treatment for eating di | 0.79 |
+| Toward a definition of competency-b | Knowledge discovery in cardiology:  | 0.75 |
+| Toward a definition of competency-b | processing/p5.js: p5.js is a client | 0.73 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Revisiting education reform in Keny | 0.98 |
+| VoiceOfML/CMLMUF-Education-And-Hist | An Intelligent Prediction System fo | 0.61 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Recovering Concept Prerequisite Rel | 0.61 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Designing School Health Services to | 0.79 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Evaluating English language learner | 1.00 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Unearthing People from the SaND: Re | 0.87 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Handbook of treatment for eating di | 0.99 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Knowledge discovery in cardiology:  | 1.00 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Discovery of the Einsteinium Isotop | 0.78 |
+| VoiceOfML/CMLMUF-Education-And-Hist | processing/p5.js: p5.js is a client | 0.52 |
+| VoiceOfML/CMLMUF-Education-And-Hist | Skyemou5/Pysoma: A crossplatform Ho | 0.87 |
+| Revisiting education reform in Keny | An Intelligent Prediction System fo | 0.67 |
+| Revisiting education reform in Keny | Recovering Concept Prerequisite Rel | 0.67 |
+| Revisiting education reform in Keny | Designing School Health Services to | 0.73 |
+| Revisiting education reform in Keny | Evaluating English language learner | 0.99 |
+| Revisiting education reform in Keny | Unearthing People from the SaND: Re | 0.95 |
+| Revisiting education reform in Keny | Handbook of treatment for eating di | 0.96 |
+| Revisiting education reform in Keny | Knowledge discovery in cardiology:  | 0.99 |
+| Revisiting education reform in Keny | Discovery of the Einsteinium Isotop | 0.85 |
+| Revisiting education reform in Keny | Skyemou5/Pysoma: A crossplatform Ho | 0.95 |
 | An Intelligent Prediction System fo | Development of a machine learning-b | 0.71 |
 | An Intelligent Prediction System fo | Recovering Concept Prerequisite Rel | 1.00 |
-| An Intelligent Prediction System fo | Deep Neural Network-Based Predictio | 1.00 |
 | An Intelligent Prediction System fo | ContextKT: A Context-Based Method f | 0.71 |
-| An Intelligent Prediction System fo | Designing School Health Services to | 1.00 |
+| An Intelligent Prediction System fo | Designing School Health Services to | 0.82 |
 | An Intelligent Prediction System fo | Issues in Statewide Scale up of a M | 0.71 |
-| An Intelligent Prediction System fo | Handbook of treatment for eating di | 0.60 |
 | An Intelligent Prediction System fo | Evaluating English language learner | 0.63 |
 | An Intelligent Prediction System fo | Unearthing People from the SaND: Re | 0.71 |
-| An Intelligent Prediction System fo | Human Circulating and Tissue-Reside | 0.59 |
-| An Intelligent Prediction System fo | The Relationship between Vocabulary | 0.57 |
-| An Intelligent Prediction System fo | The Handbook of School Psychology | 1.00 |
-| An Intelligent Prediction System fo | Complexity in Mathematics Education | 0.63 |
+| An Intelligent Prediction System fo | Handbook of treatment for eating di | 0.60 |
+| An Intelligent Prediction System fo | Knowledge discovery in cardiology:  | 0.63 |
 | An Intelligent Prediction System fo | Discovery of the Einsteinium Isotop | 0.63 |
 | An Intelligent Prediction System fo | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
 | Development of a machine learning-b | Recovering Concept Prerequisite Rel | 0.71 |
-| Development of a machine learning-b | Deep Neural Network-Based Predictio | 0.71 |
 | Development of a machine learning-b | ContextKT: A Context-Based Method f | 1.00 |
-| Development of a machine learning-b | Designing School Health Services to | 0.71 |
+| Development of a machine learning-b | Designing School Health Services to | 0.58 |
 | Development of a machine learning-b | Issues in Statewide Scale up of a M | 1.00 |
-| Development of a machine learning-b | The Handbook of School Psychology | 0.71 |
-| Recovering Concept Prerequisite Rel | Deep Neural Network-Based Predictio | 1.00 |
 | Recovering Concept Prerequisite Rel | ContextKT: A Context-Based Method f | 0.71 |
-| Recovering Concept Prerequisite Rel | Designing School Health Services to | 1.00 |
+| Recovering Concept Prerequisite Rel | Designing School Health Services to | 0.82 |
 | Recovering Concept Prerequisite Rel | Issues in Statewide Scale up of a M | 0.71 |
-| Recovering Concept Prerequisite Rel | Handbook of treatment for eating di | 0.60 |
 | Recovering Concept Prerequisite Rel | Evaluating English language learner | 0.63 |
 | Recovering Concept Prerequisite Rel | Unearthing People from the SaND: Re | 0.71 |
-| Recovering Concept Prerequisite Rel | Human Circulating and Tissue-Reside | 0.59 |
-| Recovering Concept Prerequisite Rel | The Relationship between Vocabulary | 0.57 |
-| Recovering Concept Prerequisite Rel | The Handbook of School Psychology | 1.00 |
-| Recovering Concept Prerequisite Rel | Complexity in Mathematics Education | 0.63 |
+| Recovering Concept Prerequisite Rel | Handbook of treatment for eating di | 0.60 |
+| Recovering Concept Prerequisite Rel | Knowledge discovery in cardiology:  | 0.63 |
 | Recovering Concept Prerequisite Rel | Discovery of the Einsteinium Isotop | 0.63 |
 | Recovering Concept Prerequisite Rel | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| Deep Neural Network-Based Predictio | ContextKT: A Context-Based Method f | 0.71 |
-| Deep Neural Network-Based Predictio | Designing School Health Services to | 1.00 |
-| Deep Neural Network-Based Predictio | Issues in Statewide Scale up of a M | 0.71 |
-| Deep Neural Network-Based Predictio | Handbook of treatment for eating di | 0.60 |
-| Deep Neural Network-Based Predictio | Evaluating English language learner | 0.63 |
-| Deep Neural Network-Based Predictio | Unearthing People from the SaND: Re | 0.71 |
-| Deep Neural Network-Based Predictio | Human Circulating and Tissue-Reside | 0.59 |
-| Deep Neural Network-Based Predictio | The Relationship between Vocabulary | 0.57 |
-| Deep Neural Network-Based Predictio | The Handbook of School Psychology | 1.00 |
-| Deep Neural Network-Based Predictio | Complexity in Mathematics Education | 0.63 |
-| Deep Neural Network-Based Predictio | Discovery of the Einsteinium Isotop | 0.63 |
-| Deep Neural Network-Based Predictio | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| ContextKT: A Context-Based Method f | Designing School Health Services to | 0.71 |
+| ContextKT: A Context-Based Method f | Designing School Health Services to | 0.58 |
 | ContextKT: A Context-Based Method f | Issues in Statewide Scale up of a M | 1.00 |
-| ContextKT: A Context-Based Method f | The Handbook of School Psychology | 0.71 |
-| Designing School Health Services to | Issues in Statewide Scale up of a M | 0.71 |
-| Designing School Health Services to | Handbook of treatment for eating di | 0.60 |
-| Designing School Health Services to | Evaluating English language learner | 0.63 |
-| Designing School Health Services to | Unearthing People from the SaND: Re | 0.71 |
-| Designing School Health Services to | Human Circulating and Tissue-Reside | 0.59 |
-| Designing School Health Services to | The Relationship between Vocabulary | 0.57 |
-| Designing School Health Services to | The Handbook of School Psychology | 1.00 |
-| Designing School Health Services to | Complexity in Mathematics Education | 0.63 |
-| Designing School Health Services to | Discovery of the Einsteinium Isotop | 0.63 |
-| Designing School Health Services to | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| Issues in Statewide Scale up of a M | The Handbook of School Psychology | 0.71 |
-| Handbook of treatment for eating di | Evaluating English language learner | 0.98 |
-| Handbook of treatment for eating di | Unearthing People from the SaND: Re | 0.85 |
-| Handbook of treatment for eating di | Human Circulating and Tissue-Reside | 0.98 |
-| Handbook of treatment for eating di | The Relationship between Vocabulary | 0.98 |
-| Handbook of treatment for eating di | The Handbook of School Psychology | 0.60 |
-| Handbook of treatment for eating di | Complexity in Mathematics Education | 0.98 |
-| Handbook of treatment for eating di | Discovery of the Einsteinium Isotop | 0.83 |
-| Handbook of treatment for eating di | processing/p5.js: p5.js is a client | 0.63 |
-| Handbook of treatment for eating di | Skyemou5/Pysoma: A crossplatform Ho | 0.85 |
+| Designing School Health Services to | Issues in Statewide Scale up of a M | 0.58 |
+| Designing School Health Services to | Evaluating English language learner | 0.77 |
+| Designing School Health Services to | Unearthing People from the SaND: Re | 0.58 |
+| Designing School Health Services to | Handbook of treatment for eating di | 0.78 |
+| Designing School Health Services to | Knowledge discovery in cardiology:  | 0.77 |
+| Designing School Health Services to | Discovery of the Einsteinium Isotop | 0.52 |
+| Designing School Health Services to | processing/p5.js: p5.js is a client | 0.52 |
+| Designing School Health Services to | Skyemou5/Pysoma: A crossplatform Ho | 0.58 |
 | Evaluating English language learner | Unearthing People from the SaND: Re | 0.89 |
-| Evaluating English language learner | Human Circulating and Tissue-Reside | 0.99 |
-| Evaluating English language learner | The Relationship between Vocabulary | 0.98 |
-| Evaluating English language learner | The Handbook of School Psychology | 0.63 |
-| Evaluating English language learner | Complexity in Mathematics Education | 1.00 |
+| Evaluating English language learner | Handbook of treatment for eating di | 0.98 |
+| Evaluating English language learner | Knowledge discovery in cardiology:  | 1.00 |
 | Evaluating English language learner | Discovery of the Einsteinium Isotop | 0.80 |
 | Evaluating English language learner | processing/p5.js: p5.js is a client | 0.48 |
 | Evaluating English language learner | Skyemou5/Pysoma: A crossplatform Ho | 0.89 |
-| Unearthing People from the SaND: Re | Human Circulating and Tissue-Reside | 0.83 |
-| Unearthing People from the SaND: Re | The Relationship between Vocabulary | 0.80 |
-| Unearthing People from the SaND: Re | The Handbook of School Psychology | 0.71 |
-| Unearthing People from the SaND: Re | Complexity in Mathematics Education | 0.89 |
+| Unearthing People from the SaND: Re | Handbook of treatment for eating di | 0.85 |
+| Unearthing People from the SaND: Re | Knowledge discovery in cardiology:  | 0.89 |
 | Unearthing People from the SaND: Re | Discovery of the Einsteinium Isotop | 0.89 |
 | Unearthing People from the SaND: Re | Skyemou5/Pysoma: A crossplatform Ho | 1.00 |
-| Human Circulating and Tissue-Reside | The Relationship between Vocabulary | 1.00 |
-| Human Circulating and Tissue-Reside | The Handbook of School Psychology | 0.59 |
-| Human Circulating and Tissue-Reside | Complexity in Mathematics Education | 0.99 |
-| Human Circulating and Tissue-Reside | Discovery of the Einsteinium Isotop | 0.74 |
-| Human Circulating and Tissue-Reside | processing/p5.js: p5.js is a client | 0.54 |
-| Human Circulating and Tissue-Reside | Skyemou5/Pysoma: A crossplatform Ho | 0.83 |
-| The Relationship between Vocabulary | The Handbook of School Psychology | 0.57 |
-| The Relationship between Vocabulary | Complexity in Mathematics Education | 0.98 |
-| The Relationship between Vocabulary | Discovery of the Einsteinium Isotop | 0.72 |
-| The Relationship between Vocabulary | processing/p5.js: p5.js is a client | 0.57 |
-| The Relationship between Vocabulary | Skyemou5/Pysoma: A crossplatform Ho | 0.80 |
-| The Handbook of School Psychology | Complexity in Mathematics Education | 0.63 |
-| The Handbook of School Psychology | Discovery of the Einsteinium Isotop | 0.63 |
-| The Handbook of School Psychology | Skyemou5/Pysoma: A crossplatform Ho | 0.71 |
-| COVLIAS 1.0: Lung Segmentation in C | The impact of adolescent achievemen | 1.00 |
-| COVLIAS 1.0: Lung Segmentation in C | Discovery of the Einsteinium Isotop | 0.45 |
-| COVLIAS 1.0: Lung Segmentation in C | processing/p5.js: p5.js is a client | 0.67 |
-| The impact of adolescent achievemen | Discovery of the Einsteinium Isotop | 0.45 |
-| The impact of adolescent achievemen | processing/p5.js: p5.js is a client | 0.67 |
-| Complexity in Mathematics Education | Discovery of the Einsteinium Isotop | 0.80 |
-| Complexity in Mathematics Education | processing/p5.js: p5.js is a client | 0.48 |
-| Complexity in Mathematics Education | Skyemou5/Pysoma: A crossplatform Ho | 0.89 |
-| Discovery of the Einsteinium Isotop | processing/p5.js: p5.js is a client | 0.45 |
+| Handbook of treatment for eating di | Knowledge discovery in cardiology:  | 0.98 |
+| Handbook of treatment for eating di | Discovery of the Einsteinium Isotop | 0.83 |
+| Handbook of treatment for eating di | processing/p5.js: p5.js is a client | 0.63 |
+| Handbook of treatment for eating di | Skyemou5/Pysoma: A crossplatform Ho | 0.85 |
+| Culture, goal orientation and achie | COVLIAS 1.0Lesion vs. MedSeg: An Ar | 1.00 |
+| Culture, goal orientation and achie | Discovery of the Einsteinium Isotop | 0.45 |
+| Culture, goal orientation and achie | processing/p5.js: p5.js is a client | 0.67 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | Discovery of the Einsteinium Isotop | 0.45 |
+| COVLIAS 1.0Lesion vs. MedSeg: An Ar | processing/p5.js: p5.js is a client | 0.67 |
+| Knowledge discovery in cardiology:  | Discovery of the Einsteinium Isotop | 0.80 |
+| Knowledge discovery in cardiology:  | processing/p5.js: p5.js is a client | 0.48 |
+| Knowledge discovery in cardiology:  | Skyemou5/Pysoma: A crossplatform Ho | 0.89 |
+| Discovery of the Einsteinium Isotop | processing/p5.js: p5.js is a client | 0.46 |
 | Discovery of the Einsteinium Isotop | Skyemou5/Pysoma: A crossplatform Ho | 0.89 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 4.482
+**Composite score:** 4.721
 **Confidence:** HIGH
-**Entropy nodes resolved:** 7
+**Entropy nodes resolved:** 6
 
 **Scoring weights:**
 
@@ -467,16 +396,16 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Step | Source | Year | Score | Gap Node |
 |------|--------|------|-------|----------|
-| 1 | A Comparison of Undersampling, Oversampling, and S | 2023 | 0.526 | YES |
-| 2 | Computer Science | None | 0.393 | — |
-| 3 | Educational data mining: prediction of students' a | 2022 | 0.516 | YES |
-| 4 | The current landscape of learning analytics in hig | 2018 | 0.479 | YES |
-| 5 | Predicting Student Performance Using Data Mining a | 2020 | 0.498 | YES |
-| 6 | Educational data mining and learning analytics: An | 2020 | 0.498 | YES |
-| 7 | A Systematic Review of Deep Learning Approaches to | 2019 | 0.316 | — |
-| 8 | Educational data mining and learning analytics for | 2019 | 0.488 | YES |
-| 9 | Learning analytics in higher education: a preponde | 2021 | 0.271 | — |
-| 10 | Utilising learning analytics to support study succ | 2020 | 0.497 | YES |
+| 1 | Educational data mining: prediction of students' a | 2022 | 0.516 | YES |
+| 2 | The current landscape of learning analytics in hig | 2018 | 0.479 | YES |
+| 3 | Predicting Student Performance Using Data Mining a | 2020 | 0.498 | YES |
+| 4 | Educational data mining and learning analytics: An | 2020 | 0.498 | YES |
+| 5 | A Systematic Review of Deep Learning Approaches to | 2019 | 0.483 | YES |
+| 6 | Educational data mining and learning analytics for | 2019 | 0.488 | YES |
+| 7 | Computer Science | None | 0.393 | — |
+| 8 | THU-TIOE-ML/GLM3_6B_Education_Ornstein | 2026 | 0.502 | — |
+| 9 | THU-TIOE-ML/Mixtral8_7B_Education_Ornstein | 2026 | 0.502 | — |
+| 10 | TheBloke/merlyn-education-corpus-qa-v2-GGUF | 2023 | 0.362 | — |
 
 ## 6. Supplementary Analyses
 
@@ -508,22 +437,22 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Antecedent | Consequent | Support | Confidence | Lift |
 |------------|-----------|---------|------------|------|
-| impact:emerging + topic:mathem | topic:computer science | 0.064 | 0.81 | 1.41 |
+| impact:emerging + topic:mathem | topic:computer science | 0.065 | 0.81 | 1.41 |
 | topic:mathematics | topic:computer science | 0.093 | 0.80 | 1.40 |
 | topic:education | impact:emerging | 0.142 | 0.85 | 1.39 |
 | temporal:very_recent + topic:e | impact:emerging | 0.056 | 0.81 | 1.32 |
 | impact:highly_cited | topic:computer science | 0.108 | 0.75 | 1.31 |
-| method:machine_learning + temp | topic:computer science | 0.053 | 0.75 | 1.30 |
-| method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.28 |
+| method:machine_learning + temp | topic:computer science | 0.054 | 0.75 | 1.30 |
+| method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.29 |
+| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.77 | 1.25 |
 | impact:emerging + method:machi | topic:computer science | 0.110 | 0.72 | 1.25 |
-| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.76 | 1.25 |
 | method:machine_learning + temp | impact:emerging | 0.070 | 0.74 | 1.21 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 20405
-**High-tier pairs:** 300
-**Convergence events:** 13
+**Candidate pairs:** 20398
+**High-tier pairs:** 297
+**Convergence events:** 12
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
 
@@ -531,19 +460,18 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 
 | Event | Score | Groups | Time Window | Papers |
 |-------|-------|--------|------------|--------|
-| svw_010 | 0.206 | 2 | 2y | 2 |
-| svw_008 | 0.201 | 3 | 3y | 3 |
-| svw_011 | 0.195 | 2 | 2y | 2 |
-| svw_001 | 0.170 | 2007 | 61y | 2007 |
-| svw_003 | 0.148 | 5 | 18y | 5 |
-| svw_013 | 0.059 | 2 | 6y | 2 |
-| svw_006 | 0.052 | 4 | 10y | 4 |
-| svw_012 | 0.052 | 2 | 7y | 2 |
-| svw_002 | 0.047 | 2 | 8y | 2 |
-| svw_007 | 0.045 | 2 | 11y | 2 |
-| svw_005 | 0.044 | 2 | 10y | 2 |
-| svw_009 | 0.037 | 2 | 11y | 2 |
-| svw_004 | 0.018 | 2 | 22y | 2 |
+| svw_002 | 0.311 | 3 | 2y | 3 |
+| svw_012 | 0.200 | 2 | 1y | 2 |
+| svw_011 | 0.181 | 5 | 8y | 5 |
+| svw_001 | 0.171 | 2023 | 61y | 2023 |
+| svw_009 | 0.134 | 2 | 2y | 2 |
+| svw_010 | 0.055 | 3 | 10y | 3 |
+| svw_005 | 0.053 | 2 | 7y | 2 |
+| svw_004 | 0.048 | 2 | 8y | 2 |
+| svw_003 | 0.046 | 2 | 9y | 2 |
+| svw_007 | 0.034 | 2 | 11y | 2 |
+| svw_006 | 0.034 | 2 | 12y | 2 |
+| svw_008 | 0.027 | 3 | 16y | 3 |
 
 ### 6.3 Generated Hypotheses
 
@@ -613,8 +541,8 @@ TF-IDF vectorization (5,000 features, unigrams + bigrams, sublinear TF) → Trun
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 3119 |
-| Timestamp | 2026-04-04T02:51:44.374347 |
+| Total sources | 3118 |
+| Timestamp | 2026-04-04T04:37:16.241081 |
 | Embedding dim | 256 |
 | TF-IDF features | 5,000 |
 | Perturbation σ | 0.1 |
