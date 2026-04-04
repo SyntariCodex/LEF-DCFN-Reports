@@ -17,7 +17,7 @@
 | Domain | Neuroscience |
 | Sources Analyzed | 3205 |
 | Graph Nodes | 3218 |
-| Graph Edges | 315747 |
+| Graph Edges | 315749 |
 | Knowledge Gaps (total) | 3136 |
 | Knowledge Gaps (critical) | 0 |
 | Research Clusters | 4 |
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.3451 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.3019 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.353 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.2951 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.2511 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.4538 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.3451 × Stability + 0.3019 × Concentration + 0.353 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.2951 × Stability + 0.2511 × Concentration + 0.4538 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.36412892663990376 (30th percentile) |
-| HIGH threshold | ≥ 0.4317161455970684 (80th percentile) |
+| LOW threshold | < 0.37690276795683625 (30th percentile) |
+| HIGH threshold | ≥ 0.4643047661529575 (80th percentile) |
 | Concentration p25/p50/p75 | 0.4237324893474579 / 0.43802422285079956 / 0.45289096236228943 |
 | Distinctiveness p25/p50/p75 | 0.4397047758102417 / 0.5139318108558655 / 0.6124489307403564 |
-| Stability p25/p50/p75 | 0.19216594903201833 / 0.2057583040158558 / 0.22028713149640575 |
+| Stability p25/p50/p75 | 0.19290226131645657 / 0.20598532393920704 / 0.2200929847556093 |
 
 ## 4. Concept Graph
 
@@ -93,12 +93,12 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Total Nodes | 3218 |
 |   — CONCEPT | 13 |
 |   — DOCUMENT | 3205 |
-| Total Edges | 315747 |
+| Total Edges | 315749 |
 |   — MIRRORS | 298254 |
 |   — EXTENDS | 12058 |
 |   — CONTAINS | 4828 |
 |   — ENABLES | 574 |
-|   — DEPENDS_ON | 33 |
+|   — DEPENDS_ON | 35 |
 | Density | 0.030500 |
 | Connected Components | 70 |
 
@@ -144,7 +144,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 ### 5.3 Entropy Detection
 
 **Total entropy nodes:** 3136
-**Critical (≥7):** 0 | **High (5-6):** 2776 | **Low (<5):** 360
+**Critical (≥7):** 0 | **High (5-6):** 2771 | **Low (<5):** 365
 
 **Issue Distribution:**
 
@@ -187,7 +187,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
 | Faster R-CNN: Towards Real-Time Object Detection w | 2931 | Established | 2018.1 |
-| Data-driven biomarkers outperform theory-based bio | 2 | Emerging | 2023.5 |
+| Data-driven biomarkers better associate with strok | 2 | Emerging | 2023.5 |
 | Neural mechanisms of divided feature-selective att | 2 | Established | 2021.0 |
 | brain-bzh/reve-positions (feature-extraction) | 215 | Emerging | 2024.6 |
 
@@ -196,7 +196,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
 | Faster R-CNN: Towards Real-Time Obj | brain-bzh/reve-positions (feature-e | 0.97 |
-| Data-driven biomarkers outperform t | Neural mechanisms of divided featur | 1.00 |
+| Data-driven biomarkers better assoc | Neural mechanisms of divided featur | 1.00 |
 
 ### 5.5 Golden Token Pathfinding
 
@@ -272,8 +272,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 81828
-**High-tier pairs:** 1451
+**Candidate pairs:** 79696
+**High-tier pairs:** 1420
 **Convergence events:** 6
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
@@ -284,7 +284,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-------|-------|--------|------------|--------|
 | svw_006 | 0.404 | 2 | 0y | 2 |
 | svw_005 | 0.340 | 10 | 3y | 10 |
-| svw_001 | 0.153 | 2190 | 48y | 2190 |
+| svw_001 | 0.155 | 2190 | 48y | 2190 |
 | svw_004 | 0.043 | 5 | 20y | 5 |
 | svw_002 | 0.038 | 2 | 16y | 2 |
 | svw_003 | 0.023 | 2 | 20y | 2 |
@@ -358,7 +358,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
 | Total sources | 3205 |
-| Timestamp | 2026-04-04T22:04:44.080911 |
+| Timestamp | 2026-04-04T23:19:56.893693 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
