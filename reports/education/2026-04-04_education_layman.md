@@ -1,23 +1,23 @@
 # Research Intelligence Article: Education & EdTech
 
 **Generated:** April 04, 2026
-**Sources Analyzed:** 3120
+**Sources Analyzed:** 3119
 **Engine:** DCFN (Decentralized Collective Foresight Network) v0.3.0
 **By:** Living Eden Frameworks LLC
 
 ---
 
-This article synthesizes 3120 sources in Education & EdTech into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this article bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
+This article synthesizes 3119 sources in Education & EdTech into a cross-sectional review of the field's foundations, frontiers, gaps, and most promising research directions. Where gaps exist, this article bridges them — articulating the specific studies, projects, or prototypes that would advance the field. Every claim traces to specific sources in the analyzed corpus.
 
 *For full methodology, parameters, and reproducibility data, see the accompanying Technical Report.*
 
 ## The Research Landscape
 
-This analysis covers 3120 sources in Education & EdTech, mapped into 3120 research papers and 17 topic areas with 7331 connections.
+This analysis covers 3119 sources in Education & EdTech, mapped into 3119 research papers and 17 topic areas with 7342 connections.
 
-The research is fragmented across 345 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 344 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
-The corpus is well-grounded: 37% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.70/1.00).
+The corpus is well-grounded: 36% of sources have strong citation networks and peer-review credibility (mean grounding score: 0.70/1.00).
 
 ## Intellectual Foundations
 
@@ -35,12 +35,12 @@ The sources in this collection don't yet show strong forward-cascading influence
 
 Each gap below follows a structured format: what was established before the gap (baseline), what broke or stopped (gap identification), what should happen next (proposed intervention), what the outcome should look like (expected outcome with validated confidence), and how to verify it. This is the report's core contribution — the connective reasoning that doesn't yet exist in the published literature.
 
-**3110 structural gaps** identified in the research landscape:
+**3109 structural gaps** identified in the research landscape:
 
-- **957 moderate** — important but less urgent
-- **2153 minor** — older or isolated issues
+- **939 moderate** — important but less urgent
+- **2170 minor** — older or isolated issues
 
-**Prevalence by type:** 3110 decayed; 3020 stale; 341 orphaned.
+**Prevalence by type:** 3109 decayed; 3019 stale; 340 orphaned.
 
 ---
 
@@ -182,20 +182,20 @@ Confidence: *not computed*.
 
 ## Research Communities
 
-The corpus organizes into **25 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
+The corpus organizes into **27 distinct research communities** — groups of sources that cite each other frequently and share methodological or topical overlap.
 
 - **7 emerging** (mostly post-2022) — active growth edges where new discoveries are concentrated
-- **18 established** — mature areas with deep citation networks
+- **20 established** — mature areas with deep citation networks
 
-### Molecular Docking: Shifting Paradigms in Drug Discovery
-*120 sources, Established (avg. year: 2020.0)*
+### Artificial intelligence to deep learning: machine intelligence approach for drug discovery
+*109 sources, Established (avg. year: 2019.6)*
 
-This cluster centers on Molecular Docking: Shifting Paradigms in Drug Discovery with 120 interconnected sources.
+This cluster centers on Artificial intelligence to deep learning: machine intelligence approach for drug discovery with 109 interconnected sources.
 
 ### The PRISMA 2020 statement: an updated guideline for reporting systematic reviews
-*2119 sources, Established (avg. year: 2018.5)*
+*2121 sources, Established (avg. year: 2018.6)*
 
-This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 2119 interconnected sources.
+This cluster centers on The PRISMA 2020 statement: an updated guideline for reporting systematic reviews with 2121 interconnected sources.
 
 ### Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning
 *2 sources, Established (avg. year: 2018.0)*
@@ -203,9 +203,9 @@ This cluster centers on The PRISMA 2020 statement: an updated guideline for repo
 This cluster centers on Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning with 2 interconnected sources.
 
 ### VoiceOfML/CMLMUF-Education-And-History (dataset)
-*292 sources, Established (avg. year: 2019.0)*
+*301 sources, Established (avg. year: 2018.9)*
 
-This cluster centers on VoiceOfML/CMLMUF-Education-And-History (dataset) with 292 interconnected sources.
+This cluster centers on VoiceOfML/CMLMUF-Education-And-History (dataset) with 301 interconnected sources.
 
 ### Adaptive e-learning systems through learning styles: A review of the literature
 *2 sources, Established (avg. year: 2020.0)*
@@ -216,9 +216,9 @@ This cluster centers on Adaptive e-learning systems through learning styles: A r
 
 Some communities have strikingly similar structures even though they study different topics. Methods and insights from one could transfer to the other:
 
-- "Molecular Docking: Shifting Paradigms in Drug Discovery" and "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" (61% structural similarity)
-- "Molecular Docking: Shifting Paradigms in Drug Discovery" and "Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning" (50% structural similarity)
-- "Molecular Docking: Shifting Paradigms in Drug Discovery" and "VoiceOfML/CMLMUF-Education-And-History (dataset)" (86% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews" (61% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning" (49% structural similarity)
+- "Artificial intelligence to deep learning: machine intelligence approach for drug discovery" and "VoiceOfML/CMLMUF-Education-And-History (dataset)" (87% structural similarity)
 
 
 ## Recommended Research Trajectory
@@ -227,36 +227,36 @@ Combining the field's foundations, frontiers, gaps, and community structure yiel
 
 This trajectory has **high confidence** — the structural evidence strongly supports this sequence.
 
-Following this path addresses **6 known knowledge gap(s)** identified above.
+Following this path addresses **7 known knowledge gap(s)** identified above.
 
-**Step 1: Educational data mining: prediction of students' academic performance using machine learning algorithms** [6] (2022) — High priority ← *fills a knowledge gap*
+**Step 1: A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining** [6] (2023) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 2:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 2: Educational data mining: Predictive analysis of academic performance of public school students in the capital of Brazil** [7] (2019) — High priority ← *fills a knowledge gap*
+**Step 2: Computer Science** [7] (None) — Moderate priority
 - *Why this leads to step 3:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 3: Psychology** [8] (None) — Moderate priority
+**Step 3: Educational data mining: prediction of students' academic performance using machine learning algorithms** [8] (2022) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 4:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 4: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [9] (2020) — High priority ← *fills a knowledge gap*
+**Step 4: The current landscape of learning analytics in higher education** [5] (2018) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 5:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 5: Educational data mining and learning analytics: An updated survey** [4] (2020) — High priority ← *fills a knowledge gap*
+**Step 5: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [9] (2020) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 6:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 6: A Systematic Review of Deep Learning Approaches to Educational Data Mining** [10] (2019) — High priority ← *fills a knowledge gap*
+**Step 6: Educational data mining and learning analytics: An updated survey** [4] (2020) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 7:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 7: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [11] (2019) — High priority ← *fills a knowledge gap*
+**Step 7: A Systematic Review of Deep Learning Approaches to Educational Data Mining** [10] (2019) — Moderate priority
 - *Why this leads to step 8:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 8: Computer Science** [12] (None) — Moderate priority
+**Step 8: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [11] (2019) — High priority ← *fills a knowledge gap*
 - *Why this leads to step 9:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 9: THU-TIOE-ML/GLM3_6B_Education_Ornstein** [13] (2026) — High priority
+**Step 9: Learning analytics in higher education: a preponderance of analytics but very little learning?** [12] (2021) — Moderate priority
 - *Why this leads to step 10:* This work provides the foundation that makes the next source's contribution possible.
 
-**Step 10: THU-TIOE-ML/Mixtral8_7B_Education_Ornstein** [14] (2026) — High priority
+**Step 10: Utilising learning analytics to support study success in higher education: a systematic review** [13] (2020) — High priority ← *fills a knowledge gap*
 
 
 ## Hidden Patterns
@@ -332,69 +332,77 @@ The following research directions emerge from the intersection of knowledge gaps
 
 **Hypothesis:** Re-examining 'The current landscape of learning analytics in higher education' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 
-**Grounded in:** entropy gap node: The current landscape of learning analytics in higher edu... [5]
+**Grounded in:** entropy gap node: The current landscape of learning analytics in higher edu... + included in golden token recommended path [5]
 
 **Why this is new:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 
 **How to test it:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
+
+*This gap sits on the recommended research trajectory — resolving it is doubly strategic.*
 
 
 ## Convergence Events
 
 When researchers with **no citation relationship** independently arrive at similar conclusions, it signals that the field is converging on structurally important territory — ideas that are "in the air" regardless of who discovers them first.
 
-**20683 candidate pairs** (313 high-confidence) grouped into **15 convergence events**.
+**20405 candidate pairs** (300 high-confidence) grouped into **13 convergence events**.
 
-**SVW_013 — Moderate convergence** (score: 0.402)
+**SVW_010 — Moderate convergence** (score: 0.206)
 
-*2 independent research groups converged on similar findings within 0 years*
-
-Converging sources:
-- Solving Jigsaw Puzzles using Iterative Random Sampling: Parallels with Develo... [15]
-- How Learner Control and Explainable Learning Analytics on Skill Mastery Shape... [16]
-
-**SVW_002 — Moderate convergence** (score: 0.280)
-
-*3 independent research groups converged on similar findings within 2 years*
+*2 independent research groups converged on similar findings within 2 years*
 
 Converging sources:
-- Predicting learner’s performance through video sequences viewing behavior ana... [17]
-- ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers... [18]
-- alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu... [19]
+- Reaching positive diabetes outcomes for patients with low literacy. [14]
+- Literacy and diabetes self-management. [15]
 
-**SVW_011 — Moderate convergence** (score: 0.222)
+**SVW_008 — Moderate convergence** (score: 0.201)
 
-*2 independent research groups converged on similar findings within 1 year*
-
-Converging sources:
-- Night-sky brightness monitoring in Hong Kong - a city-wide light pollution as... [20]
-- The Herschel Multi-tiered Extragalactic Survey: HerMES [21]
-
-**SVW_003 — Moderate convergence** (score: 0.209)
-
-*2 independent research groups converged on similar findings within 1 year*
+*3 independent research groups converged on similar findings within 3 years*
 
 Converging sources:
-- Inferring the Climate in Classrooms from Audio and Video Recordings: A Machin... [22]
-- Words matter [23]
+- Explanation-based learning in infancy. [16]
+- The profile of abstract rule learning in infancy: Meta-analytic and experimen... [17]
+- Unilateral step training can drive faster learning of novel gait patterns. [18]
 
-**SVW_009 — Moderate convergence** (score: 0.204)
+**SVW_011 — Moderate convergence** (score: 0.195)
 
-*2 independent research groups converged on similar findings within 1 year*
+*2 independent research groups converged on similar findings within 2 years*
 
 Converging sources:
-- The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive B... [24]
-- Contrastive language and vision learning of general fashion concepts. [25]
+- On Adaptive Fairness in Software Systems [19]
+- Runtime Verification of Self-Adaptive Systems with Changing Requirements [20]
+
+**SVW_001 — Moderate convergence** (score: 0.170)
+
+*2007 independent research groups converged on similar findings within 61 years*
+
+Converging sources:
+- Can an EASYcare based dementia training programme improve diagnostic assessme... [21]
+- GPT-based Open-Ended Knowledge Tracing [22]
+- Mutil-View Contrastive Learning for Knowledge Tracing Based on Multi-Faceted ... [23]
+- Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions... [24]
+- *(+2003 more)*
+
+**SVW_003 — Moderate convergence** (score: 0.148)
+
+*5 independent research groups converged on similar findings within 18 years*
+
+Converging sources:
+- Support posets of some monomial ideals [25]
+- Character sheaves in characteristic $p$ have nilpotent singular support [26]
+- Support theories for non-Noetherian tensor triangulated categories [27]
+- Formal extension of noncommutative tensor-triangular support varieties [28]
+- *(+1 more)*
 
 
 ---
 
 ## Synthesis
 
-Based on 3120 sources in Education & EdTech:
+Based on 3119 sources in Education & EdTech:
 
 - **7 emerging research community(ies)** represent the field's active growth edges.
-- Start with: **Educational data mining: prediction of students' academic performance using machine learning algorithms** [6]
+- Start with: **A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining** [6]
 
 ---
 
@@ -411,7 +419,7 @@ To continue this analysis, try asking an AI assistant:
 
 This article was generated by the **DCFN Engine** v0.3.0-prototype, a research intelligence system by Living Eden Frameworks LLC. DCFN ingests sources from multiple academic databases, encodes them via patented three-signal adaptive confidence scoring (QECO Patent 63/993,979), constructs a typed concept graph, and executes five cognitive traversal operations (CTE Patent 64/002,205) to discover structural patterns invisible to conventional literature review.
 
-This analysis covered 3120 sources in Education & EdTech. Every claim traces to specific sources. The gap-bridging synthesis — connecting established findings to propose specific studies — is this article's original contribution.
+This analysis covered 3119 sources in Education & EdTech. Every claim traces to specific sources. The gap-bridging synthesis — connecting established findings to propose specific studies — is this article's original contribution.
 
 *For complete methodology, parameter calibration, full result tables, and reproducibility data, see the accompanying **Technical Report**.*
 
@@ -427,13 +435,13 @@ This analysis covered 3120 sources in Education & EdTech. Every claim traces to 
 
 [4] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[5] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, next discovery.
+[5] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, next discovery, recommended path.
 
-[6] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: recommended path, top recommendation.
+[6] A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining. (2023). ID: `2a5e6dfd40e9...`. Referenced in: recommended path, top recommendation.
 
-[7] Educational data mining: Predictive analysis of academic performance of public school students in the capital of Brazil. (2019). ID: `ad156c560fdb...`. Referenced in: recommended path.
+[7] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
 
-[8] Psychology. (N/A). ID: `concept:psychology`. Referenced in: recommended path.
+[8] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: recommended path.
 
 [9] Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review. (2020). ID: `77b7c334b130...`. Referenced in: recommended path.
 
@@ -441,30 +449,36 @@ This analysis covered 3120 sources in Education & EdTech. Every claim traces to 
 
 [11] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). ID: `6f715e8bbdc6...`. Referenced in: recommended path.
 
-[12] Computer Science. (N/A). ID: `concept:computer_science`. Referenced in: recommended path.
+[12] Learning analytics in higher education: a preponderance of analytics but very little learning?. (2021). ID: `7a2e4e3bc7b7...`. Referenced in: recommended path.
 
-[13] THU-TIOE-ML/GLM3_6B_Education_Ornstein. (2026). ID: `hf_bd57d1ed9...`. Referenced in: recommended path.
+[13] Utilising learning analytics to support study success in higher education: a systematic review. (2020). ID: `8294a28f8a39...`. Referenced in: recommended path.
 
-[14] THU-TIOE-ML/Mixtral8_7B_Education_Ornstein. (2026). ID: `hf_4ebc144fa...`. Referenced in: recommended path.
+[14] Reaching positive diabetes outcomes for patients with low literacy.. (N/A). ID: `pmid:1563250...`. Referenced in: convergence event.
 
-[15] Solving Jigsaw Puzzles using Iterative Random Sampling: Parallels with Develo.... (N/A). ID: `arxiv:2403.0...`. Referenced in: convergence event.
+[15] Literacy and diabetes self-management.. (N/A). ID: `pmid:1756343...`. Referenced in: convergence event.
 
-[16] How Learner Control and Explainable Learning Analytics on Skill Mastery Shape.... (N/A). ID: `arxiv:2412.1...`. Referenced in: convergence event.
+[16] Explanation-based learning in infancy.. (N/A). ID: `pmid:2869899...`. Referenced in: convergence event.
 
-[17] Predicting learner’s performance through video sequences viewing behavior ana.... (N/A). ID: `931dca1b96e5...`. Referenced in: convergence event.
+[17] The profile of abstract rule learning in infancy: Meta-analytic and experimen.... (N/A). ID: `pmid:3001459...`. Referenced in: convergence event.
 
-[18] ShengcaiLiao/QAConv: [ECCV 2020] QAConv: Interpretable and Generalizable Pers.... (N/A). ID: `github:Sheng...`. Referenced in: convergence event.
+[18] Unilateral step training can drive faster learning of novel gait patterns.. (N/A). ID: `pmid:3312278...`. Referenced in: convergence event.
 
-[19] alibaba-mmai-research/TAdaConv: [ICLR 2022] TAda! Temporally-Adaptive Convolu.... (N/A). ID: `github:aliba...`. Referenced in: convergence event.
+[19] On Adaptive Fairness in Software Systems. (N/A). ID: `arxiv:2104.0...`. Referenced in: convergence event.
 
-[20] Night-sky brightness monitoring in Hong Kong - a city-wide light pollution as.... (N/A). ID: `arxiv:1106.3...`. Referenced in: convergence event.
+[20] Runtime Verification of Self-Adaptive Systems with Changing Requirements. (N/A). ID: `arxiv:2303.1...`. Referenced in: convergence event.
 
-[21] The Herschel Multi-tiered Extragalactic Survey: HerMES. (N/A). ID: `arxiv:1203.2...`. Referenced in: convergence event.
+[21] Can an EASYcare based dementia training programme improve diagnostic assessme.... (N/A). ID: `000b9e1a1281...`. Referenced in: convergence event.
 
-[22] Inferring the Climate in Classrooms from Audio and Video Recordings: A Machin.... (N/A). ID: `182076e524f9...`. Referenced in: convergence event.
+[22] GPT-based Open-Ended Knowledge Tracing. (N/A). ID: `004d6ce718b0...`. Referenced in: convergence event.
 
-[23] Words matter. (N/A). ID: `openalex:W25...`. Referenced in: convergence event.
+[23] Mutil-View Contrastive Learning for Knowledge Tracing Based on Multi-Faceted .... (N/A). ID: `00738e4dd8d8...`. Referenced in: convergence event.
 
-[24] The No Free Lunch Theorem, Kolmogorov Complexity, and the Role of Inductive B.... (N/A). ID: `arxiv:2304.0...`. Referenced in: convergence event.
+[24] Fast Causal Discovery by Approximate Kernel-based Generalized Score Functions.... (N/A). ID: `00ab01589b80...`. Referenced in: convergence event.
 
-[25] Contrastive language and vision learning of general fashion concepts.. (N/A). ID: `pmid:3634788...`. Referenced in: convergence event.
+[25] Support posets of some monomial ideals. (N/A). ID: `arxiv:2009.0...`. Referenced in: convergence event.
+
+[26] Character sheaves in characteristic $p$ have nilpotent singular support. (N/A). ID: `arxiv:2211.1...`. Referenced in: convergence event.
+
+[27] Support theories for non-Noetherian tensor triangulated categories. (N/A). ID: `arxiv:2312.0...`. Referenced in: convergence event.
+
+[28] Formal extension of noncommutative tensor-triangular support varieties. (N/A). ID: `arxiv:2410.0...`. Referenced in: convergence event.
