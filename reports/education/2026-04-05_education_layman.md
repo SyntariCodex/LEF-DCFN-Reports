@@ -1,4 +1,4 @@
-# A Cross-Sectional Review of Education & EdTech: Structural Analysis of 2256 Sources
+# A Cross-Sectional Review of Education & EdTech: Structural Analysis of 2257 Sources
 
 **Living Eden Frameworks LLC**
 
@@ -10,11 +10,11 @@
 
 ## Abstract
 
-**Objective:** This review synthesizes 2256 sources in Education & EdTech to identify structural patterns, knowledge gaps, and emerging research directions.
+**Objective:** This review synthesizes 2257 sources in Education & EdTech to identify structural patterns, knowledge gaps, and emerging research directions.
 
 **Method:** Sources were ingested from academic databases, encoded into semantic vectors, and mapped into a typed concept graph. Five cognitive traversal operations analyzed the graph for citation lineage, forward influence, entropy-based gaps, community structure, and optimal research trajectories.
 
-**Results:** The analysis identified 2246 structural knowledge gaps (0 critical); 10 research communities (8 emerging); 2 convergence events and 5 novel research directions pointing to where the field is heading. An optimal research trajectory of 10 steps was computed (HIGH confidence).
+**Results:** The analysis identified 2247 structural knowledge gaps (0 critical); 10 research communities (8 emerging); 2 convergence events and 5 novel research directions pointing to where the field is heading. An optimal research trajectory of 10 steps was computed (HIGH confidence).
 
 **Conclusion:** The field is well-integrated with limited structural gaps. Bridge proposals are provided for areas where progress has stalled.
 
@@ -26,25 +26,22 @@ Research in Education & EdTech has expanded rapidly. This review finds three str
 
 ### Scope and Landscape
 
-This analysis covers 2256 sources in Education & EdTech, mapped into 2256 research papers and 17 topic areas with 85295 connections.
+This analysis covers 2257 sources in Education & EdTech, mapped into 2257 research papers and 17 topic areas with 85395 connections.
 
-The research is fragmented across 238 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 237 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
 ### Intellectual Foundations
 
 Tracing citation lineages backward reveals which ideas shaped the current landscape and which foundational contributions may have been overlooked.
 
-**Learning analytics: state of the art** [1] contributed foundational work in this area. Across 9 predecessor works, the field has evolved far beyond its original framing.
-
-**Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [2] contributed foundational work in this area. The research has evolved moderately across 3 predecessor works, building incrementally while taking the ideas in new directions.
-
+Most sources in this dataset lack deep citation chains within the collection, suggesting either a young field or a need for broader source ingestion.
 
 
 ## Method
 
 ### Data Collection
 
-A total of 2256 sources in Education & EdTech were ingested from multiple academic databases (Semantic Scholar, arXiv, PubMed, OpenAlex, GitHub, and Hugging Face).
+A total of 2257 sources in Education & EdTech were ingested from multiple academic databases (Semantic Scholar, arXiv, PubMed, OpenAlex, GitHub, and Hugging Face).
 
 Sources lacking abstracts were excluded. Deduplication was performed via title-based fuzzy matching (SequenceMatcher threshold of 0.85) across all databases.
 
@@ -75,7 +72,7 @@ The corpus organizes into 6 distinct research communities. A single emerging clu
 **A REVIEW ON INTELLIGENT TUTORING SYSTEMS: Enhancing Learning with Conversational AI**
 *2 sources, Emerging (avg. year: 2025.0)*
 
-**Generative AI Based on Deep Knowledge Tracing for Academic Insight and Intelligent Learning Strategy Optimization**
+**Learning Strategy Based on Deep Knowledge Tracing**
 *2 sources, Emerging (avg. year: 2023.0)*
 
 **Relationships Between First-Year Student Resilience and Academic Stress.**
@@ -87,7 +84,7 @@ Some communities share strikingly similar structural patterns despite studying d
 
 - "Implementing Diagnostic Assessment in Designing Differentiated Learning for English Language Learning at the Junior High Schools" and "Utilizing Cognitive Diagnostic Assessments to Identify and Address Student Needs in Differentiated Classrooms" (100% structural similarity)
 - "Implementing Diagnostic Assessment in Designing Differentiated Learning for English Language Learning at the Junior High Schools" and "A REVIEW ON INTELLIGENT TUTORING SYSTEMS: Enhancing Learning with Conversational AI" (100% structural similarity)
-- "Implementing Diagnostic Assessment in Designing Differentiated Learning for English Language Learning at the Junior High Schools" and "Generative AI Based on Deep Knowledge Tracing for Academic Insight and Intelligent Learning Strategy Optimization" (100% structural similarity)
+- "Implementing Diagnostic Assessment in Designing Differentiated Learning for English Language Learning at the Junior High Schools" and "Learning Strategy Based on Deep Knowledge Tracing" (100% structural similarity)
 
 
 ### Co-occurrence Patterns
@@ -116,12 +113,12 @@ Beyond predictive relationships, certain research attributes appear together fre
 
 The gaps below are areas where the structural analysis found something missing — work that should exist but doesn't. For each gap, this section explains what the gap actually is (not just that it exists), why it matters to the field, and what specific study would close it.
 
-**2246 structural gaps** identified in the research landscape:
+**2247 structural gaps** identified in the research landscape:
 
-- **1732 moderate** — important but less urgent
-- **514 minor** — older or isolated issues
+- **1746 moderate** — important but less urgent
+- **501 minor** — older or isolated issues
 
-**Prevalence by type:** 2246 decayed; 2178 stale; 234 orphaned.
+**Prevalence by type:** 2247 decayed; 2179 stale; 233 orphaned.
 
 ---
 
@@ -131,16 +128,16 @@ These 10 papers all studied learning intelligence machine, but none have been up
 
 **Affected papers** (10):
 
-- Artificial intelligence to deep learning: machine intelligence approach for drug discovery [3]
-- Molecular Docking: Shifting Paradigms in Drug Discovery [4]
-- Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples [5]
-- Adaptive Federated Learning in Resource Constrained Edge Computing Systems [6]
-- Deep Knowledge Tracing [7]
-- Educational data mining and learning analytics: An updated survey [8]
-- Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review [9]
-- Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning [10]
-- The current landscape of learning analytics in higher education [11]
-- Educational data mining: prediction of students' academic performance using machine learning algorithms [12]
+- Artificial intelligence to deep learning: machine intelligence approach for drug discovery [1]
+- Molecular Docking: Shifting Paradigms in Drug Discovery [2]
+- Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples [3]
+- Adaptive Federated Learning in Resource Constrained Edge Computing Systems [4]
+- Deep Knowledge Tracing [5]
+- Educational data mining and learning analytics: An updated survey [6]
+- Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review [7]
+- Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning [8]
+- The current landscape of learning analytics in higher education [9]
+- Educational data mining: prediction of students' academic performance using machine learning algorithms [10]
 
 **Why this matters:**
 
@@ -163,14 +160,14 @@ The replication will produce one of two outcomes: confirmation (strengthening th
 
 Convergence occurs when researchers with no citation relationship independently arrive at similar conclusions. The topics below are where independent groups are pointing at the same structural territory — signaling emerging consensus the field has not yet explicitly named.
 
-**Moderate structural convergence** across 1523 independent research groups over 61 years (score: 0.146). These groups span multiple fields but share parallel methodological challenges — solutions from one field may transfer to another.
+**Moderate structural convergence** across 1523 independent research groups over 61 years (score: 0.147). These groups span multiple fields but share parallel methodological challenges — solutions from one field may transfer to another.
 
 **Converging topics:**
 
-- **Competency-Based Education** — 60 sources converge here
-- **Data Mining** — 38 sources converge here
-- **Educational Data** — 30 sources converge here
-- **Adaptive Learning** — 25 sources converge here
+- **Competency-Based Education** — 59 sources converge here
+- **Data Mining** — 39 sources converge here
+- **Educational Data** — 31 sources converge here
+- **Adaptive Learning** — 22 sources converge here
 
 **Moderate topical convergence** across 3 independent research groups over 6 years (score: 0.097). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
 
@@ -185,11 +182,11 @@ The analysis identified 5 foundational papers that share a common vulnerability:
 
 The papers this applies to:
 
-- *Artificial intelligence to deep learning: machine intelli...* [3]
-- *Molecular Docking: Shifting Paradigms in Drug Discovery* [4]
-- *Statistical Methods for Detecting Differentially Abundant...* [5]
-- *Adaptive Federated Learning in Resource Constrained Edge ...* [6]
-- *Deep Knowledge Tracing* [7]
+- *Artificial intelligence to deep learning: machine intelli...* [1]
+- *Molecular Docking: Shifting Paradigms in Drug Discovery* [2]
+- *Statistical Methods for Detecting Differentially Abundant...* [3]
+- *Adaptive Federated Learning in Resource Constrained Edge ...* [4]
+- *Deep Knowledge Tracing* [5]
 
 **Recommended approach:** The co-occurrence patterns identified in the Results section suggest that machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns) is the most structurally aligned method for testing this hypothesis — it co-occurs with similar gap patterns at high confidence.
 
@@ -200,40 +197,40 @@ Combining the gaps, communities, and co-occurrence patterns identified above yie
 
 This trajectory has **high confidence** — the structural evidence strongly supports this sequence.
 
-Following this path addresses **8 knowledge gap(s)** identified in the Bridge Proposals above.
+Following this path addresses **9 knowledge gap(s)** identified in the Bridge Proposals above.
 
-**Step 1: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [2] (2020) — High priority ← *addresses Bridge Proposal gap.*
+**Step 1: Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [11] (2020) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 2: Educational data mining: prediction of students' academic performance using machine learning algorithms** [12] (2022) — High priority ← *addresses Bridge Proposal gap.*
+**Step 2: A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining** [12] (2023) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 3: Utilising learning analytics to support study success in higher education: a systematic review** [13] (2020) — High priority ← *addresses Bridge Proposal gap.*
+**Step 3: Learning analytics dashboard: a tool for providing actionable insights to learners** [13] (2022) — Moderate priority
 
-**Step 4: Educational data mining and learning analytics: An updated survey** [8] (2020) — High priority ← *addresses Bridge Proposal gap.*
+**Step 4: Utilising learning analytics to support study success in higher education: a systematic review** [14] (2020) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 5: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [14] (2019) — High priority ← *addresses Bridge Proposal gap.*
+**Step 5: Educational data mining: prediction of students' academic performance using machine learning algorithms** [10] (2022) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 6: The current landscape of learning analytics in higher education** [11] (2018) — High priority ← *addresses Bridge Proposal gap.*
+**Step 6: The current landscape of learning analytics in higher education** [9] (2018) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 7: Learning Analytics** [15] (2019) — High priority ← *addresses Bridge Proposal gap.*
+**Step 7: Educational data mining and learning analytics for 21st century higher education: A review and synthesis** [15] (2019) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 8: Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review** [9] (2023) — High priority ← *addresses Bridge Proposal gap.*
+**Step 8: Educational data mining and learning analytics: An updated survey** [6] (2020) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 9: AI-enabled adaptive learning systems: A systematic mapping of the literature** [16] (2021) — Moderate priority
+**Step 9: Learning Analytics** [16] (2019) — High priority ← *addresses Bridge Proposal gap.*
 
-**Step 10: Integration of artificial intelligence performance prediction and learning analytics to improve student learning in online engineering course** [17] (2023) — High priority
+**Step 10: Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review** [7] (2023) — High priority ← *addresses Bridge Proposal gap.*
 
 
 
 ## Conclusion
 
-This review analyzed 2256 sources in Education & EdTech using structural graph analysis to identify patterns not visible in traditional literature review.
+This review analyzed 2257 sources in Education & EdTech using structural graph analysis to identify patterns not visible in traditional literature review.
 
 Key findings:
 
 - **8 emerging research communities** represent the field's active growth edges
 - **5 novel research directions** emerged from the intersection of convergence patterns, structural gaps, and co-occurrence analysis
 
-The recommended starting point for researchers entering this space is **Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [2].
+The recommended starting point for researchers entering this space is **Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** [11].
 
 ### Limitations
 
@@ -249,36 +246,34 @@ The field appears well-integrated with limited structural gaps. Emerging researc
 
 ## References
 
-[1] Learning analytics: state of the art. (2022). ID: `c72ec55196f0...`. Referenced in: intellectual foundations.
+[1] Artificial intelligence to deep learning: machine intelligence approach for drug discovery. (2021). ID: `29409efa04ac...`. Referenced in: hypothesis, knowledge gap.
 
-[2] Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review. (2020). ID: `77b7c334b130...`. Referenced in: conclusion, intellectual foundations, recommended path.
+[2] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). ID: `8f7948d72b19...`. Referenced in: hypothesis, knowledge gap.
 
-[3] Artificial intelligence to deep learning: machine intelligence approach for drug discovery. (2021). ID: `29409efa04ac...`. Referenced in: hypothesis, knowledge gap.
+[3] Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples. (2009). ID: `a80ba5b7c4ea...`. Referenced in: hypothesis, knowledge gap.
 
-[4] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). ID: `8f7948d72b19...`. Referenced in: hypothesis, knowledge gap.
+[4] Adaptive Federated Learning in Resource Constrained Edge Computing Systems. (2018). ID: `e2e0e226f1f7...`. Referenced in: hypothesis, knowledge gap.
 
-[5] Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples. (2009). ID: `a80ba5b7c4ea...`. Referenced in: hypothesis, knowledge gap.
+[5] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: hypothesis, knowledge gap.
 
-[6] Adaptive Federated Learning in Resource Constrained Edge Computing Systems. (2018). ID: `e2e0e226f1f7...`. Referenced in: hypothesis, knowledge gap.
+[6] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, recommended path.
 
-[7] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: hypothesis, knowledge gap.
+[7] Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review. (2023). ID: `f54faf827b5c...`. Referenced in: knowledge gap, recommended path.
 
-[8] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, recommended path.
+[8] Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning. (2018). ID: `e04a31bd8213...`. Referenced in: knowledge gap.
 
-[9] Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review. (2023). ID: `f54faf827b5c...`. Referenced in: knowledge gap, recommended path.
+[9] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, recommended path.
 
-[10] Accelerated discovery of stable lead-free hybrid organic-inorganic perovskites via machine learning. (2018). ID: `e04a31bd8213...`. Referenced in: knowledge gap.
+[10] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: knowledge gap, recommended path.
 
-[11] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap, recommended path.
+[11] Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review. (2020). ID: `77b7c334b130...`. Referenced in: conclusion, recommended path.
 
-[12] Educational data mining: prediction of students' academic performance using machine learning algorithms. (2022). ID: `0ad4189bdddf...`. Referenced in: knowledge gap, recommended path.
+[12] A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining. (2023). ID: `2a5e6dfd40e9...`. Referenced in: recommended path.
 
-[13] Utilising learning analytics to support study success in higher education: a systematic review. (2020). ID: `8294a28f8a39...`. Referenced in: recommended path.
+[13] Learning analytics dashboard: a tool for providing actionable insights to learners. (2022). ID: `f83d0ac8f140...`. Referenced in: recommended path.
 
-[14] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). ID: `6f715e8bbdc6...`. Referenced in: recommended path.
+[14] Utilising learning analytics to support study success in higher education: a systematic review. (2020). ID: `8294a28f8a39...`. Referenced in: recommended path.
 
-[15] Learning Analytics. (2019). ID: `42f2f68c2e1e...`. Referenced in: recommended path.
+[15] Educational data mining and learning analytics for 21st century higher education: A review and synthesis. (2019). ID: `6f715e8bbdc6...`. Referenced in: recommended path.
 
-[16] AI-enabled adaptive learning systems: A systematic mapping of the literature. (2021). ID: `openalex:W31...`. Referenced in: recommended path.
-
-[17] Integration of artificial intelligence performance prediction and learning analytics to improve student learning in online engineering course. (2023). ID: `02cbb1591e65...`. Referenced in: recommended path.
+[16] Learning Analytics. (2019). ID: `42f2f68c2e1e...`. Referenced in: recommended path.
