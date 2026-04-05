@@ -1,6 +1,4 @@
-# A Cross-Sectional Review of Neuroscience: Structural Analysis of 3032 Sources
-
-**Living Eden Frameworks LLC**
+# Neuroscience: What 3120 Sources Reveal
 
 **April 05, 2026**
 
@@ -10,25 +8,13 @@
 
 ## Abstract
 
-**Objective:** This review synthesizes 3032 sources in Neuroscience to identify structural patterns, knowledge gaps, and emerging research directions.
+3120 sources spanning Neuroscience were mapped into a concept graph with 313,649 connections. The structural analysis found 5 distinct research communities with 98% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. Several foundational papers that the field treats as established have not been retested with current methods.
 
-**Method:** Sources were ingested from academic databases, encoded into semantic vectors, and mapped into a typed concept graph. Five cognitive traversal operations analyzed the graph for citation lineage, forward influence, entropy-based gaps, community structure, and optimal research trajectories.
+## The Landscape
 
-**Results:** The analysis identified 2963 structural knowledge gaps (0 critical); 4 research communities (2 emerging); 6 convergence events and 5 novel research directions pointing to where the field is heading. An optimal research trajectory of 10 steps was computed (HIGH confidence).
+This analysis covers 3120 sources in Neuroscience, mapped into 3120 research papers and 13 topic areas with 313649 connections.
 
-**Conclusion:** The field is well-integrated with limited structural gaps. Bridge proposals are provided for areas where progress has stalled.
-
-*Keywords: neuroscience, structural analysis, knowledge gaps, research trajectory, citation network*
-
-## Introduction
-
-Research in Neuroscience has expanded rapidly. This review finds three structural features worth noting: a dominant established cluster surrounded by 2 emerging specializations; structural staleness in foundational work that the rest of the field builds on; convergence signals where independent researchers arrived at similar conclusions without citing each other. The sections that follow map each of these in detail and propose specific actions where the evidence supports them.
-
-### Scope and Landscape
-
-This analysis covers 3032 sources in Neuroscience, mapped into 3032 research papers and 13 topic areas with 299080 connections.
-
-The research is fragmented across 70 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 69 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
 ### Intellectual Foundations
 
@@ -37,138 +23,55 @@ Tracing citation lineages backward reveals which ideas shaped the current landsc
 Most sources in this dataset lack deep citation chains within the collection, suggesting either a young field or a need for broader source ingestion.
 
 
-## Method
+## What Emerged
 
-### Data Collection
+### 5 Communities, One Surprise
 
-A total of 3032 sources in Neuroscience were ingested from multiple academic databases (Semantic Scholar, arXiv, PubMed, OpenAlex, GitHub, and Hugging Face).
+The 3120 sources organize into 3 research communities:
 
-Sources lacking abstracts were excluded. Deduplication was performed via title-based fuzzy matching (SequenceMatcher threshold of 0.85) across all databases.
+- **"brain-bzh/reve-positions (feature-extraction)"** — 245 sources (avg. year: 2024.6). Emerging cluster.
+- **"Neural mechanisms of divided feature-selective attention to colour."** — 2 sources (avg. year: 2021.0). Established cluster.
+- **"bendik-eeg-henriksen/nor-casehold (dataset)"** — 2 sources (avg. year: 2026.0). Emerging cluster.
 
-### Analytical Procedure
+The co-occurrence analysis revealed a pattern the field hasn't named yet: **when research involves psychology research, it involves medicine research 78% of the time.** 
+Another pattern: **highly cited papers + neuroscience research co-occurs with foundational work 64% of the time.**
+Another pattern: **highly cited papers + foundational work co-occurs with neuroscience research 93% of the time.**
 
-Each source was encoded into a semantic vector using Sentence-BERT (all-MiniLM-L6-v2, 384 dimensions). Confidence was assessed via three-signal adaptive scoring: perturbation stability, vector concentration, and corpus distinctiveness. Sources were then mapped into a typed concept graph with 14 edge types (citation-based, semantic similarity, and structural relationships).
+### Independent Convergence
 
-Five cognitive traversal operations were applied to the graph: (1) backward traversal for citation lineage, (2) forward cascade for downstream influence, (3) entropy detection for knowledge gaps, (4) branch cataloging for community structure, and (5) golden token pathfinding for optimal research trajectories.
-
-### Source Credibility
-
-Epistemic grounding was computed for each source based on citation connectivity, source type, and contradiction penalties. 36% of sources were classified as well-grounded (mean grounding score: 0.70/1.00).
-
-*For complete parameter values, calibration state, and reproducibility data, see the accompanying Technical Report (DCFN v0.3.0-prototype).*
-
-## Results
-
-### Research Communities
-
-The corpus is dominated by a single community of 2 sources centered on *bendik-eeg-henriksen/nor-casehold (dataset)*.
-
-**bendik-eeg-henriksen/nor-casehold (dataset)**
-*2 sources, Emerging (avg. year: 2026.0)*
-
-
-### Co-occurrence Patterns
-
-Research in this field clusters around a few dominant combinations. The strongest signal: when research involves psychology research, it also involves medicine research 78% of the time; the most common combination ([Emerging] AND research in Computer Science) appears in 26% of sources.
-
-**Predictive associations** (if you see A, expect B):
-
-- When research involves psychology research, it **78% of the time** also involves medicine research (strong association)
-- When research involves highly cited papers + neuroscience research, it **64% of the time** also involves foundational work (strong association)
-- When research involves highly cited papers + foundational work, it **93% of the time** also involves neuroscience research (strong association)
-
-Beyond predictive relationships, certain research attributes appear together frequently. These combinations reflect the field's current research habits — where effort is concentrated.
-
-**Most common research combinations:**
-
-- [Emerging] AND research in Computer Science — found in **26%** of sources
-- [Emerging] AND (Very Recent work) — found in **21%** of sources
-- [Emerging] AND research in Neuroscience — found in **18%** of sources
-- using Neuroimaging AND research in Neuroscience — found in **17%** of sources
-
-
-## Discussion
-
-### Knowledge Gaps and Bridge Proposals
-
-The gaps below are areas where the structural analysis found something missing — work that should exist but doesn't. For each gap, this section explains what the gap actually is (not just that it exists), why it matters to the field, and what specific study would close it.
-
-**2963 structural gaps** identified in the research landscape:
-
-- **2630 moderate** — important but less urgent
-- **333 minor** — older or isolated issues
-
-**Prevalence by type:** 2963 decayed; 2877 stale; 68 orphaned.
-
----
-
-### Bridge Proposal 1: Stale Research (10 papers)
-
-These 10 papers all studied attention plasticity mechanisms, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
-
-**Affected papers** (10):
-
-- Spinal cord injury: molecular mechanisms and therapeutic interventions [1]
-- Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4 [2]
-- Attention is not not Explanation [3]
-- Synaptic Plasticity Forms and Functions. [4]
-- 20 years of the default mode network: A review and synthesis. [5]
-- Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [6]
-- From Cognitive Load Theory to Collaborative Cognitive Load Theory [7]
-- Attend and Diagnose: Clinical Time Series Analysis using Attention Models [8]
-- Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity [9]
-- Microglia regulation of synaptic plasticity and learning and memory [10]
-
-**Why this matters:**
-
-Every study that cites or builds on these 10 papers is treating their conclusions as verified — but they aren't. Leaving them untested means the field has no way to know whether its foundation is solid.
-
-**Proposed study:**
-
-A systematic replication program covering these 10 foundational works. Rather than replicating each in isolation, design a comparative replication that tests the core claims of *Spinal cord injury: molecular mechanisms and therapeutic interventions*, *Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4*, *Attention is not not Explanation*, and 7 others under a unified methodology using current analytical tools and larger, more diverse samples.
-
-**What closing this gap produces:**
-
-The replication will produce one of two outcomes: confirmation (strengthening the foundation for all subsequent work) or revision (identifying which downstream conclusions need updating). Both are publishable and both advance the field.
-
-*Validation: Confirms if replicated results match original findings. Falsifies if results contradict or show null effect with adequate power. Either outcome updates confidence across all downstream work.*
-
----
-
-
-### Emerging Directions
-
-Convergence occurs when researchers with no citation relationship independently arrive at similar conclusions. The topics below are where independent groups are pointing at the same structural territory — signaling emerging consensus the field has not yet explicitly named.
-
-**Moderate topical convergence** across 2 independent research groups over 0 years (score: 0.404). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
-
-**Converging topics:**
-
-- **General domain convergence** — 2 sources converge here
-
-**Moderate topical convergence** across 10 independent research groups over 3 years (score: 0.340). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
-
-**Converging topics:**
+Researchers who have never cited each other are arriving at the same structural territory. DCFN detected convergence across 10 independent research groups over 3 years.
 
 - **Text-Generation** — 3 sources converge here
 
-**Moderate topical convergence** across 2071 independent research groups over 48 years (score: 0.155). These researchers, working without citing each other, arrived at similar findings — the field is converging on structurally important territory.
 
-**Converging topics:**
+## What's Missing
 
-- **Brain-Computer Interface** — 68 sources converge here
-- **Memory Consolidation** — 67 sources converge here
-- **Neural Networks** — 56 sources converge here
-- **Cognitive Load** — 48 sources converge here
+The structural analysis found 3054 knowledge gaps.
 
-**Moderate structural convergence** across 5 independent research groups over 20 years (score: 0.043). These groups span multiple fields but share parallel methodological challenges — solutions from one field may transfer to another.
+But one pattern stands out — 20 stale papers that the rest of the field builds on, none of which have been retested with current methods.
 
-**Moderate structural convergence** across 2 independent research groups over 16 years (score: 0.038). These groups span multiple fields but share parallel methodological challenges — solutions from one field may transfer to another.
+### The Untested Foundation
 
+These 10 papers all studied attention plasticity mechanisms, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
 
-Building on these convergence patterns — and combining them with the structural gaps and co-occurrence patterns identified above — the analysis points to specific research directions that do not yet exist in the published literature.
+- Spinal cord injury: molecular mechanisms and therapeutic interventions [1] (2023)
+- Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4 [2] (1999)
+- Attention is not not Explanation [3] (2019)
+- Synaptic Plasticity Forms and Functions. [4] (2020)
+- 20 years of the default mode network: A review and synthesis. [5] (2023)
+- Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [6] (2017)
+- From Cognitive Load Theory to Collaborative Cognitive Load Theory [7] (2018)
+- Attend and Diagnose: Clinical Time Series Analysis using Attention Models [8] (2017)
+- Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity [9] (2016)
+- Microglia regulation of synaptic plasticity and learning and memory [10] (2021)
 
-The analysis identified 5 foundational papers that share a common vulnerability: re-examining them with contemporary methods will produce findings that substantially update or contradict current consensus in this area. The confidence level for this direction is medium, based on the structural evidence available.
+**Why this matters:** Every study that cites or builds on these 10 papers is treating their conclusions as verified — but they aren't. Leaving them untested means the field has no way to know whether its foundation is solid.
+
+*Beyond this pattern, the analysis also identified 20 decayed papers. Full gap analysis and bridge proposals are in the Technical Report.*
+
+## Where to Go From Here
+
+The structural evidence points to a single dominant direction: 5 foundational papers share a common vulnerability — none have been retested with current methods. A systematic replication covering these works under a unified methodology would either strengthen the foundation or identify which downstream conclusions need revision. Both outcomes are publishable. Both advance the field.
 
 The papers this applies to:
 
@@ -176,77 +79,44 @@ The papers this applies to:
 - *Competitive Mechanisms Subserve Attention in Macaque Area...* [2]
 - *Attention is not not Explanation* [3]
 - *Synaptic Plasticity Forms and Functions.* [4]
-- *20 years of the default mode network: A review and synthe... + included in golden token recommended path* [5]
+- *20 years of the default mode network: A review and synthe...* [5]
 
-**Recommended approach:** The co-occurrence patterns identified in the Results section suggest that neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns) is the most structurally aligned method for testing this hypothesis — it co-occurs with similar gap patterns at high confidence.
+**Recommended approach:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns). Confidence: medium.
 
 *1 of these papers appear in the recommended research trajectory below.*
 
-
 ### Recommended Research Trajectory
 
-Combining the gaps, communities, and co-occurrence patterns identified above yields a recommended reading and research sequence for someone entering or advancing in this space. Each step builds on the previous one.
+The structural evidence yields a 10-step reading and research sequence (low confidence). The first three steps:
 
-This trajectory has **high confidence** — the structural evidence strongly supports this sequence.
+**1. 20 years of the default mode network: A review and synthesis.** (2023)
+**2. Fudan-fMRI/CineBrain (dataset)** (2026)
+**3. gasparyanartur/things-eeg2 (dataset)** (2026)
 
-Following this path addresses **1 knowledge gap(s)** identified in the Bridge Proposals above.
+*The full 10-step trajectory is in the Technical Report.*
 
-**Step 1: 20 years of the default mode network: A review and synthesis.** [5] (2023) — High priority ← *addresses Bridge Proposal gap.*
+---
 
-**Step 2: Fudan-fMRI/CineBrain (dataset)** [11] (2026) — High priority
-
-**Step 3: gasparyanartur/things-eeg2 (dataset)** [12] (2026) — High priority
-
-**Step 4: braindecode/isruc-sleep (dataset)** [13] (2026) — High priority
-
-**Step 5: RoboCOIN/Galaxea_R1_Lite_change_baai_into_brain (dataset)** [14] (2026) — High priority
-
-**Step 6: braindecode/bcic2020-3 (dataset)** [15] (2026) — High priority
-
-**Step 7: braindecode/faced (dataset)** [16] (2026) — High priority
-
-**Step 8: braindecode/chbmit (dataset)** [17] (2026) — High priority
-
-**Step 9: braindecode/physionet (dataset)** [18] (2026) — High priority
-
-**Step 10: braindecode/mdd_mumtaz2016 (dataset)** [19] (2026) — High priority
+**Go Deeper** — This analysis identified 3054 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Run Layer 2](https://lef-dcfn.onrender.com/#try-it)
 
 
+## Limitations
 
-## Conclusion
-
-This review analyzed 3032 sources in Neuroscience using structural graph analysis to identify patterns not visible in traditional literature review.
-
-Key findings:
-
-- **2 emerging research communities** represent the field's active growth edges
-- **5 novel research directions** emerged from the intersection of convergence patterns, structural gaps, and co-occurrence analysis
-
-The recommended starting point for researchers entering this space is **20 years of the default mode network: A review and synthesis.** [5].
-
-### Limitations
-
-This analysis is bounded by the sources available in the queried databases. Papers without abstracts were excluded, which may underrepresent certain subfields. Semantic similarity thresholds and decay parameters reflect the current engine calibration and may need domain-specific tuning for optimal performance. The concept graph captures structural relationships but cannot assess argument quality or experimental rigor within individual papers.
-
-### Implications for Future Research
-
-The field appears well-integrated with limited structural gaps. Emerging research communities should be monitored for new gap formation as they mature.
-
-*For complete methodology, parameter calibration, and reproducibility data, see the accompanying Technical Report.*
+This analysis is bounded by the sources available in the queried databases. Papers without abstracts were excluded. Semantic similarity thresholds reflect current engine calibration. The concept graph captures structural relationships but cannot assess argument quality or experimental rigor within individual papers.
 
 ---
 
 ## References
 
-[1] Spinal cord injury: molecular mechanisms and therapeutic interventions. (2023). ID: `4fd30d20a99d...`. Referenced in: hypothesis, knowledge gap.
+[1] Spinal cord injury: molecular mechanisms and therapeutic interventions. (2023). ID: `4fd30d20a99d...`. Referenced in: knowledge gap, research direction.
 
-[2] Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4. (1999). ID: `04282d7cc824...`. Referenced in: hypothesis, knowledge gap.
+[2] Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4. (1999). ID: `04282d7cc824...`. Referenced in: knowledge gap, research direction.
 
-[3] Attention is not not Explanation. (2019). ID: `ce177672b00d...`. Referenced in: hypothesis, knowledge gap.
+[3] Attention is not not Explanation. (2019). ID: `ce177672b00d...`. Referenced in: knowledge gap, research direction.
 
-[4] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: hypothesis, knowledge gap.
+[4] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, research direction.
 
-[5] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: conclusion, hypothesis, knowledge gap, recommended path.
+[5] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, research direction.
 
 [6] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap.
 
@@ -257,21 +127,3 @@ The field appears well-integrated with limited structural gaps. Emerging researc
 [9] Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity. (2016). ID: `b49714edbef4...`. Referenced in: knowledge gap.
 
 [10] Microglia regulation of synaptic plasticity and learning and memory. (2021). ID: `7fb4e04a32b4...`. Referenced in: knowledge gap.
-
-[11] Fudan-fMRI/CineBrain (dataset). (2026). ID: `hf_555730914...`. Referenced in: recommended path.
-
-[12] gasparyanartur/things-eeg2 (dataset). (2026). ID: `hf_df99e53c8...`. Referenced in: recommended path.
-
-[13] braindecode/isruc-sleep (dataset). (2026). ID: `hf_c79f8a0ba...`. Referenced in: recommended path.
-
-[14] RoboCOIN/Galaxea_R1_Lite_change_baai_into_brain (dataset). (2026). ID: `hf_f46830e9c...`. Referenced in: recommended path.
-
-[15] braindecode/bcic2020-3 (dataset). (2026). ID: `hf_b2e08dd8f...`. Referenced in: recommended path.
-
-[16] braindecode/faced (dataset). (2026). ID: `hf_7b49db1ef...`. Referenced in: recommended path.
-
-[17] braindecode/chbmit (dataset). (2026). ID: `hf_2df0deddf...`. Referenced in: recommended path.
-
-[18] braindecode/physionet (dataset). (2026). ID: `hf_4936d2f2c...`. Referenced in: recommended path.
-
-[19] braindecode/mdd_mumtaz2016 (dataset). (2026). ID: `hf_a5370ed00...`. Referenced in: recommended path.
