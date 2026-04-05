@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 05, 2026
-**Sources:** 3121
+**Sources:** 3122
 
 ---
 
@@ -15,10 +15,10 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Education & EdTech |
-| Sources Analyzed | 3121 |
-| Graph Nodes | 3138 |
-| Graph Edges | 122632 |
-| Knowledge Gaps (total) | 3111 |
+| Sources Analyzed | 3122 |
+| Graph Nodes | 3139 |
+| Graph Edges | 122644 |
+| Knowledge Gaps (total) | 3112 |
 | Knowledge Gaps (critical) | 0 |
 | Research Clusters | 12 |
 | Convergence Events | 6 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 3121
+**Total sources:** 3122
 
 **Source APIs:**
 
@@ -51,7 +51,7 @@
 | Status | Count |
 |--------|-------|
 | Well-grounded (≥0.7) | 1138 |
-| Partially grounded (0.4–0.7) | 1913 |
+| Partially grounded (0.4–0.7) | 1914 |
 | Weakly grounded (0.2–0.4) | 70 |
 | Ungrounded (<0.2) | 0 |
 | **Mean grounding score** | **0.696** |
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.2617 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.1808 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.5575 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.2513 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.171 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.5777 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.2617 × Stability + 0.1808 × Concentration + 0.5575 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.2513 × Stability + 0.171 × Concentration + 0.5777 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.4117992699572635 (30th percentile) |
-| HIGH threshold | ≥ 0.5401265171576257 (80th percentile) |
-| Concentration p25/p50/p75 | 0.42340710759162903 / 0.4379459619522095 / 0.45224010944366455 |
-| Distinctiveness p25/p50/p75 | 0.46863067150115967 / 0.5968919992446899 / 0.7004849910736084 |
-| Stability p25/p50/p75 | 0.19369144669390564 / 0.20706243370015662 / 0.22059188696341855 |
+| LOW threshold | < 0.4150844925099961 (30th percentile) |
+| HIGH threshold | ≥ 0.547825836861995 (80th percentile) |
+| Concentration p25/p50/p75 | 0.4234142601490021 / 0.43795257806777954 / 0.4522300809621811 |
+| Distinctiveness p25/p50/p75 | 0.4685560464859009 / 0.596909761428833 / 0.7003696262836456 |
+| Stability p25/p50/p75 | 0.194074589325672 / 0.20736481729272976 / 0.2207265254350096 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 3138 |
+| Total Nodes | 3139 |
 |   — CONCEPT | 17 |
-|   — DOCUMENT | 3121 |
-| Total Edges | 122632 |
+|   — DOCUMENT | 3122 |
+| Total Edges | 122644 |
 |   — MIRRORS | 112993 |
-|   — EXTENDS | 4763 |
+|   — EXTENDS | 4779 |
 |   — CONTAINS | 4211 |
-|   — ENABLES | 608 |
+|   — ENABLES | 604 |
 |   — DEPENDS_ON | 57 |
-| Density | 0.012458 |
-| Connected Components | 238 |
+| Density | 0.012451 |
+| Connected Components | 237 |
 
 ### 4.3 Edge Construction Rules
 
@@ -143,16 +143,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 3111
-**Critical (≥7):** 0 | **High (5-6):** 2496 | **Low (<5):** 615
+**Total entropy nodes:** 3112
+**Critical (≥7):** 0 | **High (5-6):** 2481 | **Low (<5):** 631
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 3111 |
-| STALE | 3018 |
-| ORPHAN | 234 |
+| DECAYED | 3112 |
+| STALE | 3019 |
+| ORPHAN | 233 |
 
 **Complete Entropy Node List:**
 
@@ -175,9 +175,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | 15 | Artificial intelligence in drug discovery: re | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 16 | Impact of word embedding models on text analy | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 17 | Predicting Student Performance Using Data Min | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 18 | Organizational mindfulness towards digital tr | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 19 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 20 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 18 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 19 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 20 | A Comparison of Undersampling, Oversampling,  | 6/9 | STALE, DECAYED | — | 0 | 0 |
 
 ### 5.4 Branch Cataloging
 
@@ -186,16 +186,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| The PRISMA 2020 statement: an updated guideline fo | 2775 | Established | 2018.7 |
+| The PRISMA 2020 statement: an updated guideline fo | 2777 | Established | 2018.7 |
 | Beyond Language Barriers: Allowing Multiple Langua | 2 | Emerging | 2023.5 |
 | Implementing Diagnostic Assessment in Designing Di | 2 | Emerging | 2023.5 |
 | Utilizing Cognitive Diagnostic Assessments to Iden | 2 | Emerging | 2024.0 |
-| Generative AI Based on Deep Knowledge Tracing for  | 2 | Emerging | 2023.0 |
+| Learning Strategy Based on Deep Knowledge Tracing | 2 | Emerging | 2023.0 |
 | Inter-Variability Study of COVLIAS 1.0: Hybrid Dee | 3 | Established | 2021.3 |
-| On the influence of social norms on individual ach | 2 | Emerging | 2024.0 |
+| Achievement goal perception: An interpersonal appr | 2 | Emerging | 2024.0 |
 | Relationships Between First-Year Student Resilienc | 2 | Emerging | 2024.0 |
-| On the Performance of Multi-tier Heterogeneous Cel | 20 | Established | 2018.3 |
-| Support theories for non-Noetherian tensor triangu | 2 | Emerging | 2023.5 |
+| ByteFS: System Support for (CXL-based) Memory-Sema | 20 | Established | 2018.3 |
+| Formal extension of noncommutative tensor-triangul | 2 | Emerging | 2023.5 |
 | Discovery of the Mercury Isotopes | 4 | Established | 2012.5 |
 | VoiceOfML/CMLMUF-Education-And-History (dataset) | 88 | Emerging | 2024.2 |
 
@@ -203,46 +203,46 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| The PRISMA 2020 statement: an updat | On the Performance of Multi-tier He | 0.61 |
-| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.95 |
+| The PRISMA 2020 statement: an updat | ByteFS: System Support for (CXL-bas | 0.64 |
+| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.94 |
 | Implementing Diagnostic Assessment  | Utilizing Cognitive Diagnostic Asse | 1.00 |
-| Implementing Diagnostic Assessment  | Generative AI Based on Deep Knowled | 1.00 |
+| Implementing Diagnostic Assessment  | Learning Strategy Based on Deep Kno | 1.00 |
 | Implementing Diagnostic Assessment  | Inter-Variability Study of COVLIAS  | 1.00 |
-| Implementing Diagnostic Assessment  | On the influence of social norms on | 1.00 |
+| Implementing Diagnostic Assessment  | Achievement goal perception: An int | 1.00 |
 | Implementing Diagnostic Assessment  | Relationships Between First-Year St | 1.00 |
-| Implementing Diagnostic Assessment  | Support theories for non-Noetherian | 0.45 |
+| Implementing Diagnostic Assessment  | Formal extension of noncommutative  | 0.45 |
 | Implementing Diagnostic Assessment  | Discovery of the Mercury Isotopes | 0.45 |
-| Utilizing Cognitive Diagnostic Asse | Generative AI Based on Deep Knowled | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Learning Strategy Based on Deep Kno | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Inter-Variability Study of COVLIAS  | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | On the influence of social norms on | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Achievement goal perception: An int | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Relationships Between First-Year St | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | Support theories for non-Noetherian | 0.45 |
+| Utilizing Cognitive Diagnostic Asse | Formal extension of noncommutative  | 0.45 |
 | Utilizing Cognitive Diagnostic Asse | Discovery of the Mercury Isotopes | 0.45 |
-| Generative AI Based on Deep Knowled | Inter-Variability Study of COVLIAS  | 1.00 |
-| Generative AI Based on Deep Knowled | On the influence of social norms on | 1.00 |
-| Generative AI Based on Deep Knowled | Relationships Between First-Year St | 1.00 |
-| Generative AI Based on Deep Knowled | Support theories for non-Noetherian | 0.45 |
-| Generative AI Based on Deep Knowled | Discovery of the Mercury Isotopes | 0.45 |
-| Inter-Variability Study of COVLIAS  | On the influence of social norms on | 1.00 |
+| Learning Strategy Based on Deep Kno | Inter-Variability Study of COVLIAS  | 1.00 |
+| Learning Strategy Based on Deep Kno | Achievement goal perception: An int | 1.00 |
+| Learning Strategy Based on Deep Kno | Relationships Between First-Year St | 1.00 |
+| Learning Strategy Based on Deep Kno | Formal extension of noncommutative  | 0.45 |
+| Learning Strategy Based on Deep Kno | Discovery of the Mercury Isotopes | 0.45 |
+| Inter-Variability Study of COVLIAS  | Achievement goal perception: An int | 1.00 |
 | Inter-Variability Study of COVLIAS  | Relationships Between First-Year St | 1.00 |
-| Inter-Variability Study of COVLIAS  | Support theories for non-Noetherian | 0.45 |
+| Inter-Variability Study of COVLIAS  | Formal extension of noncommutative  | 0.45 |
 | Inter-Variability Study of COVLIAS  | Discovery of the Mercury Isotopes | 0.45 |
-| On the influence of social norms on | Relationships Between First-Year St | 1.00 |
-| On the influence of social norms on | Support theories for non-Noetherian | 0.45 |
-| On the influence of social norms on | Discovery of the Mercury Isotopes | 0.45 |
-| Relationships Between First-Year St | Support theories for non-Noetherian | 0.45 |
+| Achievement goal perception: An int | Relationships Between First-Year St | 1.00 |
+| Achievement goal perception: An int | Formal extension of noncommutative  | 0.45 |
+| Achievement goal perception: An int | Discovery of the Mercury Isotopes | 0.45 |
+| Relationships Between First-Year St | Formal extension of noncommutative  | 0.45 |
 | Relationships Between First-Year St | Discovery of the Mercury Isotopes | 0.45 |
-| On the Performance of Multi-tier He | Support theories for non-Noetherian | 0.82 |
-| On the Performance of Multi-tier He | Discovery of the Mercury Isotopes | 0.82 |
-| On the Performance of Multi-tier He | VoiceOfML/CMLMUF-Education-And-Hist | 0.70 |
-| Support theories for non-Noetherian | Discovery of the Mercury Isotopes | 1.00 |
+| ByteFS: System Support for (CXL-bas | Formal extension of noncommutative  | 0.80 |
+| ByteFS: System Support for (CXL-bas | Discovery of the Mercury Isotopes | 0.80 |
+| ByteFS: System Support for (CXL-bas | VoiceOfML/CMLMUF-Education-And-Hist | 0.72 |
+| Formal extension of noncommutative  | Discovery of the Mercury Isotopes | 1.00 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 4.921
+**Composite score:** 4.602
 **Confidence:** HIGH
-**Entropy nodes resolved:** 8
+**Entropy nodes resolved:** 6
 
 **Scoring weights:**
 
@@ -257,16 +257,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Step | Source | Year | Score | Gap Node |
 |------|--------|------|-------|----------|
-| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.560 | YES |
-| 2 | Educational data mining: prediction of students' a | 2022 | 0.525 | YES |
-| 3 | Utilising learning analytics to support study succ | 2020 | 0.549 | YES |
-| 4 | Educational data mining and learning analytics: An | 2020 | 0.509 | YES |
-| 5 | Educational data mining and learning analytics for | 2019 | 0.500 | YES |
-| 6 | Learning Analytics | 2019 | 0.491 | YES |
-| 7 | Adaptive Learning Using Artificial Intelligence in | 2023 | 0.527 | YES |
-| 8 | AI-enabled adaptive learning systems: A systematic | 2021 | 0.350 | — |
-| 9 | Integration of artificial intelligence performance | 2023 | 0.422 | — |
-| 10 | The current landscape of learning analytics in hig | 2018 | 0.490 | YES |
+| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.559 | YES |
+| 2 | A Comparison of Undersampling, Oversampling, and S | 2023 | 0.529 | YES |
+| 3 | Computer Science | None | 0.393 | — |
+| 4 | Impact of word embedding models on text analytics  | 2023 | 0.526 | YES |
+| 5 | Transformer-based graphs for drug-drug interaction | 2026 | 0.274 | — |
+| 6 | Artificial intelligence in cancer target identific | 2022 | 0.527 | YES |
+| 7 | ProTox 3.0: a webserver for the prediction of toxi | 2024 | 0.370 | — |
+| 8 | Artificial intelligence to deep learning: machine  | 2021 | 0.521 | YES |
+| 9 | Artificial intelligence in drug discovery: recent  | 2021 | 0.520 | YES |
+| 10 | jablonkagroup/chempile-education (dataset) | 2025 | 0.383 | — |
 
 ## 6. Supplementary Analyses
 
@@ -287,7 +287,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | [Emerging] AND (Very Recent work) | 0.262 |
 | (Very Recent work) AND research in Computer Science | 0.194 |
 | using Machine Learning AND research in Computer Science | 0.169 |
-| [Emerging] AND using Machine Learning | 0.153 |
+| [Emerging] AND using Machine Learning | 0.154 |
 | [Emerging] AND (Recent work) | 0.152 |
 | (Recent work) AND research in Computer Science | 0.150 |
 | (Established work) AND research in Computer Science | 0.147 |
@@ -302,17 +302,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | topic:education | impact:emerging | 0.142 | 0.86 | 1.40 |
 | topic:mathematics | topic:computer science | 0.093 | 0.80 | 1.39 |
 | temporal:very_recent + topic:e | impact:emerging | 0.056 | 0.82 | 1.34 |
-| method:machine_learning + temp | topic:computer science | 0.053 | 0.75 | 1.30 |
 | impact:highly_cited | topic:computer science | 0.108 | 0.75 | 1.30 |
+| method:machine_learning + temp | topic:computer science | 0.053 | 0.75 | 1.30 |
 | method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.28 |
-| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.77 | 1.25 |
-| impact:emerging + method:machi | topic:computer science | 0.110 | 0.72 | 1.25 |
+| impact:emerging + method:machi | topic:computer science | 0.111 | 0.72 | 1.25 |
+| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.76 | 1.25 |
 | method:machine_learning + temp | impact:emerging | 0.070 | 0.74 | 1.21 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 43856
-**High-tier pairs:** 338
+**Candidate pairs:** 43707
+**High-tier pairs:** 335
 **Convergence events:** 6
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
@@ -334,11 +334,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 **H01** [MEDIUM]
 - **Hypothesis:** Re-examining 'Artificial intelligence to deep learning: machine intelligence appr...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Artificial intelligence to deep learning: machine intelli...
+- **Grounded in:** entropy gap node: Artificial intelligence to deep learning: machine intelli... + included in golden token recommended path
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
 - **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `29409efa04ac99ccf01d2a011d21d5d14e870000` (severity: 6)
-- **On golden path:** No
+- **On golden path:** Yes
 
 **H02** [MEDIUM]
 - **Hypothesis:** Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
@@ -396,8 +396,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 3121 |
-| Timestamp | 2026-04-05T03:01:06.843398 |
+| Total sources | 3122 |
+| Timestamp | 2026-04-05T04:11:13.344881 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
