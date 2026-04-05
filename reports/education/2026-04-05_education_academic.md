@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 05, 2026
-**Sources:** 2257
+**Sources:** 3121
 
 ---
 
@@ -15,13 +15,13 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Education & EdTech |
-| Sources Analyzed | 2257 |
-| Graph Nodes | 2274 |
-| Graph Edges | 85395 |
-| Knowledge Gaps (total) | 2247 |
+| Sources Analyzed | 3121 |
+| Graph Nodes | 3138 |
+| Graph Edges | 122632 |
+| Knowledge Gaps (total) | 3111 |
 | Knowledge Gaps (critical) | 0 |
-| Research Clusters | 10 |
-| Convergence Events | 2 |
+| Research Clusters | 12 |
+| Convergence Events | 6 |
 | Generated Hypotheses | 5 |
 | Cross-Domain Bridges | 0 |
 | Golden Path Length | 10 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 2257
+**Total sources:** 3121
 
 **Source APIs:**
 
@@ -51,10 +51,10 @@
 | Status | Count |
 |--------|-------|
 | Well-grounded (≥0.7) | 1138 |
-| Partially grounded (0.4–0.7) | 1049 |
+| Partially grounded (0.4–0.7) | 1913 |
 | Weakly grounded (0.2–0.4) | 70 |
 | Ungrounded (<0.2) | 0 |
-| **Mean grounding score** | **0.752** |
+| **Mean grounding score** | **0.696** |
 
 ## 3. Source Encoding (QEB)
 
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.2796 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.1917 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.5287 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.2617 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.1808 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.5575 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.2796 × Stability + 0.1917 × Concentration + 0.5287 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.2617 × Stability + 0.1808 × Concentration + 0.5575 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.38796792350276277 (30th percentile) |
-| HIGH threshold | ≥ 0.5221141938180571 (80th percentile) |
-| Concentration p25/p50/p75 | 0.4237124025821686 / 0.43808847665786743 / 0.4525608420372009 |
-| Distinctiveness p25/p50/p75 | 0.4404500722885132 / 0.5570766925811768 / 0.6966648697853088 |
-| Stability p25/p50/p75 | 0.19346359327299947 / 0.2068400414539112 / 0.22041247153713864 |
+| LOW threshold | < 0.4117992699572635 (30th percentile) |
+| HIGH threshold | ≥ 0.5401265171576257 (80th percentile) |
+| Concentration p25/p50/p75 | 0.42340710759162903 / 0.4379459619522095 / 0.45224010944366455 |
+| Distinctiveness p25/p50/p75 | 0.46863067150115967 / 0.5968919992446899 / 0.7004849910736084 |
+| Stability p25/p50/p75 | 0.19369144669390564 / 0.20706243370015662 / 0.22059188696341855 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 2274 |
+| Total Nodes | 3138 |
 |   — CONCEPT | 17 |
-|   — DOCUMENT | 2257 |
-| Total Edges | 85395 |
-|   — MIRRORS | 77420 |
-|   — EXTENDS | 4249 |
-|   — CONTAINS | 3064 |
-|   — ENABLES | 600 |
-|   — DEPENDS_ON | 62 |
-| Density | 0.016521 |
-| Connected Components | 237 |
+|   — DOCUMENT | 3121 |
+| Total Edges | 122632 |
+|   — MIRRORS | 112993 |
+|   — EXTENDS | 4763 |
+|   — CONTAINS | 4211 |
+|   — ENABLES | 608 |
+|   — DEPENDS_ON | 57 |
+| Density | 0.012458 |
+| Connected Components | 238 |
 
 ### 4.3 Edge Construction Rules
 
@@ -125,9 +125,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |--------|------------|-------------|--------------------|
 | Computer Science | 1 | 0.00 | 0 |
 | Investigating student exposure to competency-based | 1 | 0.00 | 1 |
-| Competency-based Education 101☆ | 1 | 0.00 | 1 |
+| Supervised diagnostic classification of cognitive  | 1 | 0.00 | 1 |
 | Learning analytics: state of the art | 1 | 0.00 | 1 |
-| Self-Regulated Learning Model in Educational Data  | 1 | 0.00 | 1 |
+| Competency-based Education 101☆ | 1 | 0.00 | 1 |
 
 ### 5.2 Forward Cascade
 
@@ -143,16 +143,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 2247
-**Critical (≥7):** 0 | **High (5-6):** 1746 | **Low (<5):** 501
+**Total entropy nodes:** 3111
+**Critical (≥7):** 0 | **High (5-6):** 2496 | **Low (<5):** 615
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 2247 |
-| STALE | 2179 |
-| ORPHAN | 233 |
+| DECAYED | 3111 |
+| STALE | 3018 |
+| ORPHAN | 234 |
 
 **Complete Entropy Node List:**
 
@@ -175,61 +175,74 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | 15 | Artificial intelligence in drug discovery: re | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 16 | Impact of word embedding models on text analy | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 17 | Predicting Student Performance Using Data Min | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 18 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 19 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 20 | A Comparison of Undersampling, Oversampling,  | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 18 | Organizational mindfulness towards digital tr | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 19 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 20 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
 
 ### 5.4 Branch Cataloging
 
-**Clusters:** 10 total (8 emerging, 2 established)
-**Structural mirrors:** 22
+**Clusters:** 12 total (8 emerging, 4 established)
+**Structural mirrors:** 33
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| The PRISMA 2020 statement: an updated guideline fo | 1938 | Established | 2018.2 |
+| The PRISMA 2020 statement: an updated guideline fo | 2775 | Established | 2018.7 |
 | Beyond Language Barriers: Allowing Multiple Langua | 2 | Emerging | 2023.5 |
 | Implementing Diagnostic Assessment in Designing Di | 2 | Emerging | 2023.5 |
 | Utilizing Cognitive Diagnostic Assessments to Iden | 2 | Emerging | 2024.0 |
-| A REVIEW ON INTELLIGENT TUTORING SYSTEMS: Enhancin | 2 | Emerging | 2025.0 |
-| Learning Strategy Based on Deep Knowledge Tracing | 2 | Emerging | 2023.0 |
+| Generative AI Based on Deep Knowledge Tracing for  | 2 | Emerging | 2023.0 |
 | Inter-Variability Study of COVLIAS 1.0: Hybrid Dee | 3 | Established | 2021.3 |
 | On the influence of social norms on individual ach | 2 | Emerging | 2024.0 |
 | Relationships Between First-Year Student Resilienc | 2 | Emerging | 2024.0 |
-| VoiceOfML/CMLMUF-Education-And-History (dataset) | 86 | Emerging | 2024.3 |
+| On the Performance of Multi-tier Heterogeneous Cel | 20 | Established | 2018.3 |
+| Support theories for non-Noetherian tensor triangu | 2 | Emerging | 2023.5 |
+| Discovery of the Mercury Isotopes | 4 | Established | 2012.5 |
+| VoiceOfML/CMLMUF-Education-And-History (dataset) | 88 | Emerging | 2024.2 |
 
 **Structural Mirrors:**
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
+| The PRISMA 2020 statement: an updat | On the Performance of Multi-tier He | 0.61 |
 | The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.95 |
 | Implementing Diagnostic Assessment  | Utilizing Cognitive Diagnostic Asse | 1.00 |
-| Implementing Diagnostic Assessment  | A REVIEW ON INTELLIGENT TUTORING SY | 1.00 |
-| Implementing Diagnostic Assessment  | Learning Strategy Based on Deep Kno | 1.00 |
+| Implementing Diagnostic Assessment  | Generative AI Based on Deep Knowled | 1.00 |
 | Implementing Diagnostic Assessment  | Inter-Variability Study of COVLIAS  | 1.00 |
 | Implementing Diagnostic Assessment  | On the influence of social norms on | 1.00 |
 | Implementing Diagnostic Assessment  | Relationships Between First-Year St | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | A REVIEW ON INTELLIGENT TUTORING SY | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | Learning Strategy Based on Deep Kno | 1.00 |
+| Implementing Diagnostic Assessment  | Support theories for non-Noetherian | 0.45 |
+| Implementing Diagnostic Assessment  | Discovery of the Mercury Isotopes | 0.45 |
+| Utilizing Cognitive Diagnostic Asse | Generative AI Based on Deep Knowled | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Inter-Variability Study of COVLIAS  | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | On the influence of social norms on | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Relationships Between First-Year St | 1.00 |
-| A REVIEW ON INTELLIGENT TUTORING SY | Learning Strategy Based on Deep Kno | 1.00 |
-| A REVIEW ON INTELLIGENT TUTORING SY | Inter-Variability Study of COVLIAS  | 1.00 |
-| A REVIEW ON INTELLIGENT TUTORING SY | On the influence of social norms on | 1.00 |
-| A REVIEW ON INTELLIGENT TUTORING SY | Relationships Between First-Year St | 1.00 |
-| Learning Strategy Based on Deep Kno | Inter-Variability Study of COVLIAS  | 1.00 |
-| Learning Strategy Based on Deep Kno | On the influence of social norms on | 1.00 |
-| Learning Strategy Based on Deep Kno | Relationships Between First-Year St | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Support theories for non-Noetherian | 0.45 |
+| Utilizing Cognitive Diagnostic Asse | Discovery of the Mercury Isotopes | 0.45 |
+| Generative AI Based on Deep Knowled | Inter-Variability Study of COVLIAS  | 1.00 |
+| Generative AI Based on Deep Knowled | On the influence of social norms on | 1.00 |
+| Generative AI Based on Deep Knowled | Relationships Between First-Year St | 1.00 |
+| Generative AI Based on Deep Knowled | Support theories for non-Noetherian | 0.45 |
+| Generative AI Based on Deep Knowled | Discovery of the Mercury Isotopes | 0.45 |
 | Inter-Variability Study of COVLIAS  | On the influence of social norms on | 1.00 |
 | Inter-Variability Study of COVLIAS  | Relationships Between First-Year St | 1.00 |
+| Inter-Variability Study of COVLIAS  | Support theories for non-Noetherian | 0.45 |
+| Inter-Variability Study of COVLIAS  | Discovery of the Mercury Isotopes | 0.45 |
 | On the influence of social norms on | Relationships Between First-Year St | 1.00 |
+| On the influence of social norms on | Support theories for non-Noetherian | 0.45 |
+| On the influence of social norms on | Discovery of the Mercury Isotopes | 0.45 |
+| Relationships Between First-Year St | Support theories for non-Noetherian | 0.45 |
+| Relationships Between First-Year St | Discovery of the Mercury Isotopes | 0.45 |
+| On the Performance of Multi-tier He | Support theories for non-Noetherian | 0.82 |
+| On the Performance of Multi-tier He | Discovery of the Mercury Isotopes | 0.82 |
+| On the Performance of Multi-tier He | VoiceOfML/CMLMUF-Education-And-Hist | 0.70 |
+| Support theories for non-Noetherian | Discovery of the Mercury Isotopes | 1.00 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 5.083
+**Composite score:** 4.921
 **Confidence:** HIGH
-**Entropy nodes resolved:** 9
+**Entropy nodes resolved:** 8
 
 **Scoring weights:**
 
@@ -244,25 +257,25 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Step | Source | Year | Score | Gap Node |
 |------|--------|------|-------|----------|
-| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.567 | YES |
-| 2 | A Comparison of Undersampling, Oversampling, and S | 2023 | 0.530 | YES |
-| 3 | Learning analytics dashboard: a tool for providing | 2022 | 0.381 | — |
-| 4 | Utilising learning analytics to support study succ | 2020 | 0.554 | YES |
-| 5 | Educational data mining: prediction of students' a | 2022 | 0.527 | YES |
-| 6 | The current landscape of learning analytics in hig | 2018 | 0.492 | YES |
-| 7 | Educational data mining and learning analytics for | 2019 | 0.503 | YES |
-| 8 | Educational data mining and learning analytics: An | 2020 | 0.512 | YES |
-| 9 | Learning Analytics | 2019 | 0.492 | YES |
-| 10 | Adaptive Learning Using Artificial Intelligence in | 2023 | 0.527 | YES |
+| 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.560 | YES |
+| 2 | Educational data mining: prediction of students' a | 2022 | 0.525 | YES |
+| 3 | Utilising learning analytics to support study succ | 2020 | 0.549 | YES |
+| 4 | Educational data mining and learning analytics: An | 2020 | 0.509 | YES |
+| 5 | Educational data mining and learning analytics for | 2019 | 0.500 | YES |
+| 6 | Learning Analytics | 2019 | 0.491 | YES |
+| 7 | Adaptive Learning Using Artificial Intelligence in | 2023 | 0.527 | YES |
+| 8 | AI-enabled adaptive learning systems: A systematic | 2021 | 0.350 | — |
+| 9 | Integration of artificial intelligence performance | 2023 | 0.422 | — |
+| 10 | The current landscape of learning analytics in hig | 2018 | 0.490 | YES |
 
 ## 6. Supplementary Analyses
 
 ### 6.1 Co-Occurrence Patterns (Apriori)
 
-**Frequent 1-itemsets:** 23
-**Frequent 2-itemsets:** 48
-**Frequent 3-itemsets:** 7
-**Association rules:** 13
+**Frequent 1-itemsets:** 22
+**Frequent 2-itemsets:** 36
+**Frequent 3-itemsets:** 12
+**Association rules:** 24
 
 **Parameters:** min_support = 0.05, min_confidence = 0.60
 
@@ -270,37 +283,37 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Pattern | Support |
 |---------|---------|
-| [Emerging] AND (Very Recent work) | 0.229 |
-| [Emerging] AND research in Education | 0.196 |
-| (Very Recent work) AND research in Computer Science | 0.153 |
-| [Highly Cited] AND research in Computer Science | 0.149 |
-| [Moderately Cited] AND research in Computer Science | 0.137 |
-| [Emerging] AND research in Computer Science | 0.133 |
-| (Recent work) AND research in Computer Science | 0.129 |
-| [Emerging] AND studying Clinical | 0.123 |
-| using Machine Learning AND research in Computer Science | 0.119 |
-| with Positive findings AND [Emerging] | 0.119 |
+| [Emerging] AND research in Computer Science | 0.323 |
+| [Emerging] AND (Very Recent work) | 0.262 |
+| (Very Recent work) AND research in Computer Science | 0.194 |
+| using Machine Learning AND research in Computer Science | 0.169 |
+| [Emerging] AND using Machine Learning | 0.153 |
+| [Emerging] AND (Recent work) | 0.152 |
+| (Recent work) AND research in Computer Science | 0.150 |
+| (Established work) AND research in Computer Science | 0.147 |
+| with Positive findings AND [Emerging] | 0.143 |
+| [Emerging] AND research in Education | 0.142 |
 
 **Top Association Rules (by lift):**
 
 | Antecedent | Consequent | Support | Confidence | Lift |
 |------------|-----------|---------|------------|------|
-| population:clinical + topic:ed | impact:emerging | 0.064 | 0.99 | 2.14 |
-| topic:education | impact:emerging | 0.196 | 0.86 | 1.84 |
-| population:clinical + temporal | impact:emerging | 0.055 | 0.84 | 1.81 |
-| impact:emerging + method:machi | temporal:very_recent | 0.059 | 0.65 | 1.80 |
-| impact:highly_cited + temporal | topic:computer science | 0.055 | 0.86 | 1.78 |
-| temporal:very_recent + topic:e | impact:emerging | 0.077 | 0.82 | 1.77 |
-| impact:highly_cited | topic:computer science | 0.149 | 0.75 | 1.55 |
-| population:clinical | impact:emerging | 0.123 | 0.69 | 1.48 |
-| finding:positive + temporal:ve | impact:emerging | 0.068 | 0.67 | 1.45 |
-| temporal:very_recent | impact:emerging | 0.229 | 0.64 | 1.37 |
+| impact:emerging + topic:mathem | topic:computer science | 0.064 | 0.81 | 1.41 |
+| topic:education | impact:emerging | 0.142 | 0.86 | 1.40 |
+| topic:mathematics | topic:computer science | 0.093 | 0.80 | 1.39 |
+| temporal:very_recent + topic:e | impact:emerging | 0.056 | 0.82 | 1.34 |
+| method:machine_learning + temp | topic:computer science | 0.053 | 0.75 | 1.30 |
+| impact:highly_cited | topic:computer science | 0.108 | 0.75 | 1.30 |
+| method:machine_learning | topic:computer science | 0.169 | 0.74 | 1.28 |
+| finding:positive + temporal:ve | impact:emerging | 0.077 | 0.77 | 1.25 |
+| impact:emerging + method:machi | topic:computer science | 0.110 | 0.72 | 1.25 |
+| method:machine_learning + temp | impact:emerging | 0.070 | 0.74 | 1.21 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 26586
-**High-tier pairs:** 267
-**Convergence events:** 2
+**Candidate pairs:** 43856
+**High-tier pairs:** 338
+**Convergence events:** 6
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
 
@@ -308,8 +321,12 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Event | Score | Groups | Time Window | Papers |
 |-------|-------|--------|------------|--------|
-| svw_001 | 0.147 | 1523 | 61y | 1523 |
-| svw_002 | 0.097 | 3 | 6y | 3 |
+| svw_002 | 0.246 | 2 | 1y | 2 |
+| svw_005 | 0.180 | 4 | 4y | 4 |
+| svw_004 | 0.176 | 5 | 12y | 5 |
+| svw_001 | 0.146 | 2098 | 61y | 2098 |
+| svw_003 | 0.143 | 2 | 2y | 2 |
+| svw_006 | 0.097 | 3 | 6y | 3 |
 
 ### 6.3 Generated Hypotheses
 
@@ -319,7 +336,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Artificial intelligence to deep learning: machine intelligence appr...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Artificial intelligence to deep learning: machine intelli...
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `29409efa04ac99ccf01d2a011d21d5d14e870000` (severity: 6)
 - **On golden path:** No
 
@@ -327,7 +344,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Molecular Docking: Shifting Paradigms in Drug Discovery' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Molecular Docking: Shifting Paradigms in Drug Discovery
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `8f7948d72b19b3be7191396c5e637cdb14a2371c` (severity: 6)
 - **On golden path:** No
 
@@ -335,7 +352,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Statistical Methods for Detecting Differentially Abundant Features ...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Statistical Methods for Detecting Differentially Abundant...
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `a80ba5b7c4ea6551a6f4ab64fde15819125bd1cb` (severity: 6)
 - **On golden path:** No
 
@@ -343,7 +360,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Adaptive Federated Learning in Resource Constrained Edge Computing ...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Adaptive Federated Learning in Resource Constrained Edge ...
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `e2e0e226f1f74ff65c0de3e5ad565bcd8b9710da` (severity: 6)
 - **On golden path:** No
 
@@ -351,7 +368,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Deep Knowledge Tracing' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Deep Knowledge Tracing
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 65% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 75% confidence in apriori patterns)
 - **Gap node:** `fa98d609eb14ce25dd73cd8713a5e284948b4ff4` (severity: 6)
 - **On golden path:** No
 
@@ -379,8 +396,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 2257 |
-| Timestamp | 2026-04-05T02:25:27.564677 |
+| Total sources | 3121 |
+| Timestamp | 2026-04-05T03:01:06.843398 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
