@@ -1,4 +1,4 @@
-# Education & EdTech: What 2853 Sources Reveal
+# Education & EdTech: What 2855 Sources Reveal
 
 **April 05, 2026**
 
@@ -8,11 +8,11 @@
 
 ## Abstract
 
-2853 sources spanning Education & EdTech were mapped into a concept graph with 112,318 connections. The structural analysis found 13 distinct research communities with 93% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. Several foundational papers that the field treats as established have not been retested with current methods.
+2855 sources spanning Education & EdTech were mapped into a concept graph with 112,761 connections. The structural analysis found 13 distinct research communities with 94% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. Several foundational papers that the field treats as established have not been retested with current methods.
 
 ## The Landscape
 
-This analysis covers 2853 sources in Education & EdTech, mapped into 2853 research papers and 16 topic areas with 112318 connections.
+This analysis covers 2855 sources in Education & EdTech, mapped into 2855 research papers and 16 topic areas with 112761 connections.
 
 The research is fragmented across 240 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
@@ -20,7 +20,7 @@ The research is fragmented across 240 separate groups with limited cross-pollina
 
 Tracing citation lineages backward reveals which ideas shaped the current landscape and which foundational contributions may have been overlooked.
 
-**Learning analytics: state of the art** [1] contributed foundational work in this area. The research has evolved moderately across 3 predecessor works, building incrementally while taking the ideas in new directions.
+**Learning analytics: state of the art** [1] contributed foundational work in this area. Across 6 predecessor works, the field has evolved far beyond its original framing.
 
 
 
@@ -28,20 +28,19 @@ Tracing citation lineages backward reveals which ideas shaped the current landsc
 
 ### 13 Communities, One Surprise
 
-The 2853 sources organize into 6 research communities:
+The 2855 sources organize into 5 research communities:
 
 - **"Implementing Diagnostic Assessment in Designing Differentiated..."** — 2 sources (avg. year: 2023.5). Emerging cluster.
 - **"Utilizing Cognitive Diagnostic Assessments to Identify and Address..."** — 2 sources (avg. year: 2024.0). Emerging cluster.
 - **"Learning Strategy Based on Deep Knowledge Tracing"** — 2 sources (avg. year: 2023.0). Emerging cluster.
-- **"Primary School Students with Reading Comprehension Difficulties..."** — 3 sources (avg. year: 2022.3). Emerging cluster.
 - **"Mindful self-care and resilience in first-year undergraduate students."** — 2 sources (avg. year: 2024.0). Emerging cluster.
-- **"VoiceOfML/CMLMUF-Education-And-History (dataset)"** — 94 sources (avg. year: 2023.6). Emerging cluster.
+- **"VoiceOfML/CMLMUF-Education-And-History (dataset)"** — 93 sources (avg. year: 2023.3). Emerging cluster.
 
 The surprise: the **Implementing Diagnostic Assessment in...** cluster and the **Utilizing Cognitive Diagnostic Assessments to...** cluster share **100% structural similarity**. Despite studying different subjects, they organize knowledge the same way — similar branching patterns, similar citation depths, similar ratios of foundational-to-emerging work. This suggests transferable methods. Analytical frameworks developed in one may apply directly to the other.
 
 The co-occurrence analysis revealed a pattern the field hasn't named yet: **when research involves studies on clinical + education research, it involves emerging papers 99% of the time.** 
 Another pattern: **machine learning methods + established work co-occurs with computer science research 94% of the time.**
-Another pattern: **education research co-occurs with emerging papers 86% of the time.**
+Another pattern: **education research co-occurs with emerging papers 85% of the time.**
 
 ### Independent Convergence
 
@@ -52,7 +51,7 @@ Researchers who have never cited each other are arriving at the same structural 
 
 ## What's Missing
 
-The structural analysis found 2843 knowledge gaps.
+The structural analysis found 2845 knowledge gaps.
 
 But one pattern stands out — 20 stale papers that the rest of the field builds on, none of which have been retested with current methods.
 
@@ -61,11 +60,11 @@ But one pattern stands out — 20 stale papers that the rest of the field builds
 These 10 papers all studied learning educational data, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
 
 - Molecular Docking: Shifting Paradigms in Drug Discovery [2] (2019)
-- Adaptive Federated Learning in Resource Constrained Edge Computing Systems [3] (2018)
-- Deep Knowledge Tracing [4] (2015)
-- Educational data mining and learning analytics: An updated survey [5] (2020)
-- Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review [6] (2023)
-- D’ya Like DAGs? A Survey on Structure Learning and Causal Discovery [7] (2021)
+- Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples [3] (2009)
+- Adaptive Federated Learning in Resource Constrained Edge Computing Systems [4] (2018)
+- Deep Knowledge Tracing [5] (2015)
+- Educational data mining and learning analytics: An updated survey [6] (2020)
+- Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review [7] (2023)
 - The current landscape of learning analytics in higher education [8] (2018)
 - Educational data mining: prediction of students' academic performance using machine learning algorithms [9] (2022)
 - A Systematic Review on Educational Data Mining [10] (2017)
@@ -82,10 +81,10 @@ The structural evidence points to a single dominant direction: 5 foundational pa
 The papers this applies to:
 
 - *Molecular Docking: Shifting Paradigms in Drug Discovery* [2]
-- *Adaptive Federated Learning in Resource Constrained Edge ...* [3]
-- *Deep Knowledge Tracing* [4]
-- *Educational data mining and learning analytics: An update...* [5]
-- *Adaptive Learning Using Artificial Intelligence in e-Lear...* [6]
+- *Statistical Methods for Detecting Differentially Abundant...* [3]
+- *Adaptive Federated Learning in Resource Constrained Edge ...* [4]
+- *Deep Knowledge Tracing* [5]
+- *Educational data mining and learning analytics: An update...* [6]
 
 **Recommended approach:** machine learning (co-occurs with similar gaps at 94% confidence in apriori patterns). Confidence: medium.
 
@@ -95,15 +94,15 @@ The papers this applies to:
 
 The structural evidence yields a 10-step reading and research sequence (low confidence). The first three steps:
 
-**1. Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** (2020)
-**2. A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining** (2023)
-**3. Computer Science** (None)
+**1. Integration of artificial intelligence performance prediction and learning analytics to improve student learning in online engineering course** (2023)
+**2. Predicting Student Performance Using Data Mining and Learning Analytics Techniques: A Systematic Literature Review** (2020)
+**3. A Comparison of Undersampling, Oversampling, and SMOTE Methods for Dealing with Imbalanced Classification in Educational Data Mining** (2023)
 
 *The full 10-step trajectory is in the Technical Report.*
 
 ---
 
-**Go Deeper** — This analysis identified 2843 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Run Layer 2](https://lef-dcfn.onrender.com/#try-it)
+**Go Deeper** — This analysis identified 2845 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Run Layer 2](https://lef-dcfn.onrender.com/#try-it)
 
 
 ## Limitations
@@ -118,15 +117,15 @@ This analysis is bounded by the sources available in the queried databases. Pape
 
 [2] Molecular Docking: Shifting Paradigms in Drug Discovery. (2019). ID: `8f7948d72b19...`. Referenced in: knowledge gap, research direction.
 
-[3] Adaptive Federated Learning in Resource Constrained Edge Computing Systems. (2018). ID: `e2e0e226f1f7...`. Referenced in: knowledge gap, research direction.
+[3] Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples. (2009). ID: `a80ba5b7c4ea...`. Referenced in: knowledge gap, research direction.
 
-[4] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: knowledge gap, research direction.
+[4] Adaptive Federated Learning in Resource Constrained Edge Computing Systems. (2018). ID: `e2e0e226f1f7...`. Referenced in: knowledge gap, research direction.
 
-[5] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, research direction.
+[5] Deep Knowledge Tracing. (2015). ID: `fa98d609eb14...`. Referenced in: knowledge gap, research direction.
 
-[6] Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review. (2023). ID: `f54faf827b5c...`. Referenced in: knowledge gap, research direction.
+[6] Educational data mining and learning analytics: An updated survey. (2020). ID: `7bd598f6a7c6...`. Referenced in: knowledge gap, research direction.
 
-[7] D’ya Like DAGs? A Survey on Structure Learning and Causal Discovery. (2021). ID: `719b251a5ddc...`. Referenced in: knowledge gap.
+[7] Adaptive Learning Using Artificial Intelligence in e-Learning: A Literature Review. (2023). ID: `f54faf827b5c...`. Referenced in: knowledge gap.
 
 [8] The current landscape of learning analytics in higher education. (2018). ID: `17abdcb1da17...`. Referenced in: knowledge gap.
 
