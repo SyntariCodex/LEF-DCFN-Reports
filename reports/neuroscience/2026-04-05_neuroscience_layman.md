@@ -1,4 +1,4 @@
-# Neuroscience: What 3120 Sources Reveal
+# Neuroscience: What 2254 Sources Reveal
 
 **April 05, 2026**
 
@@ -8,13 +8,13 @@
 
 ## Abstract
 
-3120 sources spanning Neuroscience were mapped into a concept graph with 313,649 connections. The structural analysis found 5 distinct research communities with 98% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. Several foundational papers that the field treats as established have not been retested with current methods.
+2254 sources spanning Neuroscience were mapped into a concept graph with 207,509 connections. The structural analysis found 4 distinct research communities with 100% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. Several foundational papers that the field treats as established have not been retested with current methods.
 
 ## The Landscape
 
-This analysis covers 3120 sources in Neuroscience, mapped into 3120 research papers and 13 topic areas with 313649 connections.
+This analysis covers 2254 sources in Neuroscience, mapped into 2254 research papers and 13 topic areas with 207509 connections.
 
-The research is fragmented across 69 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
+The research is fragmented across 71 separate groups with limited cross-pollination, suggesting either a young field or one where subfields have developed in relative isolation.
 
 ### Intellectual Foundations
 
@@ -25,45 +25,48 @@ Most sources in this dataset lack deep citation chains within the collection, su
 
 ## What Emerged
 
-### 5 Communities, One Surprise
+### 4 Communities, One Surprise
 
-The 3120 sources organize into 3 research communities:
+The 2254 sources organize into 2 research communities:
 
-- **"brain-bzh/reve-positions (feature-extraction)"** — 245 sources (avg. year: 2024.6). Emerging cluster.
 - **"Neural mechanisms of divided feature-selective attention to colour."** — 2 sources (avg. year: 2021.0). Established cluster.
 - **"bendik-eeg-henriksen/nor-casehold (dataset)"** — 2 sources (avg. year: 2026.0). Emerging cluster.
 
-The co-occurrence analysis revealed a pattern the field hasn't named yet: **when research involves psychology research, it involves medicine research 78% of the time.** 
-Another pattern: **highly cited papers + neuroscience research co-occurs with foundational work 64% of the time.**
-Another pattern: **highly cited papers + foundational work co-occurs with neuroscience research 93% of the time.**
+The co-occurrence analysis revealed a pattern the field hasn't named yet: **when research involves psychology research, it involves medicine research 77% of the time.** 
+Another pattern: **psychology research co-occurs with established work 62% of the time.**
+Another pattern: **highly cited papers + neuroscience research co-occurs with foundational work 65% of the time.**
 
 ### Independent Convergence
 
-Researchers who have never cited each other are arriving at the same structural territory. DCFN detected convergence across 10 independent research groups over 3 years.
+Researchers who have never cited each other are arriving at the same structural territory. DCFN detected convergence across 1565 independent research groups over 48 years.
 
-- **Text-Generation** — 3 sources converge here
+- **Memory Consolidation** — 70 sources converge here
+- **Default Mode** — 65 sources converge here
+- **Brain-Computer Interface** — 65 sources converge here
+- **Mode Network** — 60 sources converge here
+- **Cognitive Load** — 48 sources converge here
 
 
 ## What's Missing
 
-The structural analysis found 3054 knowledge gaps.
+The structural analysis found 2185 knowledge gaps.
 
 But one pattern stands out — 20 stale papers that the rest of the field builds on, none of which have been retested with current methods.
 
 ### The Untested Foundation
 
-These 10 papers all studied attention plasticity mechanisms, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
+These 10 papers all studied plasticity synaptic cognitive, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
 
-- Spinal cord injury: molecular mechanisms and therapeutic interventions [1] (2023)
-- Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4 [2] (1999)
-- Attention is not not Explanation [3] (2019)
-- Synaptic Plasticity Forms and Functions. [4] (2020)
-- 20 years of the default mode network: A review and synthesis. [5] (2023)
-- Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [6] (2017)
-- From Cognitive Load Theory to Collaborative Cognitive Load Theory [7] (2018)
-- Attend and Diagnose: Clinical Time Series Analysis using Attention Models [8] (2017)
-- Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity [9] (2016)
-- Microglia regulation of synaptic plasticity and learning and memory [10] (2021)
+- Synaptic Plasticity Forms and Functions. [1] (2020)
+- 20 years of the default mode network: A review and synthesis. [2] (2023)
+- Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review [3] (2017)
+- From Cognitive Load Theory to Collaborative Cognitive Load Theory [4] (2018)
+- Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity [5] (2016)
+- Microglia regulation of synaptic plasticity and learning and memory [6] (2021)
+- Rehabilitation robots for the treatment of sensorimotor deficits: a neurophysiological perspective [7] (2018)
+- Dopamine reward prediction error coding [8] (2016)
+- Diverse synaptic plasticity mechanisms orchestrated to form and retrieve memories in spiking neural networks [9] (2015)
+- Neuroplasticity of Language Networks in Aphasia: Advances, Updates, and Future Challenges [10] (2019)
 
 **Why this matters:** Every study that cites or builds on these 10 papers is treating their conclusions as verified — but they aren't. Leaving them untested means the field has no way to know whether its foundation is solid.
 
@@ -75,29 +78,27 @@ The structural evidence points to a single dominant direction: 5 foundational pa
 
 The papers this applies to:
 
-- *Spinal cord injury: molecular mechanisms and therapeutic ...* [1]
-- *Competitive Mechanisms Subserve Attention in Macaque Area...* [2]
-- *Attention is not not Explanation* [3]
-- *Synaptic Plasticity Forms and Functions.* [4]
-- *20 years of the default mode network: A review and synthe...* [5]
+- *Synaptic Plasticity Forms and Functions.* [1]
+- *20 years of the default mode network: A review and synthe...* [2]
+- *Review and Classification of Emotion Recognition Based on...* [3]
+- *From Cognitive Load Theory to Collaborative Cognitive Loa...* [4]
+- *Casting a Wide Net: Role of Perineuronal Nets in Neural P...* [5]
 
-**Recommended approach:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns). Confidence: medium.
-
-*1 of these papers appear in the recommended research trajectory below.*
+**Recommended approach:** neuroimaging (co-occurs with similar gaps at 84% confidence in apriori patterns). Confidence: medium.
 
 ### Recommended Research Trajectory
 
 The structural evidence yields a 10-step reading and research sequence (low confidence). The first three steps:
 
-**1. 20 years of the default mode network: A review and synthesis.** (2023)
-**2. Fudan-fMRI/CineBrain (dataset)** (2026)
-**3. gasparyanartur/things-eeg2 (dataset)** (2026)
+**1. Neural Correlates of Verbal Working Memory: An fMRI Meta-Analysis** (2019)
+**2. sajqavril/fmri-latents-private (dataset)** (2025)
+**3. RoboCOIN/Galaxea_R1_Lite_change_baai_into_brain (dataset)** (2026)
 
 *The full 10-step trajectory is in the Technical Report.*
 
 ---
 
-**Go Deeper** — This analysis identified 3054 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Run Layer 2](https://lef-dcfn.onrender.com/#try-it)
+**Go Deeper** — This analysis identified 2185 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Run Layer 2](https://lef-dcfn.onrender.com/#try-it)
 
 
 ## Limitations
@@ -108,22 +109,22 @@ This analysis is bounded by the sources available in the queried databases. Pape
 
 ## References
 
-[1] Spinal cord injury: molecular mechanisms and therapeutic interventions. (2023). ID: `4fd30d20a99d...`. Referenced in: knowledge gap, research direction.
+[1] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, research direction.
 
-[2] Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4. (1999). ID: `04282d7cc824...`. Referenced in: knowledge gap, research direction.
+[2] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, research direction.
 
-[3] Attention is not not Explanation. (2019). ID: `ce177672b00d...`. Referenced in: knowledge gap, research direction.
+[3] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap, research direction.
 
-[4] Synaptic Plasticity Forms and Functions.. (2020). ID: `97ab16d0e4a9...`. Referenced in: knowledge gap, research direction.
+[4] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: knowledge gap, research direction.
 
-[5] 20 years of the default mode network: A review and synthesis.. (2023). ID: `74e9cad6e3d8...`. Referenced in: knowledge gap, research direction.
+[5] Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity. (2016). ID: `b49714edbef4...`. Referenced in: knowledge gap, research direction.
 
-[6] Review and Classification of Emotion Recognition Based on EEG Brain-Computer Interface System Research: A Systematic Review. (2017). ID: `b067b33daddb...`. Referenced in: knowledge gap.
+[6] Microglia regulation of synaptic plasticity and learning and memory. (2021). ID: `7fb4e04a32b4...`. Referenced in: knowledge gap.
 
-[7] From Cognitive Load Theory to Collaborative Cognitive Load Theory. (2018). ID: `a7dacb4598eb...`. Referenced in: knowledge gap.
+[7] Rehabilitation robots for the treatment of sensorimotor deficits: a neurophysiological perspective. (2018). ID: `7f42ce61353f...`. Referenced in: knowledge gap.
 
-[8] Attend and Diagnose: Clinical Time Series Analysis using Attention Models. (2017). ID: `761303c48c64...`. Referenced in: knowledge gap.
+[8] Dopamine reward prediction error coding. (2016). ID: `408e947bde84...`. Referenced in: knowledge gap.
 
-[9] Casting a Wide Net: Role of Perineuronal Nets in Neural Plasticity. (2016). ID: `b49714edbef4...`. Referenced in: knowledge gap.
+[9] Diverse synaptic plasticity mechanisms orchestrated to form and retrieve memories in spiking neural networks. (2015). ID: `460638aa2ea0...`. Referenced in: knowledge gap.
 
-[10] Microglia regulation of synaptic plasticity and learning and memory. (2021). ID: `7fb4e04a32b4...`. Referenced in: knowledge gap.
+[10] Neuroplasticity of Language Networks in Aphasia: Advances, Updates, and Future Challenges. (2019). ID: `af59026ebb48...`. Referenced in: knowledge gap.
