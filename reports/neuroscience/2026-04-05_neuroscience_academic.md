@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 05, 2026
-**Sources:** 3032
+**Sources:** 3120
 
 ---
 
@@ -15,13 +15,13 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Neuroscience |
-| Sources Analyzed | 3032 |
-| Graph Nodes | 3045 |
-| Graph Edges | 299080 |
-| Knowledge Gaps (total) | 2963 |
+| Sources Analyzed | 3120 |
+| Graph Nodes | 3133 |
+| Graph Edges | 313649 |
+| Knowledge Gaps (total) | 3054 |
 | Knowledge Gaps (critical) | 0 |
-| Research Clusters | 4 |
-| Convergence Events | 6 |
+| Research Clusters | 5 |
+| Convergence Events | 3 |
 | Generated Hypotheses | 5 |
 | Cross-Domain Bridges | 0 |
 | Golden Path Length | 10 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 3032
+**Total sources:** 3120
 
 **Source APIs:**
 
@@ -51,10 +51,10 @@
 | Status | Count |
 |--------|-------|
 | Well-grounded (≥0.7) | 1078 |
-| Partially grounded (0.4–0.7) | 1867 |
-| Weakly grounded (0.2–0.4) | 87 |
+| Partially grounded (0.4–0.7) | 1954 |
+| Weakly grounded (0.2–0.4) | 88 |
 | Ungrounded (<0.2) | 0 |
-| **Mean grounding score** | **0.703** |
+| **Mean grounding score** | **0.698** |
 
 ## 3. Source Encoding (QEB)
 
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.2972 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.2076 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.4952 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.3501 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.2153 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.4347 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.2972 × Stability + 0.2076 × Concentration + 0.4952 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.3501 × Stability + 0.2153 × Concentration + 0.4347 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.3755324099902466 (30th percentile) |
-| HIGH threshold | ≥ 0.46877741746282653 (80th percentile) |
-| Concentration p25/p50/p75 | 0.4234364852309227 / 0.4378528743982315 / 0.45258354395627975 |
-| Distinctiveness p25/p50/p75 | 0.43524427711963654 / 0.5080947577953339 / 0.610163614153862 |
-| Stability p25/p50/p75 | 0.19284006710803062 / 0.20659877574253263 / 0.22001767705263184 |
+| LOW threshold | < 0.3626836817255271 (30th percentile) |
+| HIGH threshold | ≥ 0.4416976365538818 (80th percentile) |
+| Concentration p25/p50/p75 | 0.4236946329474449 / 0.43793588876724243 / 0.4528031721711159 |
+| Distinctiveness p25/p50/p75 | 0.4371442496776581 / 0.5091424286365509 / 0.6053191721439362 |
+| Stability p25/p50/p75 | 0.19226625676899853 / 0.20591430156987647 / 0.22062637599299745 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 3045 |
+| Total Nodes | 3133 |
 |   — CONCEPT | 13 |
-|   — DOCUMENT | 3032 |
-| Total Edges | 299080 |
-|   — MIRRORS | 281919 |
-|   — EXTENDS | 11969 |
-|   — CONTAINS | 4581 |
-|   — ENABLES | 577 |
-|   — DEPENDS_ON | 34 |
-| Density | 0.032267 |
-| Connected Components | 70 |
+|   — DOCUMENT | 3120 |
+| Total Edges | 313649 |
+|   — MIRRORS | 296275 |
+|   — EXTENDS | 12034 |
+|   — CONTAINS | 4735 |
+|   — ENABLES | 573 |
+|   — DEPENDS_ON | 32 |
+| Density | 0.031964 |
+| Connected Components | 69 |
 
 ### 4.3 Edge Construction Rules
 
@@ -127,7 +127,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Contribution of default mode network to game and d | 1 | 0.00 | 1 |
 | Neuroscience | 1 | 0.00 | 0 |
 | Sleep Enhances Consolidation of Memory Traces for  | 1 | 0.00 | 1 |
-| New Perspectives for Cognitive Rehabilitation: Cou | 1 | 0.00 | 1 |
+| Object-Location Memory Training in Older Adults Le | 1 | 0.00 | 1 |
 
 ### 5.2 Forward Cascade
 
@@ -143,16 +143,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 2963
-**Critical (≥7):** 0 | **High (5-6):** 2630 | **Low (<5):** 333
+**Total entropy nodes:** 3054
+**Critical (≥7):** 0 | **High (5-6):** 2692 | **Low (<5):** 362
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 2963 |
-| STALE | 2877 |
-| ORPHAN | 68 |
+| DECAYED | 3054 |
+| STALE | 2962 |
+| ORPHAN | 67 |
 
 **Complete Entropy Node List:**
 
@@ -181,26 +181,28 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.4 Branch Cataloging
 
-**Clusters:** 4 total (2 emerging, 2 established)
-**Structural mirrors:** 1
+**Clusters:** 5 total (3 emerging, 2 established)
+**Structural mirrors:** 2
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| Faster R-CNN: Towards Real-Time Object Detection w | 2971 | Established | 2018.4 |
+| Faster R-CNN: Towards Real-Time Object Detection w | 2815 | Established | 2018.1 |
+| brain-bzh/reve-positions (feature-extraction) | 245 | Emerging | 2024.6 |
 | Data-driven biomarkers better associate with strok | 2 | Emerging | 2023.5 |
-| Division and spreading of attention across color. | 2 | Established | 2021.0 |
+| Neural mechanisms of divided feature-selective att | 2 | Established | 2021.0 |
 | bendik-eeg-henriksen/nor-casehold (dataset) | 2 | Emerging | 2026.0 |
 
 **Structural Mirrors:**
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| Data-driven biomarkers better assoc | Division and spreading of attention | 1.00 |
+| Faster R-CNN: Towards Real-Time Obj | brain-bzh/reve-positions (feature-e | 0.98 |
+| Data-driven biomarkers better assoc | Neural mechanisms of divided featur | 1.00 |
 
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 5.296
+**Composite score:** 5.288
 **Confidence:** HIGH
 **Entropy nodes resolved:** 1
 
@@ -219,23 +221,23 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |------|--------|------|-------|----------|
 | 1 | 20 years of the default mode network: A review and | 2023 | 0.552 | YES |
 | 2 | Fudan-fMRI/CineBrain (dataset) | 2026 | 0.518 | — |
-| 3 | gasparyanartur/things-eeg2 (dataset) | 2026 | 0.536 | — |
-| 4 | braindecode/isruc-sleep (dataset) | 2026 | 0.529 | — |
+| 3 | gasparyanartur/things-eeg2 (dataset) | 2026 | 0.535 | — |
+| 4 | braindecode/isruc-sleep (dataset) | 2026 | 0.528 | — |
 | 5 | RoboCOIN/Galaxea_R1_Lite_change_baai_into_brain (d | 2026 | 0.528 | — |
-| 6 | braindecode/bcic2020-3 (dataset) | 2026 | 0.528 | — |
-| 7 | braindecode/faced (dataset) | 2026 | 0.527 | — |
-| 8 | braindecode/chbmit (dataset) | 2026 | 0.526 | — |
-| 9 | braindecode/physionet (dataset) | 2026 | 0.526 | — |
-| 10 | braindecode/mdd_mumtaz2016 (dataset) | 2026 | 0.524 | — |
+| 6 | braindecode/bcic2020-3 (dataset) | 2026 | 0.527 | — |
+| 7 | braindecode/faced (dataset) | 2026 | 0.526 | — |
+| 8 | braindecode/chbmit (dataset) | 2026 | 0.525 | — |
+| 9 | braindecode/physionet (dataset) | 2026 | 0.525 | — |
+| 10 | braindecode/mdd_mumtaz2016 (dataset) | 2026 | 0.523 | — |
 
 ## 6. Supplementary Analyses
 
 ### 6.1 Co-Occurrence Patterns (Apriori)
 
-**Frequent 1-itemsets:** 22
-**Frequent 2-itemsets:** 55
+**Frequent 1-itemsets:** 23
+**Frequent 2-itemsets:** 57
 **Frequent 3-itemsets:** 22
-**Association rules:** 24
+**Association rules:** 27
 
 **Parameters:** min_support = 0.05, min_confidence = 0.60
 
@@ -243,37 +245,37 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Pattern | Support |
 |---------|---------|
-| [Emerging] AND research in Computer Science | 0.259 |
-| [Emerging] AND (Very Recent work) | 0.214 |
-| [Emerging] AND research in Neuroscience | 0.175 |
-| using Neuroimaging AND research in Neuroscience | 0.175 |
-| (Very Recent work) AND research in Computer Science | 0.171 |
-| [Emerging] AND using Neuroimaging | 0.167 |
-| (Foundational work) AND research in Neuroscience | 0.154 |
+| [Emerging] AND research in Computer Science | 0.298 |
+| [Emerging] AND (Very Recent work) | 0.225 |
+| (Very Recent work) AND research in Computer Science | 0.185 |
+| [Emerging] AND research in Neuroscience | 0.171 |
+| using Neuroimaging AND research in Neuroscience | 0.170 |
+| [Emerging] AND using Neuroimaging | 0.169 |
 | using Neuroimaging AND research in Computer Science | 0.151 |
-| [Emerging] AND studying Clinical | 0.144 |
-| [Highly Cited] AND research in Neuroscience | 0.136 |
+| (Foundational work) AND research in Neuroscience | 0.150 |
+| [Emerging] AND studying Clinical | 0.141 |
+| [Highly Cited] AND research in Neuroscience | 0.132 |
 
 **Top Association Rules (by lift):**
 
 | Antecedent | Consequent | Support | Confidence | Lift |
 |------------|-----------|---------|------------|------|
-| topic:psychology | topic:medicine | 0.059 | 0.78 | 5.31 |
-| impact:highly_cited + topic:ne | temporal:foundational | 0.087 | 0.64 | 2.85 |
-| impact:highly_cited + temporal | topic:neuroscience | 0.087 | 0.93 | 2.57 |
-| method:neuroimaging + temporal | topic:neuroscience | 0.060 | 0.81 | 2.25 |
-| impact:highly_cited + topic:bi | topic:neuroscience | 0.054 | 0.79 | 2.19 |
-| temporal:foundational + topic: | topic:neuroscience | 0.054 | 0.78 | 2.16 |
-| impact:highly_cited + method:n | topic:neuroscience | 0.060 | 0.73 | 2.02 |
-| temporal:foundational + topic: | topic:neuroscience | 0.065 | 0.72 | 1.98 |
-| temporal:foundational | topic:neuroscience | 0.154 | 0.68 | 1.89 |
-| impact:highly_cited | topic:neuroscience | 0.136 | 0.65 | 1.79 |
+| topic:psychology | topic:medicine | 0.057 | 0.78 | 5.45 |
+| impact:highly_cited + topic:ne | temporal:foundational | 0.085 | 0.64 | 2.99 |
+| impact:highly_cited + temporal | topic:neuroscience | 0.085 | 0.93 | 2.64 |
+| method:neuroimaging + temporal | topic:neuroscience | 0.059 | 0.81 | 2.30 |
+| impact:highly_cited + topic:bi | topic:neuroscience | 0.053 | 0.79 | 2.25 |
+| temporal:foundational + topic: | topic:neuroscience | 0.052 | 0.77 | 2.18 |
+| impact:highly_cited + method:n | topic:neuroscience | 0.059 | 0.73 | 2.08 |
+| temporal:foundational | topic:neuroscience | 0.150 | 0.70 | 1.98 |
+| temporal:foundational + topic: | topic:neuroscience | 0.064 | 0.69 | 1.97 |
+| impact:highly_cited | topic:neuroscience | 0.132 | 0.65 | 1.85 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 75164
-**High-tier pairs:** 1442
-**Convergence events:** 6
+**Candidate pairs:** 82596
+**High-tier pairs:** 1461
+**Convergence events:** 3
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
 
@@ -281,12 +283,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Event | Score | Groups | Time Window | Papers |
 |-------|-------|--------|------------|--------|
-| svw_006 | 0.404 | 2 | 0y | 2 |
-| svw_005 | 0.340 | 10 | 3y | 10 |
-| svw_001 | 0.155 | 2071 | 48y | 2071 |
-| svw_004 | 0.043 | 5 | 20y | 5 |
+| svw_003 | 0.340 | 10 | 3y | 10 |
+| svw_001 | 0.155 | 2152 | 48y | 2152 |
 | svw_002 | 0.038 | 2 | 16y | 2 |
-| svw_003 | 0.023 | 2 | 20y | 2 |
 
 ### 6.3 Generated Hypotheses
 
@@ -296,7 +295,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Spinal cord injury: molecular mechanisms and therapeutic interventions' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Spinal cord injury: molecular mechanisms and therapeutic ...
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns)
 - **Gap node:** `4fd30d20a99dababbab1a41eb8223444a382683b` (severity: 6)
 - **On golden path:** No
 
@@ -304,7 +303,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Competitive Mechanisms Subserve Attention in Macaque Areas V2 and V4' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Competitive Mechanisms Subserve Attention in Macaque Area...
 - **Novel because:** not yet connected to 'Psychology' despite logical dependency in prerequisite chain
-- **Suggested method:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns)
 - **Gap node:** `04282d7cc824dfc57582d8f3abc44afe7c58fc4c` (severity: 6)
 - **On golden path:** No
 
@@ -312,7 +311,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Attention is not not Explanation' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Attention is not not Explanation
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns)
 - **Gap node:** `ce177672b00ddf46e4906157a7e997ca9338b8b9` (severity: 6)
 - **On golden path:** No
 
@@ -320,7 +319,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining 'Synaptic Plasticity Forms and Functions.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Synaptic Plasticity Forms and Functions.
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns)
 - **Gap node:** `97ab16d0e4a98f8275932f0a684e4fdcd70fb2d3` (severity: 6)
 - **On golden path:** No
 
@@ -328,7 +327,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 - **Hypothesis:** Re-examining '20 years of the default mode network: A review and synthesis.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: 20 years of the default mode network: A review and synthe... + included in golden token recommended path
 - **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
-- **Suggested method:** neuroimaging (co-occurs with similar gaps at 81% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 83% confidence in apriori patterns)
 - **Gap node:** `74e9cad6e3d8b4187216aaaaa171d808e48d34f0` (severity: 6)
 - **On golden path:** Yes
 
@@ -356,8 +355,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 3032 |
-| Timestamp | 2026-04-05T00:53:06.586883 |
+| Total sources | 3120 |
+| Timestamp | 2026-04-05T05:43:31.153459 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
