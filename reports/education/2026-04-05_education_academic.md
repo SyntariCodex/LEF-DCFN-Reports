@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 05, 2026
-**Sources:** 2256
+**Sources:** 2257
 
 ---
 
@@ -15,10 +15,10 @@
 | Metric | Value |
 |--------|-------|
 | Domain | Education & EdTech |
-| Sources Analyzed | 2256 |
-| Graph Nodes | 2273 |
-| Graph Edges | 85295 |
-| Knowledge Gaps (total) | 2246 |
+| Sources Analyzed | 2257 |
+| Graph Nodes | 2274 |
+| Graph Edges | 85395 |
+| Knowledge Gaps (total) | 2247 |
 | Knowledge Gaps (critical) | 0 |
 | Research Clusters | 10 |
 | Convergence Events | 2 |
@@ -31,7 +31,7 @@
 
 ## 2. Data Collection
 
-**Total sources:** 2256
+**Total sources:** 2257
 
 **Source APIs:**
 
@@ -50,7 +50,7 @@
 
 | Status | Count |
 |--------|-------|
-| Well-grounded (≥0.7) | 1137 |
+| Well-grounded (≥0.7) | 1138 |
 | Partially grounded (0.4–0.7) | 1049 |
 | Weakly grounded (0.2–0.4) | 70 |
 | Ungrounded (<0.2) | 0 |
@@ -66,11 +66,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Signal | Weight | Description |
 |--------|--------|-------------|
-| Perturbation Stability | 0.308 | Mean pairwise cosine across 5 perturbation iterations |
-| Vector Concentration | 0.2176 | Energy fraction in top 10% of embedding dimensions |
-| Corpus Distinctiveness | 0.4743 | Cosine distance from corpus centroid |
+| Perturbation Stability | 0.2796 | Mean pairwise cosine across 5 perturbation iterations |
+| Vector Concentration | 0.1917 | Energy fraction in top 10% of embedding dimensions |
+| Corpus Distinctiveness | 0.5287 | Cosine distance from corpus centroid |
 
-**Formula:** Composite = 0.308 × Stability + 0.2176 × Concentration + 0.4743 × Distinctiveness (calibrated)
+**Formula:** Composite = 0.2796 × Stability + 0.1917 × Concentration + 0.5287 × Distinctiveness (calibrated)
 
 ### 3.3 Calibration State
 
@@ -78,11 +78,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |-----------|-------|
 | Embedding dim | 384 |
 | Perturbation σ | 0.1 |
-| LOW threshold | < 0.38082315744848283 (30th percentile) |
-| HIGH threshold | ≥ 0.50311626578287 (80th percentile) |
-| Concentration p25/p50/p75 | 0.4237551614642143 / 0.43811774253845215 / 0.4525960758328438 |
-| Distinctiveness p25/p50/p75 | 0.44053322076797485 / 0.5570935308933258 / 0.6967831701040268 |
-| Stability p25/p50/p75 | 0.1927159096930912 / 0.20641969247557657 / 0.22051519441557962 |
+| LOW threshold | < 0.38796792350276277 (30th percentile) |
+| HIGH threshold | ≥ 0.5221141938180571 (80th percentile) |
+| Concentration p25/p50/p75 | 0.4237124025821686 / 0.43808847665786743 / 0.4525608420372009 |
+| Distinctiveness p25/p50/p75 | 0.4404500722885132 / 0.5570766925811768 / 0.6966648697853088 |
+| Stability p25/p50/p75 | 0.19346359327299947 / 0.2068400414539112 / 0.22041247153713864 |
 
 ## 4. Concept Graph
 
@@ -90,17 +90,17 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Metric | Value |
 |--------|-------|
-| Total Nodes | 2273 |
+| Total Nodes | 2274 |
 |   — CONCEPT | 17 |
-|   — DOCUMENT | 2256 |
-| Total Edges | 85295 |
-|   — MIRRORS | 77310 |
-|   — EXTENDS | 4264 |
-|   — CONTAINS | 3062 |
-|   — ENABLES | 601 |
-|   — DEPENDS_ON | 58 |
-| Density | 0.016516 |
-| Connected Components | 238 |
+|   — DOCUMENT | 2257 |
+| Total Edges | 85395 |
+|   — MIRRORS | 77420 |
+|   — EXTENDS | 4249 |
+|   — CONTAINS | 3064 |
+|   — ENABLES | 600 |
+|   — DEPENDS_ON | 62 |
+| Density | 0.016521 |
+| Connected Components | 237 |
 
 ### 4.3 Edge Construction Rules
 
@@ -123,11 +123,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Source | Chain Depth | Total Drift | Forgotten Ancestors |
 |--------|------------|-------------|--------------------|
-| Learning analytics: state of the art | 9 | 0.75 | 9 |
-| Predicting Student Performance Using Data Mining a | 3 | 0.58 | 3 |
 | Computer Science | 1 | 0.00 | 0 |
 | Investigating student exposure to competency-based | 1 | 0.00 | 1 |
 | Competency-based Education 101☆ | 1 | 0.00 | 1 |
+| Learning analytics: state of the art | 1 | 0.00 | 1 |
+| Self-Regulated Learning Model in Educational Data  | 1 | 0.00 | 1 |
 
 ### 5.2 Forward Cascade
 
@@ -143,16 +143,16 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 ### 5.3 Entropy Detection
 
-**Total entropy nodes:** 2246
-**Critical (≥7):** 0 | **High (5-6):** 1732 | **Low (<5):** 514
+**Total entropy nodes:** 2247
+**Critical (≥7):** 0 | **High (5-6):** 1746 | **Low (<5):** 501
 
 **Issue Distribution:**
 
 | Type | Count |
 |------|-------|
-| DECAYED | 2246 |
-| STALE | 2178 |
-| ORPHAN | 234 |
+| DECAYED | 2247 |
+| STALE | 2179 |
+| ORPHAN | 233 |
 
 **Complete Entropy Node List:**
 
@@ -175,9 +175,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | 15 | Artificial intelligence in drug discovery: re | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 16 | Impact of word embedding models on text analy | 6/9 | STALE, DECAYED | — | 0 | 0 |
 | 17 | Predicting Student Performance Using Data Min | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 18 | Organizational mindfulness towards digital tr | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 19 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
-| 20 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 18 | QSAR-Based Virtual Screening: Advances and Ap | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 19 | Educational data mining and learning analytic | 6/9 | STALE, DECAYED | — | 0 | 0 |
+| 20 | A Comparison of Undersampling, Oversampling,  | 6/9 | STALE, DECAYED | — | 0 | 0 |
 
 ### 5.4 Branch Cataloging
 
@@ -186,12 +186,12 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Cluster | Size | Status | Avg Year |
 |---------|------|--------|----------|
-| The PRISMA 2020 statement: an updated guideline fo | 1936 | Established | 2018.2 |
+| The PRISMA 2020 statement: an updated guideline fo | 1938 | Established | 2018.2 |
 | Beyond Language Barriers: Allowing Multiple Langua | 2 | Emerging | 2023.5 |
 | Implementing Diagnostic Assessment in Designing Di | 2 | Emerging | 2023.5 |
 | Utilizing Cognitive Diagnostic Assessments to Iden | 2 | Emerging | 2024.0 |
 | A REVIEW ON INTELLIGENT TUTORING SYSTEMS: Enhancin | 2 | Emerging | 2025.0 |
-| Generative AI Based on Deep Knowledge Tracing for  | 2 | Emerging | 2023.0 |
+| Learning Strategy Based on Deep Knowledge Tracing | 2 | Emerging | 2023.0 |
 | Inter-Variability Study of COVLIAS 1.0: Hybrid Dee | 3 | Established | 2021.3 |
 | On the influence of social norms on individual ach | 2 | Emerging | 2024.0 |
 | Relationships Between First-Year Student Resilienc | 2 | Emerging | 2024.0 |
@@ -201,25 +201,25 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Cluster A | Cluster B | Similarity |
 |-----------|-----------|------------|
-| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.94 |
+| The PRISMA 2020 statement: an updat | VoiceOfML/CMLMUF-Education-And-Hist | 0.95 |
 | Implementing Diagnostic Assessment  | Utilizing Cognitive Diagnostic Asse | 1.00 |
 | Implementing Diagnostic Assessment  | A REVIEW ON INTELLIGENT TUTORING SY | 1.00 |
-| Implementing Diagnostic Assessment  | Generative AI Based on Deep Knowled | 1.00 |
+| Implementing Diagnostic Assessment  | Learning Strategy Based on Deep Kno | 1.00 |
 | Implementing Diagnostic Assessment  | Inter-Variability Study of COVLIAS  | 1.00 |
 | Implementing Diagnostic Assessment  | On the influence of social norms on | 1.00 |
 | Implementing Diagnostic Assessment  | Relationships Between First-Year St | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | A REVIEW ON INTELLIGENT TUTORING SY | 1.00 |
-| Utilizing Cognitive Diagnostic Asse | Generative AI Based on Deep Knowled | 1.00 |
+| Utilizing Cognitive Diagnostic Asse | Learning Strategy Based on Deep Kno | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Inter-Variability Study of COVLIAS  | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | On the influence of social norms on | 1.00 |
 | Utilizing Cognitive Diagnostic Asse | Relationships Between First-Year St | 1.00 |
-| A REVIEW ON INTELLIGENT TUTORING SY | Generative AI Based on Deep Knowled | 1.00 |
+| A REVIEW ON INTELLIGENT TUTORING SY | Learning Strategy Based on Deep Kno | 1.00 |
 | A REVIEW ON INTELLIGENT TUTORING SY | Inter-Variability Study of COVLIAS  | 1.00 |
 | A REVIEW ON INTELLIGENT TUTORING SY | On the influence of social norms on | 1.00 |
 | A REVIEW ON INTELLIGENT TUTORING SY | Relationships Between First-Year St | 1.00 |
-| Generative AI Based on Deep Knowled | Inter-Variability Study of COVLIAS  | 1.00 |
-| Generative AI Based on Deep Knowled | On the influence of social norms on | 1.00 |
-| Generative AI Based on Deep Knowled | Relationships Between First-Year St | 1.00 |
+| Learning Strategy Based on Deep Kno | Inter-Variability Study of COVLIAS  | 1.00 |
+| Learning Strategy Based on Deep Kno | On the influence of social norms on | 1.00 |
+| Learning Strategy Based on Deep Kno | Relationships Between First-Year St | 1.00 |
 | Inter-Variability Study of COVLIAS  | On the influence of social norms on | 1.00 |
 | Inter-Variability Study of COVLIAS  | Relationships Between First-Year St | 1.00 |
 | On the influence of social norms on | Relationships Between First-Year St | 1.00 |
@@ -227,9 +227,9 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 ### 5.5 Golden Token Pathfinding
 
 **Path length:** 10
-**Composite score:** 4.951
+**Composite score:** 5.083
 **Confidence:** HIGH
-**Entropy nodes resolved:** 8
+**Entropy nodes resolved:** 9
 
 **Scoring weights:**
 
@@ -245,15 +245,15 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Step | Source | Year | Score | Gap Node |
 |------|--------|------|-------|----------|
 | 1 | Predicting Student Performance Using Data Mining a | 2020 | 0.567 | YES |
-| 2 | Educational data mining: prediction of students' a | 2022 | 0.527 | YES |
-| 3 | Utilising learning analytics to support study succ | 2020 | 0.554 | YES |
-| 4 | Educational data mining and learning analytics: An | 2020 | 0.511 | YES |
-| 5 | Educational data mining and learning analytics for | 2019 | 0.503 | YES |
+| 2 | A Comparison of Undersampling, Oversampling, and S | 2023 | 0.530 | YES |
+| 3 | Learning analytics dashboard: a tool for providing | 2022 | 0.381 | — |
+| 4 | Utilising learning analytics to support study succ | 2020 | 0.554 | YES |
+| 5 | Educational data mining: prediction of students' a | 2022 | 0.527 | YES |
 | 6 | The current landscape of learning analytics in hig | 2018 | 0.492 | YES |
-| 7 | Learning Analytics | 2019 | 0.492 | YES |
-| 8 | Adaptive Learning Using Artificial Intelligence in | 2023 | 0.527 | YES |
-| 9 | AI-enabled adaptive learning systems: A systematic | 2021 | 0.352 | — |
-| 10 | Integration of artificial intelligence performance | 2023 | 0.426 | — |
+| 7 | Educational data mining and learning analytics for | 2019 | 0.503 | YES |
+| 8 | Educational data mining and learning analytics: An | 2020 | 0.512 | YES |
+| 9 | Learning Analytics | 2019 | 0.492 | YES |
+| 10 | Adaptive Learning Using Artificial Intelligence in | 2023 | 0.527 | YES |
 
 ## 6. Supplementary Analyses
 
@@ -272,11 +272,11 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 |---------|---------|
 | [Emerging] AND (Very Recent work) | 0.229 |
 | [Emerging] AND research in Education | 0.196 |
-| (Very Recent work) AND research in Computer Science | 0.152 |
+| (Very Recent work) AND research in Computer Science | 0.153 |
 | [Highly Cited] AND research in Computer Science | 0.149 |
 | [Moderately Cited] AND research in Computer Science | 0.137 |
 | [Emerging] AND research in Computer Science | 0.133 |
-| (Recent work) AND research in Computer Science | 0.128 |
+| (Recent work) AND research in Computer Science | 0.129 |
 | [Emerging] AND studying Clinical | 0.123 |
 | using Machine Learning AND research in Computer Science | 0.119 |
 | with Positive findings AND [Emerging] | 0.119 |
@@ -291,15 +291,15 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | impact:emerging + method:machi | temporal:very_recent | 0.059 | 0.65 | 1.80 |
 | impact:highly_cited + temporal | topic:computer science | 0.055 | 0.86 | 1.78 |
 | temporal:very_recent + topic:e | impact:emerging | 0.077 | 0.82 | 1.77 |
-| impact:highly_cited | topic:computer science | 0.149 | 0.75 | 1.56 |
+| impact:highly_cited | topic:computer science | 0.149 | 0.75 | 1.55 |
 | population:clinical | impact:emerging | 0.123 | 0.69 | 1.48 |
-| finding:positive + temporal:ve | impact:emerging | 0.068 | 0.68 | 1.46 |
-| method:machine_learning + temp | impact:emerging | 0.059 | 0.64 | 1.38 |
+| finding:positive + temporal:ve | impact:emerging | 0.068 | 0.67 | 1.45 |
+| temporal:very_recent | impact:emerging | 0.229 | 0.64 | 1.37 |
 
 ### 6.2 Synchronicity Detection (SVW)
 
-**Candidate pairs:** 26367
-**High-tier pairs:** 264
+**Candidate pairs:** 26586
+**High-tier pairs:** 267
 **Convergence events:** 2
 
 **Parameters:** similarity threshold = 0.40, zero citation linkage required
@@ -308,7 +308,7 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 
 | Event | Score | Groups | Time Window | Papers |
 |-------|-------|--------|------------|--------|
-| svw_001 | 0.146 | 1523 | 61y | 1523 |
+| svw_001 | 0.147 | 1523 | 61y | 1523 |
 | svw_002 | 0.097 | 3 | 6y | 3 |
 
 ### 6.3 Generated Hypotheses
@@ -379,8 +379,8 @@ Sentence-BERT (all-MiniLM-L6-v2) → 384-dimensional semantic embeddings. Gaussi
 | Parameter | Value |
 |-----------|-------|
 | Engine version | 0.3.0-prototype |
-| Total sources | 2256 |
-| Timestamp | 2026-04-05T00:23:08.412822 |
+| Total sources | 2257 |
+| Timestamp | 2026-04-05T02:25:27.564677 |
 | Embedding backend | tfidf |
 | Embedding dim | 256 |
 | Perturbation σ | 0.1 |
