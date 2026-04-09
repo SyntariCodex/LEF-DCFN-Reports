@@ -4,9 +4,9 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 09, 2026
-**Run fingerprint:** `db782200143fbf44`
+**Run fingerprint:** `74ac047375528ee6`
 **Corpus fingerprint:** `no-corpus`
-**Sources:** 412
+**Sources:** 413
 
 ---
 
@@ -21,8 +21,8 @@
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-09T02:26:44.525495` |
-| Run fingerprint | `db782200143fbf44` |
+| Run timestamp | `2026-04-09T17:39:19.745585` |
+| Run fingerprint | `74ac047375528ee6` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | quantum physics × dream psychology × academic success |
 
@@ -30,7 +30,7 @@
 
 | Field | Value |
 |-------|-------|
-| Sources analyzed | 412 |
+| Sources analyzed | 413 |
 
 ### 1.3 Stage Execution Counts
 
@@ -38,15 +38,15 @@
 
 | Stage | Work performed |
 |-------|----------------|
-| QEB encoding | 412 sources encoded |
-| Concept graph | 443 nodes / 4056 edges constructed |
+| QEB encoding | 413 sources encoded |
+| Concept graph | 444 nodes / 4073 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 6) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 409 entropy nodes inspected (255 critical, 37 high) |
+| CTE entropy detection | 410 entropy nodes inspected (260 critical, 38 high) |
 | CTE branch cataloging | 7 clusters identified (10 structural mirrors) |
-| CTE golden-token pathfinding | path length 10 (4 entropy nodes resolved) |
-| Apriori pattern mining | 22 1-itemsets, 36 2-itemsets, 6 3-itemsets, 17 rules |
-| SVW synchronicity | 2126 candidate pairs scanned, 2 convergence events, 236 convergence anchors |
+| CTE golden-token pathfinding | path length 10 (5 entropy nodes resolved) |
+| Apriori pattern mining | 22 1-itemsets, 36 2-itemsets, 6 3-itemsets, 10 rules |
+| SVW synchronicity | 2036 candidate pairs scanned, 2 convergence events, 237 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -56,15 +56,15 @@
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 2m 18.3s |
-| concept_graph | 660 ms |
-| cte_traversal | 329 ms |
-| apriori | 58 ms |
-| svw | 351 ms |
+| qeb_encoding | 2m 38.7s |
+| concept_graph | 483 ms |
+| cte_traversal | 303 ms |
+| apriori | 46 ms |
+| svw | 338 ms |
 | hypothesis_generation | 0 ms |
-| post_traversal_calibration | 455 ms |
+| post_traversal_calibration | 418 ms |
 | bridge_detection | 3 ms |
-| **Total measured** | **2m 20.1s** |
+| **Total measured** | **2m 40.3s** |
 
 ### 1.5 Filter Telemetry
 
@@ -72,7 +72,7 @@
 
 | Filter | Inspected | Dropped | Kept |
 |--------|-----------|---------|------|
-| contamination_filter | 445 | 33 | 412 |
+| contamination_filter | 446 | 33 | 413 |
 
 ## Band 2 — What It Produced
 
@@ -82,15 +82,15 @@
 
 | Metric | Value |
 |--------|-------|
-| Total nodes | 443 |
-| Total edges | 4056 |
+| Total nodes | 444 |
+| Total edges | 4073 |
 | Connected components | 27 |
 
 **Node types:**
 
 | Type | Count |
 |------|-------|
-| DOCUMENT | 412 |
+| DOCUMENT | 413 |
 | ENTITY | 18 |
 | CONCEPT | 13 |
 
@@ -98,12 +98,12 @@
 
 | Type | Count |
 |------|-------|
-| MIRRORS | 3092 |
+| MIRRORS | 3100 |
 | CONTAINS | 518 |
-| EXTENDS | 243 |
-| BRIDGES | 137 |
+| EXTENDS | 247 |
+| BRIDGES | 141 |
 | DEFENDED_BY | 37 |
-| ENABLES | 26 |
+| ENABLES | 27 |
 | DEPENDS_ON | 3 |
 
 ### 2.2 Cross-Domain Topology
@@ -111,37 +111,37 @@
 | Field | Value |
 |-------|-------|
 | Domains | academic success, dream psychology, quantum physics, quantum physics × dream psychology × academic success |
-| Cross-domain edges | 604 |
-| Bridge nodes | 284 |
+| Cross-domain edges | 609 |
+| Bridge nodes | 285 |
 
 ### 2.3 Entropy Nodes
 
-**Total:** 409 (critical: 255, high: 37, low: 117)
+**Total:** 410 (critical: 260, high: 38, low: 112)
 
 **Surfaced gaps (classification only):**
 
 | # | Title | Bridge confidence |
 |---|-------|-------------------|
-| 1 | Searching for Coherent States: From Origins to Quantum Gravity | — |
+| 1 | Quantum simulation and computing with Rydberg-interacting qubits | — |
 | 2 | Consciousness as an Inhibited Manifestation and Quantum Physics. | — |
 | 3 | Do animals dream? | — |
 | 4 | How bizarre? A pluralist approach to dream content. | — |
-| 5 | Quantum physics in neuroscience and psychology: a neurophysical model of mind-br | — |
-| 6 | Semantic parsing of the life process by quantum biology. | — |
-| 7 | EEG microstates of dreams. | — |
-| 8 | Anticipations of dream psychology in the Talmud | — |
-| 9 | Selection committees for academic recruitment: does gender matter? | — |
-| 10 | Academic mentees succeed in big groups, but thrive in small groups | — |
-| 11 | Promoting academic success in college students with ADHD and LD: A systematic li | — |
-| 12 | Motivation as an Enabler for Academic Success | — |
-| 13 | Does Emotional Intelligence Assist in the Prediction of Academic Success? | — |
+| 5 | Semantic parsing of the life process by quantum biology. | — |
+| 6 | EEG microstates of dreams. | — |
+| 7 | Anticipations of dream psychology in the Talmud | — |
+| 8 | Selection committees for academic recruitment: does gender matter? | — |
+| 9 | Academic mentees succeed in big groups, but thrive in small groups | — |
+| 10 | Promoting academic success in college students with ADHD and LD: A systematic li | — |
+| 11 | Motivation as an Enabler for Academic Success | — |
+| 12 | Does Emotional Intelligence Assist in the Prediction of Academic Success? | — |
+| 13 | Meta-Analysis of the Relationship Between the Big Five and Academic Success at U | — |
 | 14 | A Model for Academic Success: The School and Home Environment of East Asian Stud | — |
 | 15 | Latino adolescents' academic success: The role of discrimination, academic motiv | — |
 | 16 | Examining the Academic Success of Latino Students in Science Technology Engineer | — |
-| 17 | Towards a better understanding of conceptual difficulties in introductory quantu | — |
+| 17 | An Approach to Quantum Physics Teaching through Analog Experiments | — |
 | 18 | Quantum Physics Education Research over the Last Two Decades: A Bibliometric Ana | — |
-| 19 | Effect of an introductory quantum physics course using experiments with heralded | — |
-| 20 | Quantum Convolutional Neural Networks for High Energy Physics Data Analysis | — |
+| 19 | Quantum Convolutional Neural Networks for High Energy Physics Data Analysis | — |
+| 20 | The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Consc | — |
 
 ### 2.4 Branch Clusters
 
@@ -152,35 +152,35 @@
 
 | Cluster | Size | Status |
 |---------|------|--------|
-| Quantum Computation and Quantum Information | 137 | Established |
+| Quantum Computation and Quantum Information | 138 | Established |
 | Quantum physics in space | 9 | Established |
 | Quantum Simulation for High-Energy Physics | 9 | Established |
-| Building academic success on social and emotional learning: what does the resear | 147 | Established |
+| Building academic success on social and emotional learning: what does the resear | 146 | Established |
 | Recent Advances on Graphene Quantum Dots: From Chemistry and Physics to Applicat | 2 | Established |
-| New Introductory Lectures on Psycho-Analysis | 111 | Established |
-| Examples of Mori dream spaces with Picard number two | 2 | Established |
+| Memories, Dreams, Reflections | 112 | Established |
+| Mori Dream Spaces and Blow-Ups | 2 | Established |
 
 ### 2.5 Convergence Detection
 
 | Field | Value |
 |-------|-------|
 | Convergence events | 2 |
-| Convergence anchors | 236 |
+| Convergence anchors | 237 |
 
 **Top anchors (rank only):**
 
 | Rank | Anchor | Year | Independent groups |
 |------|--------|------|--------------------|
-| 1 | Quantum physics meets biology | 2009 | 53 |
-| 2 | Quantum Computing for High-Energy Physics: State of the Art  | 2023 | 34 |
-| 3 | Quantum Chemistry in the Age of Quantum Computing. | 2019 | 33 |
-| 4 | The Physics of Quantum Information | 2022 | 34 |
-| 5 | Monitoring Quantum Simulators via Quantum Non-Demolition Cou | 2020 | 41 |
-| 6 | Quantum Computation and Quantum Information | 2012 | 33 |
-| 7 | Quantum reference frame transformations as symmetries and th | 2020 | 32 |
-| 8 | Opportunities for Nuclear Physics & Quantum Information Scie | 2019 | 32 |
-| 9 | A general quantum algorithm for open quantum dynamics demons | 2021 | 33 |
-| 10 | What is quantum biology? | 2026 | 34 |
+| 1 | Quantum Computing for High-Energy Physics: State of the Art  | 2023 | 33 |
+| 2 | Quantum Chemistry in the Age of Quantum Computing. | 2019 | 32 |
+| 3 | The Physics of Quantum Information | 2022 | 33 |
+| 4 | Monitoring Quantum Simulators via Quantum Non-Demolition Cou | 2020 | 40 |
+| 5 | Quantum Computation and Quantum Information | 2012 | 31 |
+| 6 | Quantum reference frame transformations as symmetries and th | 2020 | 31 |
+| 7 | What is quantum biology? | 2026 | 33 |
+| 8 | A general quantum algorithm for open quantum dynamics demons | 2021 | 32 |
+| 9 | Opportunities for Nuclear Physics & Quantum Information Scie | 2019 | 30 |
+| 10 | Quantum machine learning: from physics to software engineeri | 2023 | 30 |
 
 ### 2.6 Golden Trajectory
 
@@ -188,7 +188,7 @@
 |-------|-------|
 | Path length | 10 |
 | Confidence class | HIGH |
-| Entropy nodes resolved | 4 |
+| Entropy nodes resolved | 5 |
 
 **Trajectory steps (titles only):**
 
@@ -203,15 +203,15 @@
 | 7 | Latino adolescents' academic success: The role of discrimination, acad | 2008 | Yes |
 | 8 | Academic mentees succeed in big groups, but thrive in small groups | 2022 | Yes |
 | 9 | Selection committees for academic recruitment: does gender matter? | 2018 | Yes |
-| 10 | Meta-Analysis of the Relationship Between the Big Five and Academic Su | 2007 | — |
+| 10 | Meta-Analysis of the Relationship Between the Big Five and Academic Su | 2007 | Yes |
 
 ### 2.7 Generated Hypotheses
 
 **Total:** 5
 
 **H01** [MEDIUM]
-- **Hypothesis:** Resolving the research gap in 'Searching for Coherent States: From Origins to Quantum Gravity' will unlock currently blocked progress toward: Physics
-- **Grounded in:** entropy gap node: Searching for Coherent States: From Origins to Quantum Gr...
+- **Hypothesis:** Resolving the research gap in 'Quantum simulation and computing with Rydberg-interacting qubits' will unlock currently blocked progress toward: Physics
+- **Grounded in:** entropy gap node: Quantum simulation and computing with Rydberg-interacting...
 - **Novel because:** not yet connected to 'Physics' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
@@ -234,9 +234,9 @@
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 **H05** [MEDIUM]
-- **Hypothesis:** Re-examining 'Quantum physics in neuroscience and psychology: a neurophysical mod...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Quantum physics in neuroscience and psychology: a neuroph...
-- **Novel because:** not yet connected to 'Neuroscience' despite logical dependency in prerequisite chain
+- **Hypothesis:** Resolving the research gap in 'Semantic parsing of the life process by quantum biology.' will unlock currently blocked progress toward: Physics
+- **Grounded in:** entropy gap node: Semantic parsing of the life process by quantum biology.
+- **Novel because:** not yet connected to 'Physics' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 
