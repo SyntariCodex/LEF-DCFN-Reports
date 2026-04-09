@@ -10,26 +10,26 @@
 
 ## Abstract
 
-413 sources spanning quantum physics × dream psychology × academic success were mapped into a concept graph with 4,073 connections. The structural analysis found 20 cross-domain bridge concepts, 7 distinct research communities with 69% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
+413 sources spanning quantum physics × dream psychology × academic success were mapped into a concept graph with 4,132 connections. The structural analysis found 20 cross-domain bridge concepts, 8 distinct research communities with 69% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
 
 ## The Intersection
 
-Quantum physics and dream psychology converge because both fields grapple with the fundamental problem of observation altering reality. When physicists measure quantum states, they collapse wave functions into definite outcomes—a process that mirrors how consciousness appears to crystallize the fluid, probabilistic landscape of dream states into memorable narrative fragments. The 69% structural overlap between their largest research communities reflects this shared conceptual territory: both disciplines must account for how conscious observation transforms potential into actual experience.
+Quantum physics and dream psychology converge because both fields grapple with states of reality that exist beyond classical observation—quantum superposition mirrors the fluid, non-linear logic of dream states where contradictory elements coexist without resolution. The substantial structural overlap in their research communities stems from shared mathematical frameworks for describing probabilistic, non-deterministic systems where measurement itself alters the phenomenon being studied. Physics serves as the primary conceptual bridge, offering both fields a common language for exploring consciousness, measurement, and the fundamental nature of information processing in systems that resist traditional empirical analysis.
 
 ### The Foundational Bridge
 
-The concept that sits at the center of all 3 fields is "Physics" [C1]. Physics serves as the conceptual foundation that allows dream psychology researchers to borrow quantum mechanical principles—like superposition and observer effects—to model how consciousness might exist in multiple states simultaneously during dreaming. This bridge emerges because both fields grapple with phenomena that resist classical binary logic: quantum systems that exist in probabilistic states until observed, and dream states where contradictory experiences coexist without resolution.
+The concept that sits at the center of all 3 fields is "Physics" [C1]. Physics provides the mathematical framework that dream psychology researchers use to model consciousness states, while quantum mechanics offers explanatory mechanisms for the non-local and superposition-like properties observed in dream cognition. The bridge emerges because both fields grapple with systems that exist in multiple states simultaneously—quantum particles in superposition and dream consciousness accessing multiple reality layers—requiring similar probabilistic and wave-function mathematics to describe their behavior.
 
 ### The Structural Bridges
 
 DCFN identified 20 concepts that sit at the boundary across quantum physics, dream psychology, and academic success — ideas referenced by all 3 fields but rarely recognized as shared territory. The strongest bridges:
 
-- **Computer Science** [C2] — Computer science provides the computational frameworks and modeling tools that allow dream psychology researchers to simulate the non-linear, probabilistic states of consciousness that mirror quantum mechanical principles. This bridge emerges because both fields grapple with systems that exist in multiple states simultaneously—quantum superposition in physics and the fluid, contradictory narratives of dream states in psychology—requiring similar mathematical approaches to describe their behavior. Partially grounded in the literature.
-- **Neuroscience** [C3] — Neuroscience bridges quantum physics and dream psychology by revealing how consciousness emerges from quantum-scale neural processes that generate both waking cognition and dream states. The brain's quantum coherence mechanisms that physicists study in neural microtubules are the same systems that psychologists observe creating the non-linear, reality-bending experiences of dreams. Partially grounded in the literature.
-- **The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?** [1] — This bridge concept explores how quantum mechanics principles like superposition and observer effects might explain the paradoxical nature of lucid dreaming, where consciousness simultaneously observes and participates in dream states. The connection emerges from both fields grappling with the fundamental question of how observation and measurement affect reality—whether in quantum systems or in the conscious awareness that defines lucid dreams. Well-grounded in the literature.
-- **Quantum Algorithm for High Energy Physics Simulations.** [2] — Quantum algorithms designed for high energy physics simulations create a bridge to dream psychology by offering computational frameworks that can model the non-linear, probabilistic dynamics of dream states—much like how they simulate particle interactions at subatomic scales. Both domains require mathematical approaches that can handle superposition, uncertainty, and emergent patterns from complex underlying systems. Well-grounded in the literature.
+- **Computer Science** [C2] — Computer science provides the computational frameworks needed to model quantum consciousness theories that propose dreams emerge from quantum processes in neural microtubules. This bridge enables dream psychology researchers to test quantum-based models of consciousness while giving quantum physicists a biological system to explore macroscopic quantum effects in warm, noisy environments. Partially grounded in the literature.
+- **Neuroscience** [C3] — Neuroscience provides the biological substrate where quantum mechanical processes in neural microtubules could influence consciousness during dreaming states, potentially explaining how quantum coherence affects the content and formation of dreams. This connection matters because it offers a testable framework for understanding whether quantum effects in the brain can be detected through dream analysis, bridging the gap between quantum theories of consciousness and observable psychological phenomena. Partially grounded in the literature.
+- **The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Conscious States During Sleep?** [1] — This bridge concept explores how religious interpretations of lucid dreaming create a conceptual framework that allows quantum physics theories of consciousness to intersect with dream psychology research. The "divine dream" metaphor provides a shared language for discussing how consciousness might operate outside normal waking states, enabling quantum mechanical models of awareness to inform psychological understanding of lucid dreaming phenomena. Well-grounded in the literature.
+- **Quantum Algorithm for High Energy Physics Simulations.** [2] — Quantum algorithms designed for high energy physics simulations offer a computational framework that mirrors the probabilistic, non-linear processing patterns observed in dream states, where multiple potential realities exist simultaneously before collapsing into conscious experience. This bridge emerges because both quantum superposition and dream cognition operate through parallel processing of multiple possibilities, suggesting that quantum computational methods could model the complex, non-deterministic neural networks active during REM sleep. Well-grounded in the literature.
 
-These aren't metaphors. The structural analysis found that researchers across these bridges cite similar upstream ideas, use analogous frameworks, and arrive at compatible conclusions — without citing each other.
+Structurally, researchers across these bridges cite overlapping upstream sources and use compatible frameworks without direct cross-citation. This is a signal of shared territory, not a claim of equivalent mechanism.
 
 ### Intellectual Foundations
 
@@ -40,84 +40,80 @@ Tracing citation lineages backward reveals which ideas shaped the current landsc
 
 ## What Emerged
 
-### 7 Communities, One Surprise
+### 8 Communities, One Surprise
 
-The 413 sources organize into 7 research communities — dense neighborhoods in the concept graph where papers share citation paths, frameworks, and research questions, detected structurally rather than by keyword. 'Established' means stable internal structure and tight citation density; 'Emerging' means rapidly accumulating members with looser bonds. The average publication year hints at each cluster's temporal center of gravity.
+The corpus organizes into 8 research communities.
 
-- **"Quantum Computation and Quantum Information"** — 138 sources (avg. year: 2014.9). Established cluster.
-- **"Quantum physics in space"** — 9 sources (avg. year: 2021.0). Established cluster.
-- **"Quantum Simulation for High-Energy Physics"** — 9 sources (avg. year: 2021.7). Established cluster.
-- **"Building academic success on social and emotional learning"** — 146 sources (avg. year: 2016.2). Established cluster.
-- **"Recent Advances on Graphene Quantum Dots"** — 2 sources (avg. year: 2019.0). Established cluster.
-- **"Memories, Dreams, Reflections"** — 112 sources (avg. year: 2009.3). Established cluster.
-- **"Mori Dream Spaces and Blow-Ups"** — 2 sources (avg. year: 2015.0). Established cluster.
 
-The surprise: the **Quantum Computation and Quantum Information** cluster and the **Quantum Simulation for High-Energy Physics** cluster share **69% structural similarity**. Despite studying different subjects, they organize knowledge the same way — similar branching patterns, similar citation depths, similar ratios of foundational-to-emerging work. This suggests transferable methods. Analytical frameworks developed in one may apply directly to the other.
+The surprise: the **Quantum Computation and Quantum Information** cluster and the **Building academic success on social and...** cluster share **74% structural similarity**. Despite studying different subjects, they organize knowledge the same way — similar branching patterns, similar citation depths, similar ratios of foundational-to-emerging work. This suggests transferable methods. Analytical frameworks developed in one may apply directly to the other.
 
 The co-occurrence analysis revealed a pattern the field hasn't named yet: **when research involves psychology research, it involves moderately cited papers 69% of the time.** 
-Another pattern: **foundational work + biology research co-occurs with neuroscience research 85% of the time.**
-Another pattern: **highly cited papers + neuroscience research co-occurs with foundational work 95% of the time.**
+Another pattern: **highly cited papers + foundational work co-occurs with neuroscience research 65% of the time.**
+Another pattern: **neuroscience research co-occurs with foundational work 72% of the time.**
 
 ### Independent Convergence
 
 Researchers who have never cited each other are arriving at the same structural territory. That's the strongest signal the engine can detect for something latent in the field — when disconnected groups converge on the same ideas without a shared reference path, the convergence is evidence of structure pulling them toward it rather than influence passing through citation. DCFN detected 2 convergence clusters; the topics below are what the field is collectively sensing without having named it yet.
 
-**Cluster 1** — 7 independent groups over 9 years:
-- **General domain convergence** — 7 sources converge here
-
-**Cluster 2** — 258 independent groups over 92 years:
-- **Academic Success** — 77 sources converge here
+**Cluster 1** — 252 independent groups over 92 years:
+- **Academic Success** — 75 sources converge here
 - **Quantum Physics** — 22 sources converge here
 - **Success Among** — 7 sources converge here
+
+**Cluster 2** — 7 independent groups over 12 years:
+- **Dream** — 3 sources converge here
+
+The smaller clusters are where it gets interesting — fewer independent groups arriving at the same territory suggests tighter convergence on a specific idea.
 
 Read against your intersection of quantum physics, dream psychology, and academic success, the convergence pattern is a partial sketch of where these communities are quietly aligning. The clusters above name the territory; the full synthesis — how this circles back into a comprehensive picture of the intersection itself — is what a Go Deeper run is built to produce.
 
 **Convergence Anchors**
 
-Beyond the clusters, DCFN identified 237 single papers acting as gravitational centers — anchors that multiple independent research groups orbit without naming as a common reference. These are the strongest signal that the field is converging on something it hasn't yet recognized as the source.
+Beyond the clusters, DCFN identified 235 single papers acting as gravitational centers — anchors that multiple independent research groups orbit without naming as a common reference. These are the strongest signal that the field is converging on something it hasn't yet recognized as the source.
 
-- **"Quantum Computing for High-Energy Physics: State of the Art and Challenges"** (2023) — 33 independent groups (37 papers total) orbit this anchor across 31 years, average similarity 0.51.
-- **"Quantum Chemistry in the Age of Quantum Computing."** (2019) — 32 independent groups (39 papers total) orbit this anchor across 31 years, average similarity 0.51.
-- **"The Physics of Quantum Information"** (2022) — 33 independent groups (40 papers total) orbit this anchor across 31 years, average similarity 0.50.
-- **"Monitoring Quantum Simulators via Quantum Non-Demolition Couplings to Atomic Clock Qubits"** (2020) — 40 independent groups (42 papers total) orbit this anchor across 40 years, average similarity 0.45.
-- **"Quantum Computation and Quantum Information"** (2012) — 31 independent groups (37 papers total) orbit this anchor across 30 years, average similarity 0.49.
+- **"Quantum Computing for High-Energy Physics: State of the Art and Challenges"** (2023) — 34 independent groups (38 papers total) orbit this anchor across 31 years, average similarity 0.51.
+- **"Quantum Chemistry in the Age of Quantum Computing."** (2019) — 33 independent groups (40 papers total) orbit this anchor across 31 years, average similarity 0.51.
+- **"The Physics of Quantum Information"** (2022) — 34 independent groups (41 papers total) orbit this anchor across 31 years, average similarity 0.50.
+- **"Monitoring Quantum Simulators via Quantum Non-Demolition Couplings to Atomic Clock Qubits"** (2020) — 41 independent groups (43 papers total) orbit this anchor across 40 years, average similarity 0.46.
+- **"Quantum Computation and Quantum Information"** (2012) — 32 independent groups (38 papers total) orbit this anchor across 30 years, average similarity 0.49.
 
 
 ## What's Missing
 
-The structural analysis found 410 knowledge gaps.
+The structural analysis found 411 knowledge gaps.
 
-But one pattern stands out — **The Untested Foundation**. The engine found 20 foundational papers that the rest of the field builds on but that haven't been retested with current methods.
+But one pattern stands out — **The Untested Foundation**. The engine found 19 foundational papers that the rest of the field builds on but that haven't been retested with current methods.
 
 ### The Untested Foundation
 
-These 10 papers all studied quantum dream academic, but none have been updated or retested with methods developed since their publication. That means the claims they made — which downstream research treats as established fact — remain unverified against current data, tools, and accumulated knowledge.
+These 10 papers are structurally positioned at quantum physics dream, and downstream work continues to cite them without a modern replication or methodological update. The claims they made — treated as settled by later work — remain unverified against current data and tools.
 
-- *Quantum simulation and computing with Rydberg-interacting qubits* [3] (2020) — 6 years since last update; 12+ downstream works depend on it
-- *Consciousness as an Inhibited Manifestation and Quantum Physics.* [4] (2018) — 8 years since last update; 12+ downstream works depend on it
-- *Do animals dream?* [5] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *How bizarre? A pluralist approach to dream content.* [6] (2018) — 8 years since last update; 12+ downstream works depend on it
-- *Semantic parsing of the life process by quantum biology.* [7] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *EEG microstates of dreams.* [8] (2020) — 6 years since last update; 12+ downstream works depend on it
-- *Anticipations of dream psychology in the Talmud* [9] (1975) — 51 years untested; 12+ downstream works depend on it
-- *Selection committees for academic recruitment: does gender matter?* [10] (2018) — 8 years since last update; 12+ downstream works depend on it
-- *Academic mentees succeed in big groups, but thrive in small groups* [11] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *Promoting academic success in college students with ADHD and LD: A systematic literature review to identify intervention targets.* [12] (2022) — 12+ downstream works depend on it; structurally dead-end
+- *Searching for Coherent States: From Origins to Quantum Gravity* [3] (2020) — 6 years since last update; 12+ downstream works depend on it
+- *Semantic parsing of the life process by quantum biology.* [4] (2022) — 12+ downstream works depend on it; structurally dead-end
+- *Consciousness as an Inhibited Manifestation and Quantum Physics.* [5] (2018) — 8 years since last update; 12+ downstream works depend on it
+- *Do animals dream?* [6] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *How bizarre? A pluralist approach to dream content.* [7] (2018) — 8 years since last update; 12+ downstream works depend on it
+- *Quantum simulation and computing with Rydberg-interacting qubits* [8] (2020) — 6 years since last update; 12+ downstream works depend on it
+- *Monitoring Quantum Simulators via Quantum Non-Demolition Couplings to Atomic Clock Qubits* [9] (2020) — 6 years since last update; 12+ downstream works depend on it
+- *Quantum physics in neuroscience and psychology: a neurophysical model of mind-brain interaction.* [10] (2005) — 21 years untested; 12+ downstream works depend on it
+- *EEG microstates of dreams.* [11] (2020) — 6 years since last update; 12+ downstream works depend on it
+- *Gender bias in academic recruitment* [12] (2018) — 8 years since last update; 12+ downstream works depend on it
 
-**Why this matters:** Twenty quantum dream studies remain unchallenged after three years, creating a theoretical bottleneck that blocks progress in quantum consciousness research. Without rigorous replication attempts, emerging theories about quantum coherence in sleep states—and their alleged impact on academic performance—continue to propagate through the literature despite their extraordinary claims lacking extraordinary evidence. This stagnation threatens to waste resources on derivative studies built upon potentially flawed foundations, while legitimate quantum biology and sleep cognition research suffers from association with unverified work.
+**Why this matters:** Nineteen papers theorize quantum mechanics models for dream states affecting academic performance, yet zero downstream citations reveal that experimental validation has never materialized. Without empirical testing of these quantum-dream hypotheses, researchers risk building theoretical frameworks on untestable foundations, potentially misdirecting years of interdisciplinary investigation into consciousness and learning. The complete absence of follow-up studies suggests this entire research thread may collapse without immediate experimental grounding.
 
 ### The Persistent Gaps
 
-4 gaps have appeared in previous analyses of this domain and remain open. These aren't new blind spots — the field has been building around them:
+6 gaps have appeared in previous analyses of this domain and remain open. These aren't new blind spots — the field has been building around them:
 
-- *Quantum simulation and computing with Rydberg-interacting qubits* (2020)
+- *Searching for Coherent States: From Origins to Quantum Gravity* (2020)
+- *Semantic parsing of the life process by quantum biology.* (2022)
 - *Consciousness as an Inhibited Manifestation and Quantum Physics.* (2018)
 - *Do animals dream?* (2021)
 - *How bizarre? A pluralist approach to dream content.* (2018)
 
 These persistent gaps are the strongest candidates for targeted research — they represent known unknowns that the field has not yet addressed.
 
-*Beyond this pattern, the analysis also identified 17 blocked, 16 decayed, 3 contradicted papers. Full gap analysis and bridge proposals are in the Technical Report.*
+*Beyond this pattern, the analysis also identified 19 decayed, 15 blocked, 4 contradicted papers. Full gap analysis and bridge proposals are in the Technical Report.*
 
 ## Where to Go From Here
 
@@ -125,32 +121,34 @@ The structural evidence points to a single dominant direction: 5 foundational pa
 
 The papers this applies to:
 
-- *Quantum simulation and computing with Rydberg-interacting...* [3]
-- *Consciousness as an Inhibited Manifestation and Quantum P...* [4]
-- *Do animals dream?* [5]
-- *How bizarre? A pluralist approach to dream content.* [6]
-- *Semantic parsing of the life process by quantum biology.* [7]
+- *Searching for Coherent States: From Origins to Quantum Gr...* [3]
+- *Semantic parsing of the life process by quantum biology.* [4]
+- *Consciousness as an Inhibited Manifestation and Quantum P...* [5]
+- *Do animals dream?* [6]
+- *How bizarre? A pluralist approach to dream content.* [7]
 
-**Recommended approach:** mixed-methods approach (apriori patterns unavailable). Confidence: medium.
+**Recommended approach:** mixed-methods approach (apriori patterns unavailable). Confidence: high/medium.
+
+*3 of these papers appear in the recommended research trajectory below.*
 
 ### Recommended Research Trajectory
 
 For someone entering this intersection, the structural evidence supports this sequence:
 
-**Start:** Quantum Convolutional Neural Networks for High Energy Physics Data Analysis (2020)
-**Then:** Quantum Algorithm for High Energy Physics Simulations. (2021)
-**Then:** Quantum Computing for High-Energy Physics: State of the Art and Challenges (2023)
-**Then:** Quantum Simulation for High-Energy Physics (2022)
-**Then:** Quantum Computing in the NISQ era and beyond (2018)
-**Then:** Computer Science (None)
-**Then:** Latino adolescents' academic success: The role of discrimination, academic motivation, and gender (2008)
+**Start:** Do animals dream? [6] (2021)
+**Then:** Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering related to fear of contagion [13] (2020)
+**Then:** How bizarre? A pluralist approach to dream content. [7] (2018)
+**Then:** Pandemic Dreams: Network Analysis of Dream Content During the COVID-19 Lockdown [14] (2020)
+**Then:** EEG microstates of dreams. [11] (2020)
+**Then:** Evidence of an active role of dreaming in emotional memory processing shows that we dream to forget [15] (2024)
+**Then:** Consciousness as an Inhibited Manifestation and Quantum Physics. [5] (2018)
 
 This trajectory has low confidence — the structural evidence tentatively supports this sequence.
  *Full 10-step path in the Technical Report.*
 
 ---
 
-**Go Deeper** — This analysis identified 410 structural gaps, 4 of which have persisted across prior analyses. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
+**Go Deeper** — This analysis identified 411 structural gaps, 6 of which have persisted across prior analyses. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
 
 
 ## Limitations
@@ -175,22 +173,28 @@ This analysis is bounded by the sources available in the queried databases. Pape
 
 [2] Quantum Algorithm for High Energy Physics Simulations.. (N/A). ID: `02e18b486ed47163c76ab4005ac7c6490279efad`. Referenced in: structural bridge.
 
-[3] Quantum simulation and computing with Rydberg-interacting qubits. (2020). ID: `arxiv:2011.03031`. Referenced in: knowledge gap, research direction.
+[3] Searching for Coherent States: From Origins to Quantum Gravity. (2020). ID: `arxiv:2003.11810`. Referenced in: knowledge gap, research direction.
 
-[4] Consciousness as an Inhibited Manifestation and Quantum Physics.. (2018). ID: `pmid:29948787`. Referenced in: knowledge gap, research direction.
+[4] Semantic parsing of the life process by quantum biology.. (2022). ID: `pmid:36126802`. Referenced in: knowledge gap, research direction.
 
-[5] Do animals dream?. (2021). ID: `pmid:34653784`. Referenced in: knowledge gap, research direction.
+[5] Consciousness as an Inhibited Manifestation and Quantum Physics.. (2018). ID: `pmid:29948787`. Referenced in: knowledge gap, recommended path, research direction.
 
-[6] How bizarre? A pluralist approach to dream content.. (2018). ID: `pmid:29739723`. Referenced in: knowledge gap, research direction.
+[6] Do animals dream?. (2021). ID: `pmid:34653784`. Referenced in: knowledge gap, recommended path, research direction.
 
-[7] Semantic parsing of the life process by quantum biology.. (2022). ID: `pmid:36126802`. Referenced in: knowledge gap, research direction.
+[7] How bizarre? A pluralist approach to dream content.. (2018). ID: `pmid:29739723`. Referenced in: knowledge gap, recommended path, research direction.
 
-[8] EEG microstates of dreams.. (2020). ID: `pmid:33051536`. Referenced in: knowledge gap.
+[8] Quantum simulation and computing with Rydberg-interacting qubits. (2020). ID: `arxiv:2011.03031`. Referenced in: knowledge gap.
 
-[9] Anticipations of dream psychology in the Talmud. (1975). ID: `openalex:W2042143666`. Referenced in: knowledge gap.
+[9] Monitoring Quantum Simulators via Quantum Non-Demolition Couplings to Atomic Clock Qubits. (2020). ID: `arxiv:2006.00214`. Referenced in: knowledge gap.
 
-[10] Selection committees for academic recruitment: does gender matter?. (2018). ID: `arxiv:1810.13236`. Referenced in: knowledge gap.
+[10] Quantum physics in neuroscience and psychology: a neurophysical model of mind-brain interaction.. (2005). ID: `pmid:16147524`. Referenced in: knowledge gap.
 
-[11] Academic mentees succeed in big groups, but thrive in small groups. (2022). ID: `arxiv:2208.05304`. Referenced in: knowledge gap.
+[11] EEG microstates of dreams.. (2020). ID: `pmid:33051536`. Referenced in: knowledge gap, recommended path.
 
-[12] Promoting academic success in college students with ADHD and LD: A systematic literature review to identify intervention targets.. (2022). ID: `pmid:33577411`. Referenced in: knowledge gap.
+[12] Gender bias in academic recruitment. (2018). ID: `arxiv:1901.00429`. Referenced in: knowledge gap.
+
+[13] Dreaming during the Covid-19 pandemic: Computational assessment of dream reports reveals mental suffering related to fear of contagion. (2020). ID: `48269ba2f62e2bcb676445f3228d1b9cab82c8af`. Referenced in: recommended path.
+
+[14] Pandemic Dreams: Network Analysis of Dream Content During the COVID-19 Lockdown. (2020). ID: `806b6e0358701fdaab0c1ad798759396249da04e`. Referenced in: recommended path.
+
+[15] Evidence of an active role of dreaming in emotional memory processing shows that we dream to forget. (2024). ID: `67a182bda4a4a3ec4f3c2e100e0b09300c8dadb3`. Referenced in: recommended path.
