@@ -1,4 +1,4 @@
-# Diagnostic Reasoning Engines × Behavior Modification × Educational Technology: What 296 Sources Reveal at the Intersection
+# Diagnostic Reasoning Engines × Behavior Modification × Educational Technology: What 343 Sources Reveal at the Intersection
 
 **April 10, 2026**
 
@@ -10,24 +10,24 @@
 
 ## Abstract
 
-296 sources spanning Diagnostic Reasoning Engines × Behavior Modification × Educational Technology were mapped into a concept graph with 2,095 connections. The structural analysis found 20 cross-domain bridge concepts, 9 distinct research communities, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
+343 sources spanning Diagnostic Reasoning Engines × Behavior Modification × Educational Technology were mapped into a concept graph with 2,778 connections. The structural analysis found 20 cross-domain bridge concepts, 9 distinct research communities with 64% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
 
 ## The Intersection
 
-Diagnostic reasoning engines and behavior modification converge because both fields fundamentally operate as closed-loop systems that observe patterns, generate hypotheses, and trigger interventions. Computer science provides the shared computational backbone where diagnostic algorithms learn to recognize behavioral signatures while behavior modification systems apply those same pattern-recognition principles to predict and influence human responses. The structural symmetry runs deeper than shared methodology—both domains require systems that can process uncertainty, update their models based on feedback, and execute targeted actions in real-time environments.
+Diagnostic reasoning engines and behavior modification share the same computational backbone: both fields rely on pattern recognition algorithms that map observable inputs to targeted interventions. Computer science provides the structural foundation where diagnostic inference engines designed to identify medical conditions use identical machine learning architectures to those that predict and shape human behavioral responses. The 64% overlap in their largest research communities reflects this technical convergence—researchers working on diagnostic AI systems naturally migrate toward behavior prediction models because the underlying computational problems are fundamentally the same.
 
 ### The Foundational Bridge
 
-The concept that sits at the center of all 3 fields is "Computer Science" [C1]. Computer science provides the algorithmic foundation that transforms diagnostic reasoning from static rule-based systems into adaptive behavioral interventions, enabling diagnostic engines to not only identify patterns but actively modify user behaviors based on those diagnoses. This computational bridge allows diagnostic insights to drive real-time behavioral feedback loops, turning passive assessment tools into active behavior change agents.
+The concept that sits at the center of all 3 fields is "Computer Science" [C1]. • Computer Science provides the computational backbone that enables diagnostic reasoning engines to adapt their inference patterns based on user behavior, creating systems that learn from clinician decision-making patterns to refine diagnostic accuracy while simultaneously using behavioral feedback loops to guide users toward more effective diagnostic practices.
 
 ### The Structural Bridges
 
 DCFN identified 20 concepts that sit at the boundary across diagnostic reasoning engines, behavior modification, and educational technology — ideas referenced by all 3 fields but rarely recognized as shared territory. The strongest bridges:
 
-- **Influence of a Large Language Model on Diagnostic Reasoning: A Randomized Clinical Vignette Study** [1] — Large language models fundamentally alter how clinicians process diagnostic information by serving as interactive reasoning partners that can reshape cognitive patterns in real-time. This bridges diagnostic reasoning engines and behavior modification because LLMs don't just provide answers—they demonstrate reasoning pathways that clinicians internalize and adapt, creating a feedback loop where artificial reasoning systems actively modify human diagnostic behavior. Well-grounded in the literature.
-- **Educational Technology Research Patterns in the Realm of the Digital Knowledge Age** [2] — Educational technology research patterns reveal how diagnostic reasoning engines can systematically identify and interpret behavioral data to inform targeted interventions. This bridge emerges because both fields require the continuous assessment of changing states—whether diagnosing system malfunctions or tracking learning progress—and both benefit from automated pattern recognition that can trigger appropriate corrective responses. Well-grounded in the literature.
-- **Large Language Model Influence on Diagnostic Reasoning** [3] — Large language models fundamentally alter how diagnostic reasoning systems learn and adapt by introducing behavioral feedback loops that modify their decision-making patterns through educational reinforcement. This creates a new paradigm where diagnostic engines don't just process symptoms but actively reshape their reasoning pathways based on corrective training, transforming static diagnostic tools into adaptive learning systems. Well-grounded in the literature.
-- **The use of educational technology for interactive teaching in lectures** [4] — Educational technology transforms lectures from passive information delivery into interactive diagnostic environments where student responses become behavioral data points that reasoning engines can analyze to modify teaching approaches in real-time. This bridge exists because interactive teaching tools generate the continuous feedback loops that diagnostic systems need to identify learning patterns, while behavior modification principles provide the theoretical framework for adapting educational interventions based on those diagnostic insights. Well-grounded in the literature.
+- **Educational Technology Research Patterns in the Realm of the Digital Knowledge Age** [1] — Educational technology research patterns reveal how diagnostic reasoning engines can systematically identify and categorize student learning behaviors, creating the data foundation necessary for targeted behavior modification interventions. This bridge transforms diagnostic engines from purely assessment tools into behavioral intelligence systems that inform real-time pedagogical adjustments. Well-grounded in the literature.
+- **Implementing New Technology in Educational Systems** [2] — Diagnostic reasoning engines provide the analytical framework to identify specific learning behaviors and performance patterns, while behavior modification supplies the intervention strategies to systematically change those behaviors. Educational technology implementation becomes the practical testing ground where diagnostic insights directly inform behavioral interventions, creating a feedback loop that refines both diagnostic accuracy and intervention effectiveness. Partially grounded in the literature.
+- **Facilitating Student Engagement Through Educational Technology: Towards a Conceptual Framework** [3] — Educational technology creates a data-rich environment where diagnostic reasoning engines can continuously monitor student behaviors and learning patterns, enabling real-time identification of engagement barriers and triggers for targeted behavioral interventions. This bridge transforms behavior modification from reactive classroom management into predictive, personalized learning optimization driven by algorithmic analysis of student interaction data. Well-grounded in the literature.
+- **The use of educational technology for interactive teaching in lectures** [4] — Educational technology transforms lectures from passive information delivery into active diagnostic environments where instructors can identify learning gaps in real-time and immediately adjust their teaching strategies. This creates a feedback loop where diagnostic insights about student comprehension directly trigger behavioral interventions—turning the classroom into a responsive system that modifies both instructor behavior and student engagement based on continuous assessment. Well-grounded in the literature.
 
 Structurally, researchers across these bridges cite overlapping upstream sources and use compatible frameworks without direct cross-citation. This is a signal of shared territory, not a claim of equivalent mechanism.
 
@@ -35,16 +35,16 @@ Structurally, researchers across these bridges cite overlapping upstream sources
 
 Tracing citation lineages backward reveals which ideas shaped the current landscape and which foundational contributions may have been overlooked.
 
-**Influence of a Large Language Model on Diagnostic Reasoning: A Randomized Clinical Vignette Study** [1] contributed foundational work in this area. The research has evolved moderately across 2 predecessor works, building incrementally while taking the ideas in new directions.
+**Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions** [5] contributed foundational work in this area. The research has evolved moderately across 2 predecessor works, building incrementally while taking the ideas in new directions.
 
 
 ## What Emerged
 
-### 4 Research Communities
+### 4 Communities, One Surprise
 
-The 296 sources organize into 4 research communities — dense neighborhoods in the concept graph where papers share citation paths, frameworks, and research questions, detected structurally rather than by keyword. 'Established' means stable internal structure and tight citation density; 'Emerging' means rapidly accumulating members with looser bonds. The average publication year hints at each cluster's temporal center of gravity.
+The 343 sources organize into 4 research communities — dense neighborhoods in the concept graph where papers share citation paths, frameworks, and research questions, detected structurally rather than by keyword. 'Established' means stable internal structure and tight citation density; 'Emerging' means rapidly accumulating members with looser bonds. The average publication year hints at each cluster's temporal center of gravity.
 
-- **"Handbook of Research on Educational Communications and Technology"** — 117 sources (avg. year: 2016.8). Established cluster.
+- **"Handbook of Research on Educational Communications and Technology"** — 158 sources (avg. year: 2018.3). Established cluster.
 - **"Implementing educational technology solutions for sustainable..."** — 2 sources (avg. year: 2024.0). Emerging cluster.
 - **"Perceived Usability Evaluation of Educational Technology Using the..."** — 3 sources (avg. year: 2023.0). Emerging cluster.
 - **"Limits and Virtues of Educational Technology in Elementary School..."** — 2 sources (avg. year: 2020.0). Established cluster.
@@ -55,68 +55,62 @@ Another pattern: **neuroscience research co-occurs with foundational work 78% of
 
 ### Independent Convergence
 
-Researchers who have never cited each other are arriving at the same structural territory. That's the strongest signal the engine can detect for something latent in the field — when disconnected groups converge on the same ideas without a shared reference path, the convergence is evidence of structure pulling them toward it rather than influence passing through citation. DCFN detected 2 convergence clusters; the topics below are what the field is collectively sensing without having named it yet.
+Researchers who have never cited each other are arriving at the same structural territory. That's the strongest signal the engine can detect for something latent in the field — when disconnected groups converge on the same ideas without a shared reference path, the convergence is evidence of structure pulling them toward it rather than influence passing through citation. DCFN detected 1 convergence cluster; the topics below are what the field is collectively sensing without having named it yet.
 
-**Cluster 1** — 81 independent groups over 38 years:
-- **Diagnostic Reasoning** — 6 sources converge here
-- **Behavior Modification** — 2 sources converge here
-- **Large Reasoning** — 2 sources converge here
-
-**Cluster 2** — 107 independent groups over 59 years:
-- **Educational Technology** — 45 sources converge here
-- **Behavior Modification** — 27 sources converge here
-- **Engagement Educational** — 3 sources converge here
-- **Technology Higher** — 3 sources converge here
+**Cluster 1** — 215 independent groups over 60 years:
+- **Educational Technology** — 38 sources converge here
+- **Behavior Modification** — 30 sources converge here
+- **Diagnostic Reasoning** — 7 sources converge here
 
 Read against your intersection of diagnostic reasoning engines, behavior modification, and educational technology, the convergence pattern is a partial sketch of where these communities are quietly aligning. The clusters above name the territory; the full synthesis — how this circles back into a comprehensive picture of the intersection itself — is what a Go Deeper run is built to produce.
 
 **Convergence Anchors**
 
-Beyond the clusters, DCFN identified 149 single papers acting as gravitational centers — anchors that multiple independent research groups orbit without naming as a common reference. These are the strongest signal that the field is converging on something it hasn't yet recognized as the source.
+Beyond the clusters, DCFN identified 169 single papers acting as gravitational centers — anchors that multiple independent research groups orbit without naming as a common reference. These are the strongest signal that the field is converging on something it hasn't yet recognized as the source.
 
-- **"Robust operative diagnosis as problem solving in a hypothesis space"** (1988) — 19 independent groups (22 papers total) orbit this anchor across 33 years, average similarity 0.53.
-- **"Expert diagnostic system"** (1988) — 23 independent groups (28 papers total) orbit this anchor across 38 years, average similarity 0.50.
-- **"Optimizing Reasoning Efficiency through Prompt Difficulty Prediction"** (2025) — 17 independent groups (18 papers total) orbit this anchor across 38 years, average similarity 0.54.
-- **"Design-Based Research and Educational Technology: Rethinking Technology and the Research Agenda"** (2008) — 16 independent groups (22 papers total) orbit this anchor across 34 years, average similarity 0.55.
-- **"Adaptive Dual Reasoner: Large Reasoning Models Can Think Efficiently by Hybrid Reasoning"** (2025) — 16 independent groups (17 papers total) orbit this anchor across 32 years, average similarity 0.55.
+- **"Expert diagnostic system"** (1988) — 28 independent groups (33 papers total) orbit this anchor across 38 years, average similarity 0.49.
+- **"Robust operative diagnosis as problem solving in a hypothesis space"** (1988) — 22 independent groups (25 papers total) orbit this anchor across 33 years, average similarity 0.54.
+- **"Emerging trends on the topic of Information Technology in the field of Educational Sciences: a bi..."** (2015) — 23 independent groups (27 papers total) orbit this anchor across 34 years, average similarity 0.51.
+- **"Adaptive Dual Reasoner: Large Reasoning Models Can Think Efficiently by Hybrid Reasoning"** (2025) — 20 independent groups (21 papers total) orbit this anchor across 32 years, average similarity 0.54.
+- **"BRB Prediction With Customized Attributes Weights and Tradeoff Analysis for Concurrent Fault Diag..."** (2020) — 22 independent groups (27 papers total) orbit this anchor across 36 years, average similarity 0.52.
 
 
 ## What's Missing
 
-The structural analysis found 282 knowledge gaps.
+The structural analysis found 329 knowledge gaps.
 
-But one pattern stands out — **The Untested Foundation**. The engine found 13 foundational papers that the rest of the field builds on but that haven't been retested with current methods.
+But one pattern stands out — **The Untested Foundation**. The engine found 15 foundational papers that the rest of the field builds on but that haven't been retested with current methods.
 
 ### The Untested Foundation
 
 These 10 papers are structurally positioned at educational technology integration, and downstream work continues to cite them without a modern replication or methodological update. The claims they made — treated as settled by later work — remain unverified against current data and tools.
 
-- *Modeling Human Behavior Part I -- Learning and Belief Approaches* [5] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *Integration of Educational Technology.* [6] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *Educational technology, reimagined.* [7] (2010) — 16 years untested; 12+ downstream works depend on it
-- *Utilizing educational technology in enhancing undergraduate nursing students' engagement and motivation: A scoping review.* [8] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *Teachers' trust in AI-powered educational technology and a professional development program to improve it* [9] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions* [10] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *The development and policies of ICT supporting educational technology in Singapore, Thailand, Indonesia, and Myanmar* [11] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *Educational Technology* [12] (2020) — 6 years since last update; 12+ downstream works depend on it
-- *Distrusting Educational Technology* [13] (2013) — 13 years untested; 12+ downstream works depend on it
-- *Demonstrative and non-demonstrative reasoning by analogy* [14] (2008) — 18 years untested; 12+ downstream works depend on it
+- *Modeling Human Behavior Part I -- Learning and Belief Approaches* [6] (2022) — 12+ downstream works depend on it; structurally dead-end
+- *Integration of Educational Technology.* [7] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Educational technology, reimagined.* [8] (2010) — 16 years untested; 12+ downstream works depend on it
+- *Integration of Cloud Computing and Web2.0 Collaboration Technologies in E-Learning* [9] (2014) — 12 years untested; 12+ downstream works depend on it
+- *Utilizing educational technology in enhancing undergraduate nursing students' engagement and motivation: A scoping review.* [10] (2022) — 12+ downstream works depend on it; structurally dead-end
+- *Development and Implementation of a <u>F</u>ramework for <u>A</u>erospace <u>Ve</u>hicle <u>R</u>easoning (FAVER)* [11] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Lifestyle modification approaches for the treatment of obesity in adults.* [12] (2020) — 6 years since last update; 12+ downstream works depend on it
+- *Impact of Educational Technology on Teacher Stress and Anxiety: A Literature Review* [13] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions* [5] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Educational Technology and Student Performance: A Systematic Review* [14] (2022) — 12+ downstream works depend on it; structurally dead-end
 
-**Why this matters:** Thirteen foundational papers on educational technology integration remain unchallenged despite rapid shifts in diagnostic reasoning engines and behavior modification techniques. Without updated validation studies, researchers building adaptive learning systems risk anchoring their work to obsolete assumptions about how students interact with AI-driven educational tools. The zero citation count suggests the field has moved past these foundations without confirming whether core principles still hold—a dangerous knowledge gap that could undermine the reliability of next-generation personalized learning platforms.
+**Why this matters:** Fifteen papers in diagnostic reasoning engines for educational behavior modification rely on integration frameworks that haven't been empirically validated in over three years, yet no current research builds on these foundational claims. Without fresh validation of how diagnostic engines actually integrate with behavior modification systems in educational settings, entire research trajectories in adaptive learning and personalized intervention are advancing on potentially obsolete assumptions. The field risks building sophisticated reasoning architectures on integration models that may no longer reflect how students and systems actually interact.
 
 ### The Persistent Gaps
 
 5 gaps have appeared in previous analyses of this domain and remain open. These aren't new blind spots — the field has been building around them:
 
-- *Robust operative diagnosis as problem solving in a hypothesis space* (1988)
 - *Modeling Human Behavior Part I -- Learning and Belief Approaches* (2022)
 - *Integration of Educational Technology.* (2021)
 - *Educational technology, reimagined.* (2010)
+- *Robust operative diagnosis as problem solving in a hypothesis space* (1988)
 - *Educational Technology* (2020)
 
 These persistent gaps are the strongest candidates for targeted research — they represent known unknowns that the field has not yet addressed.
 
-*Beyond this pattern, the analysis also identified 14 decayed, 12 blocked papers. Full gap analysis and bridge proposals are in the Technical Report.*
+*Beyond this pattern, the analysis also identified 15 blocked, 10 decayed papers. Full gap analysis and bridge proposals are in the Technical Report.*
 
 ## Where to Go From Here
 
@@ -124,12 +118,12 @@ The structural evidence points to a single dominant direction: 4 foundational pa
 
 The papers this applies to:
 
+- *Modeling Human Behavior Part I -- Learning and Belief App...* [6]
+- *Integration of Educational Technology.* [7]
+- *Educational technology, reimagined.* [8]
 - *Robust operative diagnosis as problem solving in a hypoth...* [15]
-- *Modeling Human Behavior Part I -- Learning and Belief App...* [5]
-- *Integration of Educational Technology.* [6]
-- *Educational technology, reimagined.* [7]
 
-**Recommended approach:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns). Confidence: high/medium.
+**Recommended approach:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns). Confidence: high/medium.
 
 *1 of these papers appear in the recommended research trajectory below.*
 
@@ -137,20 +131,20 @@ The papers this applies to:
 
 For someone entering this intersection, the structural evidence supports this sequence:
 
-**Start:** Teachers' trust in AI-powered educational technology and a professional development program to improve it [9] (2022)
-**Then:** Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions [10] (2021)
-**Then:** Distrusting Educational Technology [13] (2013)
-**Then:** The development and policies of ICT supporting educational technology in Singapore, Thailand, Indonesia, and Myanmar [11] (2021)
-**Then:** Integration of Educational Technology. [6] (2021)
+**Start:** Impact of Educational Technology on Teacher Stress and Anxiety: A Literature Review [13] (2021)
+**Then:** Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions [5] (2021)
+**Then:** Distrusting Educational Technology: Critical Questions for Changing Times [16] (2013)
+**Then:** The development and policies of ICT supporting educational technology in Singapore, Thailand, Indonesia, and Myanmar [17] (2021)
+**Then:** Integration of Educational Technology. [7] (2021)
 **Then:** The use of educational technology for interactive teaching in lectures [4] (2021)
-**Then:** AI in education: A review of personalized learning and educational technology [16] (2024)
+**Then:** AI in education: A review of personalized learning and educational technology [18] (2024)
 
 This trajectory has low confidence — the structural evidence tentatively supports this sequence.
  *Full 10-step path in the Technical Report.*
 
 ---
 
-**Go Deeper** — This analysis identified 282 structural gaps, 9 of which have persisted across prior analyses. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
+**Go Deeper** — This analysis identified 329 structural gaps, 6 of which have persisted across prior analyses. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
 
 
 ## Limitations
@@ -167,34 +161,38 @@ This analysis is bounded by the sources available in the queried databases. Pape
 
 ## References
 
-[1] Influence of a Large Language Model on Diagnostic Reasoning: A Randomized Clinical Vignette Study. (N/A). ID: `a08e39b4c175ea0b15817c793fe13f4236b2576e`. Referenced in: intellectual foundations, structural bridge.
+[1] Educational Technology Research Patterns in the Realm of the Digital Knowledge Age. (N/A). ID: `ed971b0ab75f1e3e23b4f6693f56bd865230b9bd`. Referenced in: structural bridge.
 
-[2] Educational Technology Research Patterns in the Realm of the Digital Knowledge Age. (N/A). ID: `ed971b0ab75f1e3e23b4f6693f56bd865230b9bd`. Referenced in: structural bridge.
+[2] Implementing New Technology in Educational Systems. (N/A). ID: `arxiv:2409.12039`. Referenced in: structural bridge.
 
-[3] Large Language Model Influence on Diagnostic Reasoning. (N/A). ID: `6799808c449fa70ae4abf5348d3d711f0e605e0e`. Referenced in: structural bridge.
+[3] Facilitating Student Engagement Through Educational Technology: Towards a Conceptual Framework. (N/A). ID: `db54ecba8f4845ee8264536567d7d864c2be32bf`. Referenced in: structural bridge.
 
 [4] The use of educational technology for interactive teaching in lectures. (N/A). ID: `0743970cceaa7678902cd528f3401b5133f05985`. Referenced in: recommended path, structural bridge.
 
-[5] Modeling Human Behavior Part I -- Learning and Belief Approaches. (2022). ID: `arxiv:2205.06485`. Referenced in: knowledge gap, research direction.
+[5] Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions. (2021). ID: `79b4cb9973349cb19e89b773e7d7050be799085a`. Referenced in: intellectual foundations, knowledge gap, recommended path.
 
-[6] Integration of Educational Technology.. (2021). ID: `pmid:34242610`. Referenced in: knowledge gap, recommended path, research direction.
+[6] Modeling Human Behavior Part I -- Learning and Belief Approaches. (2022). ID: `arxiv:2205.06485`. Referenced in: knowledge gap, research direction.
 
-[7] Educational technology, reimagined.. (2010). ID: `pmid:21240950`. Referenced in: knowledge gap, research direction.
+[7] Integration of Educational Technology.. (2021). ID: `pmid:34242610`. Referenced in: knowledge gap, recommended path, research direction.
 
-[8] Utilizing educational technology in enhancing undergraduate nursing students' engagement and motivation: A scoping review.. (2022). ID: `pmid:36150870`. Referenced in: knowledge gap.
+[8] Educational technology, reimagined.. (2010). ID: `pmid:21240950`. Referenced in: knowledge gap, research direction.
 
-[9] Teachers' trust in AI-powered educational technology and a professional development program to improve it. (2022). ID: `abf29f519a62bc62fc4650e03af735d61cc58bba`. Referenced in: knowledge gap, recommended path.
+[9] Integration of Cloud Computing and Web2.0 Collaboration Technologies in E-Learning. (2014). ID: `arxiv:1406.5020`. Referenced in: knowledge gap.
 
-[10] Integration of educational technology during the Covid-19 pandemic: An analysis of teacher and student receptions. (2021). ID: `79b4cb9973349cb19e89b773e7d7050be799085a`. Referenced in: knowledge gap, recommended path.
+[10] Utilizing educational technology in enhancing undergraduate nursing students' engagement and motivation: A scoping review.. (2022). ID: `pmid:36150870`. Referenced in: knowledge gap.
 
-[11] The development and policies of ICT supporting educational technology in Singapore, Thailand, Indonesia, and Myanmar. (2021). ID: `c669715eba235d1ac02e14b0b9d1b3fe48fbea99`. Referenced in: knowledge gap, recommended path.
+[11] Development and Implementation of a <u>F</u>ramework for <u>A</u>erospace <u>Ve</u>hicle <u>R</u>easoning (FAVER). (2021). ID: `openalex:W3188083969`. Referenced in: knowledge gap.
 
-[12] Educational Technology. (2020). ID: `d338af59cda786b80efe982363586462d852f26d`. Referenced in: knowledge gap.
+[12] Lifestyle modification approaches for the treatment of obesity in adults.. (2020). ID: `da130a596823d792ff30c971512304219a0d8a88`. Referenced in: knowledge gap.
 
-[13] Distrusting Educational Technology. (2013). ID: `openalex:W4238545019`. Referenced in: knowledge gap, recommended path.
+[13] Impact of Educational Technology on Teacher Stress and Anxiety: A Literature Review. (2021). ID: `b4e65b6f4f45c04487a9e6f389d585935ed271f5`. Referenced in: knowledge gap, recommended path.
 
-[14] Demonstrative and non-demonstrative reasoning by analogy. (2008). ID: `arxiv:0810.5078`. Referenced in: knowledge gap.
+[14] Educational Technology and Student Performance: A Systematic Review. (2022). ID: `e71f8333f13444e8387a33cab0c210df606fe8d4`. Referenced in: knowledge gap.
 
 [15] Robust operative diagnosis as problem solving in a hypoth.... (N/A). ID: `openalex:W2113488160`. Referenced in: research direction.
 
-[16] AI in education: A review of personalized learning and educational technology. (2024). ID: `openalex:W4392772072`. Referenced in: recommended path.
+[16] Distrusting Educational Technology: Critical Questions for Changing Times. (2013). ID: `openalex:W414755498`. Referenced in: recommended path.
+
+[17] The development and policies of ICT supporting educational technology in Singapore, Thailand, Indonesia, and Myanmar. (2021). ID: `c669715eba235d1ac02e14b0b9d1b3fe48fbea99`. Referenced in: recommended path.
+
+[18] AI in education: A review of personalized learning and educational technology. (2024). ID: `openalex:W4392772072`. Referenced in: recommended path.
