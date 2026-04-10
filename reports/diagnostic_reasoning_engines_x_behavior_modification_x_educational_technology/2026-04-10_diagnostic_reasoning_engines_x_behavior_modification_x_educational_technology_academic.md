@@ -4,9 +4,9 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 10, 2026
-**Run fingerprint:** `ee95cab0472aa478`
+**Run fingerprint:** `3df240a2008afec3`
 **Corpus fingerprint:** `no-corpus`
-**Sources:** 296
+**Sources:** 343
 
 ---
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-10T03:12:27.939310` |
-| Run fingerprint | `ee95cab0472aa478` |
+| Run timestamp | `2026-04-10T17:45:51.840484` |
+| Run fingerprint | `3df240a2008afec3` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | Diagnostic Reasoning Engines × Behavior Modification × Educational Technology |
 
@@ -73,7 +73,7 @@ outside it are not claims the engine is capable of making.
 
 | Field | Value |
 |-------|-------|
-| Sources analyzed | 296 |
+| Sources analyzed | 343 |
 
 ### 1.3 Stage Execution Counts
 
@@ -81,15 +81,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Work performed |
 |-------|----------------|
-| QEB encoding | 296 sources encoded |
-| Concept graph | 334 nodes / 2095 edges constructed |
+| QEB encoding | 343 sources encoded |
+| Concept graph | 381 nodes / 2778 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 6) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 282 entropy nodes inspected (138 critical, 59 high) |
-| CTE branch cataloging | 9 clusters identified (12 structural mirrors) |
+| CTE entropy detection | 329 entropy nodes inspected (185 critical, 62 high) |
+| CTE branch cataloging | 9 clusters identified (13 structural mirrors) |
 | CTE golden-token pathfinding | path length 10 (6 entropy nodes resolved) |
-| Apriori pattern mining | 23 1-itemsets, 36 2-itemsets, 13 3-itemsets, 12 rules |
-| SVW synchronicity | 1061 candidate pairs scanned, 2 convergence events, 149 convergence anchors |
+| Apriori pattern mining | 21 1-itemsets, 33 2-itemsets, 15 3-itemsets, 10 rules |
+| SVW synchronicity | 1224 candidate pairs scanned, 2 convergence events, 169 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -100,14 +100,14 @@ outside it are not claims the engine is capable of making.
 | Stage | Duration |
 |-------|----------|
 | qeb_encoding | 1m 8.8s |
-| concept_graph | 518 ms |
-| cte_traversal | 214 ms |
-| apriori | 42 ms |
-| svw | 106 ms |
+| concept_graph | 404 ms |
+| cte_traversal | 294 ms |
+| apriori | 60 ms |
+| svw | 359 ms |
 | hypothesis_generation | 0 ms |
-| post_traversal_calibration | 240 ms |
+| post_traversal_calibration | 343 ms |
 | bridge_detection | 3 ms |
-| **Total measured** | **1m 9.9s** |
+| **Total measured** | **1m 10.3s** |
 
 ### 1.5 Filter Telemetry
 
@@ -115,7 +115,7 @@ outside it are not claims the engine is capable of making.
 
 | Filter | Inspected | Dropped | Kept |
 |--------|-----------|---------|------|
-| contamination_filter | 346 | 50 | 296 |
+| contamination_filter | 396 | 53 | 343 |
 
 ## Band 2 — What It Produced
 
@@ -125,15 +125,15 @@ outside it are not claims the engine is capable of making.
 
 | Metric | Value |
 |--------|-------|
-| Total nodes | 334 |
-| Total edges | 2095 |
+| Total nodes | 381 |
+| Total edges | 2778 |
 | Connected components | 17 |
 
 **Node types:**
 
 | Type | Count |
 |------|-------|
-| DOCUMENT | 296 |
+| DOCUMENT | 343 |
 | ENTITY | 26 |
 | CONCEPT | 12 |
 
@@ -141,66 +141,66 @@ outside it are not claims the engine is capable of making.
 
 | Type | Count |
 |------|-------|
-| MIRRORS | 1472 |
-| CONTAINS | 369 |
-| BRIDGES | 88 |
-| EXTENDS | 88 |
+| MIRRORS | 2071 |
+| CONTAINS | 416 |
+| BRIDGES | 122 |
+| EXTENDS | 94 |
 | DEFENDED_BY | 54 |
-| ENABLES | 16 |
-| DEPENDS_ON | 8 |
+| ENABLES | 14 |
+| DEPENDS_ON | 7 |
 
 ### 2.2 Cross-Domain Topology
 
 | Field | Value |
 |-------|-------|
 | Domains | Behavior Modification, Diagnostic Reasoning Engines, Diagnostic Reasoning Engines × Behavior Modification × Educational Technology, Educational Technology |
-| Cross-domain edges | 459 |
-| Bridge nodes | 185 |
+| Cross-domain edges | 566 |
+| Bridge nodes | 232 |
 
 ### 2.3 Entropy Nodes
 
-**Total:** 282 (critical: 138, high: 59, low: 85)
+**Total:** 329 (critical: 185, high: 62, low: 82)
 
 **Surfaced gaps (classification only):**
 
 | # | Title | Bridge confidence |
 |---|-------|-------------------|
-| 1 | Robust operative diagnosis as problem solving in a hypothesis space | — |
-| 2 | Modeling Human Behavior Part I -- Learning and Belief Approaches | — |
-| 3 | Integration of Educational Technology. | — |
-| 4 | Educational technology, reimagined. | — |
+| 1 | Modeling Human Behavior Part I -- Learning and Belief Approaches | — |
+| 2 | Integration of Educational Technology. | — |
+| 3 | Educational technology, reimagined. | — |
+| 4 | Robust operative diagnosis as problem solving in a hypothesis space | — |
 | 5 | Biblical behavior modification. | — |
-| 6 | EEG biofeedback: physiological behavior modification. | — |
-| 7 | Case Studies in Behavior Modification. | — |
-| 8 | A META-ANALYSIS OF THE EFFECTS OF ORGANIZATIONAL BEHAVIOR MODIFICATION ON TASK P | — |
-| 9 | Utilizing educational technology in enhancing undergraduate nursing students' en | — |
-| 10 | Behavior Modification: What it is and how to do it | — |
-| 11 | Teachers' trust in AI-powered educational technology and a professional developm | — |
-| 12 | Integration of educational technology during the Covid-19 pandemic: An analysis  | — |
-| 13 | The development and policies of ICT supporting educational technology in Singapo | — |
-| 14 | Educational Technology | — |
-| 15 | Distrusting Educational Technology | — |
-| 16 | Behavior modification. | — |
-| 17 | Demonstrative and non-demonstrative reasoning by analogy | — |
-| 18 | Challenges in the Automatic Analysis of Students' Diagnostic Reasoning | — |
-| 19 | Abstraction in Belief Networks: The Role of Intermediate States in Diagnostic Re | — |
+| 6 | A META-ANALYSIS OF THE EFFECTS OF ORGANIZATIONAL BEHAVIOR MODIFICATION ON TASK P | — |
+| 7 | Integration of Cloud Computing and Web2.0 Collaboration Technologies in E-Learni | — |
+| 8 | Utilizing educational technology in enhancing undergraduate nursing students' en | — |
+| 9 | Development and Implementation of a <u>F</u>ramework for <u>A</u>erospace <u>Ve< | — |
+| 10 | Continuous Glucose Monitoring As a Behavior Modification Tool | — |
+| 11 | Lifestyle modification approaches for the treatment of obesity in adults. | — |
+| 12 | Behavior Modification: What it is and how to do it | — |
+| 13 | Impact of Educational Technology on Teacher Stress and Anxiety: A Literature Rev | — |
+| 14 | Integration of educational technology during the Covid-19 pandemic: An analysis  | — |
+| 15 | Educational Technology and Student Performance: A Systematic Review | — |
+| 16 | The development and policies of ICT supporting educational technology in Singapo | — |
+| 17 | Educational Technology | — |
+| 18 | Distrusting Educational Technology: Critical Questions for Changing Times | — |
+| 19 | Challenges in the Automatic Analysis of Students' Diagnostic Reasoning | — |
 | 20 | Improved Sampling for Diagnostic Reasoning in Bayesian Networks | — |
 
 ### 2.4 Branch Clusters
 
 **Total clusters:** 9 (emerging: 4, established: 5)
-**Structural mirrors:** 12
+**Structural mirrors:** 13
 
 **Cluster representatives:**
 
 | Cluster | Size | Status |
 |---------|------|--------|
-| Intelligent Fault Diagnosis and Prognosis for Engineering Systems | 65 | Established |
-| Readings in Model-Based Diagnosis | 77 | Established |
-| Handbook of Research on Educational Communications and Technology | 117 | Established |
-| Evaluating the diagnostic reasoning of large language models in complex neuro-op | 2 | Emerging |
-| Behavior modification in applied settings | 39 | Established |
-| From Forest to Zoo: Great Ape Behavior Recognition with ChimpBehave | 12 | Emerging |
+| Intelligent Fault Diagnosis and Prognosis for Engineering Systems | 93 | Established |
+| Readings in Model-Based Diagnosis | 64 | Established |
+| Joint Embedding Learning of Educational Knowledge Graphs | 2 | Emerging |
+| Handbook of Research on Educational Communications and Technology | 158 | Established |
+| DeepSeek-R1 vs OpenAI o1 for Ophthalmic Diagnoses and Management Plans. | 2 | Emerging |
+| Behavior modification in applied settings | 40 | Established |
 | Implementing educational technology solutions for sustainable development in eme | 2 | Emerging |
 | Perceived Usability Evaluation of Educational Technology Using the Post-Study Sy | 3 | Emerging |
 | Limits and Virtues of Educational Technology in Elementary School Mathematics | 2 | Established |
@@ -210,22 +210,22 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Convergence events | 2 |
-| Convergence anchors | 149 |
+| Convergence anchors | 169 |
 
 **Top anchors (rank only):**
 
 | Rank | Anchor | Year | Independent groups |
 |------|--------|------|--------------------|
-| 1 | Robust operative diagnosis as problem solving in a hypothesi | 1988 | 19 |
-| 2 | Expert diagnostic system | 1988 | 23 |
-| 3 | Optimizing Reasoning Efficiency through Prompt Difficulty Pr | 2025 | 17 |
-| 4 | Design-Based Research and Educational Technology: Rethinking | 2008 | 16 |
-| 5 | Adaptive Dual Reasoner: Large Reasoning Models Can Think Eff | 2025 | 16 |
-| 6 | Reasoning Effort and Problem Complexity: A Scaling Analysis  | 2025 | 14 |
-| 7 | BRB Prediction With Customized Attributes Weights and Tradeo | 2020 | 17 |
-| 8 | FAULTFINDER: A DIAGNOSTIC EXPERT SYSTEM WITH GRACEFUL DEGRAD | 1988 | 17 |
-| 9 | LocationReasoner: Evaluating LLMs on Real-World Site Selecti | 2025 | 17 |
-| 10 | Development and Implementation of a <u>F</u>ramework for <u> | 2021 | 17 |
+| 1 | Expert diagnostic system | 1988 | 28 |
+| 2 | Robust operative diagnosis as problem solving in a hypothesi | 1988 | 22 |
+| 3 | Emerging trends on the topic of Information Technology in th | 2015 | 23 |
+| 4 | Adaptive Dual Reasoner: Large Reasoning Models Can Think Eff | 2025 | 20 |
+| 5 | BRB Prediction With Customized Attributes Weights and Tradeo | 2020 | 22 |
+| 6 | FAULTFINDER: A DIAGNOSTIC EXPERT SYSTEM WITH GRACEFUL DEGRAD | 1988 | 21 |
+| 7 | Optimizing Reasoning Efficiency through Prompt Difficulty Pr | 2025 | 20 |
+| 8 | Development and Implementation of a <u>F</u>ramework for <u> | 2021 | 21 |
+| 9 | Reasoning Effort and Problem Complexity: A Scaling Analysis  | 2025 | 17 |
+| 10 | LocationReasoner: Evaluating LLMs on Real-World Site Selecti | 2025 | 19 |
 
 ### 2.6 Golden Trajectory
 
@@ -239,50 +239,50 @@ outside it are not claims the engine is capable of making.
 
 | Step | Title | Year | Resolves gap |
 |------|-------|------|--------------|
-| 1 | Teachers' trust in AI-powered educational technology and a professiona | 2022 | Yes |
+| 1 | Impact of Educational Technology on Teacher Stress and Anxiety: A Lite | 2021 | Yes |
 | 2 | Integration of educational technology during the Covid-19 pandemic: An | 2021 | Yes |
-| 3 | Distrusting Educational Technology | 2013 | Yes |
+| 3 | Distrusting Educational Technology: Critical Questions for Changing Ti | 2013 | Yes |
 | 4 | The development and policies of ICT supporting educational technology  | 2021 | Yes |
 | 5 | Integration of Educational Technology. | 2021 | Yes |
 | 6 | The use of educational technology for interactive teaching in lectures | 2021 | — |
 | 7 | AI in education: A review of personalized learning and educational tec | 2024 | — |
 | 8 | Utilizing educational technology in enhancing undergraduate nursing st | 2022 | Yes |
-| 9 | Impact of Educational Technology on Teacher Stress and Anxiety: A Lite | 2021 | — |
-| 10 | Perceived usability evaluation of educational technology using the Sys | 2021 | — |
+| 9 | Educational Technology Adoption: A systematic review | 2022 | — |
+| 10 | Facilitating student engagement through educational technology in high | 2020 | — |
 
 ### 2.7 Generated Hypotheses
 
 **Total:** 5
 
 **H01** [MEDIUM]
-- **Hypothesis:** Resolving the research gap in 'Robust operative diagnosis as problem solving in a hypothesis space' will unlock currently blocked progress toward: Computer Science
-- **Grounded in:** entropy gap node: Robust operative diagnosis as problem solving in a hypoth...
-- **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns)
-
-**H02** [MEDIUM]
 - **Hypothesis:** Resolving the research gap in 'Modeling Human Behavior Part I -- Learning and Belief Approaches' will unlock currently blocked progress toward: Computer Science
 - **Grounded in:** entropy gap node: Modeling Human Behavior Part I -- Learning and Belief App...
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
 
-**H03** [HIGH]
+**H02** [HIGH]
 - **Hypothesis:** Resolving the research gap in 'Integration of Educational Technology.' will unlock currently blocked progress toward: Education
 - **Grounded in:** entropy gap node: Integration of Educational Technology. + included in golden token recommended path
 - **Novel because:** not yet connected to 'Education' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
 
-**H04** [MEDIUM]
+**H03** [MEDIUM]
 - **Hypothesis:** Resolving the research gap in 'Educational technology, reimagined.' will unlock currently blocked progress toward: Computer Science
 - **Grounded in:** entropy gap node: Educational technology, reimagined.
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
+
+**H04** [MEDIUM]
+- **Hypothesis:** Re-examining 'Robust operative diagnosis as problem solving in a hypothesis space' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **Grounded in:** entropy gap node: Robust operative diagnosis as problem solving in a hypoth...
+- **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
+- **Suggested method:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
 
 **H05** [MEDIUM]
 - **Hypothesis:** Re-examining 'Biblical behavior modification.' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Biblical behavior modification.
 - **Novel because:** not yet connected to 'Education' despite logical dependency in prerequisite chain
-- **Suggested method:** machine learning (co-occurs with similar gaps at 91% confidence in apriori patterns)
+- **Suggested method:** machine learning (co-occurs with similar gaps at 92% confidence in apriori patterns)
 
 
 ### 2.8 Cross-Domain Bridges
@@ -300,7 +300,7 @@ outside it are not claims the engine is capable of making.
 | 7 | Untitled | 3 |
 | 8 | Untitled | 3 |
 | 9 | Untitled | 3 |
-| 10 | Untitled | 4 |
+| 10 | Untitled | 3 |
 
 ## Band 3 — How It Knows
 
