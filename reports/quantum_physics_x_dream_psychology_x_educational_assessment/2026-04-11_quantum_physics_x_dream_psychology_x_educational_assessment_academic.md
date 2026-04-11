@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 11, 2026
-**Run fingerprint:** `f82cea417da4f3d7`
+**Run fingerprint:** `07d266d13e5b24a6`
 **Corpus fingerprint:** `no-corpus`
 **Sources:** 387
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-11T00:30:19.104839` |
-| Run fingerprint | `f82cea417da4f3d7` |
+| Run timestamp | `2026-04-11T00:31:16.901139` |
+| Run fingerprint | `07d266d13e5b24a6` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | quantum physics × dream psychology × educational assessment |
 
@@ -85,11 +85,11 @@ outside it are not claims the engine is capable of making.
 | Concept graph | 420 nodes / 3966 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 5) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 376 entropy nodes inspected (251 critical, 32 high) |
+| CTE entropy detection | 377 entropy nodes inspected (251 critical, 33 high) |
 | CTE branch cataloging | 7 clusters identified (9 structural mirrors) |
 | CTE golden-token pathfinding | path length 10 (6 entropy nodes resolved) |
 | Apriori pattern mining | 20 1-itemsets, 31 2-itemsets, 6 3-itemsets, 3 rules |
-| SVW synchronicity | 2080 candidate pairs scanned, 3 convergence events, 217 convergence anchors |
+| SVW synchronicity | 1994 candidate pairs scanned, 2 convergence events, 216 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -99,15 +99,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 1m 13.4s |
-| concept_graph | 533 ms |
-| cte_traversal | 409 ms |
-| apriori | 78 ms |
-| svw | 231 ms |
+| qeb_encoding | 56.85 s |
+| concept_graph | 332 ms |
+| cte_traversal | 168 ms |
+| apriori | 23 ms |
+| svw | 196 ms |
 | hypothesis_generation | 0 ms |
 | post_traversal_calibration | 222 ms |
 | bridge_detection | 3 ms |
-| **Total measured** | **1m 14.9s** |
+| **Total measured** | **57.79 s** |
 
 ### 1.5 Filter Telemetry
 
@@ -159,7 +159,7 @@ outside it are not claims the engine is capable of making.
 
 ### 2.3 Entropy Nodes
 
-**Total:** 376 (critical: 251, high: 32, low: 93)
+**Total:** 377 (critical: 251, high: 33, low: 93)
 
 **Surfaced gaps (classification only):**
 
@@ -174,17 +174,17 @@ outside it are not claims the engine is capable of making.
 | 7 | Anticipations of dream psychology in the Talmud | — |
 | 8 | Best practices in summative assessment. | — |
 | 9 | A history of assessment in medical education. | — |
-| 10 | Clarifying the purposes of educational assessment | — |
-| 11 | Design and Discovery in Educational Assessment: Evidence-Centered Design, Psycho | — |
-| 12 | Quantum Physics Education Research over the Last Two Decades: A Bibliometric Ana | — |
-| 13 | The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Consc | — |
-| 14 | Validation of educational assessments: a primer for simulation and beyond | — |
-| 15 | Fairness in Educational Assessment and Measurement | — |
-| 16 | When Assessment Data Are Words: Validity Evidence for Qualitative Educational As | — |
-| 17 | Bayesian Networks in Educational Assessment | — |
-| 18 | Review of Alyssa Ney’s The World in the Wave Function: A Metaphysics for Quantum | — |
-| 19 | Towards a better understanding of conceptual difficulties in introductory quantu | — |
-| 20 | Quantum Computing in the NISQ era and beyond | — |
+| 10 | Quantum Physics Education Research over the Last Two Decades: A Bibliometric Ana | — |
+| 11 | The Dream of God: How Do Religion and Science See Lucid Dreaming and Other Consc | — |
+| 12 | Validation of educational assessments: a primer for simulation and beyond | — |
+| 13 | Fairness in Educational Assessment and Measurement | — |
+| 14 | Design and Discovery in Educational Assessment: Evidence-Centered Design, Psycho | — |
+| 15 | When Assessment Data Are Words: Validity Evidence for Qualitative Educational As | — |
+| 16 | Bayesian Networks in Educational Assessment | — |
+| 17 | Review of Alyssa Ney’s The World in the Wave Function: A Metaphysics for Quantum | — |
+| 18 | Towards a better understanding of conceptual difficulties in introductory quantu | — |
+| 19 | Quantum Computing in the NISQ era and beyond | — |
+| 20 | Quantum physics in space | — |
 
 ### 2.4 Branch Clusters
 
@@ -207,23 +207,23 @@ outside it are not claims the engine is capable of making.
 
 | Field | Value |
 |-------|-------|
-| Convergence events | 3 |
-| Convergence anchors | 217 |
+| Convergence events | 2 |
+| Convergence anchors | 216 |
 
 **Top anchors (rank only):**
 
 | Rank | Anchor | Year | Independent groups |
 |------|--------|------|--------------------|
-| 1 | Experiment and the foundations of quantum physics | 1999 | 47 |
-| 2 | Quantum Computing for High-Energy Physics: State of the Art  | 2023 | 35 |
-| 3 | The Physics of Quantum Information | 2022 | 36 |
-| 4 | Quantum Chemistry in the Age of Quantum Computing. | 2019 | 34 |
-| 5 | What is quantum biology? | 2026 | 37 |
-| 6 | Monitoring Quantum Simulators via Quantum Non-Demolition Cou | 2020 | 41 |
-| 7 | Quantum Computation and Quantum Information | 2012 | 33 |
-| 8 | Searching for Coherent States: From Origins to Quantum Gravi | 2020 | 37 |
-| 9 | Opportunities for Nuclear Physics & Quantum Information Scie | 2019 | 33 |
-| 10 | Artificial intelligence in educational assessment: 'Breakthr | 2021 | 31 |
+| 1 | Quantum physics meets biology | 2009 | 53 |
+| 2 | Quantum Computing for High-Energy Physics: State of the Art  | 2023 | 33 |
+| 3 | The Physics of Quantum Information | 2022 | 34 |
+| 4 | Quantum Chemistry in the Age of Quantum Computing. | 2019 | 32 |
+| 5 | Monitoring Quantum Simulators via Quantum Non-Demolition Cou | 2020 | 40 |
+| 6 | Quantum Computation and Quantum Information | 2012 | 32 |
+| 7 | What is quantum biology? | 2026 | 34 |
+| 8 | Quantum reference frame transformations as symmetries and th | 2020 | 31 |
+| 9 | A general quantum algorithm for open quantum dynamics demons | 2021 | 32 |
+| 10 | Searching for Coherent States: From Origins to Quantum Gravi | 2020 | 34 |
 
 ### 2.6 Golden Trajectory
 
