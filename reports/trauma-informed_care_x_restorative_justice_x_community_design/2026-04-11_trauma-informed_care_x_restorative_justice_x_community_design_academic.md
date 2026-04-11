@@ -4,9 +4,9 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 11, 2026
-**Run fingerprint:** `c7ac2065ca752465`
+**Run fingerprint:** `9dcd95be994524f2`
 **Corpus fingerprint:** `no-corpus`
-**Sources:** 422
+**Sources:** 424
 
 ---
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-11T04:47:29.148207` |
-| Run fingerprint | `c7ac2065ca752465` |
+| Run timestamp | `2026-04-11T05:03:29.268562` |
+| Run fingerprint | `9dcd95be994524f2` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | Trauma-informed care × restorative justice × community design |
 
@@ -73,7 +73,7 @@ outside it are not claims the engine is capable of making.
 
 | Field | Value |
 |-------|-------|
-| Sources analyzed | 422 |
+| Sources analyzed | 424 |
 
 ### 1.3 Stage Execution Counts
 
@@ -81,15 +81,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Work performed |
 |-------|----------------|
-| QEB encoding | 422 sources encoded |
-| Concept graph | 456 nodes / 5714 edges constructed |
+| QEB encoding | 424 sources encoded |
+| Concept graph | 459 nodes / 5776 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 5) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 399 entropy nodes inspected (300 critical, 38 high) |
-| CTE branch cataloging | 6 clusters identified (7 structural mirrors) |
+| CTE entropy detection | 401 entropy nodes inspected (303 critical, 37 high) |
+| CTE branch cataloging | 6 clusters identified (8 structural mirrors) |
 | CTE golden-token pathfinding | path length 10 (7 entropy nodes resolved) |
-| Apriori pattern mining | 20 1-itemsets, 30 2-itemsets, 7 3-itemsets, 9 rules |
-| SVW synchronicity | 3404 candidate pairs scanned, 1 convergence events, 254 convergence anchors |
+| Apriori pattern mining | 20 1-itemsets, 29 2-itemsets, 6 3-itemsets, 8 rules |
+| SVW synchronicity | 3485 candidate pairs scanned, 1 convergence events, 255 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -99,15 +99,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 1m 9.3s |
-| concept_graph | 425 ms |
-| cte_traversal | 233 ms |
-| apriori | 28 ms |
-| svw | 346 ms |
+| qeb_encoding | 1m 59.3s |
+| concept_graph | 547 ms |
+| cte_traversal | 490 ms |
+| apriori | 59 ms |
+| svw | 437 ms |
 | hypothesis_generation | 0 ms |
-| post_traversal_calibration | 334 ms |
-| bridge_detection | 5 ms |
-| **Total measured** | **1m 10.7s** |
+| post_traversal_calibration | 781 ms |
+| bridge_detection | 4 ms |
+| **Total measured** | **2m 1.6s** |
 
 ### 1.5 Filter Telemetry
 
@@ -115,7 +115,7 @@ outside it are not claims the engine is capable of making.
 
 | Filter | Inspected | Dropped | Kept |
 |--------|-----------|---------|------|
-| contamination_filter | 486 | 64 | 422 |
+| contamination_filter | 487 | 63 | 424 |
 
 ## Band 2 — What It Produced
 
@@ -125,28 +125,28 @@ outside it are not claims the engine is capable of making.
 
 | Metric | Value |
 |--------|-------|
-| Total nodes | 456 |
-| Total edges | 5714 |
+| Total nodes | 459 |
+| Total edges | 5776 |
 | Connected components | 15 |
 
 **Node types:**
 
 | Type | Count |
 |------|-------|
-| DOCUMENT | 422 |
-| ENTITY | 20 |
+| DOCUMENT | 424 |
+| ENTITY | 21 |
 | CONCEPT | 14 |
 
 **Edge types:**
 
 | Type | Count |
 |------|-------|
-| MIRRORS | 2795 |
-| EXTENDS | 1825 |
-| BRIDGES | 591 |
-| CONTAINS | 397 |
-| ENABLES | 53 |
-| DEFENDED_BY | 46 |
+| MIRRORS | 2832 |
+| EXTENDS | 1838 |
+| BRIDGES | 597 |
+| CONTAINS | 398 |
+| ENABLES | 56 |
+| DEFENDED_BY | 48 |
 | DEPENDS_ON | 7 |
 
 ### 2.2 Cross-Domain Topology
@@ -154,12 +154,12 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Domains | Trauma-informed care, Trauma-informed care × restorative justice × community design, community design, restorative justice |
-| Cross-domain edges | 1258 |
-| Bridge nodes | 319 |
+| Cross-domain edges | 1271 |
+| Bridge nodes | 323 |
 
 ### 2.3 Entropy Nodes
 
-**Total:** 399 (critical: 300, high: 38, low: 61)
+**Total:** 401 (critical: 303, high: 37, low: 61)
 
 **Surfaced gaps (classification only):**
 
@@ -168,37 +168,37 @@ outside it are not claims the engine is capable of making.
 | 1 | Data Justice Stories: A Repository of Case Studies | — |
 | 2 | Toward a Theory of Justice for Artificial Intelligence | — |
 | 3 | Restorative Justice: Pedagogy, Praxis, and Discipline | — |
-| 4 | Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A | — |
-| 5 | Setting Standards for Restorative Justice | — |
-| 6 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
-| 7 | Restorative Justice and De-Professionalization | — |
-| 8 | An annotation based approach to support design communication | — |
-| 9 | Smart growth community design and physical activity in children. | — |
-| 10 | Healthy Aging and Where You Live: Community Design Relationships With Physical A | — |
-| 11 | Community Design for Physical Activity | — |
-| 12 | Building Successful Online Communities: Evidence-Based Social Design | — |
-| 13 | Radical Futures: Supporting Community-Led Design Engagements through an Afrofutu | — |
-| 14 | Enhancing Community-Based Participatory Research Through Human-Centered Design S | — |
-| 15 | Trauma-informed care: recognizing and resisting re-traumatization in health care | — |
-| 16 | Trauma-informed Care Interventions in Emergency Medicine: A Systematic Review | — |
-| 17 | Trauma-informed care in the UK: where are we? A qualitative study of health poli | — |
-| 18 | Understanding the Conceptualization and Operationalization of Trauma-Informed Ca | — |
-| 19 | Trauma-Informed Care in Child Health Systems | — |
-| 20 | Patients, Primary Care, and Policy: Simulation Modeling for Health Care Decision | — |
+| 4 | Robots in healthcare as envisioned by care professionals | — |
+| 5 | Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A | — |
+| 6 | Restorative justice | — |
+| 7 | Setting Standards for Restorative Justice | — |
+| 8 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
+| 9 | Restorative Justice and De-Professionalization | — |
+| 10 | An annotation based approach to support design communication | — |
+| 11 | Smart growth community design and physical activity in children. | — |
+| 12 | Healthy Aging and Where You Live: Community Design Relationships With Physical A | — |
+| 13 | Community Design for Physical Activity | — |
+| 14 | Building Successful Online Communities: Evidence-Based Social Design | — |
+| 15 | Radical Futures: Supporting Community-Led Design Engagements through an Afrofutu | — |
+| 16 | Enhancing Community-Based Participatory Research Through Human-Centered Design S | — |
+| 17 | Trauma-informed care: recognizing and resisting re-traumatization in health care | — |
+| 18 | Trauma-informed Care Interventions in Emergency Medicine: A Systematic Review | — |
+| 19 | Trauma-informed care in the UK: where are we? A qualitative study of health poli | — |
+| 20 | Understanding the Conceptualization and Operationalization of Trauma-Informed Ca | — |
 
 ### 2.4 Branch Clusters
 
 **Total clusters:** 6 (emerging: 1, established: 5)
-**Structural mirrors:** 7
+**Structural mirrors:** 8
 
 **Cluster representatives:**
 
 | Cluster | Size | Status |
 |---------|------|--------|
-| Trauma Informed Care in Medicine | 299 | Established |
+| Trauma Informed Care in Medicine | 301 | Established |
 | Trauma-Informed Care: The Professional Development Needs of Early Childhood Spec | 4 | Emerging |
-| Trauma-informed care: Better care for everyone. | 129 | Established |
-| Virtual Community: An Open World for Humans, Robots, and Society | 5 | Established |
+| Trauma-informed care: Better care for everyone. | 133 | Established |
+| AI-Enhanced Intensive Care Unit: Revolutionizing Patient Care with Pervasive Sen | 2 | Established |
 | Creating Walkable Communities: Understanding Trade-Offs. | 2 | Established |
 | Processes of developing 'community livability' in older age. | 3 | Established |
 
@@ -207,22 +207,22 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Convergence events | 1 |
-| Convergence anchors | 254 |
+| Convergence anchors | 255 |
 
 **Top anchors (rank only):**
 
 | Rank | Anchor | Year | Independent groups |
 |------|--------|------|--------------------|
-| 1 | Evaluating the Effectiveness of Trauma-Informed Care Framewo | 2024 | 17 |
-| 2 | Supporting Active Living Through Community Plans: The Associ | 2019 | 30 |
-| 3 | Smart growth community design and physical activity in child | 2013 | 26 |
-| 4 | Healthy Community Design, Anti-displacement, and Equity Stra | 2022 | 26 |
-| 5 | The Impact of Community Design and Land-Use Choices on Publi | 2003 | 24 |
-| 6 | Community Lenses Revealing the Role of Sociocultural Environ | 2016 | 27 |
-| 7 | An ecological approach to creating active living communities | 2006 | 22 |
-| 8 | Codesigning Parks for Increasing Park Visits and Physical Ac | 2020 | 21 |
-| 9 | Physical Activity–Friendly Policies and Community Design Fea | 2023 | 23 |
-| 10 | Community Design for Physical Activity | 2011 | 21 |
+| 1 | Evaluating the Effectiveness of Trauma-Informed Care Framewo | 2024 | 19 |
+| 2 | Supporting Active Living Through Community Plans: The Associ | 2019 | 29 |
+| 3 | Trauma-Informed Care Addressing the Mental and Emotional Nee | 2024 | 18 |
+| 4 | Smart growth community design and physical activity in child | 2013 | 25 |
+| 5 | U.S. Physicians’ Training and Experience in Providing Trauma | 2024 | 16 |
+| 6 | The Impact of Community Design and Land-Use Choices on Publi | 2003 | 23 |
+| 7 | Trauma-informed care education for midwives: Does education  | 2024 | 15 |
+| 8 | A Synthesis of the Literature on Trauma-Informed Care | 2015 | 16 |
+| 9 | Codesigning Parks for Increasing Park Visits and Physical Ac | 2020 | 21 |
+| 10 | Community Lenses Revealing the Role of Sociocultural Environ | 2016 | 26 |
 
 ### 2.6 Golden Trajectory
 
@@ -270,15 +270,15 @@ outside it are not claims the engine is capable of making.
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 **H04** [MEDIUM]
+- **Hypothesis:** Resolving the research gap in 'Robots in healthcare as envisioned by care professionals' will unlock currently blocked progress toward: Computer Science
+- **Grounded in:** entropy gap node: Robots in healthcare as envisioned by care professionals
+- **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
+- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
+
+**H05** [MEDIUM]
 - **Hypothesis:** Re-examining 'Community-Based Trauma-Informed Care Following Immigrant Family Reu...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
 - **Grounded in:** entropy gap node: Community-Based Trauma-Informed Care Following Immigrant ...
 - **Novel because:** not yet connected to 'The great reconnection: Restorative justice as remedy for fr' despite logical dependency in prerequisite chain
-- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
-
-**H05** [HIGH]
-- **Hypothesis:** Re-examining 'Setting Standards for Restorative Justice' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Setting Standards for Restorative Justice + included in golden token recommended path
-- **Novel because:** not yet connected to 'Engineering' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 
@@ -294,8 +294,8 @@ outside it are not claims the engine is capable of making.
 | 4 | Untitled | 3 |
 | 5 | Untitled | 3 |
 | 6 | Untitled | 2 |
-| 7 | Untitled | 3 |
-| 8 | Untitled | 2 |
+| 7 | Untitled | 2 |
+| 8 | Untitled | 3 |
 | 9 | Untitled | 3 |
 | 10 | Untitled | 3 |
 
