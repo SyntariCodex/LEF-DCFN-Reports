@@ -1,10 +1,10 @@
-# DCFN Technical Report: Trauma-informed care × restorative justice × community design
+# Technical Report: Trauma-informed care × restorative justice × community design
 
 **Proof of Receipt — DCFN Engine Run**
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 11, 2026
-**Run fingerprint:** `db8939e31a458071`
+**Run fingerprint:** `e28b4fd8a7f0fd00`
 **Corpus fingerprint:** `no-corpus`
 **Sources:** 423
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-11T17:53:02.240692` |
-| Run fingerprint | `db8939e31a458071` |
+| Run timestamp | `2026-04-11T19:05:46.310144` |
+| Run fingerprint | `e28b4fd8a7f0fd00` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | Trauma-informed care × restorative justice × community design |
 
@@ -82,14 +82,14 @@ outside it are not claims the engine is capable of making.
 | Stage | Work performed |
 |-------|----------------|
 | QEB encoding | 423 sources encoded |
-| Concept graph | 458 nodes / 5758 edges constructed |
+| Concept graph | 458 nodes / 5767 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 5) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 400 entropy nodes inspected (231 critical, 92 high) |
+| CTE entropy detection | 403 entropy nodes inspected (248 critical, 86 high) |
 | CTE branch cataloging | 7 clusters identified (13 structural mirrors) |
 | CTE golden-token pathfinding | path length 10 (7 entropy nodes resolved) |
 | Apriori pattern mining | 20 1-itemsets, 29 2-itemsets, 6 3-itemsets, 8 rules |
-| SVW synchronicity | 3436 candidate pairs scanned, 1 convergence events, 257 convergence anchors |
+| SVW synchronicity | 3398 candidate pairs scanned, 1 convergence events, 256 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -99,15 +99,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 51.51 s |
-| concept_graph | 497 ms |
-| cte_traversal | 333 ms |
-| apriori | 36 ms |
-| svw | 433 ms |
-| hypothesis_generation | 0 ms |
-| post_traversal_calibration | 403 ms |
+| qeb_encoding | 2m 49.8s |
+| concept_graph | 481 ms |
+| cte_traversal | 466 ms |
+| apriori | 53 ms |
+| svw | 448 ms |
+| hypothesis_generation | 5 ms |
+| post_traversal_calibration | 685 ms |
 | bridge_detection | 4 ms |
-| **Total measured** | **53.22 s** |
+| **Total measured** | **2m 52.0s** |
 
 ### 1.5 Filter Telemetry
 
@@ -126,7 +126,7 @@ outside it are not claims the engine is capable of making.
 | Metric | Value |
 |--------|-------|
 | Total nodes | 458 |
-| Total edges | 5758 |
+| Total edges | 5767 |
 | Connected components | 15 |
 
 **Node types:**
@@ -145,9 +145,9 @@ outside it are not claims the engine is capable of making.
 | EXTENDS | 1834 |
 | BRIDGES | 597 |
 | CONTAINS | 397 |
-| ENABLES | 54 |
+| ENABLES | 60 |
 | DEFENDED_BY | 48 |
-| DEPENDS_ON | 6 |
+| DEPENDS_ON | 9 |
 
 ### 2.2 Cross-Domain Topology
 
@@ -159,32 +159,32 @@ outside it are not claims the engine is capable of making.
 
 ### 2.3 Entropy Nodes
 
-**Total:** 400 (critical: 231, high: 92, low: 77)
+**Total:** 403 (critical: 248, high: 86, low: 69)
 
 **Surfaced gaps (classification only):**
 
 | # | Title | Bridge confidence |
 |---|-------|-------------------|
-| 1 | Data Justice Stories: A Repository of Case Studies | — |
+| 1 | An annotation based approach to support design communication | — |
 | 2 | Toward a Theory of Justice for Artificial Intelligence | — |
 | 3 | Restorative Justice: Pedagogy, Praxis, and Discipline | — |
-| 4 | An annotation based approach to support design communication | — |
-| 5 | Restorative justice | — |
-| 6 | Setting Standards for Restorative Justice | — |
-| 7 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
-| 8 | Restorative Justice and De-Professionalization | — |
-| 9 | Smart growth community design and physical activity in children. | — |
-| 10 | Healthy Aging and Where You Live: Community Design Relationships With Physical A | — |
-| 11 | Community Design for Physical Activity | — |
-| 12 | Building Successful Online Communities: Evidence-Based Social Design | — |
-| 13 | What are effective strategies for implementing trauma-informed care in youth inp | — |
-| 14 | Radical Futures: Supporting Community-Led Design Engagements through an Afrofutu | — |
-| 15 | Enhancing Community-Based Participatory Research Through Human-Centered Design S | — |
-| 16 | Trauma-informed care: recognizing and resisting re-traumatization in health care | — |
-| 17 | Trauma-informed Care Interventions in Emergency Medicine: A Systematic Review | — |
-| 18 | Trauma-informed care in the UK: where are we? A qualitative study of health poli | — |
-| 19 | Understanding the Conceptualization and Operationalization of Trauma-Informed Ca | — |
-| 20 | Trauma-Informed Care in Child Health Systems | — |
+| 4 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
+| 5 | Restorative Justice and De-Professionalization | — |
+| 6 | Restorative justice in Indonesia corruption crime: a utopia | — |
+| 7 | Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A | — |
+| 8 | Data Justice Stories: A Repository of Case Studies | — |
+| 9 | Anti-Oppressive Restorative Justice: Behavior Analysis in Alternatives to Polici | — |
+| 10 | Restorative justice for sexual violence: repairing victims, building community,  | — |
+| 11 | Restorative justice as social justice for victims of gendered violence: a standp | — |
+| 12 | Retributive and restorative justice. | — |
+| 13 | Advocating for the Use of Restorative Justice Practices: Examining the Overlap b | — |
+| 14 | Therapeutic Jurisprudence and Restorative Justice in Brazil. | — |
+| 15 | "Community engagement via restorative justice to build equity-oriented crisis st | — |
+| 16 | Reframing school-based restorative justice as a structural population health int | — |
+| 17 | Long-Term Effectiveness of a Brief Restorative Justice Intervention. | — |
+| 18 | Conceptualizing restorative justice for people with mental illnesses leaving pri | — |
+| 19 | Health Equity, School Discipline Reform, and Restorative Justice. | — |
+| 20 | Restorative justice conferencing for reducing recidivism in young offenders (age | — |
 
 ### 2.4 Branch Clusters
 
@@ -195,10 +195,10 @@ outside it are not claims the engine is capable of making.
 
 | Cluster | Size | Status |
 |---------|------|--------|
-| Trauma Providers' Knowledge, Views, and Practice of Trauma-Informed Care | 164 | Established |
+| Trauma-Informed Care in Child Health Systems | 164 | Established |
 | Trauma-Informed Care: The Professional Development Needs of Early Childhood Spec | 4 | Emerging |
-| Restorative Justice and Earned Redemption | 137 | Established |
-| Audience-specific online community design | 132 | Established |
+| Restorative justice: the evidence | 137 | Established |
+| Trauma-informed care: Better care for everyone. | 132 | Established |
 | AI-Enhanced Intensive Care Unit: Revolutionizing Patient Care with Pervasive Sen | 2 | Established |
 | Creating Walkable Communities: Understanding Trade-Offs. | 2 | Established |
 | Processes of developing 'community livability' in older age. | 3 | Established |
@@ -208,7 +208,7 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Convergence events | 1 |
-| Convergence anchors | 257 |
+| Convergence anchors | 256 |
 
 **Top anchors (rank only):**
 
@@ -218,12 +218,12 @@ outside it are not claims the engine is capable of making.
 | 2 | Supporting Active Living Through Community Plans: The Associ | 2019 | 30 |
 | 3 | Smart growth community design and physical activity in child | 2013 | 26 |
 | 4 | Healthy Community Design, Anti-displacement, and Equity Stra | 2022 | 26 |
-| 5 | Trauma-Informed Care Addressing the Mental and Emotional Nee | 2024 | 17 |
-| 6 | The Impact of Community Design and Land-Use Choices on Publi | 2003 | 24 |
-| 7 | Community Lenses Revealing the Role of Sociocultural Environ | 2016 | 27 |
-| 8 | Restorative Justice and Criminal Justice : Competing or Reco | 2003 | 18 |
-| 9 | An ecological approach to creating active living communities | 2006 | 22 |
-| 10 | Codesigning Parks for Increasing Park Visits and Physical Ac | 2020 | 21 |
+| 5 | The Impact of Community Design and Land-Use Choices on Publi | 2003 | 24 |
+| 6 | Community Lenses Revealing the Role of Sociocultural Environ | 2016 | 27 |
+| 7 | Trauma-Informed Care Addressing the Mental and Emotional Nee | 2024 | 16 |
+| 8 | An ecological approach to creating active living communities | 2006 | 22 |
+| 9 | Codesigning Parks for Increasing Park Visits and Physical Ac | 2020 | 21 |
+| 10 | Physical Activity–Friendly Policies and Community Design Fea | 2023 | 23 |
 
 ### 2.6 Golden Trajectory
 
@@ -237,24 +237,24 @@ outside it are not claims the engine is capable of making.
 
 | Step | Title | Year | Resolves gap |
 |------|-------|------|--------------|
-| 1 | Enhancing Community-Based Participatory Research Through Human-Centere | 2020 | Yes |
-| 2 | Radical Futures: Supporting Community-Led Design Engagements through a | 2022 | Yes |
+| 1 | Restorative Justice: Pedagogy, Praxis, and Discipline | 2012 | Yes |
+| 2 | Data Justice Stories: A Repository of Case Studies | 2022 | Yes |
 | 3 | Design Justice: Community-Led Practices to Build the World We Need | 2020 | — |
-| 4 | Restorative Justice: Pedagogy, Praxis, and Discipline | 2012 | Yes |
-| 5 | Data Justice Stories: A Repository of Case Studies | 2022 | Yes |
-| 6 | Setting Standards for Restorative Justice | 2002 | Yes |
-| 7 | Toward a Theory of Justice for Artificial Intelligence | 2021 | Yes |
-| 8 | What is Restorative Justice? Fresh Answers to a Vexed Question | 2015 | — |
-| 9 | Restorative Justice Practices as a Foundation for Medical Education In | 2025 | — |
-| 10 | Trauma-informed care: recognizing and resisting re-traumatization in h | 2021 | Yes |
+| 4 | Toward a Theory of Justice for Artificial Intelligence | 2021 | Yes |
+| 5 | What is Restorative Justice? Fresh Answers to a Vexed Question | 2015 | — |
+| 6 | Anti-Oppressive Restorative Justice: Behavior Analysis in Alternatives | 2022 | Yes |
+| 7 | Advocating for the Use of Restorative Justice Practices: Examining the | 2022 | Yes |
+| 8 | Implementing Trauma-Informed Care in Correctional Treatment and Superv | 2018 | — |
+| 9 | Conceptualizing restorative justice for people with mental illnesses l | 2019 | Yes |
+| 10 | Community-Based Trauma-Informed Care Following Immigrant Family Reunif | 2021 | Yes |
 
 ### 2.7 Generated Hypotheses
 
 **Total:** 5
 
-**H01** [HIGH]
-- **Hypothesis:** Resolving the research gap in 'Data Justice Stories: A Repository of Case Studies' will unlock currently blocked progress toward: Computer Science
-- **Grounded in:** entropy gap node: Data Justice Stories: A Repository of Case Studies + included in golden token recommended path
+**H01** [MEDIUM]
+- **Hypothesis:** Re-examining 'An annotation based approach to support design communication' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **Grounded in:** entropy gap node: An annotation based approach to support design communication
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
@@ -271,15 +271,15 @@ outside it are not claims the engine is capable of making.
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 **H04** [MEDIUM]
-- **Hypothesis:** Re-examining 'An annotation based approach to support design communication' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: An annotation based approach to support design communication
-- **Novel because:** absent from 'The Atherosclerosis Risk in Communities (ARIC) ...' — no existing paper bridges this gap to adjacent clusters
+- **Hypothesis:** Resolving the research gap in 'Restorative Justice and Gendered Violence: Diversion or Effective J...' will unlock currently blocked progress toward: Feminist engagement with restorative justice
+- **Grounded in:** entropy gap node: Restorative Justice and Gendered Violence: Diversion or E...
+- **Novel because:** absent from 'Restorative Justice & Responsive Regulation' — no existing paper bridges this gap to adjacent clusters
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 **H05** [MEDIUM]
-- **Hypothesis:** Re-examining 'Restorative justice' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Restorative justice
-- **Novel because:** not yet connected to 'Feminist engagement with restorative justice' despite logical dependency in prerequisite chain
+- **Hypothesis:** Resolving the research gap in 'Restorative Justice and De-Professionalization' will unlock currently blocked progress toward: The Effectiveness of Restorative Justice Practices: A Meta-A
+- **Grounded in:** entropy gap node: Restorative Justice and De-Professionalization
+- **Novel because:** not yet connected to 'The Effectiveness of Restorative Justice Practices: A Meta-A' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
 
