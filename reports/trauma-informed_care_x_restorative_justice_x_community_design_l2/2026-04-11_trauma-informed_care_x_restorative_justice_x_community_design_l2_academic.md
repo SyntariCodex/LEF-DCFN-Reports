@@ -4,7 +4,7 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 11, 2026
-**Run fingerprint:** `0915943ff4f824d7`
+**Run fingerprint:** `6bc488003efc31de`
 **Corpus fingerprint:** `no-corpus`
 **Sources:** 581
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-11T05:40:03.504253` |
-| Run fingerprint | `0915943ff4f824d7` |
+| Run timestamp | `2026-04-11T06:00:14.496054` |
+| Run fingerprint | `6bc488003efc31de` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | Trauma-informed care × restorative justice × community design (Layer 2) |
 
@@ -82,14 +82,14 @@ outside it are not claims the engine is capable of making.
 | Stage | Work performed |
 |-------|----------------|
 | QEB encoding | 581 sources encoded |
-| Concept graph | 616 nodes / 7586 edges constructed |
+| Concept graph | 616 nodes / 7580 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 7) |
 | CTE forward cascade | 5 cascades (0 implications, 0 blocked paths) |
-| CTE entropy detection | 555 entropy nodes inspected (374 critical, 69 high) |
-| CTE branch cataloging | 10 clusters identified (23 structural mirrors) |
-| CTE golden-token pathfinding | path length 10 (4 entropy nodes resolved) |
+| CTE entropy detection | 555 entropy nodes inspected (293 critical, 129 high) |
+| CTE branch cataloging | 10 clusters identified (26 structural mirrors) |
+| CTE golden-token pathfinding | path length 10 (6 entropy nodes resolved) |
 | Apriori pattern mining | 21 1-itemsets, 31 2-itemsets, 6 3-itemsets, 5 rules |
-| SVW synchronicity | 2717 candidate pairs scanned, 4 convergence events, 286 convergence anchors |
+| SVW synchronicity | 2688 candidate pairs scanned, 4 convergence events, 284 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -99,16 +99,16 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 1m 36.5s |
-| concept_graph | 570 ms |
-| cte_traversal | 462 ms |
-| apriori | 49 ms |
-| svw | 411 ms |
+| qeb_encoding | 2m 34.6s |
+| concept_graph | 778 ms |
+| cte_traversal | 968 ms |
+| apriori | 101 ms |
+| svw | 404 ms |
 | hypothesis_generation | 0 ms |
-| post_traversal_calibration | 530 ms |
-| bridge_detection | 5 ms |
-| contradiction_resolution | 617 ms |
-| **Total measured** | **1m 39.2s** |
+| post_traversal_calibration | 1.14 s |
+| bridge_detection | 11 ms |
+| contradiction_resolution | 14.32 s |
+| **Total measured** | **2m 52.3s** |
 
 ## Band 2 — What It Produced
 
@@ -119,7 +119,7 @@ outside it are not claims the engine is capable of making.
 | Metric | Value |
 |--------|-------|
 | Total nodes | 616 |
-| Total edges | 7586 |
+| Total edges | 7580 |
 | Connected components | 16 |
 
 **Node types:**
@@ -138,7 +138,7 @@ outside it are not claims the engine is capable of making.
 | EXTENDS | 1865 |
 | BRIDGES | 1396 |
 | CONTAINS | 632 |
-| ENABLES | 67 |
+| ENABLES | 61 |
 | DEFENDED_BY | 48 |
 | DEPENDS_ON | 9 |
 
@@ -152,45 +152,45 @@ outside it are not claims the engine is capable of making.
 
 ### 2.3 Entropy Nodes
 
-**Total:** 555 (critical: 374, high: 69, low: 112)
+**Total:** 555 (critical: 293, high: 129, low: 133)
 
 **Surfaced gaps (classification only):**
 
 | # | Title | Bridge confidence |
 |---|-------|-------------------|
-| 1 | Robots in healthcare as envisioned by care professionals | — |
-| 2 | Evidence and guidelines for trauma-informed doula care. | — |
+| 1 | Evidence and guidelines for trauma-informed doula care. | — |
+| 2 | Toward a Theory of Justice for Artificial Intelligence | — |
 | 3 | Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A | — |
-| 4 | Advancing Data Justice Research and Practice: An Integrated Literature Review | — |
-| 5 | Toward a Theory of Justice for Artificial Intelligence | — |
-| 6 | Setting Standards for Restorative Justice | — |
-| 7 | Restorative Justice: Pedagogy, Praxis, and Discipline | — |
-| 8 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
-| 9 | Restorative Justice and De-Professionalization | — |
-| 10 | An annotation based approach to support design communication | — |
-| 11 | Smart growth community design and physical activity in children. | — |
-| 12 | Healthy Aging and Where You Live: Community Design Relationships With Physical A | — |
-| 13 | Meta‐organization design: Rethinking design in interorganizational and community | — |
-| 14 | Community Design for Physical Activity | — |
-| 15 | Building Successful Online Communities: Evidence-Based Social Design | — |
-| 16 | Unconscious influences on decision making: A critical review | — |
-| 17 | Legitimacy and Criminal Justice: The Benefits of Self-Regulation | — |
-| 18 | Radical Futures: Supporting Community-Led Design Engagements through an Afrofutu | — |
-| 19 | Enhancing Community-Based Participatory Research Through Human-Centered Design S | — |
-| 20 | Community-based Trauma-informed Care following Immigrant Family Reunification: A | — |
+| 4 | Community-based Trauma-informed Care following Immigrant Family Reunification: A | — |
+| 5 | Data Justice Stories: A Repository of Case Studies | — |
+| 6 | Restorative Justice and Gendered Violence: Diversion or Effective Justice? | — |
+| 7 | Restorative Justice and De-Professionalization | — |
+| 8 | Smart growth community design and physical activity in children. | — |
+| 9 | Healthy Aging and Where You Live: Community Design Relationships With Physical A | — |
+| 10 | Community Design for Physical Activity | — |
+| 11 | Building Successful Online Communities: Evidence-Based Social Design | — |
+| 12 | Legitimacy and Criminal Justice: The Benefits of Self-Regulation | — |
+| 13 | What are effective strategies for implementing trauma-informed care in youth inp | — |
+| 14 | Restorative Justice: Pedagogy, Praxis, and Discipline | — |
+| 15 | Radical Futures: Supporting Community-Led Design Engagements through an Afrofutu | — |
+| 16 | Enhancing Community-Based Participatory Research Through Human-Centered Design S | — |
+| 17 | The Fallacy of AI Functionality | — |
+| 18 | The Impact of COVID-19 on Family Violence in Immigrant Communities in the United | — |
+| 19 | Trauma-informed care: recognizing and resisting re-traumatization in health care | — |
+| 20 | Trauma-informed Care Interventions in Emergency Medicine: A Systematic Review | — |
 
 ### 2.4 Branch Clusters
 
 **Total clusters:** 10 (emerging: 0, established: 10)
-**Structural mirrors:** 23
+**Structural mirrors:** 26
 
 **Cluster representatives:**
 
 | Cluster | Size | Status |
 |---------|------|--------|
-| A Synthesis of the Literature on Trauma-Informed Care | 189 | Established |
-| Restorative justice: critical issues | 197 | Established |
-| Trauma-informed care: Better care for everyone. | 172 | Established |
+| Trauma Providers' Knowledge, Views, and Practice of Trauma-Informed Care | 189 | Established |
+| How Does Restorative Justice Work? A Qualitative Metasynthesis | 197 | Established |
+| Audience-specific online community design | 172 | Established |
 | AI-Enhanced Intensive Care Unit: Revolutionizing Patient Care with Pervasive Sen | 4 | Established |
 | Automatic Classification of User Requirements from Online Feedback -- A Replicat | 5 | Established |
 | Virtual Community: An Open World for Humans, Robots, and Society | 8 | Established |
@@ -204,19 +204,19 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Convergence events | 4 |
-| Convergence anchors | 286 |
+| Convergence anchors | 284 |
 
 **Top anchors (rank only):**
 
 | Rank | Anchor | Year | Independent groups |
 |------|--------|------|--------------------|
-| 1 | Evaluating the Effectiveness of Trauma-Informed Care Framewo | 2024 | 16 |
-| 2 | Smart growth community design and physical activity in child | 2013 | 24 |
+| 1 | Smart growth community design and physical activity in child | 2013 | 24 |
+| 2 | Trauma-informed care education for midwives: Does education  | 2024 | 17 |
 | 3 | Supporting Active Living Through Community Plans: The Associ | 2019 | 26 |
-| 4 | Trauma-informed care education for midwives: Does education  | 2024 | 16 |
-| 5 | Meta-analyses of teacher-delivered trauma-based and trauma-i | 2023 | 17 |
+| 4 | Meta-analyses of teacher-delivered trauma-based and trauma-i | 2023 | 18 |
+| 5 | How Healthcare Providers Reconcile Bad Things Happening to G | 2023 | 16 |
 | 6 | Health and community design: the impact of the built environ | 2004 | 21 |
-| 7 | Trauma-Informed Care Addressing the Mental and Emotional Nee | 2024 | 15 |
+| 7 | Trauma-Informed Care Addressing the Mental and Emotional Nee | 2024 | 16 |
 | 8 | Community Lenses Revealing the Role of Sociocultural Environ | 2016 | 24 |
 | 9 | The Impact of Community Design and Land-Use Choices on Publi | 2003 | 21 |
 | 10 | Physical Activity–Friendly Policies and Community Design Fea | 2023 | 20 |
@@ -227,54 +227,54 @@ outside it are not claims the engine is capable of making.
 |-------|-------|
 | Path length | 10 |
 | Confidence class | HIGH |
-| Entropy nodes resolved | 4 |
+| Entropy nodes resolved | 6 |
 
 **Trajectory steps (titles only):**
 
 | Step | Title | Year | Resolves gap |
 |------|-------|------|--------------|
-| 1 | Enhancing Community-Based Participatory Research Through Human-Centere | 2020 | Yes |
-| 2 | Radical Futures: Supporting Community-Led Design Engagements through a | 2022 | Yes |
-| 3 | Moving towards a more inclusive patient and public involvement in heal | 2017 | — |
-| 4 | Community-based Trauma-informed Care following Immigrant Family Reunif | 2021 | Yes |
-| 5 | The social determinants of mental health and disorder: evidence, preve | 2024 | — |
-| 6 | Trauma care disparities: is equity the key? Output from SAFER-Trauma | 2025 | — |
-| 7 | Community-Based Trauma-Informed Care Following Immigrant Family Reunif | 2021 | Yes |
-| 8 | Life Change, Social Identity, and Health | 2020 | — |
-| 9 | Trauma-informed care: recognizing and resisting re-traumatization in h | 2021 | — |
-| 10 | A global outlook to the interruption of education due to COVID-19 pand | 2020 | — |
+| 1 | The Fallacy of AI Functionality | 2022 | Yes |
+| 2 | Toward a Theory of Justice for Artificial Intelligence | 2021 | Yes |
+| 3 | Connecting the dots in trustworthy Artificial Intelligence: From AI pr | 2023 | — |
+| 4 | Operationalizing Justice: Towards the Development of a Principle Based | 2025 | — |
+| 5 | Restorative Justice: Pedagogy, Praxis, and Discipline | 2012 | Yes |
+| 6 | Data Justice Stories: A Repository of Case Studies | 2022 | Yes |
+| 7 | Re-Thinking Data Strategy and Integration for Artificial Intelligence: | 2023 | — |
+| 8 | Social Data: Biases, Methodological Pitfalls, and Ethical Boundaries | 2019 | — |
+| 9 | Building Successful Online Communities: Evidence-Based Social Design | 2012 | Yes |
+| 10 | Enhancing Community-Based Participatory Research Through Human-Centere | 2020 | Yes |
 
 ### 2.7 Generated Hypotheses
 
 **Total:** 5
 
 **H01** [MEDIUM]
-- **Hypothesis:** Resolving the research gap in 'Robots in healthcare as envisioned by care professionals' will unlock currently blocked progress toward: Computer Science
-- **Grounded in:** entropy gap node: Robots in healthcare as envisioned by care professionals
-- **Novel because:** absent from 'Generative Agents: Interactive Simulacra of Hum...' — no existing paper bridges this gap to adjacent clusters
-- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
-
-**H02** [MEDIUM]
 - **Hypothesis:** Resolving the research gap in 'Evidence and guidelines for trauma-informed doula care.' will unlock currently blocked progress toward: Trauma care disparities: is equity the key? Output from SAFE
 - **Grounded in:** entropy gap node: Evidence and guidelines for trauma-informed doula care.
 - **Novel because:** not yet connected to 'Trauma care disparities: is equity the key? Output from SAFE' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
-**H03** [HIGH]
-- **Hypothesis:** Re-examining 'Community-Based Trauma-Informed Care Following Immigrant Family Reu...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
-- **Grounded in:** entropy gap node: Community-Based Trauma-Informed Care Following Immigrant ... + included in golden token recommended path
-- **Novel because:** absent from 'The Long-Term Health Consequences of Child Phys...' — no existing paper bridges this gap to adjacent clusters
-- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
-
-**H04** [MEDIUM]
-- **Hypothesis:** Resolving the research gap in 'Advancing Data Justice Research and Practice: An Integrated Literat...' will unlock currently blocked progress toward: Computer Science
-- **Grounded in:** entropy gap node: Advancing Data Justice Research and Practice: An Integrat...
+**H02** [HIGH]
+- **Hypothesis:** Resolving the research gap in 'Toward a Theory of Justice for Artificial Intelligence' will unlock currently blocked progress toward: Computer Science
+- **Grounded in:** entropy gap node: Toward a Theory of Justice for Artificial Intelligence + included in golden token recommended path
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
-**H05** [MEDIUM]
-- **Hypothesis:** Resolving the research gap in 'Toward a Theory of Justice for Artificial Intelligence' will unlock currently blocked progress toward: Computer Science
-- **Grounded in:** entropy gap node: Toward a Theory of Justice for Artificial Intelligence
+**H03** [MEDIUM]
+- **Hypothesis:** Re-examining 'Community-Based Trauma-Informed Care Following Immigrant Family Reu...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **Grounded in:** entropy gap node: Community-Based Trauma-Informed Care Following Immigrant ...
+- **Novel because:** not yet connected to 'The Impact of COVID-19 on Family Violence in Immigrant Commu' despite logical dependency in prerequisite chain
+- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
+
+**H04** [MEDIUM]
+- **Hypothesis:** Re-examining 'Community-based Trauma-informed Care following Immigrant Family Reu...' with contemporary methods will produce findings that substantially update or contradict current consensus in this area
+- **Grounded in:** entropy gap node: Community-based Trauma-informed Care following Immigrant ...
+- **Novel because:** not yet connected to 'Medicine' despite logical dependency in prerequisite chain
+- **Suggested method:** mixed-methods approach (apriori patterns unavailable)
+
+**H05** [HIGH]
+- **Hypothesis:** Resolving the research gap in 'Data Justice Stories: A Repository of Case Studies' will unlock currently blocked progress toward: Computer Science
+- **Grounded in:** entropy gap node: Data Justice Stories: A Repository of Case Studies + included in golden token recommended path
 - **Novel because:** not yet connected to 'Computer Science' despite logical dependency in prerequisite chain
 - **Suggested method:** mixed-methods approach (apriori patterns unavailable)
 
