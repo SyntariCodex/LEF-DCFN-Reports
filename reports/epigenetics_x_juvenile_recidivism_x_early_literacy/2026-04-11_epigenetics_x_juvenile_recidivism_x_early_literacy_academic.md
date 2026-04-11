@@ -4,9 +4,9 @@
 
 **Engine:** DCFN v0.3.0-prototype — Living Eden Frameworks LLC
 **Date:** April 11, 2026
-**Run fingerprint:** `dfa792c3c674c92b`
+**Run fingerprint:** `33aaed58d08749c8`
 **Corpus fingerprint:** `no-corpus`
-**Sources:** 409
+**Sources:** 410
 
 ---
 
@@ -64,8 +64,8 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Engine version | `0.3.0-prototype` |
-| Run timestamp | `2026-04-11T00:43:46.895042` |
-| Run fingerprint | `dfa792c3c674c92b` |
+| Run timestamp | `2026-04-11T01:52:25.846539` |
+| Run fingerprint | `33aaed58d08749c8` |
 | Corpus fingerprint | `no-corpus` |
 | Domain | Epigenetics × juvenile recidivism × early literacy |
 
@@ -73,7 +73,7 @@ outside it are not claims the engine is capable of making.
 
 | Field | Value |
 |-------|-------|
-| Sources analyzed | 409 |
+| Sources analyzed | 410 |
 
 ### 1.3 Stage Execution Counts
 
@@ -81,15 +81,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Work performed |
 |-------|----------------|
-| QEB encoding | 409 sources encoded |
-| Concept graph | 425 nodes / 6414 edges constructed |
+| QEB encoding | 410 sources encoded |
+| Concept graph | 427 nodes / 6469 edges constructed |
 | CTE backward traversal | 5 chains (sum of chain depths: 5) |
 | CTE forward cascade | 5 cascades (1 implications, 0 blocked paths) |
-| CTE entropy detection | 406 entropy nodes inspected (315 critical, 35 high) |
+| CTE entropy detection | 406 entropy nodes inspected (317 critical, 39 high) |
 | CTE branch cataloging | 4 clusters identified (3 structural mirrors) |
-| CTE golden-token pathfinding | path length 10 (5 entropy nodes resolved) |
+| CTE golden-token pathfinding | path length 10 (6 entropy nodes resolved) |
 | Apriori pattern mining | 20 1-itemsets, 49 2-itemsets, 19 3-itemsets, 17 rules |
-| SVW synchronicity | 5104 candidate pairs scanned, 1 convergence events, 262 convergence anchors |
+| SVW synchronicity | 5081 candidate pairs scanned, 2 convergence events, 264 convergence anchors |
 | Hypothesis generation | 5 hypotheses produced |
 | Bridge detection | 20 cross-domain bridge nodes |
 
@@ -99,15 +99,15 @@ outside it are not claims the engine is capable of making.
 
 | Stage | Duration |
 |-------|----------|
-| qeb_encoding | 57.47 s |
-| concept_graph | 359 ms |
-| cte_traversal | 265 ms |
-| apriori | 29 ms |
-| svw | 396 ms |
+| qeb_encoding | 2m 9.4s |
+| concept_graph | 1.49 s |
+| cte_traversal | 2.00 s |
+| apriori | 103 ms |
+| svw | 1.75 s |
 | hypothesis_generation | 0 ms |
-| post_traversal_calibration | 330 ms |
-| bridge_detection | 4 ms |
-| **Total measured** | **58.85 s** |
+| post_traversal_calibration | 1.15 s |
+| bridge_detection | 102 ms |
+| **Total measured** | **2m 16.0s** |
 
 ### 1.5 Filter Telemetry
 
@@ -115,7 +115,7 @@ outside it are not claims the engine is capable of making.
 
 | Filter | Inspected | Dropped | Kept |
 |--------|-----------|---------|------|
-| contamination_filter | 441 | 32 | 409 |
+| contamination_filter | 442 | 32 | 410 |
 
 ## Band 2 — What It Produced
 
@@ -125,27 +125,27 @@ outside it are not claims the engine is capable of making.
 
 | Metric | Value |
 |--------|-------|
-| Total nodes | 425 |
-| Total edges | 6414 |
+| Total nodes | 427 |
+| Total edges | 6469 |
 | Connected components | 21 |
 
 **Node types:**
 
 | Type | Count |
 |------|-------|
-| DOCUMENT | 409 |
+| DOCUMENT | 410 |
 | CONCEPT | 11 |
-| ENTITY | 5 |
+| ENTITY | 6 |
 
 **Edge types:**
 
 | Type | Count |
 |------|-------|
-| MIRRORS | 5065 |
-| EXTENDS | 821 |
-| CONTAINS | 471 |
-| ENABLES | 33 |
-| DEFENDED_BY | 13 |
+| MIRRORS | 5108 |
+| EXTENDS | 829 |
+| CONTAINS | 472 |
+| ENABLES | 34 |
+| DEFENDED_BY | 15 |
 | DEPENDS_ON | 8 |
 | BRIDGES | 3 |
 
@@ -154,22 +154,22 @@ outside it are not claims the engine is capable of making.
 | Field | Value |
 |-------|-------|
 | Domains | Epigenetics, Epigenetics × juvenile recidivism × early literacy, early literacy, juvenile recidivism |
-| Cross-domain edges | 335 |
-| Bridge nodes | 196 |
+| Cross-domain edges | 338 |
+| Bridge nodes | 197 |
 
 ### 2.3 Entropy Nodes
 
-**Total:** 406 (critical: 315, high: 35, low: 56)
+**Total:** 406 (critical: 317, high: 39, low: 50)
 
 **Surfaced gaps (classification only):**
 
 | # | Title | Bridge confidence |
 |---|-------|-------------------|
-| 1 | Decriminalizing Delinquency: The Effect of Raising the Age of Majority on Juveni | — |
-| 2 | An operational definition of epigenetics. | — |
-| 3 | Magnetic Polymer Models for Epigenetics-Driven Chromosome Folding | — |
-| 4 | Epigenetic Transitions and Knotted Solitons in Stretched Chromatin | — |
-| 5 | Epigenetic factor competition reshapes the EMT landscape | — |
+| 1 | An operational definition of epigenetics. | — |
+| 2 | Magnetic Polymer Models for Epigenetics-Driven Chromosome Folding | — |
+| 3 | Epigenetic Transitions and Knotted Solitons in Stretched Chromatin | — |
+| 4 | Epigenetic factor competition reshapes the EMT landscape | — |
+| 5 | Decriminalizing Delinquency: The Effect of Raising the Age of Majority on Juveni | — |
 | 6 | Shaping Epigenetic Memory via Genomic Bookmarking | — |
 | 7 | The Effect of Epigenetic Blocking on Dynamic Multi-Objective Optimisation Proble | — |
 | 8 | Update on the genetic and epigenetic etiology of gestational diabetes mellitus:  | — |
@@ -179,12 +179,12 @@ outside it are not claims the engine is capable of making.
 | 12 | Environmental epigenetics of sex differences in the brain. | — |
 | 13 | Epigenetic Reprogramming in Mammalian Development | — |
 | 14 | DNA methylation and epigenetic inheritance | — |
-| 15 | Epigenetic Reprogramming in Plant and Animal Development | — |
-| 16 | Effectiveness of social-therapeutic treatment for serious offenders in juvenile  | — |
+| 15 | Effectiveness of social-therapeutic treatment for serious offenders in juvenile  | — |
+| 16 | Rethinking recidivism through a causal lens | — |
 | 17 | Accuracy, Fairness, and Interpretability of Machine Learning Criminal Recidivism | — |
 | 18 | A Decision Tree Approach to Predicting Recidivism in Domestic Violence | — |
-| 19 | Estimating the treatment effect of the juvenile stay-at-home order on SARS-CoV-2 | — |
-| 20 | Lower Limb Rehabilitation in Juvenile Idiopathic Arthritis using Serious Games | — |
+| 19 | Lower Limb Rehabilitation in Juvenile Idiopathic Arthritis using Serious Games | — |
+| 20 | Predicting Sexual Recidivism. | — |
 
 ### 2.4 Branch Clusters
 
@@ -197,15 +197,15 @@ outside it are not claims the engine is capable of making.
 |---------|------|--------|
 | Epigenetic Regulations of GABAergic Neurotransmission: Relevance for Neurologica | 150 | Established |
 | The Prediction of Criminal Recidivism in Juveniles | 118 | Established |
-| School Engagement as a Mediator of the Relationship Between Temperament and Reci | 5 | Emerging |
-| The Handbook of Early Literacy Research | 132 | Established |
+| A Statewide Analysis of the Impact of Restitution and Fees on Juvenile Recidivis | 5 | Emerging |
+| The Handbook of Early Literacy Research | 134 | Established |
 
 ### 2.5 Convergence Detection
 
 | Field | Value |
 |-------|-------|
-| Convergence events | 1 |
-| Convergence anchors | 262 |
+| Convergence events | 2 |
+| Convergence anchors | 264 |
 
 **Top anchors (rank only):**
 
@@ -214,69 +214,69 @@ outside it are not claims the engine is capable of making.
 | 1 | Cancer epigenetics: an introduction. | 2015 | 52 |
 | 2 | Cancer epigenetics: from mechanism to therapy. | 2012 | 50 |
 | 3 | Epigenetics: What it is about? | 2015 | 50 |
-| 4 | Epitranscriptomics and epigenetics: two sides of the same co | 2024 | 50 |
-| 5 | Cancer Epigenetics: An Overview. | 2022 | 49 |
-| 6 | Role of epigenetics in carcinogenesis: Recent advancements i | 2022 | 48 |
-| 7 | Epigenetics in Health and Disease. | 2020 | 50 |
-| 8 | DNA methylation and epigenetic inheritance | 1990 | 47 |
-| 9 | Epigenetics: Regulation Through Repression | 1999 | 48 |
-| 10 | Epigenetics in Cancer | 2008 | 49 |
+| 4 | Cancer Epigenetics: An Overview. | 2022 | 49 |
+| 5 | Role of epigenetics in carcinogenesis: Recent advancements i | 2022 | 48 |
+| 6 | Epigenetics in Health and Disease. | 2020 | 49 |
+| 7 | DNA methylation and epigenetic inheritance | 1990 | 47 |
+| 8 | Epigenetics: Regulation Through Repression | 1999 | 48 |
+| 9 | Epigenetics in Cancer | 2008 | 48 |
+| 10 | Targeting Epigenetics in Lung Cancer. | 2021 | 48 |
 
 ### 2.6 Golden Trajectory
 
 | Field | Value |
 |-------|-------|
 | Path length | 10 |
-| Confidence class | MEDIUM |
-| Entropy nodes resolved | 5 |
+| Confidence class | HIGH |
+| Entropy nodes resolved | 6 |
 
 **Trajectory steps (titles only):**
 
 | Step | Title | Year | Resolves gap |
 |------|-------|------|--------------|
-| 1 | Effectiveness of social-therapeutic treatment for serious offenders in | 2022 | Yes |
-| 2 | Accuracy, Fairness, and Interpretability of Machine Learning Criminal  | 2022 | Yes |
-| 3 | Examining the Relationship Between Adverse Childhood Experiences and J | 2022 | — |
-| 4 | Decriminalizing Delinquency: The Effect of Raising the Age of Majority | 2015 | Yes |
-| 5 | Estimating the treatment effect of the juvenile stay-at-home order on  | 2020 | Yes |
-| 6 | Neighborhood Context and Juvenile Recidivism: A Spatial Analysis of Or | 2021 | — |
-| 7 | The Relationship Between Adverse Childhood Experiences and Recidivism  | 2015 | — |
-| 8 | The Interrelationship Between Empathy and Adverse Childhood Experience | 2021 | — |
-| 9 | Early Literacy Developmental Activities and Pre-Kindergarten Learning  | 2024 | — |
-| 10 | Lower Limb Rehabilitation in Juvenile Idiopathic Arthritis using Serio | 2020 | Yes |
+| 1 | Epigenetic factor competition reshapes the EMT landscape | 2022 | Yes |
+| 2 | Magnetic Polymer Models for Epigenetics-Driven Chromosome Folding | 2019 | Yes |
+| 3 | An operational definition of epigenetics. | 2009 | Yes |
+| 4 | Aggregating Epigenetic Clocks to Study Human Capital Formation | 2025 | — |
+| 5 | Environmental epigenetics of sex differences in the brain. | 2020 | Yes |
+| 6 | Epigenetics-targeted drugs: current paradigms and future challenges | 2024 | — |
+| 7 | Cancer epigenetics: from laboratory studies and clinical trials to pre | 2024 | — |
+| 8 | Leveraging epigenetics to enhance the efficacy of immunotherapy. | 2021 | Yes |
+| 9 | Cancer epigenetics in clinical practice | 2022 | — |
+| 10 | Update on the genetic and epigenetic etiology of gestational diabetes  | 2021 | Yes |
 
 ### 2.7 Generated Hypotheses
 
 **Total:** 5
 
 **H01** [HIGH]
-- **Hypothesis:** Resolving the research gap in 'Decriminalizing Delinquency: The Effect of Raising the Age of Major...' will unlock currently blocked progress toward: Neuroscience
-- **Grounded in:** entropy gap node: Decriminalizing Delinquency: The Effect of Raising the Ag... + included in golden token recommended path
-- **Novel because:** not yet connected to 'Neuroscience' despite logical dependency in prerequisite chain
-- **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
-
-**H02** [MEDIUM]
 - **Hypothesis:** Resolving the research gap in 'An operational definition of epigenetics.' will unlock currently blocked progress toward: Biology
-- **Grounded in:** entropy gap node: An operational definition of epigenetics.
+- **Grounded in:** entropy gap node: An operational definition of epigenetics. + included in golden token recommended path
 - **Novel because:** not yet connected to 'Biology' despite logical dependency in prerequisite chain
 - **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
 
-**H03** [MEDIUM]
+**H02** [HIGH]
 - **Hypothesis:** Resolving the research gap in 'Magnetic Polymer Models for Epigenetics-Driven Chromosome Folding' will unlock currently blocked progress toward: Physics
-- **Grounded in:** entropy gap node: Magnetic Polymer Models for Epigenetics-Driven Chromosome...
+- **Grounded in:** entropy gap node: Magnetic Polymer Models for Epigenetics-Driven Chromosome... + included in golden token recommended path
 - **Novel because:** not yet connected to 'Physics' despite logical dependency in prerequisite chain
 - **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
 
-**H04** [MEDIUM]
+**H03** [MEDIUM]
 - **Hypothesis:** Resolving the research gap in 'Epigenetic Transitions and Knotted Solitons in Stretched Chromatin' will unlock currently blocked progress toward: Physics
 - **Grounded in:** entropy gap node: Epigenetic Transitions and Knotted Solitons in Stretched ...
 - **Novel because:** not yet connected to 'Physics' despite logical dependency in prerequisite chain
 - **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
 
-**H05** [MEDIUM]
+**H04** [HIGH]
 - **Hypothesis:** Resolving the research gap in 'Epigenetic factor competition reshapes the EMT landscape' will unlock currently blocked progress toward: Biology
-- **Grounded in:** entropy gap node: Epigenetic factor competition reshapes the EMT landscape
+- **Grounded in:** entropy gap node: Epigenetic factor competition reshapes the EMT landscape + included in golden token recommended path
 - **Novel because:** not yet connected to 'Biology' despite logical dependency in prerequisite chain
+- **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
+
+**H05** [MEDIUM]
+- **Hypothesis:** Resolving the research gap in 'Decriminalizing Delinquency: The Effect of Raising the Age of Major...' will unlock currently blocked progress toward: Neuroscience
+- **Grounded in:** entropy gap node: Decriminalizing Delinquency: The Effect of Raising the Ag...
+- **Novel because:** not yet connected to 'Neuroscience' despite logical dependency in prerequisite chain
 - **Suggested method:** longitudinal (co-occurs with similar gaps at 85% confidence in apriori patterns)
 
 
