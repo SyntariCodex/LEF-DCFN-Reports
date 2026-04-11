@@ -10,7 +10,7 @@
 
 ## Abstract
 
-422 sources spanning Trauma-informed care × restorative justice × community design were mapped into a concept graph with 5,770 connections. The structural analysis found 20 cross-domain bridge concepts, 6 distinct research communities with 79% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
+422 sources spanning Trauma-informed care × restorative justice × community design were mapped into a concept graph with 5,768 connections. The structural analysis found 20 cross-domain bridge concepts, 6 distinct research communities with 79% structural overlap between the two largest, convergence signals where independent researchers arrived at similar conclusions without citing each other. The intersection is more active than either field appears to know.
 
 ## How to Read This Report
 
@@ -26,7 +26,7 @@ Everything below operates inside these boundaries.
 
 ## The Intersection
 
-Trauma-informed care and restorative justice occupy remarkably overlapping intellectual territory, with nearly 80% structural convergence between their largest research communities. Both fields draw extensively from the same foundational literature on healing, community response, and systemic intervention approaches, creating dense citation networks that repeatedly intersect around concepts of restoration and recovery. The methodological frameworks these domains employ—particularly systematic approaches to addressing harm and promoting healing—share such similar architectures that distinguishing their boundaries becomes increasingly difficult in the research landscape.
+The structural topology reveals why trauma-informed care and restorative justice occupy densely overlapping conceptual territory. Both fields share foundational assumptions about healing-centered approaches to harm, creating extensive cross-citation patterns around twenty bridge concepts that span individual therapeutic intervention and community-based accountability processes. The 79% structural overlap between their largest research communities reflects a common methodological commitment to addressing root causes rather than symptoms—whether in clinical settings or justice contexts—generating persistent co-occurrence in literature that examines systemic responses to harm and recovery.
 
 ### The Foundational Bridge
 
@@ -39,10 +39,10 @@ Trauma-informed care and restorative justice occupy remarkably overlapping intel
 
 DCFN identified 20 concepts that sit at the boundary across trauma-informed care, restorative justice, and community design — ideas referenced by all 3 fields but rarely recognized as shared territory. The strongest bridges:
 
-- **Trauma-Informed Care.** [3] — • Trauma-informed care occupies shared citation territory between therapeutic practice and restorative justice, structurally positioned where both fields converge on recognition that harmful experiences require systemic responses that prioritize safety and healing over punishment. The concept's structural connectivity suggests these disciplines share methodological approaches to addressing harm through relationship-centered interventions rather than adversarial processes. Well-grounded in the literature.
-- **Restorative Justice: How It Works** [4] — • **Restorative Justice: How It Works** structurally connects trauma-informed care and restorative justice through shared citation patterns that suggest both fields recognize healing as a collective process requiring community engagement. The bridge indicates these domains converge on methodologies that prioritize relationship repair and participant agency over punitive or purely clinical interventions. Well-grounded in the literature.
-- **What is Restorative Justice? Fresh Answers to a Vexed Question** [5] — • This conceptual framework occupies citation territory shared by trauma-informed care and restorative justice, suggesting these fields converge around approaches that prioritize healing relationships and community accountability over punitive responses to harm. Well-grounded in the literature.
-- **Implementing Trauma-Informed Care: Recommendations on the Process** [6] — • **Trauma-informed care implementation frameworks are structurally connected to both community design principles and restorative justice practices through shared citation patterns that reflect their common focus on creating healing-centered environments.** These fields converge around methodologies for transforming institutional spaces and processes to support recovery rather than re-traumatization, suggesting overlapping theoretical foundations for designing systems that prioritize safety, empowerment, and community restoration. Well-grounded in the literature.
+- **Trauma-Informed Care.** [3] — • **Trauma-Informed Care** structurally connects trauma-informed care and restorative justice through shared citation topology that reflects how understanding individual healing processes informs approaches to community-level conflict resolution, suggesting these fields occupy overlapping conceptual territory where therapeutic frameworks and justice practices converge around trauma recognition and response. Well-grounded in the literature.
+- **Restorative Justice: How It Works** [4] — • **Restorative Justice: How It Works** occupies shared conceptual territory between trauma-informed care and restorative justice, structurally connected through citation patterns that suggest both fields recognize healing as fundamentally relational rather than individual. This positioning supports assumptions about therapeutic intervention requiring community context—trauma-informed approaches and restorative practices co-cite literature consistent with viewing recovery as embedded in social repair processes. Well-grounded in the literature.
+- **What is Restorative Justice? Fresh Answers to a Vexed Question** [5] — This bridge reveals shared conceptual territory where trauma-informed care and restorative justice both prioritize healing relationships over punitive responses, structurally connected through their mutual emphasis on addressing harm while maintaining human dignity. The co-citation patterns suggest both fields recognize that effective intervention requires understanding how past trauma shapes present behavior and that sustainable solutions emerge through restored community connections rather than isolation. Well-grounded in the literature.
+- **Implementing Trauma-Informed Care: Recommendations on the Process** [6] — This bridge concept occupies shared conceptual territory where trauma-informed care and restorative justice converge around implementation frameworks that prioritize healing-centered approaches over punitive responses. The structural proximity reflects how both fields draw from overlapping methodological foundations for addressing harm through relationship repair and community-based interventions rather than isolation or punishment. Well-grounded in the literature.
 
 Structurally, researchers across these bridges cite overlapping upstream sources and use compatible frameworks without direct cross-citation. This is a signal of shared territory, not a claim of equivalent mechanism.
 
@@ -58,7 +58,7 @@ Most sources in this dataset lack deep citation chains within the collection, su
 
 The 422 sources organize into 3 research communities — dense neighborhoods in the concept graph where papers share citation paths, frameworks, and research questions, detected structurally rather than by keyword. 'Established' means stable internal structure and tight citation density; 'Emerging' means rapidly accumulating members with looser bonds. The average publication year hints at each cluster's temporal center of gravity.
 
-- **"Trauma-Informed Care."** — 303 sources (avg. year: 2018.6). Established cluster.
+- **"Restorative justice"** — 303 sources (avg. year: 2018.6). Established cluster.
 - **"Trauma-Informed Care"** — 4 sources (avg. year: 2023.0). Emerging cluster.
 - **"Audience-specific online community design"** — 126 sources (avg. year: 2016.0). Established cluster.
 
@@ -82,7 +82,7 @@ Read against your intersection of trauma-informed care, restorative justice, and
 
 Beyond the clusters, DCFN identified 255 single papers acting as gravitational centers — anchors that multiple independent research groups orbit without naming as a common reference. These are the strongest signal that the field is converging on something it hasn't yet recognized as the source.
 
-- **"Evaluating the Effectiveness of Trauma-Informed Care Frameworks in Provider Education and the Car..."** (2024) — 17 independent groups (32 papers total) orbit this anchor across 7 years, average similarity 0.62.
+- **"Evaluating the Effectiveness of Trauma-Informed Care Frameworks in Provider Education and the Car..."** (2024) — 18 independent groups (31 papers total) orbit this anchor across 7 years, average similarity 0.62.
 - **"Supporting Active Living Through Community Plans: The Association of Planning Documents With Desi..."** (2019) — 30 independent groups (34 papers total) orbit this anchor across 33 years, average similarity 0.50.
 - **"Smart growth community design and physical activity in children."** (2013) — 26 independent groups (29 papers total) orbit this anchor across 26 years, average similarity 0.52.
 - **"Healthy Community Design, Anti-displacement, and Equity Strategies in the USA: A Scoping Review"** (2022) — 26 independent groups (31 papers total) orbit this anchor across 34 years, average similarity 0.51.
@@ -97,22 +97,34 @@ But one pattern stands out — **The Untested Foundation**. The engine found 20 
 
 ### The Untested Foundation
 
-These 10 papers are structurally positioned at justice restorative design, and downstream work continues to cite them without a modern replication or methodological update. The claims they made — treated as settled by later work — remain unverified against current data and tools.
+These 10 papers are structurally positioned at justice restorative violence, and downstream work continues to cite them without a modern replication or methodological update. The claims they made — treated as settled by later work — remain unverified against current data and tools.
 
-- *Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A Narrative Review.* [7] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *Data Justice Stories: A Repository of Case Studies* [8] (2022) — 12+ downstream works depend on it; structurally dead-end
-- *Toward a Theory of Justice for Artificial Intelligence* [9] (2021) — 5 years since last update; 12+ downstream works depend on it
-- *Setting Standards for Restorative Justice* [10] (2002) — 24 years untested; 12+ downstream works depend on it
-- *Restorative Justice: Pedagogy, Praxis, and Discipline* [11] (2012) — 14 years untested; 12+ downstream works depend on it
-- *Restorative Justice and Gendered Violence: Diversion or Effective Justice?* [12] (2002) — 24 years untested; 12+ downstream works depend on it
-- *Restorative Justice and De-Professionalization* [13] (2004) — 22 years untested; 12+ downstream works depend on it
-- *An annotation based approach to support design communication* [14] (2007) — 19 years untested; 12+ downstream works depend on it
-- *Smart growth community design and physical activity in children.* [15] (2013) — 13 years untested; 12+ downstream works depend on it
-- *Healthy Aging and Where You Live: Community Design Relationships With Physical Activity and Body Weight in Older Americans* [16] (2010) — 16 years untested; 12+ downstream works depend on it
+- *Data Justice Stories: A Repository of Case Studies* [7] (2022) — 12+ downstream works depend on it; structurally dead-end
+- *Toward a Theory of Justice for Artificial Intelligence* [8] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Restorative Justice: Pedagogy, Praxis, and Discipline* [9] (2012) — 14 years untested; 12+ downstream works depend on it
+- *Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A Narrative Review.* [10] (2021) — 5 years since last update; 12+ downstream works depend on it
+- *Sita's Trousseau: restorative justice, domestic violence, and South Asian culture.* [11] (2005) — 21 years untested; 12+ downstream works depend on it
+- *Restorative justice* [12] (2002) — 24 years untested; 12+ downstream works depend on it
+- *Setting Standards for Restorative Justice* [13] (2002) — 24 years untested; 12+ downstream works depend on it
+- *Restorative Justice and Gendered Violence: Diversion or Effective Justice?* [14] (2002) — 24 years untested; 12+ downstream works depend on it
+- *Restorative Justice and De-Professionalization* [15] (2004) — 22 years untested; 12+ downstream works depend on it
+- *An annotation based approach to support design communication* [16] (2007) — 19 years untested; 12+ downstream works depend on it
 
-**Why this matters:** Current research in trauma-informed community design continues to cite foundational work on restorative justice principles without these foundations being re-examined through contemporary methodological lenses. This citation pattern means that 20 papers building therapeutic community interventions rely on conceptual frameworks that have not been validated using modern trauma research methods or updated community engagement protocols. Without current replication, downstream trauma-informed design research operates from theoretical foundations that remain structurally isolated from active methodological development in both restorative justice and community psychology domains.
+**Why this matters:** The foundational papers that underpin current assumptions about restorative justice approaches to violence prevention have not been re-examined with contemporary trauma-informed methodologies, despite extensive downstream literature in this corpus building upon these citation-stale foundations. This structural gap means that 20 papers supporting core theoretical frameworks for community-based justice interventions lack modern empirical validation, while current research continues to reference these untested assumptions. The absence of fresh citation activity suggests that contemporary scholars are advancing trauma-informed restorative practices without revisiting whether the original theoretical foundations hold under current methodological standards.
 
-*Beyond this pattern, the analysis also identified 14 blocked, 12 decayed, 2 contradicted papers. Full gap analysis and bridge proposals are in the Technical Report.*
+### The Persistent Gaps
+
+5 gaps have appeared in previous analyses of this domain and remain open. These aren't new blind spots — the field has been building around them:
+
+- *Data Justice Stories: A Repository of Case Studies* (2022)
+- *Toward a Theory of Justice for Artificial Intelligence* (2021)
+- *Restorative Justice: Pedagogy, Praxis, and Discipline* (2012)
+- *Restorative justice* (2002)
+- *Setting Standards for Restorative Justice* (2002)
+
+These persistent gaps are the strongest candidates for targeted research — they represent known unknowns that the field has not yet addressed.
+
+*Beyond this pattern, the analysis also identified 12 decayed, 11 blocked, 3 contradicted papers. Full gap analysis and bridge proposals are in the Technical Report.*
 
 ## Where to Go From Here
 
@@ -120,15 +132,15 @@ The structural evidence points to a single dominant direction: 5 foundational pa
 
 The papers this applies to:
 
-- *Community-Based Trauma-Informed Care Following Immigrant ...* [7]
-- *Data Justice Stories: A Repository of Case Studies* [8]
-- *Toward a Theory of Justice for Artificial Intelligence* [9]
-- *Setting Standards for Restorative Justice* [10]
-- *Restorative Justice: Pedagogy, Praxis, and Discipline* [11]
+- *Data Justice Stories: A Repository of Case Studies* [7]
+- *Toward a Theory of Justice for Artificial Intelligence* [8]
+- *Restorative Justice: Pedagogy, Praxis, and Discipline* [9]
+- *Community-Based Trauma-Informed Care Following Immigrant ...* [10]
+- *Sita's Trousseau: restorative justice, domestic violence,...* [11]
 
 **Recommended approach:** mixed-methods approach (apriori patterns unavailable). Confidence: high/medium.
 
-*4 of these papers appear in the recommended research trajectory below.*
+*3 of these papers appear in the recommended research trajectory below.*
 
 ### Recommended Research Trajectory
 
@@ -137,17 +149,17 @@ For someone entering this intersection, the structural evidence supports this se
 **Start:** Enhancing Community-Based Participatory Research Through Human-Centered Design Strategies [17] (2020)
 **Then:** Radical Futures: Supporting Community-Led Design Engagements through an Afrofuturist Speculative Design Toolkit [18] (2022)
 **Then:** Design Justice: Community-Led Practices to Build the World We Need [19] (2020)
-**Then:** Restorative Justice: Pedagogy, Praxis, and Discipline [11] (2012)
-**Then:** Data Justice Stories: A Repository of Case Studies [8] (2022)
-**Then:** Setting Standards for Restorative Justice [10] (2002)
-**Then:** Toward a Theory of Justice for Artificial Intelligence [9] (2021)
+**Then:** Restorative Justice: Pedagogy, Praxis, and Discipline [9] (2012)
+**Then:** Data Justice Stories: A Repository of Case Studies [7] (2022)
+**Then:** Setting Standards for Restorative Justice [13] (2002)
+**Then:** Toward a Theory of Justice for Artificial Intelligence [8] (2021)
 
 This trajectory has low confidence — the structural evidence tentatively supports this sequence.
  *Full 10-step path in the Technical Report.*
 
 ---
 
-**Go Deeper** — This analysis identified 399 structural gaps. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
+**Go Deeper** — This analysis identified 399 structural gaps, 5 of which have persisted across prior analyses. DCFN can target the highest-severity gaps, pull new sources specifically for them, rebuild the graph, and show you what changed. → [Go Deeper](https://lef-dcfn.onrender.com/#try-it)
 
 
 ## Limitations
@@ -170,25 +182,25 @@ This analysis is bounded by the sources available in the queried databases. Pape
 
 [6] Implementing Trauma-Informed Care: Recommendations on the Process. (N/A). ID: `openalex:W2757810813`. Referenced in: structural bridge.
 
-[7] Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A Narrative Review.. (2021). ID: `pmid:33582311`. Referenced in: knowledge gap, research direction.
+[7] Data Justice Stories: A Repository of Case Studies. (2022). ID: `arxiv:2204.03100`. Referenced in: knowledge gap, recommended path, research direction.
 
-[8] Data Justice Stories: A Repository of Case Studies. (2022). ID: `arxiv:2204.03100`. Referenced in: knowledge gap, recommended path, research direction.
+[8] Toward a Theory of Justice for Artificial Intelligence. (2021). ID: `arxiv:2110.14419`. Referenced in: knowledge gap, recommended path, research direction.
 
-[9] Toward a Theory of Justice for Artificial Intelligence. (2021). ID: `arxiv:2110.14419`. Referenced in: knowledge gap, recommended path, research direction.
+[9] Restorative Justice: Pedagogy, Praxis, and Discipline. (2012). ID: `openalex:W2083146899`. Referenced in: knowledge gap, recommended path, research direction.
 
-[10] Setting Standards for Restorative Justice. (2002). ID: `openalex:W2104496336`. Referenced in: knowledge gap, recommended path, research direction.
+[10] Community-Based Trauma-Informed Care Following Immigrant Family Reunification: A Narrative Review.. (2021). ID: `pmid:33582311`. Referenced in: knowledge gap, research direction.
 
-[11] Restorative Justice: Pedagogy, Praxis, and Discipline. (2012). ID: `openalex:W2083146899`. Referenced in: knowledge gap, recommended path, research direction.
+[11] Sita's Trousseau: restorative justice, domestic violence, and South Asian culture.. (2005). ID: `pmid:16043565`. Referenced in: knowledge gap, research direction.
 
-[12] Restorative Justice and Gendered Violence: Diversion or Effective Justice?. (2002). ID: `openalex:W2164253049`. Referenced in: knowledge gap.
+[12] Restorative justice. (2002). ID: `openalex:W2151161389`. Referenced in: knowledge gap.
 
-[13] Restorative Justice and De-Professionalization. (2004). ID: `openalex:W2011697049`. Referenced in: knowledge gap.
+[13] Setting Standards for Restorative Justice. (2002). ID: `openalex:W2104496336`. Referenced in: knowledge gap, recommended path.
 
-[14] An annotation based approach to support design communication. (2007). ID: `arxiv:0711.2486`. Referenced in: knowledge gap.
+[14] Restorative Justice and Gendered Violence: Diversion or Effective Justice?. (2002). ID: `openalex:W2164253049`. Referenced in: knowledge gap.
 
-[15] Smart growth community design and physical activity in children.. (2013). ID: `pmid:24050413`. Referenced in: knowledge gap.
+[15] Restorative Justice and De-Professionalization. (2004). ID: `openalex:W2011697049`. Referenced in: knowledge gap.
 
-[16] Healthy Aging and Where You Live: Community Design Relationships With Physical Activity and Body Weight in Older Americans. (2010). ID: `openalex:W2108150600`. Referenced in: knowledge gap.
+[16] An annotation based approach to support design communication. (2007). ID: `arxiv:0711.2486`. Referenced in: knowledge gap.
 
 [17] Enhancing Community-Based Participatory Research Through Human-Centered Design Strategies. (2020). ID: `0d4487a1a130462a20e3be1f5ef88175df1cb119`. Referenced in: recommended path.
 
